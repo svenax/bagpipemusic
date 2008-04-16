@@ -1,0 +1,88 @@
+[2/4 Marches]
+1=2-4_marches/corriechoillie
+2=2-4_marches/teribus
+
+[3/4 Marches]
+1=3-4_marches/green_hills_of_tyrol
+2=3-4_marches/when_the_battle_is_over
+
+[4/4 Marches Set 1]
+1=4-4_marches/scotland_the_brave
+2=4-4_marches/badge_of_scotland
+3=4-4_marches/rowan_tree
+
+[4/4 Marches Set 2]
+1=4-4_marches/silver_wings
+2=4-4_marches/lord_lovats_lament
+3=4-4_marches/flett_from_flotta
+4=4-4_marches/braes_of_bonhill
+
+[4/4 Marches Set 3]
+1=4-4_marches/boys_brigade_centenary_march
+2=4-4_marches/cabar_feidh
+
+[6/8 Marches Set 1]
+1=6-8_marches/atholl_highlanders
+2=6-8_marches/cock_of_the_north
+
+[6/8 Marches Set 2]
+1=6-8_marches/ballochyle
+2=6-8_marches/duncan_mcgillivray
+
+[9/8 Marches]
+1=9-8_marches/battle_of_the_somme
+2=9-8_marches/grinder
+3=9-8_marches/heights_of_dargai
+
+[Selection 1]
+1=hornpipes/calum_campbells_caprice
+2=others/er_du_jol_mon
+3=strathspeys/mac_an_irish
+4=reels/sound_of_sleat
+5=piobaireachd/glengarrys_lament
+6=jigs/donald_willie_and_his_dog
+
+[Selection 2]
+1=hornpipes/blair_highlanders
+2=airs/el_alamein
+3=strathspeys/macphedrans_strathspey
+4=reels/airlies_big_day
+5=reels/wretched_man
+6=reels/famous_bridge
+7=piobaireachd/clan_campbells_gathering
+8=hornpipes/donald_macleod
+9=jigs/rocking_the_baby
+
+[M/S/R Set 1]
+1=2-4_marches/conundrum
+2=strathspeys/monymusk
+3=reels/captain_lachlan_macphail_of_tiree
+
+[M/S/R Set 2]
+1=2-4_marches/mrs_john_maccoll
+2=strathspeys/shepherds_crook
+3=reels/major_manson
+
+[M/S/R Set 3]
+1=2-4_marches/highland_wedding
+2=strathspeys/susan_macleod
+3=reels/sheepwife
+
+[Slow Air & Jigs]
+1=airs/leaving_lismore
+2=jigs/glasgow_police_pipers
+3=jigs/paddys_leather_breeches
+
+[Hornpipe & Jigs]
+1=hornpipes/uphold_the_right
+2=jigs/archie_beag
+3=jigs/banjo_breakdown
+
+[Murray's Fancy]
+1=suites/murrays_fancy_6_hornpipe
+
+[Amazing Grace]
+1=airs/amazing_grace
+
+[Highland Cathedral]
+1=airs/highland_cathedral
