@@ -21,11 +21,6 @@
 }
 \layout {
     indent = 30\mm
-    \context {
-        \Staff
-        \remove "Bar_engraver"
-        \remove "Time_signature_engraver"
-    }
 }
 
 \score {
@@ -225,7 +220,7 @@
     
 \markup {
 \column {
-    \override #'(line-width . 130)
+    \override #'(line-width . 140)
     \justify {
     These are the specific bagpipe markups that are 
     available. You need to know alot more about entering normal music 
@@ -234,11 +229,11 @@
     tests, and snippet repository.
     }
     \line { " " }
-    \override #'(line-width . 130)
+    \override #'(line-width . 140)
     \justify {
     Check out \with-url #"http://www.lilypond.org/" {\bold www.lilypond.org} to learn
     more about this. All of these things are linked from the documentation
-    page. Make sure you use the \bold 2.10.0 documentation — lots of
+    page. Make sure you use the \bold 2.11.0 documentation — lots of
     things have changed since the older versions.
     }
 }
