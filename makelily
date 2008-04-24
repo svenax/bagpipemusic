@@ -137,10 +137,7 @@ class MakeLily:
         
     def openpdf(self, pdf):
         print '  Opening PDF'
-        # vp = os.popen('find_app Skim.app').read()
-        # sync_path = vp + '/Contents/Resources/displayline ' + os.getenv('TM_LINE_NUMBER') + ' ' + pdf + ' ' + os.getenv('TM_FILEPATH')
         os.system('open -a Preview.app '+pdf)
-        # os.system(sync_path)
 
 # Create an object and start the processing
 MakeLily()
