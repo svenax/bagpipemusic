@@ -38,7 +38,8 @@ from my standard format.
 **formatbook.ly** sets the heading format for multi-part scores, e.g.
 piobaireachd. Change this if you want anything apart from my standard format.
 
-**_template.ly** is a template for new tunes made to be used with the **makelily** script.
+**_template.ly** is a template for new tunes made to be used with the
+**makelily** script.
 
 **makelily** is a Python script I use to build the music found in the sheet
 music archive on [svenax.net](http://svenax.net/). It automatically generates
@@ -46,7 +47,9 @@ both a PDF and a preview image and puts them in the proper folders. If you
 want to use this script you'll have to configure some path information and
 other stuff first.
 
-**cheatsheet.ly** and **bagpipe.ly** should be sufficient to let you understand how the bagpipe notation works. You will also need the full Lilypond documentation, available 
+**cheatsheet.ly** and **bagpipe.ly** should be sufficient to let you
+understand how the bagpipe notation works. You will also need the full
+Lilypond documentation, available
 [here](http://lilypond.org/doc/v2.11/Documentation/).
 
 Note: All files *must* be saved in UTF-8 format, at least if you are going to
