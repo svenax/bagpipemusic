@@ -1,7 +1,5 @@
 %{
     Header formatting for bagpipe tunes. Customize to get your name in the tag line.
-    
-    $Id: format.ly 225 2005-09-10 23:34:07Z sven $
 %}
 
 \version "2.11.43"

@@ -1,7 +1,5 @@
 %{
     All of the bagpipe specific markup.
-        
-    $Id: /Music/Bagpipe/cheatsheet.ly 227 2007-10-16T13:16:11.328125Z sven  $
 %}
 
 \version "2.11.43"

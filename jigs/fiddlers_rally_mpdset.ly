@@ -1,7 +1,5 @@
-﻿% $Id: /Music/Bagpipe/jigs/fiddlers_rally_mpdset.ly 227 2007-10-16T13:16:11.328125Z sven  $
-% Corrections by Stig Bang-Mortensen
-
-\version "2.11.43"
+﻿
+% Corrections by Stig Bang-Mortensen\version "2.11.43"
 
 \score {
 

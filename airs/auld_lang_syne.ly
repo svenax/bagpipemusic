@@ -1,5 +1,3 @@
-% $Id: _template.ly,v 1.3 2005/06/29 21:20:21 sven Exp $
-
 \version "2.11.43"
 
 \score {

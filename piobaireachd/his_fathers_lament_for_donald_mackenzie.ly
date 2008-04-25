@@ -1,6 +1,4 @@
-﻿% $Id: /Music/Bagpipe/piobaireachd/his_fathers_lament_for_donald_mackenzie.ly 227 2007-10-16T13:16:11.328125Z sven  $
-
-\version "2.11.43"
+﻿\version "2.11.43"
 
 \score {
 

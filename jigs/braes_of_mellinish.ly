@@ -1,6 +1,4 @@
-﻿% $Id: /Music/Bagpipe/jigs/cork_hill.ly 214 2006-04-16T22:10:50.062500Z sven  $
-
-\version "2.11.43"
+﻿\version "2.11.43"
 
 \score {
 

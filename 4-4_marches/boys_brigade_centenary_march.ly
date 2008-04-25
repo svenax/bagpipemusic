@@ -1,6 +1,4 @@
-﻿% $Id: /Music/Bagpipe/4-4_marches/boys_brigade_centenary_march.ly 227 2007-10-16T13:16:11.328125Z sven  $
-
-\version "2.11.43"
+﻿\version "2.11.43"
 
 \score {
 

@@ -1,6 +1,4 @@
-﻿% $Id: /Music/Bagpipe/0-0_marches/glasgow_week_in_hamburg.ly 227 2007-10-16T13:16:11.328125Z sven  $
-
-\version "2.11.43"
+﻿\version "2.11.43"
 
 \score {
 

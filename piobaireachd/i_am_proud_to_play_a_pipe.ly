@@ -1,5 +1,3 @@
-% $Id: mackays_banner.ly 240 2005-12-18 17:12:37Z sven $
-
 \version "2.11.43"
 
 \paper {

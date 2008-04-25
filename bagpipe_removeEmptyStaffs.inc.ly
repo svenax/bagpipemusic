@@ -1,7 +1,5 @@
 ﻿%{
     Include file for remove empty staffs layout.
-    
-    $Id: /Music/Bagpipe/bagpipe_removeEmptyStaffs.inc.ly 227 2007-10-16T13:16:11.328125Z sven  $
 %}
 
 \version "2.11.43"

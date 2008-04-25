@@ -1,4 +1,4 @@
-﻿% $Id: /Music/Bagpipe/_sets/9-8_marches.ly 214 2006-04-16T22:10:50.062500Z sven  $
+﻿
 
 \header {
     title = "9/8 Marches"

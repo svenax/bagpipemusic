@@ -1,6 +1,4 @@
-﻿% $Id: donald_macleod.ly 266 2006-04-16 22:10:50Z sven $
-
-\version "2.11.43"
+﻿\version "2.11.43"
 
 \score {
 

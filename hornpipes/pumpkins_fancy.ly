@@ -1,6 +1,4 @@
-﻿% $Id: /Music/Bagpipe/hornpipes/pumpkins_fancy.ly 227 2007-10-16T13:16:11.328125Z sven  $
-
-\version "2.11.43"
+﻿\version "2.11.43"
 
 extraSpace = \once \override Score.SeparationItem #'padding = #1.5
 

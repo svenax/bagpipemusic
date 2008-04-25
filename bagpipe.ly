@@ -5,8 +5,6 @@
   Substantial changes and additions made by 
   Sven Axelsson, the Murray Pipes & Drums of Gothenburg
   (http://www.murrays.nu)
-  
-  $Id: /Music/Bagpipe/bagpipe.ly 227 2007-10-16T13:16:11.328125Z sven  $
 %}
 
 \version "2.11.0"

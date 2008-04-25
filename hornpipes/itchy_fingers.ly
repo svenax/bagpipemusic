@@ -1,6 +1,4 @@
-﻿% $Id: /Music/Bagpipe/hornpipes/itchy_fingers.ly 221 2006-12-02T00:14:51.609375Z anders  $
-
-\version "2.11.43"
+﻿\version "2.11.43"
 
 \score {
 

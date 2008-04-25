@@ -1,4 +1,4 @@
-﻿% $Id: /Music/Bagpipe/_sets/quintet_2006_open_grade.ly 207 2006-03-05T23:12:54.793764Z sven  $
+﻿
 
 \header {
     title = "Open Grade Quintet 2006"
