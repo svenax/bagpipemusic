@@ -1,69 +1,56 @@
-ATT SKRIVA SÄCKPIPEMUSIK MED LILYPOND
-=====================================
+WRITING BAGPIPE MUSIC WITH LILYPOND
+===================================
 
 
-1. Installera Lilypond 2.11.0
-----------------------------
+1. Installing Lilypond 2.11.0
+-----------------------------
 
-* Numera finns "riktiga" installerare för Mac och Windows och Red Hat Linux.
-  Det finns också en version som använder Autopackage; en universell
-  Linux-installerare.
-* Hämta installeraren för ditt system här:
+* Grab the installer for your computer platform here:
   http://lilypond.org/web/install/#2.11
-* Gör som du brukar för att installera.
+* Or build from source (recommended but not entirely easy, since there are
+  many dependencies on external libraries).
 
-OBS! Om du använder Mac OS 10.5 på en Intel-mac så måste du antingen använda
-PowerPC-versionen av lilypond eller också kompilera själv. Jag rekommenderar
-det senare. Lite hjälp i hur detta kan gå till finns 
-[här](http://article.gmane.org/gmane.comp.gnu.lilypond.general/36471).
+OBS! If you are using Mac OS 10.5 on an Intel machine, you must either use the
+PowerPC version of Lilypond or compile it yourself. I recommend the latter.
+Some helo on how to compile is available 
+[here](http://article.gmane.org/gmane.comp.gnu.lilypond.general/36471).
 
 
-2. Installera och använda bagpipe.ly
-------------------------------------
+2. Installing and using bagpipe.ly
+----------------------------------
 
-* Dessa instruktioner är skrivna för Windows. Om du kör något annat så får du
-  själv lista ut vad som skiljer sig.
-  
-Skapa en katalog för musikfiler, t.ex. C:\Music och kopiera alla filer och
-kataloger från bagpipe.zip till den nya katalogen. OBS lägg inte filerna i
-Mina dokument eftersom en del av de program som behövs för Lilypond inte
-tycker om sökvägar med blanksteg i.
+Invoke lilypond on **cheatsheet.ly**. This creates a PDF with all available
+piping commands and grace notes. Now you can see how to write a crunluath a
+mach, for instance. This will also let you know if your installation is
+working properly.
 
-Dubbelklicka på cheatsheet.ly. Detta skapar en PDF med alla specifika
-säckpipe- kommandon, så du kan se hur du skriver t.ex. en crunluath a mach. Nu
-ser du också om din installation fungerar som den ska.
+Note: When running Lilypond on a *.ly file, it may seem as if the computer has
+stalled. This is normal. Lilypond is doing a lot of calculations, and when
+running a large file it may take a minute or so before you get any output.
 
-OBS! När du dubbelklickat på en *.ly-fil så verkar det som inget händer. Detta
-är normalt. Lilypond räknar och tänker en stund innan den skapar PDF-filen. Om
-du kör en stor fil, t.ex. standard_settings.ly, så kan det ta upp till en
-minut innan du ser att något händer.
+**bagpipe.ly** is where all piping-specific commands and settings live. Do
+look in the file to see how things work. If you find that some gracenotes are
+missing, you can add them here.
 
-**bagpipe.ly** är där alla säckpipespecifika kommandon och inställningar
-finns. Titta gärna i filen för att se hur saker och ting fungerar. Om du
-upptäcker gracenoter som saknas lägger du till dessa här.
+**format.ly** sets the heading format. Change this if you want anything apart
+from my standard format.
 
-**format.ly** anger rubrikformatet. Ändra här om du vill att rubrikerna ska se
-ut på något annat sätt än Sven Axelssons standardformat.
+**formatbook.ly** sets the heading format for multi-part scores, e.g.
+piobaireachd. Change this if you want anything apart from my standard format.
 
-**music.ly** är ett exempel på hur du genererar filer med musik från
-notbiblioteket. För att det ska gå smidigt att sätta samman många låtar i
-olika set så inkluderar inte varje låt själv bagpipe.ly och format.ly, utan
-detta görs från en särskild fil som sen inkluderar en eller flera låtar.
+**_template.ly** is a template for new tunes made to be used with the **makelily** script.
 
-**standard_settings.ly** är ytterligare ett sådant exempel. Det är början till
-vår berömda bok med alla våra fantastiska arrangemang.
+**makelily** is a Python script I use to build the music found in the sheet
+music archive on [svenax.net](http://svenax.net/). It automatically generates
+both a PDF and a preview image and puts them in the proper folders. If you
+want to use this script you'll have to configure some path information and
+other stuff first.
 
-**_template.ly** är en mall du kan använda för att skriva nya låtar. Alla
-låtfiler ska struktureras på detta sätt.
+**cheatsheet.ly** and **bagpipe.ly** should be sufficient to let you understand how the bagpipe notation works. You will also need the full Lilypond documentation, available 
+[here](http://lilypond.org/doc/v2.11/Documentation/).
 
-OBS igen: Om du vill skriva rubriker eller annan text som innehåller svenska
-tecken (eller japanska, eller ryska) så måste du spara filen i formatet UTF-8.
-Windows-användare kan använda Notepad till detta. Ni andra får själva hitta
-ett lämpligt program.
+Note: All files *must* be saved in UTF-8 format, at least if you are going to
+use anything but ASCII7, else the output will look like garbage.
 
-**cheatsheet.ly** PDF:en och **bagpipe.ly** bör vara nog för att du ska förstå
-hur säckpipenotationen fungerar. Du behöver säkert också läsa
-Lilypond-dokumentationen som finns 
-[här](http://lilypond.org/doc/v2.11/Documentation/).
 
-Det var det hela.
+That's it.
