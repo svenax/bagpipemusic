@@ -51,7 +51,7 @@
     A8. e16 \grg c16 e8. A8. e16 \grg c16 e8.
     \dblg g4 \hdbld d8. b16 \dblg g4 \grA f8. g16
     A8. e16 \grg c16 e8. A8. e16 \grg c16 e8.
-    A8. e16 \grg c16 e8. \dblA A4 g16 A8.
+    \birl a4 A8. g16 \dblA A4 e16 A8.
     \break
     \catchc c4 A8. g16 A8. e16 \grg c16 e8.
     \dblg g4 \hdbld d8. b16 \dblg g4 \grA e16 A8.
