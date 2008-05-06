@@ -67,7 +67,7 @@ showTrueKeySignature = {
     \override Tie #'direction = #up
     
     \override KeySignature #'print-function = ##f
-    \override VoltaBracket #'Y-offset = #7.4
+    \override VoltaBracketSpanner #'Y-extent = #'(-1 . 0)
     \override VoltaBracket #'height = #2.2
   }
   

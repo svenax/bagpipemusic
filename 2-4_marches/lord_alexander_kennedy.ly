@@ -2,11 +2,11 @@
 
 AltBracketOne = {
     \set Score.measureLength = #(ly:make-moment 3 4)
-    \set Score.repeatCommands = #'((volta "1"))
+    \set Score.repeatCommands = #'((volta "1."))
 }
 
 AltBracketTwo = {
-    \set Score.repeatCommands = #'((volta "2"))
+    \set Score.repeatCommands = #'((volta "2."))
 }
 
 AltBracketEnd = {
