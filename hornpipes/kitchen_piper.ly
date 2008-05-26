@@ -46,7 +46,7 @@
         g G \grg b g \grA f a \grg d f
         \grg 
         #(lowerBeam -2.5 -3.0)
-        e d \grG d c \thrwd d8 s8
+        e d \grG d c \thrwd d8*2
         \break
         }
         {
@@ -103,7 +103,7 @@
         g G \grg b g \grA f a \grg d f
         \grg 
         #(lowerBeam -2.5 -3.0)
-        e d \grG d c \thrwd d8 s8
+        e d \grG d c \thrwd d8*2
         \break
         }
         {

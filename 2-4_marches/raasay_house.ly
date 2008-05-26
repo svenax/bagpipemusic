@@ -71,7 +71,7 @@
         \dblA A16. \grg A32 \grg A16. f32 \grA g16. e32 \gra e16. A32
         \grg A16. f32 \grA g16. f32 \dble e8 \grg f16. g32
         A16. e32 \gra e16. f32 \gre f8[ e32 \dbld d16.]
-        \dgrip a4 \wbirl a8 s8
+        \dgrip a4 \wbirl a8*2
         \break
         }
         {

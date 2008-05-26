@@ -37,8 +37,7 @@
         A c \grG c \grg e c \grG c
         A c \grG c \grg d c b
         \gbirl a4 \grd c8 \grg b4 \grd c8
-        \grg a \grd a \gre a \wbirl a4 s8 
-        \break
+        \grg a \grd a \gre a \wbirl a4*3/2 
         }
         {
         A8 c \grG c \grg e c \grG c

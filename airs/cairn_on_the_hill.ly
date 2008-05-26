@@ -18,7 +18,7 @@
     \dblc c8. \gre b16 \grd c8 \grg a4 \taor a8
     \dblb b8. \gre a16 \grd b8 \dblc c4 \gre a8
     \grg f8. g16 A8 \hdble e8. d16 c8
-    \grg d8. c16 b8 \grg a4 s8
+    \grg d8. c16 b8 \grg a4*3/2
     }
     \break
     

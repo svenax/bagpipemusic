@@ -21,7 +21,7 @@
     }
     \alternative {
         { \grg a b d }
-        { \grg a \grd b \gre a s4. }
+        { \grg a \grd b \gre a8*4 }
     }
     \break
     
@@ -58,7 +58,7 @@
     }
     \alternative {
         { \grg a[ b d] }
-        { \grg a[ \grd b \gre a] s4. s8 }
+        { \grg a[ \grd b \gre a8*5] }
     }
     \break
     

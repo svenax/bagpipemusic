@@ -53,7 +53,7 @@
         A4 \grip e8 \dble e8. d16 c8
         A4 \grip e8 \dble e4 d8
         \grg c16 A8. e8 \dblf f8. e16 d8
-        \grg c16 d8. \gre b8 \grG a4 s8
+        \grg c16 d8. \gre b8 \grG a4*3/2
         \break
         }
         {

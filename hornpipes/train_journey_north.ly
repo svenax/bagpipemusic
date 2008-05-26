@@ -24,9 +24,9 @@
     \alternative {
         { 
         \tdblf #(lowerBeam -2.5 -3.0)
-        f8[ \hslurd d16] s16
+        f8[ \hslurd d16*2]
         }
-        { \tdblf f16.[ a32 \grg d16. f32] s4}
+        { \tdblf f16.[ a32 \grg d16. f32*9] }
     }
     \break
     
@@ -47,7 +47,7 @@
         { \tdblf f16.[ a32 \grg d16. f32] }
         { 
         \tdblf #(lowerBeam -2.5 -3.0)
-        f8[ \hslurd d16] s16
+        f8[ \hslurd d16*2]
         }
     }
     \break
@@ -69,9 +69,9 @@
     \alternative {
         { 
         \tdblf #(lowerBeam -2.5 -3.0)
-        f8[ \hslurd d16] s16
+        f8[ \hslurd d16*2]
         }
-        { \tdblf f16.[ a32 \grg d16. f32] s4 }
+        { \tdblf f16.[ a32 \grg d16. f32*9] }
     }
     \break
     
@@ -92,7 +92,7 @@
         { \tdblf f16.[ a32 \grg d16. f32] }
         { 
         \tdblf #(lowerBeam -2.5 -3.0)
-        f8[ \hslurd d16] s16
+        f8[ \hslurd d16*2]
         }
     }
     \bar "|."

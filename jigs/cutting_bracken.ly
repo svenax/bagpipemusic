@@ -18,7 +18,7 @@
     \grg a8 \grd a \gre a \dblA A4.
     g8 e \gra e \dblg g4.
     \tdble e4 d8 \grg b e \gra e
-    \grg a4. \wbirl a4 s8
+    \grg a4. \wbirl a4*3/2
     }
     \break
     
@@ -49,7 +49,7 @@
     \grg a8 \grd a \gre a \dblA A4.
     g8 e \gra e \grg d e g
     \tdble e4 d8 \grg b e \gra e
-    \grg a4. \wbirl a4 s8
+    \grg a4. \wbirl a4*3/2
     }
     \break
     

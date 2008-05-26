@@ -70,7 +70,7 @@
         \grg e32[ A16. \hdblc c32 A16.] a8[ \taor a16. \grd c32]
         \grg e16. d32 \grg c32 d16. \dble e16.[ a32 \thrwd c8]
         \grg c16 e8 c16 \grg b32 d16. \gre G16. \grd b32
-        \grg a4 \wbirl a8 s8
+        \grg a4 \wbirl a8*2
         }
         {
         \grg a16.[ b32 \grip c16. d32] \grg c32 e16. \grg a16. \grd c32

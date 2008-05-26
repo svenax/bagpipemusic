@@ -90,7 +90,7 @@
         \grg a16. A32 g32 A16. f32[ A16. \tdble e16. c32]
         A16.[ f32 \dble e16. d32] \dblc c8 \grg b32 \grd a16.
         \grg b32 d16. \grg G16. \grd b32 \dble e16.[ b32 \dbld d16. b32]
-        \grg a8[ \taor a] \wbirl a s8 
+        \grg a8[ \taor a] \wbirl a8*2
         \break
         }
         {

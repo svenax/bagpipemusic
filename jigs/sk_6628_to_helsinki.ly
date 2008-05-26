@@ -69,7 +69,7 @@
         A8 e \gra e \grg f e \gra e
         A e \gra e \grg e c d
         \grg e A f \grg e f d
-        \grg c d \gre b \grG a4 s8
+        \grg c d \gre b \grG a4*3/2
         \break
         }
         {

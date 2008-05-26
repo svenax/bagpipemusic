@@ -1,6 +1,6 @@
 ﻿\version "2.11.43"
 
-extraSpace = \once \override Score.SeparationItem #'padding = #1.5
+extraSpace = \once \override Score.SeparationItem #'padding = #3
 
 \score {
 
@@ -14,12 +14,12 @@ extraSpace = \once \override Score.SeparationItem #'padding = #1.5
     
     \repeat volta 2 {
     \partial 8 f16 e
-    \grg b32 \glissando \space c16. f16 e \grg b32 \glissando \space c16. f16 e
+    \grg b32 \glissando \extraSpace c16. f16 e \grg b32 \glissando \space c16. f16 e
     \grg f e c b \shakec c8 f16 e
     \grg f A \grg A f \grg e f a b
     \shakec c8 b16 a \shakeb b8 f16 e
     \break
-    \grg b32 \glissando \space c16. f16 e \grg b32 \glissando \space c16. f16 e
+    \grg b32 \glissando \extraSpace c16. f16 e \grg b32 \glissando \space c16. f16 e
     \grg f e c b \shakec c8 f16 e
     \grg f A \grg A f \grg e f a b
     \shakec c8 \grG a \gbirl a
@@ -41,11 +41,11 @@ extraSpace = \once \override Score.SeparationItem #'padding = #1.5
         \dblA A8[ \dblf f16 e] \dblA A8[ \dblf f16 e] 
         \grg f e c b \shakec c8 f16 e
         \grg f A \grg A f \grg e f a b
-        \shakec c8 \grG a \gbirl a s8
+        \shakec c8 \grG a \gbirl a8*2
         \break
         }
         {
-        \grg b32 \glissando \space c16. f16 e \grg b32 \glissando \space c16. f16 e
+        \grg b32 \glissando \extraSpace c16. f16 e \grg b32 \glissando \space c16. f16 e
         \grg f e c b \shakec c8 f16 e
         \grg f A \grg A f \grg e f a b
         \shakec c8 \grG a \gbirl a
@@ -57,12 +57,12 @@ extraSpace = \once \override Score.SeparationItem #'padding = #1.5
     
     \repeat volta 2 {
     \partial 8 f16 e
-    \grg b32 \glissando \space c16. f16 e \gbirl a8 f16 e
+    \grg b32 \glissando \extraSpace c16. f16 e \gbirl a8 f16 e
     \grg b c \grG c b \shakec c8 f16 e
-    \grg b32 \glissando \space c16. f16 e \gbirl a8 f16 e
+    \grg b32 \glissando \extraSpace c16. f16 e \gbirl a8 f16 e
     \grg f e c a \shakeb b8 f16 e
     \break
-    \grg b32 \glissando \space c16. f16 e \gbirl a8 f16 e
+    \grg b32 \glissando \extraSpace c16. f16 e \gbirl a8 f16 e
     \grg b c \grG c b \shakec c8 f16 e
     \grg f A \grg A f \grg e f a b
     \shakec c8 \grG a \gbirl a
@@ -84,11 +84,11 @@ extraSpace = \once \override Score.SeparationItem #'padding = #1.5
         \dblA A8 f16 e \shakec c8 \grg f16 e
         \grg f A f e \shakec c8 f16 e
         \grg f A \grg A f \grg e f a b
-        \shakec c8 \grG a \gbirl a s8
+        \shakec c8 \grG a \gbirl a8*2
         \break
         }
         {
-        \grg b32 \glissando \space c16. f16 e \gbirl a8 f16 e
+        \grg b32 \glissando \extraSpace c16. f16 e \gbirl a8 f16 e
         \grg b c \grG c b \shakec c8 f16 e
         \grg f A \grg A f \grg e f a b
         \shakec c8 \grG a \gbirl a

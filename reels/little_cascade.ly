@@ -81,7 +81,7 @@
     \alternative {
         {
         G d \grg b e \grg d f \dble e4
-        \grg b8 e \grg d f \dblf f4 \hslure e8 s8*1
+        \grg b8 e \grg d f \dblf f4 \hslure e8*2
         }
         {
         \hdblg g f g e \grg f d \grg e d

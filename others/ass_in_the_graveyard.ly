@@ -37,7 +37,7 @@
         A16 g \grA f A g e \grg f4 \grg e16 A
         d[ A \hdblc c A \hdblb b A] a4 \grg e16 f
         \grA g8 e16 f g e \grg f8 d16 e \grg f d
-        \grg e d c d e c \grg d4 s8
+        \grg e d c d e c \grg d4*3/2
         \break
         }
         {

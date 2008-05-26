@@ -21,7 +21,7 @@
     \alternative {
         {
         \grg b8. d16 g8 \grA f8. d16 a8 \grg a8. d16 f8
-        \grg e8. f16 e8 \thrwd d4. ~ d4 s8 
+        \grg e8. f16 e8 \thrwd d4. ~ d4*3/2 
         }
         {
         \grg b8. d16 g8 \grA f8. d16 a8 A8. f16 d8
@@ -45,7 +45,7 @@
     \alternative {
         {
         \grg b8. d16 g8 \grA f8. d16 a8 \grg a8. d16 f8
-        \grg e8. f16 e8 \thrwd d4. ~ d4 s8
+        \grg e8. f16 e8 \thrwd d4. ~ d4*3/2
         }
         {
         \grg b8. d16 g8 \grA f8. d16 a8 A8. f16 d8

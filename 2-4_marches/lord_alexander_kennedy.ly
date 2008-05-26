@@ -154,7 +154,7 @@ AltBracketEnd = {
             e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 A16. 
             f16. \grg b32 d32 A16. f16. \grg b32 d32 A16. 
             \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
-            \grg a4 \wbirl a8 s8
+            \grg a4 \wbirl a8*2
         }
         {
             b32 \grd G16. \grg b32 d16. \grg e16. g32 \grA f32 A16.
