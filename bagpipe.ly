@@ -1,13 +1,13 @@
 ﻿%{
   Bagpipe music settings for Lilypond.
   This file builds on work by Andrew McNabb (http://www.mcnabbs.org/andrew/)
-  
-  Substantial changes and additions made by 
+
+  Substantial changes and additions made by
   Sven Axelsson, the Murray Pipes & Drums of Gothenburg
   (http://www.murrays.nu)
 %}
 
-\version "2.11.0"
+\version "2.12.0"
 
 % Notes of the scale of the Great Highland Bagpipe. Extra high notes for bombarde.
 % Flat notes used mainly in some modern music.
@@ -44,7 +44,7 @@ showKeySignature = {
   \override Staff.KeySignature #'stencil = #'ly:key-signature-interface::print
 }
 
-% Show the true key signature (E-flat major). Use together with 
+% Show the true key signature (E-flat major). Use together with
 % \transpose f a to print scores for other instruments.
 showTrueKeySignature = {
   \override Staff.KeySignature #'stencil = #'ly:key-signature-interface::print
@@ -56,35 +56,35 @@ showTrueKeySignature = {
 % Various tweaks to get good defaults for bagpipe music.
 \layout {
   indent = 0.0
-  
+
   \context {
     \Score
-    
+
     \remove "Bar_number_engraver"
-    
+
     \override Stem #'direction = #down
     \override Slur #'direction = #up
     \override Tie #'direction = #up
-    
+
     \override KeySignature #'print-function = ##f
     \override VoltaBracketSpanner #'Y-extent = #'(-1 . 0)
     \override VoltaBracket #'height = #2.2
   }
-  
+
   \context {
     \StaffGroup
-    
+
     extraNatural = ##f
-    
+
     \override KeySignature #'stencil = ##f
   }
-  
+
   \context {
     \Staff
-    
+
     extraNatural = ##f
     midiInstrument = #"bagpipe"
-    
+
     \override KeySignature #'stencil = ##f
   }
 }
@@ -288,43 +288,43 @@ crunamcfosg = { \grace { \small e32[ c f c ] } }
 crunamdfosg = { \grace { \small e32[ d f d ] } }
 
 % Special piobaireachd notations
-grGcad  = { \grace { \small G16 } }
-gracad  = { \grace { \small a16 } }
-cad     = { \grace { \small g32[ e8 d32] } }
-hcad    = { \grace { \small g32[ e8] } }
+grGcad   = { \grace { \small G16 } }
+gracad   = { \grace { \small a16 } }
+cad      = { \grace { \small g32[ e8 d32] } }
+hcad     = { \grace { \small g32[ e8] } }
 tcad     = { \grace { \small e8[ d32] } }
 thcad    = { \grace { \small e8 } }
 % This is the same as thrwe
-dre     = { \grace { \small e32[ a f a] } }
+dre      = { \grace { \small e32[ a f a] } }
 % This is the same as thrwf
-dare    = { \grace { \small f32[ e g e] } }
-bari    = { \grace { \small e32[ G f G] } }
-dari    = { \grace { \small f32[ e g e f e] } }
-pthrwd  = { \grace { \small G32[ d32 c] } }
-darodo  = { \grace { \small G32[ d G c G] } }
-Gdarodo = { \grace { \small d32[ G c G] } }
+dare     = { \grace { \small f32[ e g e] } }
+bari     = { \grace { \small e32[ G f G] } }
+dari     = { \grace { \small f32[ e g e f e] } }
+pthrwd   = { \grace { \small G32[ d32 c] } }
+darodo   = { \grace { \small G32[ d G c G] } }
+Gdarodo  = { \grace { \small d32[ G c G] } }
 pdarodo  = { \grace { \small G16[ d32 G c G16] } }
 pGdarodo = { \grace { \small d32[ G c G16] } }
 % Weird stuff from Joseph MacDonald’s book
-fifteenthcutting = { \grace { \small G32[ d G e a f a e a d] } }
-fifteenthcuttingG = { \grace { \small G32[ d G e G f G e G d] } }
-Gfifteenthcutting = { \grace { \small d32[ G e a f a e a d] } }
-GfifteenthcuttingG = { \grace { \small d32[ G e G f G e G d] } }
-seventeenthcutting = { \grace { \small G32[ d G e a f a e a d a c] } }
-seventeenthcuttingG = { \grace { \small G32[ d G e G f G e G d G c] } }
-Gseventeenthcutting = { \grace { \small d32[ G e a f a e a d a c] } }
+fifteenthcutting     = { \grace { \small G32[ d G e a f a e a d] } }
+fifteenthcuttingG    = { \grace { \small G32[ d G e G f G e G d] } }
+Gfifteenthcutting    = { \grace { \small d32[ G e a f a e a d] } }
+GfifteenthcuttingG   = { \grace { \small d32[ G e G f G e G d] } }
+seventeenthcutting   = { \grace { \small G32[ d G e a f a e a d a c] } }
+seventeenthcuttingG  = { \grace { \small G32[ d G e G f G e G d G c] } }
+Gseventeenthcutting  = { \grace { \small d32[ G e a f a e a d a c] } }
 GseventeenthcuttingG = { \grace { \small d32[ G e G f G e G d G c] } }
-barluadh = { \grace { \small G32[ d G e a f a e a d a c a b a e a f a] } }
-barluadhG = { \grace { \small G32[ d G e G f G e G d G c G b G e G f G] } }
-Gbarluadh = { \grace { \small d32[ G e a f a e a d a c a b a e a f a] } }
+barluadh   = { \grace { \small G32[ d G e a f a e a d a c a b a e a f a] } }
+barluadhG  = { \grace { \small G32[ d G e G f G e G d G c G b G e G f G] } }
+Gbarluadh  = { \grace { \small d32[ G e a f a e a d a c a b a e a f a] } }
 GbarluadhG = { \grace { \small d32[ G e G f G e G d G c G b G e G f G] } }
 % Non-gracenote piobaireachd markup.
-trebling = \markup { 
+trebling = \markup {
   \override #'(baseline-skip . 0.3)
-  \column { 
-    \musicglyph #"scripts.tenuto" 
-    \musicglyph #"scripts.tenuto" 
-    \musicglyph #"scripts.tenuto" 
+  \column {
+    \musicglyph #"scripts.tenuto"
+    \musicglyph #"scripts.tenuto"
+    \musicglyph #"scripts.tenuto"
   }
 }
 % Abbreviated notation common in piobaireachd scores.
@@ -333,11 +333,11 @@ txtaor = \markup { "T" }
 txcrun = \markup { "C" }
 txtaorcrun = \markup {
   \override #'(baseline-skip . 1.8)
-  \column { "T" "C" } 
+  \column { "T" "C" }
 }
 txtaoram = \markup { "T’’" }
 txcrunam = \markup { "C’’" }
-txtaorcrunam = \markup { 
+txtaorcrunam = \markup {
   \override #'(baseline-skip . 1.8)
   \column { "T’’" "C’’" }
 }

@@ -10,7 +10,7 @@
 #(set-global-staff-size 18)
 #(set-default-paper-size "a4" 'landscape)
 
-\include "bagpipe.ly"
+\include "./bagpipe.ly"
 
 \paper {
   indent = 0\mm

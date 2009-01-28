@@ -7,7 +7,7 @@ class MakeLily:
     editor = 'mate'
     script_path = os.path.expanduser('~/Documents/Music/Bagpipe')
     lilypond = 'lilypond'
-    
+
     def __init__(self):
         # Gather options and create the template file
 
@@ -29,20 +29,20 @@ class MakeLily:
                           action='store_true', dest='open_pdf', default=False)
 
         (self.options, self.args) = parser.parse_args()
-        
-        if self.options.view_spacing: 
+
+        if self.options.view_spacing:
             self.options.view_spacing = "##t"
-        else: 
+        else:
             self.options.view_spacing = "##f"
 
         if self.options.list_file != '':
             self.args = open(self.options.list_file, 'r').readlines()
-        
+
         for file_path in self.args:
             self.processit(file_path.strip())
 
     def processit(self, file_path):
-    
+
         file_path = os.path.abspath(os.path.expanduser(file_path))
         rel_file_path = file_path.replace(self.script_path, '')
         rel_dir = os.path.dirname(rel_file_path)
@@ -61,20 +61,20 @@ class MakeLily:
 #(set-global-staff-size """+self.options.staffsize+""")
 #(set-default-paper-size \""""+self.options.papersize+"""\" '"""+self.options.paperdir+""")
 
-\\include "./bagpipe.ly"
+\\include "bagpipe.ly"
 \\include "./bagpipe_extra.ly"
 \\include "./"""+self.options.format+""".ly"
 
 % Local tweaks
-\\paper { 
-    annotatespacing = """+self.options.view_spacing+""" 
+\\paper {
+    annotatespacing = """+self.options.view_spacing+"""
     ragged-bottom = ##t
 }
 
 % The tune to generate.
 """
         # Run Lilypond to produce output
-    
+
         print 'Processing "'+os.path.join(rel_dir, file_base)+'.ly"'
         print '  Creating preview file'
         self.maketemplate(file_base, file_path, out, 1)
@@ -83,37 +83,37 @@ class MakeLily:
             print '  Creating PDF'
             self.maketemplate(file_base, file_path, out, 0)
             is_ok = os.system(self.lilypond+' --pdf '+file_base+'.ly > '+file_base+'.log 2>&1') == 0
-    
+
         # Move the output to the correct directories and delete temp files
 
         print '  Cleaning up'
-        try: os.makedirs(out_path) 
+        try: os.makedirs(out_path)
         except: pass
-        try: os.remove(os.path.join(out_path, file_base+'.pdf')) 
+        try: os.remove(os.path.join(out_path, file_base+'.pdf'))
         except: pass
         try: os.remove(os.path.join(out_path, file_base+'.preview.png'))
         except: pass
-        try: os.rename(os.path.join(self.script_path, file_base+'.pdf'), os.path.join(out_path, file_base+'.pdf')) 
+        try: os.rename(os.path.join(self.script_path, file_base+'.pdf'), os.path.join(out_path, file_base+'.pdf'))
         except: pass
-        try: os.rename(os.path.join(self.script_path, file_base+'.preview.png'), os.path.join(out_path, file_base+'.preview.png')) 
+        try: os.rename(os.path.join(self.script_path, file_base+'.preview.png'), os.path.join(out_path, file_base+'.preview.png'))
         except: pass
-        try: os.remove(os.path.join(self.script_path, file_base+'.ly')) 
+        try: os.remove(os.path.join(self.script_path, file_base+'.ly'))
         except: pass
-        try: os.remove(os.path.join(self.script_path, file_base+'.ps')) 
+        try: os.remove(os.path.join(self.script_path, file_base+'.ps'))
         except: pass
-        try: os.remove(os.path.join(self.script_path, file_base+'.preview.eps')) 
+        try: os.remove(os.path.join(self.script_path, file_base+'.preview.eps'))
         except: pass
-        try: os.remove(os.path.join(self.script_path, file_base+'.preview.pdf')) 
+        try: os.remove(os.path.join(self.script_path, file_base+'.preview.pdf'))
         except: pass
-        if is_ok: 
+        if is_ok:
             try:
-                os.remove(os.path.join(self.script_path, file_base+'.log')) 
+                os.remove(os.path.join(self.script_path, file_base+'.log'))
                 if self.options.open_pdf:
                     self.openpdf(os.path.join(out_path, file_base+'.pdf'))
             except: pass
         else:
             os.system(self.editor+' '+file_base+'.log')
-        
+
 
     # Read the included music file and append it to our template.
     # If minimal is set, skip lines between
@@ -134,7 +134,7 @@ class MakeLily:
             if printit:
                 out_file.write(line.replace('\r', '')+'\n')
         out_file.close()
-        
+
     def openpdf(self, pdf):
         print '  Opening PDF'
         os.system('open -a Preview.app '+pdf)
