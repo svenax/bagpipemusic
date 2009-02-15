@@ -1,4 +1,4 @@
-﻿
+
 
 \header {
     title = "2008 Medley for Strasbourg"

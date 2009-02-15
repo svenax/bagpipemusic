@@ -23,13 +23,19 @@ class MakeLily:
                           action='store_const', const='landscape', dest='paperdir', default='portrait')
         parser.add_option('-f', '--format',
                           action='store', type='string', dest='format', default='format')
-        parser.add_option('-v', '--view-spacing',
+        parser.add_option('-v', '--version',
+                          action='store_true', dest='show_version', default=False)
+        parser.add_option('-w', '--view-spacing',
                           action='store_true', dest='view_spacing', default=False)
         parser.add_option('-o', '--open-pdf',
                           action='store_true', dest='open_pdf', default=False)
 
         (self.options, self.args) = parser.parse_args()
 
+        if self.options.show_version:
+            print os.system(self.lilypond+' --version')
+            return
+            
         if self.options.view_spacing:
             self.options.view_spacing = "##t"
         else:
@@ -38,8 +44,13 @@ class MakeLily:
         if self.options.list_file != '':
             self.args = open(self.options.list_file, 'r').readlines()
 
+        cwd = os.getcwd()
+        os.chdir(self.script_path)
+
         for file_path in self.args:
             self.processit(file_path.strip())
+
+        os.chdir(cwd)
 
     def processit(self, file_path):
 
@@ -83,7 +94,7 @@ class MakeLily:
             print '  Creating PDF'
             self.maketemplate(file_base, file_path, out, 0)
             is_ok = os.system(self.lilypond+' --pdf '+file_base+'.ly > '+file_base+'.log 2>&1') == 0
-
+        
         # Move the output to the correct directories and delete temp files
 
         print '  Cleaning up'
@@ -113,7 +124,6 @@ class MakeLily:
             except: pass
         else:
             os.system(self.editor+' '+file_base+'.log')
-
 
     # Read the included music file and append it to our template.
     # If minimal is set, skip lines between

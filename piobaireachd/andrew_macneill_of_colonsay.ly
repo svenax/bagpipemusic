@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+\version "2.11.43"
 
 AltBracketEnd = {
   \set Score.repeatCommands = #'((volta #f))
