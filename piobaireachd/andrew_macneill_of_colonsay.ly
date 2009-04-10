@@ -1,4 +1,4 @@
-\version "2.11.43"
+\version "2.12.0"
 
 AltBracketEnd = {
   \set Score.repeatCommands = #'((volta #f))
@@ -19,7 +19,6 @@ common = {
 \book {
 
 \header {
-    breakbefore = #(break-before?)
     title = "Andrew MacNeill of Colonsay"
     composer = "William Barrie"
     source = "A Lifetime of Compositions by William & James Barrie"
@@ -72,7 +71,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     piece = "I. Urlar"
 }
 
@@ -148,7 +146,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     piece = "II. Variation 1   III. Variation 1 Doubling"
 }
 
@@ -226,7 +223,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     piece = "IV. Taorluath   V. Taorluath Doubling   VI. Crunluath   VII. Crunluath Doubling"
 }
 

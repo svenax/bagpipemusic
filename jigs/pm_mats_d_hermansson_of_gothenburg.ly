@@ -1,4 +1,4 @@
-\version "2.11.43"
+\version "2.12.0"
 
 \paper {
     page-count = 1
@@ -177,7 +177,6 @@ partB = {
 >>
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Jig"
     title = "P/M Mats d Hermansson of Gothenburg"
     composer = "J. Montague"

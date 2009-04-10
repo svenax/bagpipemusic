@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -16,7 +16,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     title = "His Father’s Lament for Donald MacKenzie – Line 1"
     subtitle = "Cumha Dhomhnuill Mhic Choinnich"
     composer = "John Ban MacKenzie, 1863"

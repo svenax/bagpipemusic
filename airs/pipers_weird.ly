@@ -48,7 +48,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Slow Air"
     title = "The Piper’s Weird"
     composer = "J. S. Skinner"

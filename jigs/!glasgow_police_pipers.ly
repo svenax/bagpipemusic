@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -65,7 +65,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Jig"
     title = "Glasgow Police Pipes"
     composer = "P/M Donald MacLeod, MBE"

@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 common = {
     \bagpipeKey
@@ -76,7 +76,6 @@ musicB = {
 >>
 
 \header {
-    breakbefore = #(break-before?)
     title = "The Heartbeat"
     subtitle = "Helhjärtat"
     arranger = "Arr. MPD"

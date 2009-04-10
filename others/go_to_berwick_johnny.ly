@@ -57,7 +57,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Three-Two"
     title = "Go to Berwick, Johnny"
     arranger = "Trad."

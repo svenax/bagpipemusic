@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -70,7 +70,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Slip Jig"
     title = "Angus John MacNeil of Barra"
     composer = "A. J. MacNeil"

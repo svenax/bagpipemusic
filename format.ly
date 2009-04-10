@@ -2,7 +2,7 @@
     Header formatting for bagpipe tunes. Customize to get your name in the tag line.
 %}
 
-\version "2.11.43"
+\version "2.12.0"
 
 % Bring in the time/date package. Set format to month day, year
 

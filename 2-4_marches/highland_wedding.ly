@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \paper {
     page-count = 1
@@ -119,7 +119,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "March"
     title = "The Highland Wedding"
     composer = "A. MacKay"

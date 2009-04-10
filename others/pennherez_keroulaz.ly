@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 common = {
     \bagpipeKey
@@ -111,7 +111,6 @@ pipesB = {
 >>
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Breton Air"
     title = "Pennherez Keroulaz"
     arranger = "Arr. Bagad Barzaz-Breiz"

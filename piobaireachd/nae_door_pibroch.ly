@@ -72,7 +72,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Piobaireachd"
     title = "Nae Door Pibroch"
     composer = "Gordon Duncan"

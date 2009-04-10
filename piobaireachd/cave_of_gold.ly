@@ -1,4 +1,4 @@
-\version "2.11.43"
+\version "2.12.0"
 
 common = {
   \bagpipeKey
@@ -9,7 +9,6 @@ common = {
 \book {
 
 \header {
-    breakbefore = #(break-before?)
     title = "The Cave of Gold"
 }
 
@@ -40,7 +39,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "I. Urlar"
 }
 
@@ -74,7 +72,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "II. Var. I Singling"
 }
 
@@ -97,7 +94,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "III. Var. I Doubling"
 }
 
@@ -136,7 +132,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "IV. Taorluath   V. Taorluath a mach   VI. Crunluath   VII. Crunluath a mach"
 }
 

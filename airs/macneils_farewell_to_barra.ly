@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -72,7 +72,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Slow Air"
     title = "Mac Neil’s Farewell to Barra"
     composer = "T. Muirhead"

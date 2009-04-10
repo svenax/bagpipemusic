@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 common = {
     \bagpipeKey
@@ -79,7 +79,6 @@ musicB = {
 >>
 
 \header {
-    breakbefore = #(break-before?)
     meter = "March"
     title = "The Green Hills of Tyrol"
     composer = "P/M J. MacLeod"

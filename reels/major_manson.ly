@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -64,7 +64,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Reel"
     title = "Major Manson"
     composer = "Peter MacLeod"

@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -34,7 +34,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Reel"
     title = "The Congress Reel"
     arranger = "Trad. arr. Terry Tully"

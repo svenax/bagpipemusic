@@ -6,5 +6,4 @@
 
 \include "4-4_marches/scotland_the_brave.ly"
 \include "4-4_marches/badge_of_scotland.ly"
-#(break-before-next-score)
 \include "4-4_marches/rowan_tree.ly"

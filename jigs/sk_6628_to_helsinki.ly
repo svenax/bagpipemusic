@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -83,7 +83,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Jig"
     title = "SK 6628 to Helsinki"
     composer = "P/S Sven Axelsson"

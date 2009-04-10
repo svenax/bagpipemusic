@@ -1,4 +1,4 @@
-\version "2.11.43"
+\version "2.12.0"
 
 \score {
 
@@ -53,7 +53,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Christmas carol"
     title = "Jingle Bells"
     composer = "James Pierpoint"

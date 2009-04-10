@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \paper {
     between-system-space = 10\mm
@@ -12,7 +12,6 @@ common = {
 \book {
 
 \header {
-    breakbefore = #(break-before?)
     title = "The MacKay’s Banner"
     subtitle = "Bratach bhàn Chloinn Aoidh"
 }
@@ -49,7 +48,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     piece = "I. Urlar"
 }
 
@@ -88,7 +86,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     piece ="II. Var. I"
 }
 
@@ -126,7 +123,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     piece = "III. Var. I Doubling"
 }
 
@@ -192,7 +188,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     piece = "IV. Taorluath Singling   VII. Crunluath Singling"
 }
 
@@ -258,7 +253,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     piece = "V. Taorluath Doubling   VIII. Crunluath Doubling"
 }
 
@@ -296,7 +290,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     piece = "VI. Taorluath Trebling   IX. Crunluath Trebling"
 }
 

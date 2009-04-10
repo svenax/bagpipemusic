@@ -1,4 +1,4 @@
-\version "2.11.43"
+\version "2.12.0"
 
 \score {
 
@@ -21,7 +21,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     title = "Du gamla, du fria"
     subtitle = "Swedish national anthem"
     composer = "Richard Dybeck, 1844"

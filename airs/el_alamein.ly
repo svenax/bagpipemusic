@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 common = {
     \bagpipeKey
@@ -58,7 +58,6 @@ musicB = {
 >>
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Slow Air"
     title = "El Alamein"
     composer = "P/M W. Denholm"

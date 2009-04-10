@@ -1,5 +1,5 @@
 ﻿
-% Corrections by Stig Bang-Mortensen\version "2.11.43"
+% Corrections by Stig Bang-Mortensen\version "2.12.0"
 
 \score {
 
@@ -145,7 +145,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Jig"
     title = "The Fiddler’s Rally"
     composer = "Gordon Walker"

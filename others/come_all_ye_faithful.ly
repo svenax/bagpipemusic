@@ -1,4 +1,4 @@
-\version "2.11.43"
+\version "2.12.0"
 
 #(set-global-staff-size 20)
 
@@ -27,7 +27,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Christmas carol"
     title = "O Come, All Ye Faithful"
     subtitle = "Adeste Fidelis"

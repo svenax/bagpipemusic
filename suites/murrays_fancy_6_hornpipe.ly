@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 common = {
     \bagpipeKey
@@ -253,7 +253,6 @@ musicB = {
      \new Staff \musicB
 >>
 \header {
-    breakbefore = #(break-before?)
     meter = "Hornpipe"
     title = "Pipe Corps: Hornpipe (6)"
     composer = "Mark Saul"

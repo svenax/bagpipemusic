@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -60,7 +60,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Strathspey"
     title = "The Bridge of Perth"
     composer = "3rd & 4th parts Donald MacLeod"

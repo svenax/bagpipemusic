@@ -2,22 +2,33 @@ WRITING BAGPIPE MUSIC WITH LILYPOND
 ===================================
 
 
-1. Installing Lilypond 2.11.0
+1. Installing Lilypond 2.12.0
 -----------------------------
 
 * Grab the installer for your computer platform here:
-  http://lilypond.org/web/install/#2.11
-* Or build from source (recommended but not entirely easy, since there are
-  many dependencies on external libraries).
+  http://lilypond.org/web/install/#2.12
+* Or build from source (not really necessary anymore).
 
-Note: If you are using Mac OS 10.5 on an Intel machine, you must either use
-the PowerPC version of Lilypond or compile it yourself. I recommend the
-latter. Some help on how to compile is available
-[here](http://article.gmane.org/gmane.comp.gnu.lilypond.general/36471).
+Note: If you are using Mac OS 10.5 the GUI of Lilypond does not work. You can
+however do everything from the command line by creating files like this in
+a folder in your path (I use ~/bin).
 
+    #!/bin/bash
+    exec /Applications/LilyPond.app/Contents/Resources/bin/lilypond $@
+
+Name the file `lilypond` and make it executable with `chmod a+x lilypond`.
+Do the same for other lilypond programs you want to have available, e.g.
+`lilypond-book`, `convert-ly`.
 
 2. Installing and using bagpipe.ly
 ----------------------------------
+
+You must first copy **bagpipe.ly** over the existing file with that name in
+your Lilypond installation. For Mac that would be to
+/Applications/LilyPond.app/Contents/Resources/share/lilypond/current/ly/bagpipe.ly.
+Yes, that's right - inside the application bundle. Right click the Lilypond
+application and select **Show Package contents** from the menu to get to the
+files.
 
 Invoke lilypond on **cheatsheet.ly**. This creates a PDF with all available
 piping commands and grace notes. Now you can see how to write a crunluath a
@@ -50,7 +61,7 @@ other stuff first.
 **cheatsheet.ly** and **bagpipe.ly** should be sufficient to let you
 understand how the bagpipe notation works. You will also need the full
 Lilypond documentation, available
-[here](http://lilypond.org/doc/v2.11/Documentation/).
+[here](http://lilypond.org/doc/v2.12/Documentation/).
 
 Note: All files *must* be saved in UTF-8 format, at least if you are going to
 use anything but ASCII7, else the output will look like garbage.

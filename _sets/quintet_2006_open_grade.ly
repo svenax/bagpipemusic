@@ -1,4 +1,4 @@
-﻿
+
 
 \header {
     title = "Open Grade Quintet 2006"
@@ -7,12 +7,12 @@
 
 \include "reels/me_clootch_is_awee.ly"
 \include "piobaireachd/his_fathers_lament_for_donald_mackenzie.ly"
-#(break-before-next-score)
+\pageBreak
 \include "strathspeys/unknown.ly"
 \include "reels/macleods_reel.ly"
-#(break-before-next-score)
+\pageBreak
 \include "reels/joes_rant.ly"
-#(break-before-next-score)
+\pageBreak
 \include "reels/sheepwife.ly"
-#(break-before-next-score)
+\pageBreak
 \include "jigs/fiddlers_rally_mpdset.ly"

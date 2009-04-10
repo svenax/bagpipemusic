@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -33,7 +33,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     title = "Clan Campbell’s Gathering – Ground"
     source = "Piobaireachd Society 7:203"
 }

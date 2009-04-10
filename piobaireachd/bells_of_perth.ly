@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 common = {
   \bagpipeKey
@@ -13,7 +13,6 @@ common = {
 \book {
 
 \header {
-    breakbefore = #(break-before?)
     title = "Bells of Perth"
     subtitle = "Cluig Pheairt"
 }
@@ -50,7 +49,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "I. Urlar"
 }
 
@@ -104,7 +102,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "II. Dithis"
 }
 
@@ -129,7 +126,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "III. Dithis Doubling"
 }
 
@@ -186,7 +182,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "IV. Var II"
   breakbefore = ##t
 }
@@ -240,7 +235,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "V. Var. II Doubling"
 }
 
@@ -293,7 +287,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "VI. Taorluath   VII. Taorluath a mach   VIII. Crunluath   IX. Crunluath a mach"
 }
 

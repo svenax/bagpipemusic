@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -51,7 +51,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Scandinavian Polska"
     title = "Kryssning över sundet"
     composer = "I. MacPherson, M.M."

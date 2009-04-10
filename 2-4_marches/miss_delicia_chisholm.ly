@@ -1,6 +1,6 @@
 
 
-% Note that this tune looks like crap with the normal line breaks.\version "2.11.43"
+% Note that this tune looks like crap with the normal line breaks.\version "2.12.0"
 
 \score {
 
@@ -100,7 +100,6 @@
 }
 
 \header{
-    breakbefore = #(break-before?)
     meter = "March"   
     title = "Miss Delicia Chisholm"
     composer = "Wm MacDonald"

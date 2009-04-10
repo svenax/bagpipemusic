@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 common = {
     \bagpipeKey
@@ -84,7 +84,6 @@ musicC = {
 >>
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Hymn"
     title = "Amazing Grace"
     arranger = "Trad. arr. MPD"

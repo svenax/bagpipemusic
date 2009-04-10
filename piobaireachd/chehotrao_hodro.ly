@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 common = {
   \bagpipeKey
@@ -13,7 +13,6 @@ common = {
 \book {
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Piobaireachd"
     title = "Chehotrao Hodro"
     arranger = "Arr. Barnaby Brown"
@@ -36,7 +35,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "Prelude"
 }
 
@@ -66,7 +64,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "I. Urlar"
 }
 
@@ -92,7 +89,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "II. Variation I"
 }
 
@@ -117,7 +113,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "III. Taorluath"
 }
 
@@ -142,7 +137,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "IV. Taorluath Doubling"
 }
 
@@ -167,7 +161,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "V. Taorluath Trebling"
 }
 
@@ -219,7 +212,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "VII. Crunluath Doubling"
 }
 
@@ -244,7 +236,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "VIII. Crunluath Trebling"
 }
 
@@ -271,7 +262,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "III. Taorluath   VI. Crunluath"
 }
 
@@ -296,7 +286,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
   piece = "IV. Taorluath Doubling   VII. Crunluath Doubling"
 }
 

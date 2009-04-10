@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 common = {
     \bagpipeKey
@@ -65,7 +65,6 @@ partB = {
 >>
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Slow Air"
     title = "The Waters of Kylesku"
     arranger = "Arr. Björn Olsson"

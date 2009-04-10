@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -37,7 +37,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Slow March"
     title = "The Piper’s Prayer"
     composer = "P/M D. MacLeod" 

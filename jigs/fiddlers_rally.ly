@@ -1,5 +1,5 @@
 ﻿
-% Corrections by Stig Bang-Mortensen\version "2.11.43"
+% Corrections by Stig Bang-Mortensen\version "2.12.0"
 
 extraSpace = \once \override Score.SeparationItem #'padding = #1.5
 
@@ -191,7 +191,6 @@ extraSpace = \once \override Score.SeparationItem #'padding = #1.5
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Jig"
     title = "The Fiddler’s Rally"
     composer = "Gordon Walker"

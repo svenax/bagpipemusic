@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -44,7 +44,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Slow Air"
     title = "The Skye Boat Song"
     arranger = "Trad. arr. MPD"   	 

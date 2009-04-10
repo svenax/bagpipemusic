@@ -1,4 +1,4 @@
-\version "2.11.43"
+\version "2.12.0"
 
 AltBracketOne = {
     \set Score.measureLength = #(ly:make-moment 3 4)
@@ -168,7 +168,6 @@ AltBracketEnd = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "March"
     title = "Lord Alexander Kennedy"
     composer = "J. Honeyman"

@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 extraSpace = \once \override Score.SeparationItem #'padding = #3
 
@@ -98,7 +98,6 @@ extraSpace = \once \override Score.SeparationItem #'padding = #3
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Hornpipe"
     title = "The Pumpkin’s Fancy"
     composer = "Terry Tully"

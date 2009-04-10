@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -32,7 +32,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     title = "Corrienessan’s Salute – Ground"
     source = "Kilberry Book p. 4"
 }

@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 common = {
     \bagpipeKey
@@ -114,7 +114,6 @@ partC = {
 >>
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Song"
     title = "Tourdion"
     composer = "Pierre Attaignant (ca. 1530)"

@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 chelalhodin = {
     \grg e8.[ \grace { \small f8[ d32 e] } 
@@ -22,7 +22,6 @@ common = {
 \book {
 
 \header {
-    breakbefore = #(break-before?)
     title = "Lament for the Viscount of Dundee"
     subtitle = "Cumha Chlaibhers"
 }
@@ -57,7 +56,6 @@ common = {
 }
 
 \header {
-    breakbefore = #(break-before?)
     piece = "I. Urlar"
 }
 

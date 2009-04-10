@@ -1,4 +1,4 @@
-\version "2.11.43"
+\version "2.12.0"
 
 \paper {
     page-count = 1
@@ -14,7 +14,6 @@ common = {
 \book {
 
 \header {
-    breakbefore = #(break-before?)
     title = "I am proud to play a pipe"
     subtitle = "Dastirum gu seinnim piobh"
 }

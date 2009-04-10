@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \paper {
     between-system-space = 15\mm
@@ -91,7 +91,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "Reel"
     title = "The Sheepwife"
     arranger = "Arr. MPD"

@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -71,7 +71,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     meter = "March"
     title = "The Highland Brigade at Tel-El-Kebir"
     composer = "P/M J. Cameron"

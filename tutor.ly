@@ -2,7 +2,7 @@
     MPD Bagpipe Tutor.
 %}
 
-\version "2.11.43"
+\version "2.12.0"
 
 \include "bagpipe.ly"
 \include "bagpipe_extra.ly"

@@ -1,4 +1,4 @@
-﻿\version "2.11.43"
+﻿\version "2.12.0"
 
 \score {
 
@@ -32,7 +32,6 @@
 }
 
 \header {
-    breakbefore = #(break-before?)
     title = "Glengarry’s Lament – Ground"
     composer = "Archibald Munro, Oban 1828"
     source = "Kilberry Book p. 106"
