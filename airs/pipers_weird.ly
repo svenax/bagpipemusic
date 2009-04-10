@@ -52,7 +52,7 @@
     meter = "Slow Air"
     title = "The Piper’s Weird"
     composer = "J. S. Skinner"
-    arranger = "James McGillivray"
+    arranger = "Arr. James McGillivray"
 }
 
 }
