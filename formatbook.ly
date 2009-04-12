@@ -13,7 +13,7 @@ today = #(date->string (current-date) "~B ~d, ~Y")
     raggedbottom = ##t
     tagline = \markup {
         \line {
-            "Rev. " \today 
+            "Rev. " \today
             #(ly:export (ly:wide-char->utf-8 #x2014)) % Em-dash
             "P/S Sven Axelsson, MPD"
         }
@@ -34,7 +34,7 @@ today = #(date->string (current-date) "~B ~d, ~Y")
           }
           \fill-line {
             \smaller \bold
-            \line { "(" \fromproperty #'header:source ")" }
+            \fromproperty #'header:source
           }
           \fill-line {
           \line { \fromproperty #'header:meter }
@@ -43,5 +43,5 @@ today = #(date->string (current-date) "~B ~d, ~Y")
         }
       }
     }
-    
+
 }
