@@ -310,7 +310,6 @@ common = {
 }
 
 \header {
-  breakbefore = #(break-before?)
   piece = "IV. Taorluath Trebling   VIII. Crunluath Trebling"
 }
 

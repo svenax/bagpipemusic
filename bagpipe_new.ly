@@ -166,9 +166,9 @@ tdblg = { \grace { \small A32[ g f] } }
 
 % Shakes
 % A few of these can't really be played and are here only for consistency.
-shakea = { \grace { \small g32[ a d a G] } }
-shakeb = { \grace { \small g32[ b d b G] } }
-shakec = { \grace { \small g32[ c d c G] } }
+shakea = { \grace { \small g32[ a e a G] } }
+shakeb = { \grace { \small g32[ b e b G] } }
+shakec = { \grace { \small g32[ c e c G] } }
 shaked = { \grace { \small g32[ d e d G] } }
 shakee = { \grace { \small g32[ e f e a] } }
 shakef = { \grace { \small g32[ f g f a] } }

@@ -1,5 +1,5 @@
-#!/usr/bin/python
-import codecs, os, string, sys
+#!/opt/local/bin/python2.5 -u
+import codecs, os, string, subprocess, sys
 from optparse import OptionParser
 
 class MakeLily:
@@ -35,7 +35,7 @@ class MakeLily:
         if self.options.show_version:
             print os.system(self.lilypond+' --version')
             return
-            
+
         if self.options.view_spacing:
             self.options.view_spacing = "##t"
         else:
@@ -72,7 +72,7 @@ class MakeLily:
 #(set-global-staff-size """+self.options.staffsize+""")
 #(set-default-paper-size \""""+self.options.papersize+"""\" '"""+self.options.paperdir+""")
 
-\\include "bagpipe.ly"
+\\include "./bagpipe_new.ly"
 \\include "./bagpipe_extra.ly"
 \\include "./"""+self.options.format+""".ly"
 
@@ -94,9 +94,8 @@ class MakeLily:
             print '  Creating PDF'
             self.maketemplate(file_base, file_path, out, 0)
             is_ok = os.system(self.lilypond+' --pdf '+file_base+'.ly > '+file_base+'.log 2>&1') == 0
-        
-        # Move the output to the correct directories and delete temp files
 
+        # Move the output to the correct directories and delete temp files
         print '  Cleaning up'
         try: os.makedirs(out_path)
         except: pass
