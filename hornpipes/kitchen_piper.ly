@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
@@ -13,18 +13,28 @@
     \grg a16 d \grG d a \grg 
     #(lowerBeam -2.5 -3.0)
     d \grG d \grG d a
-    \grg d e \grg f d \grg e d \grg b \grd a
+    \grg d e \grg f d \dble e d \grg b \grd a
     \grg G g \grf g a \grg f \gre f \grg a e
-    \gra e b \grg c b \wbirl a8 f
+    \gra e b \grg c b \gbirl a8 f
     \break
     \grg a16 d \grG d a \grg 
     #(lowerBeam -2.5 -3.0)
     d \grG d \grG d a
-    \grg d e \grg f d \grg e d \grg b \grd a
-    g G \grg b g \grA f a \grg d f
-    \grg 
-    #(lowerBeam -2.5 -3.0)
-    e d \grG d c \thrwd d8
+    \grg d e \grg f d \dble e d \grg b \grd a
+    }
+    \alternative {
+        {
+        g G \grg b g \grA f a \grg d f
+        \grg 
+        #(lowerBeam -2.5 -3.0)
+        e d \grG d c \thrwd d8 s8
+        }
+        {
+        \grg G16 g \grf g a\grg f \gre f a e
+        \grg
+        #(lowerBeam -2.5 -3.0)
+        e d \grG d c \thrwd d8
+        }
     }
     \break
     
@@ -35,7 +45,7 @@
     A a \grg f \gre f \grg a d \grG d a
     \grg f \gre f a \grg f \gre f a \grg d \grG d
     \grg G g \grf g a \grg f \gre f \grg a e
-    \gra e a \grg c b \wbirl a8[ 
+    \gra e a \grg c b \gbirl a8[ 
     }
     \alternative {
         {
