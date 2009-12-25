@@ -146,7 +146,7 @@ class MakeLily:
 
     def openpdf(self, pdf):
         print '  Opening PDF'
-        os.system('open -a Preview.app '+pdf)
+        os.system('open '+pdf)
 
 # Create an object and start the processing
 MakeLily()
