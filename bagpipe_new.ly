@@ -255,6 +255,7 @@ thrwd     = { \grace { \small G32[ d c] } }
 Gthrwd    = { \grace { \small d32[ c] } }
 gripthrwd = { \grace { \small G32[ d G c] } }
 thrwe     = { \grace { \small e32[ a f a] } }
+wthrwe    = { \grace { \small e32[ d f d] } }
 thrwf     = { \grace { \small f32[ e g e] } }
 
 % Birls
