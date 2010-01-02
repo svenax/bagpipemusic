@@ -23,13 +23,6 @@ Do the same for other lilypond programs you want to have available, e.g.
 2. Installing and using bagpipe.ly
 ----------------------------------
 
-You must first copy **bagpipe.ly** over the existing file with that name in
-your Lilypond installation. For Mac that would be to
-/Applications/LilyPond.app/Contents/Resources/share/lilypond/current/ly/bagpipe.ly.
-Yes, that's right - inside the application bundle. Right click the Lilypond
-application and select **Show Package contents** from the menu to get to the
-files.
-
 Invoke lilypond on **cheatsheet.ly**. This creates a PDF with all available
 piping commands and grace notes. Now you can see how to write a crunluath a
 mach, for instance. This will also let you know if your installation is
