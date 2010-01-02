@@ -7,6 +7,7 @@ class MakeLily:
     editor = 'mate'
     script_path = os.path.expanduser('~/Documents/Music/Bagpipe')
     lilypond = 'lilypond'
+    reader = 'open -a Preview.app '
 
     def __init__(self):
         # Gather options and create the template file
@@ -146,7 +147,7 @@ class MakeLily:
 
     def openpdf(self, pdf):
         print '  Opening PDF'
-        os.system('open '+pdf)
+        os.system(self.reader+pdf+' &')
 
 # Create an object and start the processing
 MakeLily()
