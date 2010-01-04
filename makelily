@@ -98,23 +98,21 @@ class MakeLily:
 
         # Move the output to the correct directories and delete temp files
         print '  Cleaning up'
+        music_files = [file_base+ext for ext in ('.pdf', '.preview.png')]
+        junk_files = [file_base+ext for ext in ('.ly', '.ps', '.preview.eps', '.preview.pdf')]
         try: os.makedirs(out_path)
         except: pass
-        try: os.remove(os.path.join(out_path, file_base+'.pdf'))
+        try:
+            for f in music_files:
+                os.remove(os.path.join(out_path, f))
         except: pass
-        try: os.remove(os.path.join(out_path, file_base+'.preview.png'))
+        try:
+            for f in music_files:
+                os.rename(os.path.join(self.script_path, f), os.path.join(out_path, f))
         except: pass
-        try: os.rename(os.path.join(self.script_path, file_base+'.pdf'), os.path.join(out_path, file_base+'.pdf'))
-        except: pass
-        try: os.rename(os.path.join(self.script_path, file_base+'.preview.png'), os.path.join(out_path, file_base+'.preview.png'))
-        except: pass
-        try: os.remove(os.path.join(self.script_path, file_base+'.ly'))
-        except: pass
-        try: os.remove(os.path.join(self.script_path, file_base+'.ps'))
-        except: pass
-        try: os.remove(os.path.join(self.script_path, file_base+'.preview.eps'))
-        except: pass
-        try: os.remove(os.path.join(self.script_path, file_base+'.preview.pdf'))
+        try:
+            for f in junk_files:
+                os.remove(os.path.join(self.script_path, f))
         except: pass
         if is_ok:
             try:
