@@ -5,7 +5,7 @@ from optparse import OptionParser
 class MakeLily:
     # Path constants
     editor = 'mate'
-    script_path = os.path.expanduser('~/Documents/Music/Bagpipe')
+    script_path = os.path.expanduser('~/Sheetmusic/Bagpipe')
     lilypond = 'lilypond'
     reader = 'open -a Preview.app '
 
