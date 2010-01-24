@@ -14,19 +14,15 @@ AltBracketEnd = {
     \set Score.measureLength = #(ly:make-moment 2 4)
 }
 
-\paper {
-    page-count = 1
-}
-
 \score {
 
 {
     \bagpipeKey
     \time 2/4
     \quarterBeaming
-    
+
     % Part 1
-    
+
     \repeat volta 2 {
     \grg \partial 8 e32 A16.
     a8.[ \taor a16] \wbirl a8. b16
@@ -45,9 +41,9 @@ AltBracketEnd = {
     }
     \break
 
-    
+
     % Part 2
-    
+
     \repeat volta 2 {
     \grg \partial 8 c16. d32
     \dble e4 \grg e16. a32 \grg c32 e16.
@@ -79,7 +75,7 @@ AltBracketEnd = {
     \bar "||" \break
 
     % Part 3
-    
+
     \repeat volta 2 {
     \dblA \partial 8 A8
     \birl a8 \grg c32 e16. \grg a16. d32 \grg f32 A16.
@@ -109,9 +105,9 @@ AltBracketEnd = {
         }
     }
     \bar "||" \break
-    
+
     % Part 4
-    
+
     \repeat volta 2 {
     \grg \partial 8 c16. d32
     \dble e8 \grg c32 e16. \dble e16. a32 \grg c32 \grd a16.
@@ -126,33 +122,33 @@ AltBracketEnd = {
     \break
 
     % Part 5
-    
+
     \repeat volta 2 {
     \grg \partial 8 f32 A16.
-    a16. d32 \grg f32 A16. a16. d32 \grg f32 A16. 
+    a16. d32 \grg f32 A16. a16. d32 \grg f32 A16.
     \thrwd d8 \grg f32 A16. \thrwd d16. A32 g32 A16.
-    \hdblc c8 \grg e32 A16. \hdblc c8 \grg e32 A16. 
+    \hdblc c8 \grg e32 A16. \hdblc c8 \grg e32 A16.
     G16. \grg b32 d16. f32 \dblA A4
-    a16. d32 \grg f32 A16. a16. d32 \grg f32 A16. 
+    a16. d32 \grg f32 A16. a16. d32 \grg f32 A16.
     \thrwd d8 \grg f32 A16. \thrwd d16. A32 g32 A16.
     \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
     \grg a4 \wbirl a8
     }
     \break
-    
+
     % Part 6
-    
+
     \repeat volta 2 {
     \grg \partial 8 c16. d32
-    \dble e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 A16. 
-    f16. \grg b32 d32 A16. f16. \grg b32 d32 A16. 
-    \dble e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 g16. 
+    \dble e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 A16.
+    f16. \grg b32 d32 A16. f16. \grg b32 d32 A16.
+    \dble e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 g16.
     }
     \alternative {
         {
-            b32 \grd G16. \grd b32 g16. b32 \grd G16. \grd b32 A16. 
-            e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 A16. 
-            f16. \grg b32 d32 A16. f16. \grg b32 d32 A16. 
+            b32 \grd G16. \grd b32 g16. b32 \grd G16. \grd b32 A16.
+            e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 A16.
+            f16. \grg b32 d32 A16. f16. \grg b32 d32 A16.
             \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
             \grg a4 \wbirl a8*2
         }

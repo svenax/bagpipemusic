@@ -54,11 +54,19 @@ showTrueKeySignature = {
 }
 
 % Various tweaks to get good defaults for bagpipe music.
+\paper {
+    top-margin = 4\mm
+    bottom-margin = 4\mm
+}
+
 \layout {
   indent = 0.0
 
   \context {
     \Score
+
+    between-system-space = #0.1
+    between-system-padding = #0.0
 
     \remove "Bar_number_engraver"
 
@@ -73,6 +81,9 @@ showTrueKeySignature = {
 
   \context {
     \StaffGroup
+
+    between-system-space = #0.1
+    between-system-padding = #0.0
 
     extraNatural = ##f
 
@@ -301,7 +312,7 @@ dre      = { \grace { \small e32[ a f a] } }
 dare     = { \grace { \small f32[ e g e] } }
 bari     = { \grace { \small e32[ G f G] } }
 dari     = { \grace { \small f32[ e g e f e] } }
-pthrwd   = { \grace { \small G32[ d32 c] } }
+pthrwd   = { \grace { \small G16[ d32 c] } }
 darodo   = { \grace { \small G32[ d G c G] } }
 Gdarodo  = { \grace { \small d32[ G c G] } }
 pdarodo  = { \grace { \small G16[ d32 G c G16] } }

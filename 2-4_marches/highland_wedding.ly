@@ -1,9 +1,5 @@
 ﻿\version "2.12.0"
 
-\paper {
-    page-count = 1
-}
-
 \score {
 
 {
@@ -12,7 +8,7 @@
     \quarterBeaming
 
     % Part 1
-    
+
     \repeat volta 2 {
     \dble \partial 8 e16. a32
     \dblc c8[ \dble e] \birl a[ \dblA A]
@@ -26,9 +22,9 @@
     \dblc c8 \gre a \wbirl a
     }
     \break
-    
+
     % Part 2
-   
+
     \repeat volta 2 {
     \grg \partial 8 c32 d16.
     \dblc c8 \grg e \dble e8 \grg c32 \grd a16.
@@ -42,9 +38,9 @@
     \dblc c8 \gre a \wbirl a
     }
     \break
-  
+
     % Part 3
-    
+
     \repeat volta 2 {
     \dble \partial 8 e16. a32
     \dblc c8[ \dble e] \birl a[ \dblA A]
@@ -58,9 +54,9 @@
     \dblc c8 \gre a \wbirl a
     }
     \break
-    
+
     % Part 4
-   
+
     \repeat volta 2 {
     \dble \partial 8 e16. d32
     \grg c8[ \grip e16. f32] \grg e32 A16. e16. c32
@@ -71,7 +67,7 @@
     \grg c16.[ d32 \dble e16. c32] \grg d16. e32 \grg f16. d32
     \grg e16.[ f32 g16. e32] \dblA A8[ \birl a]
     \grg a16.[ \grd c32 \dble e16. c32] \grg b16. c32 \grg d32 e16.
-    \dblc c8 \gre a \wbirl a    
+    \dblc c8 \gre a \wbirl a
     }
     \break
 

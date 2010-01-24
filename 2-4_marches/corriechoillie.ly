@@ -5,11 +5,11 @@
 {
     \bagpipeKey
     \time 2/4
-    
+
     % Part 1
     \bar "|:"
     \repeat volta 2 {
-    \partial 8 e8 
+    \partial 8 e8
     \grg a8. b16 \grG a8[ \thrwd d]
     \dble e8. d16 \dblb b8 \grG a
     \thrwd d8. e16 \grg f8 A
@@ -21,9 +21,9 @@
     \hdblf f8 d \slurd d
     }
     \break
-    
+
     % Part 2
-    
+
     \repeat volta 2  {
     \dblg \partial 8 g8
     \dblA A8. f16 \thrwd d8 f
@@ -57,3 +57,4 @@
 }
 
 }
+

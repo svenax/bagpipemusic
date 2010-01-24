@@ -1,13 +1,9 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 common = {
   \bagpipeKey
   \time 2/4
   \override TextScript #'staff-padding = #2
-}
-
-\paper {
-  % page-count = 2
 }
 
 \book {
@@ -292,7 +288,7 @@ common = {
 
 }
 
-\markup { The T’’ and C’’ should be played as regular taorluaths and crunluaths 
+\markup { The T’’ and C’’ should be played as regular taorluaths and crunluaths
 in the plain variations }
 
 %%% END SKIP

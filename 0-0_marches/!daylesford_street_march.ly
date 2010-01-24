@@ -1,9 +1,5 @@
 \version "2.12.0"
 
-\paper {
-    page-count = 1
-}
-
 \score {
 
 {

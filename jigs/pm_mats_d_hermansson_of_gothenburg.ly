@@ -11,9 +11,9 @@ common = {
 
 partA = {
     \common
-    
+
     % Part 1
-    
+
     \repeat volta 2 {
     \partial 8 e8
     \dblA A8 e A e A e
@@ -27,9 +27,9 @@ partA = {
     \grg c8 \grd a \gre a \wbirl a4
     }
     \break
-    
+
     % Part 2
-    
+
     \repeat volta 2 {
     \partial 8 e8
     \dblA A4. \grg A
@@ -43,9 +43,9 @@ partA = {
     \grg c8 \grd a \gre a \wbirl a4
     }
     \break
-    
+
     % Part 3
-    
+
     \repeat volta 2 {
     \partial 8 e8
     \grg c8 \grd a \gre a \grg a \grd a \gre a
@@ -54,16 +54,16 @@ partA = {
     \grg b8 \grd G \gre a \dblb b4 e8
     \break
     \grg c8 \grd a \gre a \grg a \grd a \gre a
-    \grg c8 \grd a \gre a \grg 
+    \grg c8 \grd a \gre a \grg
     #(lowerBeam -3.0 -2.5)
     c e \gra e
     \dblA A4 e8 \grg f e d
     \grg c8 \grd a \gre a \wbirl a4
     }
     \break
-    
+
     % Part 4
-    
+
     \repeat volta 2 {
     \partial 8 e8
     \dblA A8 c A g a g
@@ -92,9 +92,9 @@ partA = {
 
 partB = {
     \common
-    
+
     % Part 1
-    
+
     \repeat volta 2 {
     \partial 8 e8
     \grg c4. e
@@ -108,25 +108,25 @@ partB = {
     \grg a4. \wbirl a4
     }
     \break
-    
+
     % Part 2
-    
+
     \repeat volta 2 {
     \partial 8 e8
-    \grg c8 \grd a \gre a \grg c8 \grd a \gre a 
+    \grg c8 \grd a \gre a \grg c8 \grd a \gre a
     \grg d8 c b c \gre a4
     \dblA A4 e8 \grg f8 e d
     \grg c8 \grd a \gre a \grg G4 b8
     \break
-    \grg c8 \grd a \gre a \grg c8 \grd a \gre a 
+    \grg c8 \grd a \gre a \grg c8 \grd a \gre a
     \grg d8 c b c \gre a4
     \grg c8 e c \grg d c b
     \grg a4. \wbirl a4
     }
     \break
-    
+
     % Part 3
-    
+
     \repeat volta 2 {
     \partial 8 e8
     A8 \grf g4 \grf g8 A g
@@ -140,9 +140,9 @@ partB = {
     \grg a4. \wbirl a4
     }
     \break
-    
+
     % Part 4
-    
+
     \repeat volta 2 {
     \partial 8 e8
     \grg c8 \grd a \grd c \grg b \grd a \grd c
@@ -160,7 +160,7 @@ partB = {
         \break
         }
         {
-        \grg c8 \grd c \gre c \grg c8 \grd c \gre c 
+        \grg c8 \grd c \gre c \grg c8 \grd c \gre c
         \grg d8 c \gre b \grg c \grd c \gre c
         \grg c \grd c \gre c \grg d c \gre b
         \grg a8 \grd c e \dblA A4

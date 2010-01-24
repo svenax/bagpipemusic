@@ -9,11 +9,7 @@ AltBracketEnd = {
 common = {
     \bagpipeKey
     \time 2/4
-    \override TextScript #'staff-padding = #2 
-}
-
-\paper {
-    page-count = 1
+    \override TextScript #'staff-padding = #2
 }
 
 \book {
@@ -34,40 +30,40 @@ common = {
     #(override-auto-beam-setting '(end * * * *) 1 8 'Staff)
 
     % Line 1
-    
+
     f4\prall e8 \grg f8 A4
     e4\prall d8 \grg e8 f4
     b4\prall a8 \grg b8 d4
     \hcad d4 \grG b8 \grG a4.
     f4\prall e8 \grg f8 A4
     b4\prall a8 \grg b8 d4
-    f4\prall a8 e4.\prall 
+    f4\prall a8 e4.\prall
     \grg e8 d4 ~ d4.
     \bar "|" \break
-    
+
     % Line 2
-    
+
     e4\prall d8 \grg e8 f4
     \dblA A4 d8 f8\prall A4
     b4\prall a8 \grg b8 d4
     \hcad d4 \grG b8 \grG a4.
     \grg f4 A8 f4\prall d8
     \grg e4 f8 e4.\prall
-    f4\prall a8 e4.\prall 
+    f4\prall a8 e4.\prall
     \grg e8 d4 ~ d4.
     \bar "|" \break
-    
+
     % Line 3
-    
+
     e4\prall d8 \grg e8 f4
     \dblA A4 d8 f8\prall A4
     b4\prall a8 \grg b8 d4
     \hcad d4 \grG b8 \grG a4.
     b4\prall a8 \grg b8 d4
     e4\prall d8 \grg e8 f4
-    \dblA A4 a8 e4.\prall 
+    \dblA A4 a8 e4.\prall
     \grg e8 d4 ~ d4.
-    \bar "|." 
+    \bar "|."
 }
 
 \header {
@@ -83,9 +79,9 @@ common = {
 
 {
     \common
-    
+
     % Line 1
-    
+
     \grg f8. a16 A8. a16
     \grg e8. a16 \grg f8. a16
     \grg b8. a16 \grg d4
@@ -103,9 +99,9 @@ common = {
     a16 \grg d8. a16 \grg d8.
     \AltBracketEnd
     \bar "|" \break
-    
+
     % Line 2
-    
+
     \grg e8. a16 \grg f8. a16
     A8. a16 A8. a16
     \grg b8. a16 \grg d4
@@ -123,9 +119,9 @@ common = {
     a16 \grg d8. a16 \grg d8.
     \AltBracketEnd
     \bar "|" \break
-    
+
     % Line 3
-    
+
     \grg e8. a16 \grg f8. a16
     A8. a16 A8. a16
     \grg b8. a16 \grg d4
@@ -159,7 +155,7 @@ common = {
     \common
 
     % Line 1
-    
+
     f4_\txtaorcrun A_\txtaorcrun
     e_\txtaorcrun f_\txtaorcrun
     \set Score.repeatCommands = #'((volta "S"))
@@ -180,7 +176,7 @@ common = {
     \bar "|" \break
 
     % Line 2
-    
+
     e_\txtaorcrun f_\txtaorcrun
     A_\txtaorcrun A_\txtaorcrun
     \set Score.repeatCommands = #'((volta "S"))
@@ -199,9 +195,9 @@ common = {
     d_\txtaorcrun d_\txtaorcrun
     \AltBracketEnd
     \bar "|" \break
-    
+
     % Line 3
-    
+
     e_\txtaorcrun f_\txtaorcrun
     A_\txtaorcrun A_\txtaorcrun
     \set Score.repeatCommands = #'((volta "S"))
