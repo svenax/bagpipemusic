@@ -14,6 +14,10 @@ AltBracketEnd = {
     \set Score.measureLength = #(ly:make-moment 2 4)
 }
 
+%{\paper {
+    page-count = 1
+}
+%}
 \score {
 
 {
@@ -47,7 +51,7 @@ AltBracketEnd = {
     \repeat volta 2 {
     \grg \partial 8 c16. d32
     \dble e4 \grg e16. a32 \grg c32 e16.
-    \grg f4 \grg f16. d32 \grg f32 A16.
+    \dblf f4 \grg f16. d32 \grg f32 A16.
     \thrwd d8[ \grg c32 d16.]
     \AltBracketOne
     \dblf f8[ \grg e16. a32]
@@ -60,9 +64,10 @@ AltBracketEnd = {
         {
             \grg c16. d32]
             \dble e4 \grg e16. a32 \grg c32 e16.
-            \grg f4 \grg f16. d32 \grg f32 A16.
+            \grg f4 \dblf f16. d32 \grg f32 A16.
             \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
             \grg a4 \wbirl a8
+            \break
         }
         {
             A16. f32
@@ -95,6 +100,7 @@ AltBracketEnd = {
             \thrwd d8 \grg f32 A16. \hdble e8. d16
             \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
             \grg a4 \wbirl a8
+            \break
         }
         {
             A16. f32
@@ -142,18 +148,18 @@ AltBracketEnd = {
     \grg \partial 8 c16. d32
     \dble e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 A16.
     f16. \grg b32 d32 A16. f16. \grg b32 d32 A16.
-    \dble e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 g16.
+    e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 g16.
     }
     \alternative {
         {
-            b32 \grd G16. \grd b32 g16. b32 \grd G16. \grd b32 A16.
+            \grA b32 \grd G16. \grd b32 g16. \grA b32 \grd G16. \grd b32 A16.
             e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 A16.
             f16. \grg b32 d32 A16. f16. \grg b32 d32 A16.
             \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
             \grg a4 \wbirl a8*2
         }
         {
-            b32 \grd G16. \grg b32 d16. \grg e16. g32 \grA f32 A16.
+            \grA b32 \grd G16. \grg b32 d16. \grg e16. g32 \grA f32 A16.
             \hdble e8 \grg a \wbirl a8. b16
             \grg a16. d32 \grg f32 A16. \hdble e8. d16
             \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32

@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
@@ -12,12 +12,12 @@
     \repeat volta 2 {
     \dble \partial 8 e16. a32
     \dblc c8[ \dble e] \birl a[ \dblA A]
-    \grg A16.[ g32 \hdblf f16. e32] \dblA A8[ \birl a]
+    \grg A16.[ g32 \tdblf f16. e32] \dblA A8[ \birl a]
     \dblc c8[ \dble e] \birl a16. A32 e16. c32
     \thrwd d8 \grg b \taor b[ \dble e16. a32]
     \break
     \dblc c8[ \dble e] \birl a[ \dblA A]
-    \grg A16.[ g32 \hdblf f16. e32] \dblA A8[ \birl a]
+    \grg A16.[ g32 \tdblf f16. e32] \dblA A8[ \birl a]
     \grg a16.[ \grd c32 \dble e16. c32] \grg b16. c32 \grg d32 e16.
     \dblc c8 \gre a \wbirl a
     }

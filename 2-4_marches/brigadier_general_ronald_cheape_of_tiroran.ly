@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
@@ -33,7 +33,7 @@
     \grg b32[ \grd G16. \dbld d16. c32] \slurb b8 \grg f32 g16.
     \break
     \dblA A8 e32 A16. c32[ \grd a16. \dble e16. d32]
-    \grg c32[ \grd a16. \dble e16. c32] \dblA A8 e16. c32
+    \grg c32[ \grd a16. \dble e16. c32] \dblA A8 e16. d32
     \dblc c8 \gre a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
     \grg a4 \wbirl a8
     }
