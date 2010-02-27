@@ -84,7 +84,7 @@
 
 \header {
     meter = "March"
-    title = "Arthur Bignold, Lochrosque"
+    title = "Arthur Bignold of Lochrosque"
     composer = "John MacColl"
 }
 
