@@ -67,7 +67,6 @@ AltBracketEnd = {
             \grg f4 \dblf f16. d32 \grg f32 A16.
             \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
             \grg a4 \wbirl a8
-            \break
         }
         {
             A16. f32
@@ -100,7 +99,6 @@ AltBracketEnd = {
             \thrwd d8 \grg f32 A16. \hdble e8. d16
             \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
             \grg a4 \wbirl a8
-            \break
         }
         {
             A16. f32

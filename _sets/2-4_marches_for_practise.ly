@@ -7,9 +7,9 @@
 \pageBreak
 
 
-%\tocItem \markup "The 25th K.O.S.B."
-%\include "2-4_marches/25th_kosb.ly"
-%\pageBreak
+\tocItem \markup "The 25th K.O.S.B."
+\include "2-4_marches/25th_kosb.ly"
+\pageBreak
 
 %\tocItem \markup "The 79th Farewell to Gibraltar"
 %\include "2-4_marches/79th_farewell_to_gibraltar.ly"
@@ -23,9 +23,13 @@
 %\include "2-4_marches/abercairney_highlanders.ly"
 %\pageBreak
 
-\tocItem \markup "Arthur Bignold, Lochrosque"
-\include "2-4_marches/arthur_bignold_lochrosque.ly"
+\tocItem \markup "Arthur Bignold of Lochrosque"
+\include "2-4_marches/arthur_bignold_of_lochrosque.ly"
 \pageBreak
+
+%\tocItem \markup "Bonnie Ann"
+%\include "2-4_marches/bonnie_ann.ly"
+%\pageBreak
 
 \tocItem \markup "Brigadier General Ronald Cheape of Tiroran"
 \include "2-4_marches/brigadier_general_ronald_cheape_of_tiroran.ly"
@@ -51,6 +55,10 @@
 %\include "2-4_marches/duke_of_roxburghs_farewell_to_the_blackmount_forest.ly"
 %\pageBreak
 
+%\tocItem \markup "The Edinburgh Volunteers"
+%\include "2-4_marches/The Edinburgh Volunteers.ly"
+%\pageBreak
+
 %\tocItem \markup "Glenfinnan Highland Gathering"
 %\include "2-4_marches/glenfinnan_highland_gathering.ly"
 %\pageBreak
@@ -71,21 +79,37 @@
 \include "2-4_marches/kantara_to_el_arish.ly"
 \pageBreak
 
-%\tocItem \markup "Leaving Glenurquhart"
-%\include "2-4_marches/leaving_glenurquhart.ly"
+%\tocItem \markup "The Knightswood Celeidh"
+%\include "2-4_marches/knightswood_celeidh.ly"
 %\pageBreak
+
+\tocItem \markup "Leaving Glenurquhart"
+\include "2-4_marches/leaving_glenurquhart.ly"
+\pageBreak
 
 \tocItem \markup "Leaving Lunga"
 \include "2-4_marches/leaving_lunga.ly"
 \pageBreak
 
+%\tocItem \markup "The Lonach Gathering"
+%\include "2-4_marches/lonach_gathering.ly"
+%\pageBreak
+
 \tocItem \markup "Lord Alexander Kennedy"
 \include "2-4_marches/lord_alexander_kennedy.ly"
 \pageBreak
 
+%\tocItem \markup "Major Manson at Clachantrushal"
+%\include "2-4_marches/major_manson_at_clachantrushal.ly"
+%\pageBreak
+
 \tocItem \markup "Millbank Cottage"
 \include "2-4_marches/millbank_cottage.ly"
 \pageBreak
+
+%\tocItem \markup "Mrs. Duncan MacFadyen"
+%\include "2-4_marches/mrs_duncan_macfadyen.ly"
+%\pageBreak
 
 \tocItem \markup "Mrs. John MacColl"
 \include "2-4_marches/mrs_john_maccoll.ly"
@@ -102,6 +126,10 @@
 \tocItem \markup "Raasay House"
 \include "2-4_marches/raasay_house.ly"
 \pageBreak
+
+%\tocItem \markup "The Young MacGregor"
+%\include "2-4_marches/young_macgregor.ly"
+%\pageBreak
 
 % Throwaway to make page breaking work
 \include "2-4_marches/teribus.ly"

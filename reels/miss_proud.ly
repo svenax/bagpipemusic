@@ -29,7 +29,7 @@
     \break
     c16 \grd a8. \grg c16 g8. \grA b16 \grd G8. \grg b16 d8.
     \grg c16 \grd a8. \grg c16 \grd a8. \grg e8.[ f16 \dble e8. d16]
-    \dblc c8. b16 \grg a16 \grd c8. \grg b16[ \grd G8. \Gthrwd d8. f16]
+    \dblc c8. b16 \grg a8. \grd c16 \grg b16[ \grd G8. \Gthrwd d8. f16]
     \dble e8.[ c16 \dbld d8. b16] \wbirl a4 \dblA A
     \bar "||" \break
 
@@ -55,7 +55,7 @@
     \break
     \grg c16 A8. c16 \grd a8. \grg b16 g8. \grA b16 \grd G8.
     \grg a8.[ b16 \grip c8. d16] \grg e8.[ f16 \dble e8. d16]
-    \dblc c8. b16 \grg a16 \grd c8. \grg b16[ \grd G8. \Gthrwd d8. f16]
+    \dblc c8. b16 \grg a8. \grd c16 \grg b16[ \grd G8. \Gthrwd d8. f16]
     \dble e8.[ c16 \dbld d8. b16] \wbirl a4 \dblA A
     \bar "|."
 }

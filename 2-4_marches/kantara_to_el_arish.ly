@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
@@ -62,7 +62,7 @@
     A16. e32 \grg c32 e16. \grg c32 \grd a16. \grg e16. f32
     \dblf f16. e32 \grg c32 e16. \dble e16.[ d32 \dbld d16. c32]
     A16. f32 \grg e32 A16. \hdblf f16. e32 \grg c32 e16.
-    \grg a16.[ \grd c32 \dble e16. a32] \slurb b8[ \dblg g]
+    \grg a16.[ \grd c32 \dble e16. c32] \slurb b8[ \dblg g]
     \break
     A16. e32 \grg c32 e16. \grg c32[ \grd a16. \dble e16. c32]
     \dbld d8[ c32 \grip e16.] \dblf f8 A16. e32

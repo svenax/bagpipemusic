@@ -38,6 +38,7 @@
         \dble e8 \grg a16. \grd c32 \grg f16.[ e32 \dblc c8]
         \grg e32 g16. \grA c32 d16. \grg G16. \grd b32 \grg f16. e32
         \dblc c8 \gre a \wbirl a8*2
+        \break
         }
         {
         \grg a8[ \taor a16. b32] \dblc c8 \gre a16. \grd c32
@@ -79,6 +80,7 @@
         \grg a16. e32 \grg c32 e16. A16.[ e32 \dblc c8]
         \grg e32 g16. \grA c32 d16. \grg G16. \grd b32 \grg f16. e32
         \dblc c8 \gre a \wbirl a8*2
+        \break
         }
         {
         \grg a16.[ b32 \dblc c8] \grg a16.[ c32 \dble e16. c32]
