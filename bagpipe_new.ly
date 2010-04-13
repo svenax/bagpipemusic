@@ -42,15 +42,24 @@ bagpipeKey = {
 % Show the key signature e.g. for BMW compatibility.
 showKeySignature = {
   \override Staff.KeySignature #'stencil = #'ly:key-signature-interface::print
+  \override StaffGroup.KeySignature #'stencil = #'ly:key-signature-interface::print
+  \override Score.KeySignature #'stencil = #'ly:key-signature-interface::print
 }
 
 % Show the true key signature (E-flat major). Use together with
 % \transpose f a to print scores for other instruments.
 showTrueKeySignature = {
   \override Staff.KeySignature #'stencil = #'ly:key-signature-interface::print
+  \override StaffGroup.KeySignature #'stencil = #'ly:key-signature-interface::print
+  \override Score.KeySignature #'stencil = #'ly:key-signature-interface::print
   \override Stem #'direction = #0
   \override Slur #'direction = #0
   \override Tie #'direction = #0
+}
+
+disgrace = #(define-music-function (parser location music) (ly:music?) (make-music 'SequentialMusic 'void #t))
+removeGracenotes = {
+    % grace = \disgrace
 }
 
 % Various tweaks to get good defaults for bagpipe music.
