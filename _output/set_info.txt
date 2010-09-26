@@ -78,7 +78,7 @@
 2=jigs/archie_beag
 3=jigs/banjo_breakdown
 
-[Murray's Fancy]
+[Murray’s Fancy]
 1=suites/murrays_fancy_6_hornpipe
 
 [Amazing Grace]
