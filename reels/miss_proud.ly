@@ -43,7 +43,7 @@
     c16 e8. \gra e8. f16 \dble e4 \grip e8 c
     \grg b8.[ c16 \thrwd d8. e16] \dbld d8. c16 \grg d8. b16
     c16 e8. \gra e8. f16 \dble e4 \grip e8 g
-    \hdblf f8. e16 \grg f16 g8. A4 \grip A8. e16
+    \tdblf f8. e16 \grg f16 g8. A4 \grip A8. e16
     \bar "||" \break
 
     % Part 4
