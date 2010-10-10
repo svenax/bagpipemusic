@@ -1,8 +1,10 @@
-
-
 \header {
     title = "Open Grade Quintet 2006"
     dedication = "Mats, Sven, Daniel, Eugen, Marie"
+}
+
+\paper {
+    #(define page-breaking ly:minimal-breaking)
 }
 
 \include "reels/me_clootch_is_awee.ly"

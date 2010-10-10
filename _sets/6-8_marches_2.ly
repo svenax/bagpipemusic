@@ -1,7 +1,9 @@
-
-
 \header {
     title = "6/8 Marches Set 2"
+}
+
+\paper {
+    #(define page-breaking ly:minimal-breaking)
 }
 
 \include "6-8_marches/ballochyle.ly"

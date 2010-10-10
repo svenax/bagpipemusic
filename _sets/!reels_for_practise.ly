@@ -2,6 +2,10 @@
     title = "Reels for practise"
 }
 
+\paper {
+    #(define page-breaking ly:minimal-breaking)
+}
+
 \markuplines \table-of-contents
 
 \pageBreak
@@ -69,7 +73,3 @@
 %\tocItem \markup "Thomson’s Dirk"
 %\include "reels/thonsons_dirk.ly"
 %\pageBreak
-
-% Throwaway to make page breaking work
-\include "2-4_marches/teribus.ly"
-\pageBreak

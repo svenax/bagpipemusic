@@ -2,6 +2,10 @@
     title = "2/4 Marches for practise"
 }
 
+\paper {
+    #(define page-breaking ly:minimal-breaking)
+}
+
 \markuplines \table-of-contents
 
 \pageBreak
@@ -130,7 +134,3 @@
 %\tocItem \markup "The Young MacGregor"
 %\include "2-4_marches/young_macgregor.ly"
 %\pageBreak
-
-% Throwaway to make page breaking work
-\include "2-4_marches/teribus.ly"
-\pageBreak

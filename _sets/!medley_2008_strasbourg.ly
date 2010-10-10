@@ -1,7 +1,9 @@
-
-
 \header {
     title = "2008 Medley for Strasbourg"
+}
+
+\paper {
+    #(define page-breaking ly:minimal-breaking)
 }
 
 \markuplines{\wordwrap{Four bars jig intro, then first four bars extending the

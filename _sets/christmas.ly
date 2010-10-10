@@ -1,7 +1,9 @@
-
-
 \header {
     title = "Christmas Carols"
+}
+
+\paper {
+    #(define page-breaking ly:minimal-breaking)
 }
 
 \include "others/come_all_ye_faithful.ly"

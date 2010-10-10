@@ -1,7 +1,9 @@
-﻿
-
 \header {
     title = "4/4 Marches Set 1"
+}
+
+\paper {
+    #(define page-breaking ly:minimal-breaking)
 }
 
 \include "4-4_marches/scotland_the_brave.ly"

@@ -2,6 +2,10 @@
     title = "Strathspeys for practise"
 }
 
+\paper {
+    #(define page-breaking ly:minimal-breaking)
+}
+
 \markuplines \table-of-contents
 
 \pageBreak
@@ -30,9 +34,9 @@
 %\include "strathspeys/delvin_side.ly"
 %\pageBreak
 
-%\tocItem \markup "The Ewe wi’ the Crookit Horn"
-%\include "strathspeys/ewe_wi_the_crookit_horn.ly"
-%\pageBreak
+\tocItem \markup "The Ewe With the Crooked Horn"
+\include "strathspeys/ewe_with_the_crooked_horn.ly"
+\pageBreak
 
 \tocItem \markup "Inverary Castle"
 \include "strathspeys/inverary_castle.ly"
@@ -63,8 +67,4 @@
 
 \tocItem \markup "Tulloch Gorm"
 \include "strathspeys/tulloch_gorm.ly"
-\pageBreak
-
-% Throwaway to make page breaking work
-\include "2-4_marches/teribus.ly"
 \pageBreak
