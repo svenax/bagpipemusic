@@ -291,6 +291,8 @@ egrip = { \grace { \small G32[ e G] } }
 
 % Taorluaths
 taor    = { \grace { \small G32[ d G e] } }
+taorjmd = { \grace { \small G32[ d a e] } }
+taorold = { \grace { \small G32[ d G a e] } }
 dtaor   = { \grace { \small G32[ b G e] } }
 Gtaor   = { \grace { \small d32[ G e] } }
 taoramb = { \grace { \small G32[ d G b e] } }
@@ -327,18 +329,18 @@ Gdarodo  = { \grace { \small d32[ G c G] } }
 pdarodo  = { \grace { \small G16[ d32 G c G16] } }
 pGdarodo = { \grace { \small d32[ G c G16] } }
 % Weird stuff from Joseph MacDonald’s book
-fifteenthcutting     = { \grace { \small G32[ d G e a f a e a d] } }
-fifteenthcuttingG    = { \grace { \small G32[ d G e G f G e G d] } }
-Gfifteenthcutting    = { \grace { \small d32[ G e a f a e a d] } }
-GfifteenthcuttingG   = { \grace { \small d32[ G e G f G e G d] } }
-seventeenthcutting   = { \grace { \small G32[ d G e a f a e a d a c] } }
-seventeenthcuttingG  = { \grace { \small G32[ d G e G f G e G d G c] } }
-Gseventeenthcutting  = { \grace { \small d32[ G e a f a e a d a c] } }
-GseventeenthcuttingG = { \grace { \small d32[ G e G f G e G d G c] } }
-barluadh   = { \grace { \small G32[ d G e a f a e a d a c a b a e a f a] } }
-barluadhG  = { \grace { \small G32[ d G e G f G e G d G c G b G e G f G] } }
-Gbarluadh  = { \grace { \small d32[ G e a f a e a d a c a b a e a f a] } }
-GbarluadhG = { \grace { \small d32[ G e G f G e G d G c G b G e G f G] } }
+fifteenthcutting     = { \grace { \small G32[ d a e a f a e a d] } }
+fifteenthcuttingG    = { \grace { \small G32[ d a e G f G e G d] } }
+Gfifteenthcutting    = { \grace { \small d32[ a e a f a e a d] } }
+GfifteenthcuttingG   = { \grace { \small d32[ a e G f G e G d] } }
+seventeenthcutting   = { \grace { \small G32[ d a e a f a e a d a c] } }
+seventeenthcuttingG  = { \grace { \small G32[ d a e G f G e G d G c] } }
+Gseventeenthcutting  = { \grace { \small d32[ a e a f a e a d a c] } }
+GseventeenthcuttingG = { \grace { \small d32[ a e G f G e G d G c] } }
+barluadh   = { \grace { \small G32[ d a e a f a e a d a c a b a e a f a] } }
+barluadhG  = { \grace { \small G32[ d a e G f G e G d G c G b G e G f G] } }
+Gbarluadh  = { \grace { \small d32[ a e a f a e a d a c a b a e a f a] } }
+GbarluadhG = { \grace { \small d32[ a e G f G e G d G c G b G e G f G] } }
 % Non-gracenote piobaireachd markup.
 trebling = \markup {
   \override #'(baseline-skip . 0.3)
