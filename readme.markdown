@@ -32,9 +32,14 @@ Note: When running Lilypond on a *.ly file, it may seem as if the computer has
 stalled. This is normal. Lilypond is doing a lot of calculations, and when
 running a large file it may take a minute or so before you get any output.
 
-**bagpipe.ly** is where all piping-specific commands and settings live. Do
-look in the file to see how things work. If you find that some gracenotes are
-missing, you can add them here.
+**bagpipe_new.ly** is where all piping-specific commands and settings live.
+Do look in the file to see how things work. If you find that some gracenotes
+are missing, you can add them here. The file has this name so it doesn't clash
+with the file bundled with Lilypond. I'll see if I can get the new file into
+the Lilypond distribution when 2.14 is released which should be fairly soon.
+
+**bagpipe_extra.ly** contains some special tweaks I don't want in the standard
+distribution. You can add your own tweaks here too.
 
 **format.ly** sets the heading format. Change this if you want anything apart
 from my standard format.
