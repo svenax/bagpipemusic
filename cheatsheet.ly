@@ -55,8 +55,8 @@
     }
     \addlyrics {
     "\dblG" "\dbla" "\dblb" "\dblc" "\dbld"
-    "\dble" "\dblf" "\dblg" "\dblA"
-    "\\tripleA" "\hdblf" "\\tdblf"
+    "\dble" "\dblf" "\dblg" "\dblA" "\\tripleA"
+    "\hdblf" "\\tdblf"
     }
 }
 \markup { "All other half doublings and thumb doublings are available similarly." }
@@ -78,6 +78,8 @@
 \markup { "All other half slurs and thumb slurs are available similarly. "
           "Note that many of these aren't really playable, and are only included for consistency." }
 
+\pageBreak
+
 \score {
     {
     \bagpipeKey
@@ -91,7 +93,6 @@
     "\shakee" "\shakef" "\shakeg" "\shakeA"
     "\hshakef" "\\tshakef"
     }
-    \header { piece = " " breakbefore = ##t }
 }
 \markup { "All other half shakes and thumb shakes are available similarly. "
           "Note that many of these aren't really playable, and are only included for consistency." }
@@ -100,25 +101,26 @@
     {
     \bagpipeKey
     \set Staff.instrumentName = "Catches "
-    e \catcha a e \catchb b e \catchc c e \catchd d f \catche e
-    e \gcatchc c g \tcatchc c
+    e \catcha a e \catchb b e \catchc c e \catchd d
+    f \catche e f \gcatchc c g \tcatchc c
     }
     \addlyrics {
     \skip 4 "\catcha" \skip 4 "\catchb" \skip 4 "\catchc" \skip 4 "\catchd"
     \skip 4 "\catche" \skip 4 "\gcatchc" \skip 4 "\\tcatchc"
     }
 }
-
 \markup { "All other g-grace catches and thumb catches are available similarly." }
 
 \score {
     {
     \bagpipeKey
     \set Staff.instrumentName = "Throws "
-    a \thrwd d G \Gthrwd d a \thrwe e a \wthrwe e d \thrwf f a \gripthrwd d
+    a \thrwd d G \Gthrwd d a \thrwe e a \wthrwe e
+    d \thrwf f a \gripthrwd d
     }
     \addlyrics {
-    \skip 4 "\\thrwd" \skip 4 "\Gthrwd" \skip 4 "\\thrwe" \skip 4 "\\wthrwe" \skip4 "\\thrwf" \skip 4 "\\gripthrwd"
+    \skip 4 "\\thrwd" \skip 4 "\Gthrwd" \skip 4 "\\thrwe" \skip 4 "\\wthrwe"
+    \skip 4 "\\thrwf" \skip 4 "\\gripthrwd"
     }
 }
 
@@ -126,7 +128,7 @@
     {
     \bagpipeKey
     \set Staff.instrumentName = "Grips and birls "
-    a \grip c a \dgrip d a \egrip c
+    a \grip c d \dgrip d a \egrip c
     \birl a \wbirl a \gbirl a \dbirl a
     }
     \addlyrics {
@@ -141,12 +143,20 @@
     \set Staff.instrumentName = \markup { "Taorluath " }
     e \taor a d \dtaor a G \Gtaor a
     b \taoramb b c \taoramc c b \taoramd d
+    e \taorjmd a e \taorold a
     }
     \addlyrics {
     \skip 4 "\\taor" \skip 4 "\dtaor" \skip 4 "\Gtaor"
     \skip 4 "\\taoramb" \skip 4 "\\taoramc" \skip 4 "\\taoramd"
+    \skip 4 "\\taorjmd" \skip 4 "\\taorold"
     }
 }
+\markup { "\\taorjmd is how the taorluath is written in Joseph MacDonald’s book."
+          "It is never played that way nowdays." }
+\markup { "\\taorold is how it was played in late 19:th early 20:th century."
+          "It was usually not written like this, but rather as a grip and an e gracenote on a." }
+
+\pageBreak
 
 \score {
     {
@@ -159,7 +169,6 @@
     \skip 4 "\\crun" \skip 4 "\dcrun" \skip 4 "\Gcrun"
     \skip 4 "\\crunamb" \skip 4 "\\crunamc" \skip 4 "\\crunamd"
     }
-    \header { piece = " " breakbefore = ##t }
 }
 
 \score {
@@ -239,6 +248,6 @@
 
 \header {
     title = "Cheat sheet for entering bagpipe music"
-    subtitle = "Intended for Lilypond 2.11 or better"
-    tagline = \markup { "P/S Sven Axelsson, MPD" }
+    subtitle = "Intended for Lilypond 2.12 or better"
+    tagline = \markup { "P/S Sven Axelsson, The Murray Pipes & Drums of Gothenburg" }
 }
