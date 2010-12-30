@@ -55,7 +55,7 @@ partA = {
     \break
     \grg c8 \grd a \gre a \grg a \grd a \gre a
     \grg c8 \grd a \gre a \grg
-    #(lowerBeam -3.0 -2.5)
+    \lowerBeam #3.0 #2.5
     c e \gra e
     \dblA A4 e8 \grg f e d
     \grg c8 \grd a \gre a \wbirl a4

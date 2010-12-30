@@ -20,8 +20,8 @@ spaceFactor = #1.5
 space = \once \override Score.SeparationItem #'padding = \spaceFactor
 
 % Make room for a low A or low G gracenote.
-#(define (lowerBeam left right)
-  (ly:export #{ \once \override Beam #'positions = #(cons $left $right) #}))
+lowerBeam = #(define-music-function (parser location left right) (number? number?)
+  #{ \once \override Beam #'positions = #(cons (- 0 $left) (- 0 $right)) #})
 
 % Used when substituting a single bar or just a few notes to show alternative.
 altBracket = #(define-music-function (parser location tag) (string?)

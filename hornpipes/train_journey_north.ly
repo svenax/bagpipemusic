@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
@@ -6,9 +6,9 @@
     \bagpipeKey
     \time 2/4
     \quarterBeaming
-    
+
     % Part 1
-    
+
     \repeat volta 2 {
     \partial 16 a16
     \thrwd d8 \grg f16. a32 \grg d16. f32 \grg a16. d32
@@ -22,16 +22,16 @@
     \shakec c8[ \grg e16. g32]
     }
     \alternative {
-        { 
-        \tdblf #(lowerBeam -2.5 -3.0)
+        {
+        \tdblf \lowerBeam #2.5 #3.0
         f8[ \hslurd d16*2]
         }
         { \tdblf f16.[ a32 \grg d16. f32*9] }
     }
     \break
-    
+
     % Part 2
-    
+
     \repeat volta 2 {
     \dblA A8[ f16. d32] \dbla a8[ \grg f16. a32]
     \grg d16. f32 A16. f32 \grA g16. f32 \grg e16. f32
@@ -45,15 +45,15 @@
     }
     \alternative {
         { \tdblf f16.[ a32 \grg d16. f32] }
-        { 
-        \tdblf #(lowerBeam -2.5 -3.0)
+        {
+        \tdblf \lowerBeam #2.5 #3.0
         f8[ \hslurd d16*2]
         }
     }
     \break
 
     % Part 3
-    
+
     \repeat volta 2 {
     \partial 16 a16
     \thrwd d8 \grg f16. a32 \grg d16. f32 \grg a16. d32
@@ -67,16 +67,16 @@
     \shakec c8[ \grg e16. g32]
     }
     \alternative {
-        { 
-        \tdblf #(lowerBeam -2.5 -3.0)
+        {
+        \tdblf \lowerBeam #2.5 #3.0
         f8[ \hslurd d16*2]
         }
         { \tdblf f16.[ a32 \grg d16. f32*9] }
     }
     \break
-    
+
     % Part 4
-    
+
     \repeat volta 2 {
     \dblA A8[ f16. d32] \shaked d8[ A16. f32]
     \grA g16. f32 \grg e16. d32 \grg c16. d32 \grg e16. f32
@@ -90,8 +90,8 @@
     }
     \alternative {
         { \tdblf f16.[ a32 \grg d16. f32] }
-        { 
-        \tdblf #(lowerBeam -2.5 -3.0)
+        {
+        \tdblf \lowerBeam #2.5 #3.0
         f8[ \hslurd d16*2]
         }
     }

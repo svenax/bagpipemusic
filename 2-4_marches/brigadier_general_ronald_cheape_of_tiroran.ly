@@ -59,17 +59,17 @@
 
     \repeat volta 2 {
     \dblg \partial 8 g8
-    #(lowerBeam -3.5 -3.5)
+    \lowerBeam #3.5 #3.5
     A16. e32 \gra e32 A16. c32 e16. A16. f32
     \dble e16. a32 \grd c32 e16. A16. e32 \grg c32 \grd a16.
-    #(lowerBeam -3.5 -3.5)
+    \lowerBeam #3.5 #3.5
     A16. e32 \gra e32 A16. c32 e16. A16. c32
     \grg b32[ \grd G16. \dbld d16. c32] \slurb b8[
     }
     \alternative {
         {
         \grg f32 g16.]
-        #(lowerBeam -3.5 -3.5)
+        \lowerBeam #3.5 #3.5
         A16. e32 \gra e32 A16. c32 e16. A16. f32
         \dble e16. a32 \grd c32 e16. A16. e32 \grg c32 \grd a16.
         \dblc c8 \gre a16. \grd c32 \grg b32 d16. \gre G16. \grd b32

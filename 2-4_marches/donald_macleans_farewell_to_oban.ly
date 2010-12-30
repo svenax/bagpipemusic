@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
@@ -6,9 +6,9 @@
     \bagpipeKey
     \time 2/4
     \quarterBeaming
-    
+
     % Part 1
-    
+
     \repeat volta 2 {
     \grg \partial 8 a16. b32
     \dblc c8 \grg b32 \grd a16. \dble e8 \grg f16. e32
@@ -22,9 +22,9 @@
     \dblc c8 \gre a \wbirl a
     }
     \break
-    
+
     % Part 2
-    
+
     \repeat volta 2  {
     \grg \partial 8 c16. d32
     \dble e8 \grg c16. d32 \grg c32 e16. \grg f16. g32
@@ -38,9 +38,9 @@
     \dblc c8 \gre a \wbirl a
     }
     \break
-    
+
     % Part 3
-    
+
     \repeat volta 2 {
     \grg \partial 8 a16. b32
     \grg c32 \grd a16. \grg c16. d32 \dble e16. a32 \grg d16. e32
@@ -50,13 +50,14 @@
     \break
     \grg c32 \grd a16. \grg c16. d32 \dble e16. a32 \grg d16. e32
     \grg f16.[ a32 \dble e16. a32] \dblc c8 \grg f16. g32
-    #(lowerBeam -2 -2) A8[ \grip A16. f32] \grg e32 f16. \grg a16. b32
+    \lowerBeam #2 #2
+    A8[ \grip A16. f32] \grg e32 f16. \grg a16. b32
     \dblc c8 \gre a \wbirl a
     }
     \break
-    
+
     % Part 4
-    
+
     \repeat volta 2 {
     \grg \partial 8 c16. d32
     \dble e8 A16. e32 \dblc c8 A16. e32

@@ -14,13 +14,13 @@
     \partial 8 e8
     \repeat volta 2 {
     \grg a16 \grd a \gre a \grg b \grd a \grg d a
-    \grg #(lowerBeam -3 -3) d16 e \gra e \grg e d \grg b e
+    \grg \lowerBeam #3 #3 d16 e \gra e \grg e d \grg b e
     \grg d16 G \grd G \grg b \grd G \grg d G
-    \grg #(lowerBeam -3 -3) d16 e \gra e \grg b e \grg G \grd b
+    \grg \lowerBeam #3 #3 d16 e \gra e \grg b e \grg G \grd b
     \break
     \grg a16 \grd a \gre a \grg b \grd a \grg d a
-    \grg #(lowerBeam -3 -3) d16 e \gra e \grg e d \grg e f
-    #(lowerBeam -2 -3) g16 e \gra e \grg e d \grg d b
+    \grg \lowerBeam #3 #3 d16 e \gra e \grg e d \grg e f
+    \lowerBeam #2 #3 g16 e \gra e \grg e d \grg d b
     \grg a16 \grd a \gre a \gbirl a8[
     }
     \alternative {
@@ -68,12 +68,12 @@
     \repeat volta 2 {
     \dblA A8 e16 \grg e d \grg e g
     A16 \grg A \grg A g A f A
-    #(lowerBeam -2 -3) g16 \grA d \grG d \grg e d \grg e f
+    \lowerBeam #2 #3 g16 \grA d \grG d \grg e d \grg e f
     g16 \grA g \grf g \grA e g \grA d g
     \break
     \dblA A8 e16 \grg e d \grg e g
     A16 \grg A \grg A g A f A
-    \grg #(lowerBeam -2 -3) A16 e \gra e \grg e d \grg d b
+    \grg \lowerBeam #2 #3 A16 e \gra e \grg e d \grg d b
     \grg a16 \grd a \gre a \gbirl a8 \gre a
     }
 

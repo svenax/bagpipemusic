@@ -62,7 +62,9 @@
     \dblc c8 \grg b \taor b[ \dblA A]
     \break
     \birl a8 \grg c32 \grd a16. \dble e16. a32 \grg c32 \grd a16.
-    \grg a16. b32 \grg c32 \grd a16. #(lowerBeam -2 -2.5) A8[ \grip A16. f32]
+    \grg a16. b32 \grg c32 \grd a16.
+    \lowerBeam #2 #2.5
+    A8[ \grip A16. f32]
     \grg e32 A16. e16. c32 \grg b32[ f16. \dble e16. b32]
     \dblc c8 \gre a \wbirl a
     }
@@ -72,9 +74,11 @@
 
     \repeat volta 2 {
     \dblg \partial 8 g8
-    #(lowerBeam -2 -2.5)
+    \lowerBeam #2 #2.5
     A8[ \grip A16. e32] A16. g32 \grA f32 A16.
-    a16. b32 \grg c32 \grd a16. #(lowerBeam -2 -2.5) A8[ \grip A16. f32]
+    a16. b32 \grg c32 \grd a16.
+    \lowerBeam #2 #2.5
+    A8[ \grip A16. f32]
     \dble e16. c32 A16. f32 \grg e16.[ f32 \dble e16. a32]
     \dblc c8 \grg b \taor b[
     }
@@ -82,9 +86,11 @@
         {
         \dblg g8]
         \break
-        #(lowerBeam -2 -2.5)
+        \lowerBeam #2 #2.5
         A8[ \grip A16. e32] A16. g32 \grA f32 A16.
-        a16. b32 \grg c32 \grd a16. #(lowerBeam -2 -2.5) A8[ \grip A16. f32]
+        a16. b32 \grg c32 \grd a16.
+        \lowerBeam #2 #2.5
+        A8[ \grip A16. f32]
         \grg e32 A16. e16. c32 \grg b32[ f16. \dble e16. b32]
         \dblc c8 \gre a \wbirl a
         \break
@@ -92,7 +98,9 @@
         {
         \dblA \partial 8 A8
         \birl a8 \grg c32 \grd a16. \dble e16. a32 \grg c32 \grd a16.
-        \grg a16. b32 \grg c32 \grd a16. #(lowerBeam -2 -2.5) A8[ \grip A16. f32]
+        \grg a16. b32 \grg c32 \grd a16.
+        \lowerBeam #2 #2.5
+        A8[ \grip A16. f32]
         \grg e32 A16. e16. c32 \grg b32[ f16. \dble e16. b32]
         \dblc c8 \gre a \wbirl a
         }
