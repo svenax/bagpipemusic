@@ -23,7 +23,9 @@ space = \once \override Score.SeparationItem #'padding = \spaceFactor
 #(define (lowerBeam left right)
   (ly:export #{ \once \override Beam #'positions = #(cons $left $right) #}))
 
+% Used when substituting a single bar or just a few notes to show alternative.
 altBracket = #(define-music-function (parser location tag) (string?)
   #{ \set Score.repeatCommands = #(list (list 'volta (markup #:text $tag))) #})
 
+% End previous altBracket thingy.
 altBracketEnd = { \set Score.repeatCommands = #'((volta #f)) }
