@@ -99,66 +99,66 @@ common = {
     e4_\txtaor e d_\txtaor e
     c_\txtaor d 
     \cadenzaOn
-    \set Score.repeatCommands = #'((volta "T"))
+    \altBracket "T"
     \grg e c\prall
-    \set Score.repeatCommands = #'((volta "T’"))
+    \altBracket "T’"
     e_\txtaor \grd c
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \cadenzaOff \bar "|"
     d_\txtaor e c_\txtaor d
     G_\txtaor \grd c
     \cadenzaOn
-    \set Score.repeatCommands = #'((volta "T"))
+    \altBracket "T"
     \cad b8 a \grd G4
-    \set Score.repeatCommands = #'((volta "T"))
+    \altBracket "T"
     \grg b8.[ \taor G16] \grd b4
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \cadenzaOff \bar "|"
     \break
     
     e4_\txtaor e d_\txtaor e
     c_\txtaor d 
     \cadenzaOn
-    \set Score.repeatCommands = #'((volta "T"))
+    \altBracket "T"
     \grg e c\prall
-    \set Score.repeatCommands = #'((volta "T’"))
+    \altBracket "T’"
     e_\txtaor \grd c
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \cadenzaOff \bar "|"
     d_\txtaor e c_\txtaor d
-    \set Score.repeatCommands = #'((volta "T"))
+    \altBracket "T"
     \cad b8 a \grd G4 \grg e \dbirl a
-    \set Score.repeatCommands = #'((volta "T’"))
+    \altBracket "T’"
     \grg b8.[ \taor G16] \grd b4 \grg a4_\txtaor \grd a
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     c_\txtaor d c_\txtaor e
     G_\txtaor \grd c
     \cadenzaOn
-    \set Score.repeatCommands = #'((volta "T"))
+    \altBracket "T"
     \cad b8 a \grd G4
-    \set Score.repeatCommands = #'((volta "T"))
+    \altBracket "T"
     \grg b8.[ \taor G16] \grd b4
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \cadenzaOff \bar "|"
     \break
     
     e4_\txtaor e d_\txtaor e
     c_\txtaor d 
     \cadenzaOn
-    \set Score.repeatCommands = #'((volta "T"))
+    \altBracket "T"
     \grg e c\prall
-    \set Score.repeatCommands = #'((volta "T’"))
+    \altBracket "T’"
     e_\txtaor \grd c
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \cadenzaOff \bar "|"
     d_\txtaor e c_\txtaor d
-    \set Score.repeatCommands = #'((volta "T"))
+    \altBracket "T"
     G4_\txtaor \grd c \cad b8 a \grd G4
     \grg e \dbirl a \grg e \dbirl a
-    \set Score.repeatCommands = #'((volta "T’"))
+    \altBracket "T’"
     G4_\txtaor \grd c \grg b8.[ \taor G16] \grd b4
     a_\txtaor \grd a a_\txtaor \grd a 
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \bar "|."
 }
 
@@ -179,66 +179,66 @@ common = {
     e4_\txcrun a8 e d4_\txcrun a8 e
     c4_\txcrun a8[ d] 
     \cadenzaOn
-    \set Score.repeatCommands = #'((volta "C"))
+    \altBracket "C"
     \grg e4 c\prall
-    \set Score.repeatCommands = #'((volta "C’"))
+    \altBracket "C’"
     e_\txcrun a8 \grd c
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \cadenzaOff \bar "|"
     d4_\txcrun a8 e c4_\txcrun a8 d
     G4_\txcrun a8[ \grd c]
     \cadenzaOn
-    \set Score.repeatCommands = #'((volta "C"))
+    \altBracket "C"
     \cad b8 a \grd G4
-    \set Score.repeatCommands = #'((volta "C"))
+    \altBracket "C"
     \grg b4_\txcrun G8 \grd b
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \cadenzaOff \bar "|"
     \break
     
     e4_\txcrun a8 e d4_\txcrun a8 e
     c4_\txcrun a8[ d] 
     \cadenzaOn
-    \set Score.repeatCommands = #'((volta "C"))
+    \altBracket "C"
     \grg e4 c\prall
-    \set Score.repeatCommands = #'((volta "C’"))
+    \altBracket "C’"
     e_\txcrun \grd a8 \grd c
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \cadenzaOff \bar "|"
     d4_\txcrun a8 e c4_\txcrun a8 d
-    \set Score.repeatCommands = #'((volta "C"))
+    \altBracket "C"
     \cad b8 a \grd G4 \grg e \dbirl a
-    \set Score.repeatCommands = #'((volta "C’"))
+    \altBracket "C’"
     b_\txcrun G8 \grd b a4_\txcrun a16 \grd a8.
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     c4_\txcrun a8 d c4_\txcrun a8 e
     G4 a8[ \grd c]
     \cadenzaOn
-    \set Score.repeatCommands = #'((volta "C"))
+    \altBracket "C"
     \cad b8 a \grd G4
-    \set Score.repeatCommands = #'((volta "C’"))
+    \altBracket "C’"
     b4_\txcrun G8 \grd b
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \cadenzaOff \bar "|"
     \break
     
     e4_\txcrun a8 e d4_\txcrun a8 e
     c4_\txcrun a8[ d] 
     \cadenzaOn
-    \set Score.repeatCommands = #'((volta "C"))
+    \altBracket "C"
     \grg e4 c\prall
-    \set Score.repeatCommands = #'((volta "C’"))
+    \altBracket "C’"
     e_\txcrun \grd a8 \grd c
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \cadenzaOff \bar "|"
     d4_\txcrun a8 e c4_\txcrun a8 d
-    \set Score.repeatCommands = #'((volta "C"))
+    \altBracket "C"
     G4_\txcrun a8 \grd c \cad b8 a \grd G4
     \grg e \dbirl a \grg e \dbirl a
-    \set Score.repeatCommands = #'((volta "C’"))
+    \altBracket "C’"
     G4_\txcrun a8 \grd c b4_\txcrun G8 \grd b
     a4_\txcrun a16 \grd a8. a4_\txcrun a16 \grd a8.  
-    \set Score.repeatCommands = #'((volta #f))
+    \altBracketEnd
     \bar "|."
 }
 

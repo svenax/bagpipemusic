@@ -1,11 +1,5 @@
 \version "2.12.0"
 
-AltBracketEnd = {
-  \set Score.repeatCommands = #'((volta #f))
-  %\once \override BarLine #'transparent = ##t
-  %\bar "|."
-}
-
 common = {
     \bagpipeKey
     \time 2/4
@@ -85,19 +79,19 @@ common = {
     \grg f8. a16 A8. a16
     \grg e8. a16 \grg f8. a16
     \grg b8. a16 \grg d4
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     \hcad d8. \grG b16 \grG a4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     a16 \grg d8. a16 \grg a8.
-    \AltBracketEnd
+    \altBracketEnd
     \grg f8. a16 A8. a16
     \grg b8. a16 \grg d8. a16
     \grg f8. a16 \grg e4
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     \grg e8 d ~ d4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     a16 \grg d8. a16 \grg d8.
-    \AltBracketEnd
+    \altBracketEnd
     \bar "|" \break
 
     % Line 2
@@ -105,19 +99,19 @@ common = {
     \grg e8. a16 \grg f8. a16
     A8. a16 A8. a16
     \grg b8. a16 \grg d4
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     \hcad d8. \grG b16 \grG a4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     a16 \grg d8. a16 \grg a8.
-    \AltBracketEnd
+    \altBracketEnd
     \grg f8. a16 \grg f8. a16
     \grg e8. a16 \grg e8. a16
     \grg f8. a16 \grg e4
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     \grg e8 d ~ d4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     a16 \grg d8. a16 \grg d8.
-    \AltBracketEnd
+    \altBracketEnd
     \bar "|" \break
 
     % Line 3
@@ -125,19 +119,19 @@ common = {
     \grg e8. a16 \grg f8. a16
     A8. a16 A8. a16
     \grg b8. a16 \grg d4
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     \hcad d8. \grG b16 \grG a4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     a16 \grg d8. a16 \grg a8.
-    \AltBracketEnd
+    \altBracketEnd
     \grg b8. a16 \grg d8. a16
     \grg e8. a16 \grg f8. a16
     A8. a16 \grg e4
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     \grg e8 d ~ d4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     a16 \grg d8. a16 \grg d8.
-    \AltBracketEnd
+    \altBracketEnd
     \bar "|." \break
 }
 
@@ -158,63 +152,63 @@ common = {
 
     f4_\txtaorcrun A_\txtaorcrun
     e_\txtaorcrun f_\txtaorcrun
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     b_\txtaorcrun \grg d
     \hcad d8. \grG b16 \grG a4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     b_\txtaorcrun d_\txtaorcrun
     d_\txtaorcrun a_\txtaorcrun
-    \AltBracketEnd
+    \altBracketEnd
     f_\txtaorcrun A_\txtaorcrun
     b_\txtaorcrun d_\txtaorcrun
     f_\txtaorcrun e_\txtaorcrun
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     \grg e8 d ~ d4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     d_\txtaorcrun d_\txtaorcrun
-    \AltBracketEnd
+    \altBracketEnd
     \bar "|" \break
 
     % Line 2
 
     e_\txtaorcrun f_\txtaorcrun
     A_\txtaorcrun A_\txtaorcrun
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     b_\txtaorcrun \grg d
     \hcad d8. \grG b16 \grG a4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     b_\txtaorcrun d_\txtaorcrun
     d_\txtaorcrun a_\txtaorcrun
-    \AltBracketEnd
+    \altBracketEnd
     f_\txtaorcrun f_\txtaorcrun
     e_\txtaorcrun e_\txtaorcrun
     f_\txtaorcrun e_\txtaorcrun
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     \grg e8 d ~ d4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     d_\txtaorcrun d_\txtaorcrun
-    \AltBracketEnd
+    \altBracketEnd
     \bar "|" \break
 
     % Line 3
 
     e_\txtaorcrun f_\txtaorcrun
     A_\txtaorcrun A_\txtaorcrun
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     b_\txtaorcrun \grg d
     \hcad d8. \grG b16 \grG a4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     b_\txtaorcrun d_\txtaorcrun
     d_\txtaorcrun a_\txtaorcrun
-    \AltBracketEnd
+    \altBracketEnd
     b_\txtaorcrun d_\txtaorcrun
     e_\txtaorcrun f_\txtaorcrun
     A_\txtaorcrun e_\txtaorcrun
-    \set Score.repeatCommands = #'((volta "S"))
+    \altBracket "Singling"
     \grg e8 d ~ d4
-    \set Score.repeatCommands = #'((volta "D"))
+    \altBracket "Doubling"
     d_\txtaorcrun d_\txtaorcrun
-    \AltBracketEnd
+    \altBracketEnd
     \bar "|." \break
 }
 

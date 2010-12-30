@@ -21,5 +21,9 @@ space = \once \override Score.SeparationItem #'padding = \spaceFactor
 
 % Make room for a low A or low G gracenote.
 #(define (lowerBeam left right)
-  (ly:export
-   #{ \once \override Beam #'positions = #(cons $left $right) #}))
+  (ly:export #{ \once \override Beam #'positions = #(cons $left $right) #}))
+
+altBracket = #(define-music-function (parser location tag) (string?)
+  #{ \set Score.repeatCommands = #(list (list 'volta (markup #:text $tag))) #})
+
+altBracketEnd = { \set Score.repeatCommands = #'((volta #f)) }
