@@ -139,10 +139,12 @@ marchTime = {
   \quarterBeaming
 }
 
+% Add appropriate tweaks needed for piping grace notes to look great.
 pgrace = #(define-music-function (parser location notes) (ly:music?)
   #{ \override Score.GraceSpacing #'spacing-increment = #0
-     % \override Score.Beam #'gap = #2.0
+     \override Score.Stem #'beamlet-default-length = #'(0.6 . 0.6)
      \grace $notes
+     \revert Score.Stem #'beamlet-default-length
   #}
 )
 
