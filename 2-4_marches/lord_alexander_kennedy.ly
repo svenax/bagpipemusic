@@ -14,10 +14,10 @@ AltBracketEnd = {
     \set Score.measureLength = #(ly:make-moment 2 4)
 }
 
-%{\paper {
-    page-count = 1
+\paper {
+    page-count = #1
 }
-%}
+
 \score {
 
 {

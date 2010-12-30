@@ -1,4 +1,5 @@
-﻿\version "2.12.0"
+\version "2.12.0"
+
 
 \score {
 
@@ -6,9 +7,9 @@
     \bagpipeKey
     \time 3/4
     \quarterBeaming
-    
+
     % Part 1
-    
+
     \repeat volta 2 {
     \grg a8. d16 \grg f4 \gre f8 g
     \hdble e8. f16 \thrwd d4 \gre a4
@@ -21,9 +22,9 @@
     \dblc c8 \gre a \thrwd d4 \slurd d4
     }
     \break
-    
+
     % Part 2
-    
+
     \repeat volta 2 {
     \grg c8. d16 \dble e4 \gra e4
     \dblc c8 \gre a \thrwd d4 \dble e4

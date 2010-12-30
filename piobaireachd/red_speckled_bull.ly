@@ -13,7 +13,7 @@ common = {
 
 \header {
     title = "The Red Speckled Bull"
-    subtitle = "An Tarbh Breac dearg"
+    subtitle = "An Tarbh Breac Dearg"
 }
 
 % ---------------------------------------------------------------------------

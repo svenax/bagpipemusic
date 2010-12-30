@@ -2,8 +2,8 @@
 
 common = {
     \bagpipeKey
-    \showTrueKeySignature
-    \removeGracenotes
+    %\showTrueKeySignature
+    %\removeGracenotes
     \time 6/8
 }
 
@@ -79,7 +79,7 @@ musicB = {
 
 \score {
 
-\transpose a bflat
+%\transpose a bflat
 \new StaffGroup <<
     \new Staff \musicA
     \new Staff \musicB

@@ -1,5 +1,10 @@
 \version "2.12.0"
 
+\paper {
+    system-count = #16
+    page-count = #1
+}
+
 \score {
 
 {

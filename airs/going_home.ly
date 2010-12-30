@@ -12,6 +12,7 @@
     \dblc c4 b8 \grG a4.
     \grg b4 \grd c8 \dble e4 c8
     \grg b4. \grip b4.
+    \break
     \dblc c4 e8 \gra e4.
     \dblc c4 b8 \grG a4.
     \grg b4 \grd c8 \dblb b4 \grG a8
@@ -24,6 +25,7 @@
     \grf g4 e8 \dblf f4.
     \grg f4 A8 \grf g4 e8
     \grg f4. \grip f4.
+    \break
     \grg f4 A8 \grg A4.
     \grf g4 e8 \dblf f4.
     \grg f4 A8 \grf g4 e8
@@ -36,6 +38,7 @@
     \dblc c4 b8 \grG a4.
     \grg b4 \grd c8 \dble e4 c8
     \grg b4. \grip b4.
+    \break
     \dblc c4 e8 \gra e4.
     \grg f4 \dblg g8 \dblA A4.
     b4 \grd c8 \dblb b4 \grG a8
