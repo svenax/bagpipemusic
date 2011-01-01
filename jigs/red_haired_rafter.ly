@@ -40,7 +40,8 @@
         \break
         }
         {
-        \grg e8 d c8*4
+        \grg \partial 8*3
+        e8 d c
         \grg d8 b d \grg e d b
         \grg f d b \grg e d b
         A8 f d \grg a d f

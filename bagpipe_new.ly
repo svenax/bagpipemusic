@@ -127,6 +127,7 @@ halfBeaming = {
   #(override-auto-beam-setting '(end * * 2 2) 1 2 'Staff)
   #(override-auto-beam-setting '(end * * 2 2) 2 2 'Staff)
 }
+
 % Reels are in allabreve time with half note beaming.
 reelTime = {
   \time 2/2

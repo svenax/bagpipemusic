@@ -86,10 +86,12 @@
         \grg a16. A32 g32 A16. f32[ A16. \tdble e16. c32]
         A16.[ f32 \dble e16. d32] \dblc c8 \grg b32 \grd a16.
         \grg b32 d16. \grg G16. \grd b32 \dble e16.[ b32 \dbld d16. b32]
-        \grg a8[ \taor a] \wbirl a8*2
+        \set Score.measureLength = #(ly:make-moment 3 8)
+        \grg a8[ \taor a] \wbirl a8
         \break
         }
         {
+        \set Score.measureLength = #(ly:make-moment 2 4)
         \dblc c8 \grg b32 \grd a16. \dble e16. a32 \grd c32 e16.
         \grg f32 A16. d32 f16. \grg c32 e16. \grg c32 \grd a16.
         \grg b32 d16. \grg G16. \grd b32 \dble e16.[ b32 \dbld d16. b32]

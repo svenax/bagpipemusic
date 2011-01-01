@@ -6,8 +6,6 @@
     \bagpipeKey
     \time 7/16
     \set beatGrouping = #'(3 4)
-    %\set subdivideBeams = ##t
-    %\set beatLength = #(ly:make-moment 1 8)
 
     % Part 1
 
@@ -25,13 +23,14 @@
     }
     \alternative {
         { e8] }
-        { \grg a8 s1*5/16}
+        { \set Score.measureLength = #(ly:make-moment 1 8) \grg a8}
     }
     \break
 
     % Part 2
 
     \repeat volta 2 {
+    \set Score.measureLength = #(ly:make-moment 7 16)
     \grg e16 b d \dble e8 \gra e
     \grA g16 e g A8 \grg A
     g16 f g \grA f8 e16 d
@@ -59,13 +58,14 @@
     }
     \alternative {
         { \grg f8 g8 }
-        { \slurb b8 \gre b s1*3/16}
+        { \set Score.measureLength = #(ly:make-moment 2 8) \slurb b8[ \gre b] }
     }
     \break
 
     % Part 4
 
     \repeat volta 2 {
+    \set Score.measureLength = #(ly:make-moment 7 16)
     \dblA A8 e16 \grg e d \grg e g
     A16 \grg A \grg A g A f A
     \lowerBeam #2 #3 g16 \grA d \grG d \grg e d \grg e f

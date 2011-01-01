@@ -1,13 +1,13 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
 {
     \bagpipeKey
     \time 6/8
-    
+
     % Part 1
-    
+
     \repeat volta 2 {
     \grg c8 e \gra e \grg d e \gra e
     \grg c e \gra e \grg d c b
@@ -21,9 +21,9 @@
     }
     \alternative { { a4. } { a4 } }
     \break
-    
+
     % Part 2
-    
+
     \repeat volta 2 {
     \partial 8 e8
     A c \grG c \grg e c \grG c
@@ -37,9 +37,11 @@
         A c \grG c \grg e c \grG c
         A c \grG c \grg d c b
         \gbirl a4 \grd c8 \grg b4 \grd c8
-        \grg a \grd a \gre a \wbirl a4*3/2 
+        \set Score.measureLength = #(ly:make-moment 5 8)
+        \grg a[ \grd a \gre a] \wbirl a4
         }
         {
+        \set Score.measureLength = #(ly:make-moment 6 8)
         A8 c \grG c \grg e c \grG c
         A c \grG c \grg b a G
         \grg d c b \grg e d c

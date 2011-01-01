@@ -1,13 +1,13 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
 {
     \bagpipeKey
     \time 6/8
-    
+
     % Part 1
-    
+
     \repeat volta 2 {
     \grg \partial 8 a8
     \thrwd d4 f8 \gbirl a4 d8
@@ -20,9 +20,9 @@
     \grg a8. e16 \grg c8 \thrwd d4
     }
     \break
-    
+
     % Part 2
-    
+
     \repeat volta 2 {
     \dblg \partial 8 g8
     A8. g16 A8 \hdblf f4 a8
@@ -35,10 +35,12 @@
         A8. g16 A8 \hdblf f4 a8
         \grg d8. f16 A8 \hdblf f8. d16 \grG d8
         \grg G8. \grd G16 \gre G8 g8. \grA e16 \gra e8
-        \grg a8. e16 \grg c8 \thrwd d4*3/2
+        \set Score.measureLength = #(ly:make-moment 5 8)
+        \grg a8.[ e16 \grg c8] \thrwd d4
         \break
         }
         {
+        \set Score.measureLength = #(ly:make-moment 6 8)
         \thrwd d4 f8 \gbirl a4 d8
         \grg a8. d16 A8 \hdblf f8. e16 d8
         \grg G8. \grd G16 \gre G8 g8. \grA e16 \gra e8
@@ -46,9 +48,9 @@
         }
     }
     \bar "||" \break
-    
+
     % Part 3
-    
+
     \repeat volta 2 {
     \partial 8 a8
     \dbld d4 \grG d8 \grg a8. d16 f8
@@ -61,9 +63,9 @@
     \grg a8. e16 \grg c8 \thrwd d4
     }
     \break
-    
+
     % Part 4
-    
+
     \repeat volta 2 {
     \dblg \partial 8 g8
     A4 \grip A8 \grg A4.
@@ -76,10 +78,12 @@
         A4 \grip A8 \grg A4.
         a8. A16 \grg A8 \hdblf f8. e16 d8
         \grg G8. \grd G16 \gre G8 g8. \grA e16 \gra e8
-        \grg a8. e16 \grg c8 \thrwd d4*3/2
+        \set Score.measureLength = #(ly:make-moment 5 8)
+        \grg a8.[ e16 \grg c8] \thrwd d4
         \break
         }
         {
+        \set Score.measureLength = #(ly:make-moment 6 8)
         \dbld d4 \grG d8 \grg a8. d16 f8
         \grg a8. f16 A8 \hdblf f8. d16 \grG d8
         \grg G8. \grd G16 \gre G8 g8. \grA e16 \gra e8

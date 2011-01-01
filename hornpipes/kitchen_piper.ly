@@ -54,13 +54,15 @@
         A a \grg f \gre f \grg a d \grG d a
         \grg f \gre f a \grg f \gre f a \grg d \grG d
         g G \grg b g \grA f a \grg d f
+        \set Score.measureLength = #(ly:make-moment 3 8)
         \grg
         \lowerBeam #2.5 #3.0
-        e d \grG d c \thrwd d8*2
+        e d \grG d c \thrwd d8
         \break
         }
         {
         \partial 8 f8
+        \set Score.measureLength = #(ly:make-moment 2 4)
         \grg a16 d \grG d a \grg
         \lowerBeam #2.5 #3.0
         d \grG d \grG d a
@@ -111,13 +113,15 @@
         A a g \grf g \grg a f \gre f a
         \grg e \gra e \grg b d \grg b g b a
         g G \grg b g \grA f a \grg d f
+        \set Score.measureLength = #(ly:make-moment 3 8)
         \grg
         \lowerBeam #2.5 #3.0
-        e d \grG d c \thrwd d8*2
+        e d \grG d c \thrwd d8
         \break
         }
         {
         \partial 8 f8
+        \set Score.measureLength = #(ly:make-moment 2 4)
         \grg a16 d \grG d a \grg e \gra e \grg a f
         \gre f a \grA g \grf g A f \grg d b
         g G \grg b g \grA f a \grg d f

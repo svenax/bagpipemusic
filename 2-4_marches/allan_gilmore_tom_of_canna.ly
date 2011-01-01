@@ -42,10 +42,12 @@
         \dblA A8. f16 \grA
         \lowerBeam #3 #3
         g16.[ e32 \thrwd d16. e32]
-        \dblc c8 \gre a \wbirl a8*2
+        \set Score.measureLength = #(ly:make-moment 3 8)
+        \dblc c8 \gre a \wbirl a8
         \break
         }
         {
+        \set Score.measureLength = #(ly:make-moment 2 4)
         \dble e8[ \dblA A] \hdblc c8 \gre b16. \grd c32
         \grg a16. b32 \grg c16. d32 \dble e8[ \dblg g]
         \dblA A8. f16 \grA

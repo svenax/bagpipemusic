@@ -1,13 +1,13 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
 {
     \bagpipeKey
     \time 6/8
-    
+
     % Part 1
-    
+
     \repeat volta 2 {
     \grg b8 \grd b \gre b \grg f b \grG b
     \grg e b \grG b \grg d b \grG a
@@ -21,13 +21,17 @@
     }
     \alternative {
         { \grg a b d }
-        { \grg a \grd b \gre a8*4 }
+        {
+            \set Score.measureLength = #(ly:make-moment 3 8)
+            \grg a[ \grd b \gre a]
+        }
     }
     \break
-    
+
     % Part 2
-    
+
     \repeat volta 2 {
+    \set Score.measureLength = #(ly:make-moment 6 8)
     A8 f d \grg e d b
     \grg a b d \grg c \grd c \gre c
     \grg b \grd c \gre c \grg b \grd c \gre c
@@ -39,9 +43,9 @@
     g e c \thrwd d4.
     }
     \break
-    
+
     % Part 3
-    
+
     \repeat volta 2 {
     \grg b8 \grd b \gre b \grg f b \grG b
     \time 7/8
@@ -58,13 +62,17 @@
     }
     \alternative {
         { \grg a[ b d] }
-        { \grg a[ \grd b \gre a8*5] }
+        {
+            \set Score.measureLength = #(ly:make-moment 3 8)
+            \grg a[ \grd b \gre a]
+        }
     }
     \break
-    
+
     % Part 4
-    
+
     \repeat volta 2 {
+    \set Score.measureLength = #(ly:make-moment 7 8)
     A8[ f d] \grg e[ d \grg d b]
     \time 6/8
     \grg a b d \dblc c4.

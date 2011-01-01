@@ -70,10 +70,12 @@
         \dblA A4 \grg A8 e16. d32
         \grg c32 \grd a16. \grg c32 e16. \grg f16. e32 \grg c32 e16.
         \grg c8[ \grip e16. c32] \grg b32[ d16. \dblc c16. b32]
-        \grg a4 \wbirl a8*2
+        \set Score.measureLength = #(ly:make-moment 3 8)
+        \grg a4 \wbirl a8
         \break
         }
         {
+        \set Score.measureLength = #(ly:make-moment 2 4)
         \grg \partial 4 b32[ d16. \dblc c16. b32]
         \gbirl a8[ \dblA A] \grg A8. e16
         \dblf f16. e32 \grg f32 A16. \hdble e4

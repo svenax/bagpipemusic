@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
@@ -53,10 +53,12 @@
         A4 \grip e8 \dble e8. d16 c8
         A4 \grip e8 \dble e4 d8
         \grg c16 A8. e8 \dblf f8. e16 d8
-        \grg c16 d8. \gre b8 \grG a4*3/2
+        \set Score.measureLength = #(ly:make-moment 5 8)
+        \grg c16[ d8. \gre b8] \grG a4
         \break
         }
         {
+        \set Score.measureLength = #(ly:make-moment 6 8)
         A4 \grip e8 A4 \grip e8
         \grg f4 \grip f8 \dble e4 d8
         \grg c16 A8. e8 \dblf f8. e16 d8

@@ -43,10 +43,12 @@ extraSpace = \once \override Score.SeparationItem #'padding = #3
         \dblA A8[ \dblf f16 e] \dblA A8[ \dblf f16 e]
         \grg f e c b \shakec c8 f16 e
         \grg f A \grg A f \grg e f a b
-        \shakec c8 \grG a \gbirl a8*2
+        \set Score.measureLength = #(ly:make-moment 3 8)
+        \shakec c8 \grG a \gbirl a8
         \break
         }
         {
+        \set Score.measureLength = #(ly:make-moment 2 4)
         \grg b32 \glissando c16. f16 e \grg b32 \glissando c16. f16 e
         \grg f e c b \shakec c8 f16 e
         \grg f A \grg A f \grg e f a b
@@ -86,10 +88,12 @@ extraSpace = \once \override Score.SeparationItem #'padding = #3
         \dblA A8 f16 e \shakec c8 \grg f16 e
         \grg f A f e \shakec c8 f16 e
         \grg f A \grg A f \grg e f a b
-        \shakec c8 \grG a \gbirl a8*2
+        \set Score.measureLength = #(ly:make-moment 3 8)
+        \shakec c8 \grG a \gbirl a8
         \break
         }
         {
+        \set Score.measureLength = #(ly:make-moment 2 4)
         \grg b32 \glissando c16. f16 e \gbirl a8 f16 e
         \grg b c \grG c b \shakec c8 f16 e
         \grg f A \grg A f \grg e f a b

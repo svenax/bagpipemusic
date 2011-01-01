@@ -1,13 +1,13 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \score {
 
 {
     \bagpipeKey
     \time 6/8
-    
+
     % Part 1
-    
+
     \repeat volta 2 {
     \partial 8 e8
     \grg a8 \grd a \gre a \dblA A4.
@@ -18,13 +18,15 @@
     \grg a8 \grd a \gre a \dblA A4.
     g8 e \gra e \dblg g4.
     \tdble e4 d8 \grg b e \gra e
-    \grg a4. \wbirl a4*3/2
+    \set Score.measureLength = #(ly:make-moment 5 8)
+    \grg a4. \wbirl a4
     }
     \break
-    
+
     % Part 2
-    
+
     \repeat volta 2 {
+    \set Score.measureLength = #(ly:make-moment 6 8)
     \dble e4 d8 \grg b \grd a \gre a
     \grg G \grd a \gre a \grg b \grd G \gre G
     \dble e4 d8 \grg b \grd a \gre a
@@ -36,9 +38,9 @@
     \grg a4. \wbirl a4.
     }
     \break
-    
+
     % Part 3
-    
+
     \repeat volta 2 {
     \partial 8 G8
     \grg a8 \grd a \gre a \dblA A4.
@@ -49,13 +51,15 @@
     \grg a8 \grd a \gre a \dblA A4.
     g8 e \gra e \grg d e g
     \tdble e4 d8 \grg b e \gra e
-    \grg a4. \wbirl a4*3/2
+    \set Score.measureLength = #(ly:make-moment 5 8)
+    \grg a4. \wbirl a4
     }
     \break
-    
+
     % Part 4
-    
+
     \repeat volta 2 {
+    \set Score.measureLength = #(ly:make-moment 6 8)
     \dble e4 d8 \grg b \grd b \gre b
     \grg G \grd a \gre a \grg b \grd b \gre b
     \grg G \grd a \gre a \grg b \grd a \gre a
@@ -65,7 +69,7 @@
     \grg G \grd a \gre a \grg b \grd b \gre b
     \dble e4 d8 \grg b e \gra e
     \grg a4. \wbirl a4.
-    }    
+    }
 }
 
 \header {
