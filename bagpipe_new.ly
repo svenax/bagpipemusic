@@ -112,20 +112,11 @@ showTrueKeySignature = {
 
 % Sets the autobeamer to span quarter notes only. Use for fast music.
 quarterBeaming = {
-  #(override-auto-beam-setting '(end * * * *) 1 4 'Staff)
-  #(override-auto-beam-setting '(end * * * *) 1 2 'Staff)
-  #(override-auto-beam-setting '(end * * * *) 3 4 'Staff)
-  #(override-auto-beam-setting '(end * * * *) 4 4 'Staff)
-  #(revert-auto-beam-setting '(end 1 32 2 4 ) 1 8 'Staff)
-  #(revert-auto-beam-setting '(end 1 32 2 4 ) 3 8 'Staff)
-  #(revert-auto-beam-setting '(end 1 32 4 4 ) 1 8 'Staff)
-  #(revert-auto-beam-setting '(end 1 32 4 4 ) 3 8 'Staff)
-  #(revert-auto-beam-setting '(end 1 32 4 4 ) 5 8 'Staff)
-  #(revert-auto-beam-setting '(end 1 32 4 4 ) 7 8 'Staff)
+    \set Staff.beamExceptions = #'()
 }
 halfBeaming = {
-  #(override-auto-beam-setting '(end * * 2 2) 1 2 'Staff)
-  #(override-auto-beam-setting '(end * * 2 2) 2 2 'Staff)
+    \set Staff.beamExceptions = #'((end . (((1 . 8) . (4 4))
+                                          ((1 . 12) . (3 3)))))
 }
 
 % Reels are in allabreve time with half note beaming.
@@ -141,13 +132,15 @@ marchTime = {
 }
 
 % Add appropriate tweaks needed for piping grace notes to look great.
-pgrace = #(define-music-function (parser location notes) (ly:music?)
-  #{ \override Score.GraceSpacing #'spacing-increment = #0
-     \override Score.Stem #'beamlet-default-length = #'(0.6 . 0.6)
-     \grace $notes
-     \revert Score.Stem #'beamlet-default-length
-  #}
-)
+stemspace = #(define-music-function (parser location extent) (pair?) #{
+    \once \override Staff.Stem #'X-extent = #$extent
+#})
+pgrace = #(define-music-function (parser location notes) (ly:music?) #{
+  \override Score.GraceSpacing #'spacing-increment = #0
+   \override Score.Stem #'beamlet-max-length-proportion = #'(0.5 . 0.5)
+   \grace $notes
+   \revert Score.Stem #'beamlet-default-length
+#})
 
 % Single pgrace notes
 grG = { \pgrace { \small G32 } }
@@ -226,34 +219,37 @@ tshakeA = { \pgrace { \small A32[ g A a] } }
 
 % Slurs
 % A few of these can't really be played and are here only for consistency.
-slura = { \pgrace { \small g32[ a G] } }
-slurb = { \pgrace { \small g32[ b G] } }
-slurc = { \pgrace { \small g32[ c G] } }
-slurd = { \pgrace { \small g32[ d G] } }
-slure = { \pgrace { \small g32[ e a] } }
-slurf = { \pgrace { \small g32[ f a] } }
-slurg = { \pgrace { \small A32[ f a] } }
-slurA = { \pgrace { \small f32[ a] } }
+slura  = { \pgrace { \small g32[ a G] } }
+slurb  = { \pgrace { \small g32[ b G] } }
+slurc  = { \pgrace { \small g32[ c G] } }
+slurd  = { \pgrace { \small g32[ d G] } }
+wslurd = { \pgrace { \small g32[ d c] } }
+slure  = { \pgrace { \small g32[ e a] } }
+slurf  = { \pgrace { \small g32[ f a] } }
+slurg  = { \pgrace { \small A32[ f a] } }
+slurA  = { \pgrace { \small f32[ a] } }
 
 % Half slurs
-hslura = { \pgrace { \small a32[ G] } }
-hslurb = { \pgrace { \small b32[ G] } }
-hslurc = { \pgrace { \small c32[ G] } }
-hslurd = { \pgrace { \small d32[ G] } }
-hslure = { \pgrace { \small e32[ a] } }
-hslurf = { \pgrace { \small f32[ a] } }
-hslurg = { \pgrace { \small g32[ a] } }
-hslurA = { \pgrace { \small A32[ a] } }
+hslura  = { \pgrace { \small a32[ G] } }
+hslurb  = { \pgrace { \small b32[ G] } }
+hslurc  = { \pgrace { \small c32[ G] } }
+hslurd  = { \pgrace { \small d32[ G] } }
+whslurd = { \pgrace { \small d32[ c] } }
+hslure  = { \pgrace { \small e32[ a] } }
+hslurf  = { \pgrace { \small f32[ a] } }
+hslurg  = { \pgrace { \small g32[ a] } }
+hslurA  = { \pgrace { \small A32[ a] } }
 
 % Thumb slurs
-tslura = { \pgrace { \small A32[ a G] } }
-tslurb = { \pgrace { \small A32[ b G] } }
-tslurc = { \pgrace { \small A32[ c G] } }
-tslurd = { \pgrace { \small A32[ d a] } }
-tslure = { \pgrace { \small A32[ e a] } }
-tslurf = { \pgrace { \small A32[ f a] } }
-tslurg = { \pgrace { \small A32[ f a] } }
-tslurA = { \pgrace { \small f32[ a] } }
+tslura  = { \pgrace { \small A32[ a G] } }
+tslurb  = { \pgrace { \small A32[ b G] } }
+tslurc  = { \pgrace { \small A32[ c G] } }
+tslurd  = { \pgrace { \small A32[ d G] } }
+wtslurd = { \pgrace { \small A32[ d c] } }
+tslure  = { \pgrace { \small A32[ e a] } }
+tslurf  = { \pgrace { \small A32[ f a] } }
+tslurg  = { \pgrace { \small A32[ f a] } }
+tslurA  = { \pgrace { \small f32[ a] } }
 
 % Catches
 catcha = { \pgrace { \small a32[ G d G] } }
@@ -322,8 +318,8 @@ crunamdfosg = { \pgrace { \small e32[ d f d ] } }
 % Special piobaireachd notations
 grGcad   = { \pgrace { \small G16 } }
 gracad   = { \pgrace { \small a16 } }
-cad      = { \pgrace { \small g32[ e8 d32] } }
-hcad     = { \pgrace { \small g32[ e8] } }
+cad      = { \pgrace { \small \stemspace #'(0 . 0.5) g32[ e8 d32] } }
+hcad     = { \pgrace { \small \stemspace #'(0 . 0.5) g32[ e8] } }
 tcad     = { \pgrace { \small e8[ d32] } }
 thcad    = { \pgrace { \small e8 } }
 % This is the same as thrwe
@@ -352,7 +348,7 @@ Gbarluadh  = { \pgrace { \small d32[ a e a f a e a d a c a b a e a f a] } }
 GbarluadhG = { \pgrace { \small d32[ a e G f G e G d G c G b G e G f G] } }
 % Non-gracenote piobaireachd markup.
 trebling = \markup {
-  \override #'(baseline-skip . 0.3)
+  \override #'(baseline-skip . 0.4)
   \column {
     \musicglyph #"scripts.tenuto"
     \musicglyph #"scripts.tenuto"
@@ -361,15 +357,21 @@ trebling = \markup {
 }
 % Abbreviated notation common in piobaireachd scores.
 % TODO: Make sure these are put on a fixed Y-position.
-txtaor = \markup { "T" }
-txcrun = \markup { "C" }
+txtaor = \markup { \center-align "T" }
+txcrun = \markup { \center-align "C" }
 txtaorcrun = \markup {
   \override #'(baseline-skip . 1.8)
-  \column { "T" "C" }
+  \column {
+    \center-align "T"
+    \center-align "C"
+  }
 }
-txtaoram = \markup { "T’’" }
-txcrunam = \markup { "C’’" }
+txtaoram = \markup { \center-align \scale #'(-1 . -1) "T" }
+txcrunam = \markup { \center-align \scale #'(-1 . -1) "C" }
 txtaorcrunam = \markup {
   \override #'(baseline-skip . 1.8)
-  \column { "T’’" "C’’" }
+  \column {
+    \center-align \scale #'(-1 . -1) "T"
+    \center-align \scale #'(-1 . -1) "C"
+  }
 }

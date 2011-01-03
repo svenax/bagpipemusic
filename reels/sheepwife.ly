@@ -1,4 +1,4 @@
-﻿\version "2.12.0"
+\version "2.12.0"
 
 \paper {
     between-system-space = 15\mm

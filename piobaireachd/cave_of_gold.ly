@@ -18,7 +18,7 @@ common = {
 
 {
   \common
-  
+
   \repeat volta 2 {
   \hcad a8. b16 \grip c4 \hcad G8. b16 \grip b4
   \hcad a8. b16 \grip c4 \dare f4 \dre e4
@@ -51,7 +51,7 @@ common = {
 
 {
   \common
-  
+
   \repeat volta 2 {
   \grg a8. \gre a16 \grg c8. \gre a16 \grg G8. \grg a16 \grg b8. \gre a16
   \grg a8. \gre a16 \grg c8. \gre a16 \grg f8. \grg a16 \grg e8. \grg a16
@@ -65,7 +65,7 @@ common = {
   \grg a8. \gre a16 \grg e8. \grg a16 \grg c8. \gre a16 \grg a8. \gre a16
   \break
   \grg a8. \gre a16 \grg f8. \grg a16 \grg e8. \grg a16 \grg e8. \grg a16
-  \grg a8. \gre a16 \grg b8. \gre a16 \grg b8. \gre a16 \grg b8. \gre a16 
+  \grg a8. \gre a16 \grg b8. \gre a16 \grg b8. \gre a16 \grg b8. \gre a16
   \grg a8. \gre a16 \grg c8. \gre a16 \grg G8. \grg a16 \grg b8. \gre a16
   \grg a8. \gre a16 \grg e8. \grg a16 \grg c8. \gre a16 \grg a8. \gre a16
   \bar "|."
@@ -137,8 +137,8 @@ common = {
 
 }
 
-\markup { The T’’ and C’’ should be played as regular taorluaths and crunluaths 
-in the plain variations }
+\markup { "The " \raise #1.5 \txtaoram "and " \raise #1.5 \txcrunam should be
+  played as regular taorluaths and crunluaths in the plain variations }
 
 %%% END SKIP
 }

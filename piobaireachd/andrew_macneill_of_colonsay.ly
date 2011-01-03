@@ -21,7 +21,6 @@ common = {
 {
     \common
     \time 6/8
-    #(override-auto-beam-setting '(end * * * *) 1 8 'Staff)
 
     % Line 1
 

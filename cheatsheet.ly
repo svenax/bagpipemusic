@@ -18,7 +18,11 @@
   ragged-bottom = ##t
 }
 \layout {
-    indent = 30\mm
+  indent = 30\mm
+  \context {
+    \Score
+    \override NonMusicalPaperColumn #'line-break-permission = ##f
+  }
 }
 
 \score {
@@ -65,12 +69,12 @@
     {
     \bagpipeKey
     \set Staff.instrumentName = "Slurs "
-    \slura a \slurb b \slurc c \slurd d
+    \slura a \slurb b \slurc c \slurd d \wslurd d
     \slure e \slurf f \slurg g \slurA A
     \hslurf f \tslurf f
     }
     \addlyrics {
-    "\slura" "\slurb" "\slurc" "\slurd"
+    "\slura" "\slurb" "\slurc" "\slurd" "\wslurd"
     "\slure" "\slurf" "\slurg" "\slurA"
     "\hslurf" "\\tslurf"
     }
@@ -164,10 +168,12 @@
     \set Staff.instrumentName = \markup { "Crunluath " }
     e \crun e d \dcrun e G \Gcrun e
     b \crunamb e c \crunamc e b \crunamd e
+    s16 \grg a8[ \grd b16 \crunambfosg b] s16 \grg a8[ \grd c16 \crunamcfosg c]
     }
     \addlyrics {
     \skip 4 "\\crun" \skip 4 "\dcrun" \skip 4 "\Gcrun"
     \skip 4 "\\crunamb" \skip 4 "\\crunamc" \skip 4 "\\crunamd"
+    \skip 4 "\\crunambfosg" \skip 4 "\\crunamcfosg"
     }
 }
 
@@ -177,13 +183,13 @@
     \set Staff.instrumentName = \markup { \column { "Piobaireachd " "notation " } }
     \cad c4 A \hcad c
     e \gracad e d \grGcad d
-    a \pthrwd d c \darodo b G \Gdarodo c
+    a \pthrwd d c \darodo b c \pdarodo b G \Gdarodo c
     a \dre e G \bari g e \dari g e \dare f
     }
     \addlyrics {
     "\cad" \skip 4 "\hcad"
     \skip 4 "\gracad" \skip 4 "\grGcad"
-    \skip 4 "\pthrwd" \skip 4 "\darodo" \skip 4 "\Gdarodo"
+    \skip 4 "\pthrwd" \skip 4 "\darodo" \skip 4 "\pdarodo" \skip 4 "\Gdarodo"
     \skip 4 "\dre" \skip 4 "\bari" \skip 4 "\dari" \skip 4 "\dare"
     }
 }
@@ -248,6 +254,6 @@
 
 \header {
     title = "Cheat sheet for entering bagpipe music"
-    subtitle = "Intended for Lilypond 2.12 or better"
+    subtitle = "Intended for Lilypond 2.14 or better"
     tagline = \markup { "P/S Sven Axelsson, The Murray Pipes & Drums of Gothenburg" }
 }

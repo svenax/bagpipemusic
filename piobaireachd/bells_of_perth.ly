@@ -288,8 +288,8 @@ common = {
 
 }
 
-\markup { The T’’ and C’’ should be played as regular taorluaths and crunluaths
-in the plain variations }
+\markup { "The " \raise #1.5 \txtaoram "and " \raise #1.5 \txcrunam should be
+  played as regular taorluaths and crunluaths in the plain variations }
 
 %%% END SKIP
 }
