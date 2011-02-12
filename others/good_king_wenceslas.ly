@@ -4,7 +4,7 @@
 
 \score {
 
-{
+  {
     \bagpipeKey
     \marchTime
 
@@ -30,12 +30,12 @@
     \thrwd d2 g
     \thrwd d1
     \bar "|."
-}
+  }
 
-\header {
+  \header {
     meter = "Christmas carol"
     title = "Good King Wenceslas"
     arranger = "Trad. arr. MPD"
-}
+  }
 
 }

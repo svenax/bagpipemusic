@@ -15,7 +15,7 @@
 %\pageBreak
 
 %\tocItem \markup "Athole Cummers"
-%\include "strathspeys/athole_cummers.ly"
+
 %\pageBreak
 
 %\tocItem \markup "Blair Drummond"

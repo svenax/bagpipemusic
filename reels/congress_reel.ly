@@ -2,12 +2,12 @@
 
 \score {
 
-{
+  {
     \bagpipeKey
     \reelTime
-    
+
     % Part 1
-    
+
     \grg e8 a \gbirl a4 \gbirl a4 \grg b8 d
     \grg e A \grg A e g e \grg d g
     \grA e a \gbirl a4 e8 \grg e \gra e d
@@ -18,9 +18,9 @@
     \shakec c4 \grg c8 d \grg e f \grA g e
     \dbld d b g b \gbirl a4 \grg b8 d
     \bar "||" \break
-    
+
     % Part 2
-    
+
     \grg e8 A \grg A g \tripleA A4. g8
     e A \grg A g e g \hshaked d4
     \grg e8 g \grA d g \grA e g \grA d g
@@ -31,12 +31,12 @@
     \grg G \grd G \grg b d \grg e g \grA \times 2/3 { e f g }
     A e g b \gbirl a2
     \bar "|."
-}
+  }
 
-\header {
+  \header {
     meter = "Reel"
     title = "The Congress Reel"
     arranger = "Trad. arr. Terry Tully"
-}
+  }
 
 }

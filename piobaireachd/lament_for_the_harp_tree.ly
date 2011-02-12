@@ -2,13 +2,13 @@
 
 \score {
 
-{
+  {
     \bagpipeKey
     \time 4/4
     \quarterBeaming
-    
+
     % Ground
-    
+
     \cad c8. b16 \grip c4 \grg e8. c16 \grg e4
     \grg f8. e16 \grg f4 A8. f16 A4
     c8. b16 \grip c4 \grg e8. c16 \grg e4
@@ -24,17 +24,17 @@
     \once \override Score.RehearsalMark #'self-alignment-X = #left
     \once \override Score.RehearsalMark #'extra-offset = #'(2 . -4)
     \mark "Break into cluster."
-}
+  }
 
-\header {
+  \header {
     meter = "Piobaireachd"
     title = "The Lament for the Harp Tree"
     comment = "Ground as played in the 2008 Strasbourg medley."
-}
+  }
 
-\layout {
+  \layout {
     system-count = #3
     ragged-last = ##t
-}
+  }
 
 }

@@ -2,7 +2,7 @@
 
 \score {
 
-{
+  {
     \bagpipeKey
     \reelTime
 
@@ -59,11 +59,11 @@
     \grg b8.[ c16 \dbld d8. b16] \grg G16 \grd G8. \dblb b4
     \bar "|."
 
-}
+  }
 
-\header {
+  \header {
     meter = "Reel"
     title = "Duntroon"
-}
+  }
 
 }

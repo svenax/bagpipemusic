@@ -2,7 +2,7 @@
 
 \score {
 
-{
+  {
     \bagpipeKey
     \reelTime
 
@@ -58,11 +58,11 @@
     \dblc c8. b16 \grg a8. \grd c16 \grg b16[ \grd G8. \Gthrwd d8. f16]
     \dble e8.[ c16 \dbld d8. b16] \wbirl a4 \dblA A
     \bar "|."
-}
+  }
 
-\header {
+  \header {
     meter = "Reel"
     title = "Miss Proud"
-}
+  }
 
 }

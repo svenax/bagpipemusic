@@ -2,12 +2,12 @@
 
 \score {
 
-{
+  {
     \bagpipeKey
     \reelTime
-    
+
     % Part 1
-    
+
     \grg f8 d \grg a f \grg d a \grg f a
     \grg b d \grG d a \grg b d \grg e g
     \grg f8 d \grg a f \grg d a \grg f a
@@ -18,9 +18,9 @@
     A f \grg a A g e \grg c d
     \grg e a \grd c e \thrwd d2
     \bar "||" \break
-    
+
     % Part 2
-    
+
     \dblA A2 \grg A8 d \grg f A
     g e \grg c d \grg e a \grd c e
     \grg f A d f A d \grg f d
@@ -31,12 +31,12 @@
     A f \grg a A g e \grg c d
     \grg e a \grd c e \thrwd d2
     \bar "|."
-}
+  }
 
-\header {
+  \header {
     meter = "Reel"
     title = "Airlie’s Big Day"
     composer = "Murray Blair"
-}
+  }
 
 }

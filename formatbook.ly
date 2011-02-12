@@ -7,7 +7,7 @@
 % Bring in the time/date package. Set format to month day, year
 
 #(use-modules (srfi srfi-19))
-today = #(date->string (current-date) "~B ~d, ~Y")
+today = #(date->string (current-date) "~B ~e, ~Y")
 
 \paper {
     raggedbottom = ##t

@@ -1,14 +1,15 @@
-﻿
-% Corrections by Stig Bang-Mortensen\version "2.12.0"
+\version "2.12.0"
+
+% Corrections by Stig Bang-Mortensen
 
 \score {
 
-{
+  {
     \bagpipeKey
     \time 6/8
- 
+
     % Part 1
-    
+
     \dblA \partial 8 A8
     a d \grG d \grg d f \gre f
     \grg f A \grg A \grg A f A
@@ -18,6 +19,7 @@
     \grg e f \gre f \dblg g4 f8
     \grA g f g \grA e g e
     A g \grA e \dblf f4 d8
+    \break
 
     \grg a d \grG d \grg d f \gre f
     \grg f A \grg A \grg A4 f8
@@ -28,9 +30,9 @@
     \grA g f g \grA e g c
     \dble e d c \thrwd d4
     \bar "||" \break
-    
+
     % Part 2
-    
+
     \partial 8 e8
     \dblf f4. \grg f8 d b
     \grg a d f A f d
@@ -39,7 +41,8 @@
     \dblc c4. \grg e8 d \gre b
     \grg a c e \dble e d b
     \grg a c e \dble e d c
-    \grg e d c \thrwd d4 e8 
+    \grg e d c \thrwd d4 e8
+    \break
 
     \dblf f4. \grg f8 d b
     \grg a d f A8. \birl a8.
@@ -62,6 +65,7 @@
     \grg c e a \grg c \grd a \gre a
     \grg e8. \birl a8. \dble e8 d c
     \grg b \grd a \gre a \wbirl a4 e8
+    \break
 
     \grg f8. \birl a8. \grg b8 \grd a \gre a
     \grg b d a \grg b \grd a \gre a
@@ -84,7 +88,8 @@
     \grg e c \grG c \grg c b \grG a
     \grg e c \grG c \grg a b c
     \grg b \grd a \gre a \wbirl a4 e8
-    
+    \break
+
     \grg f d \grG d \grg a d \grG d
     \grg f d \grG d \grg b \grd a \gre a
     \grg a \grd b \gre a \grg d f A
@@ -106,6 +111,7 @@
     \grA g e c \grg b \grd a \gre a
     \grA g c \grG c \grg a e c
     \grg b \grd a \gre a \wbirl a4 f8
+    \break
 
     A d \grG d \grg a d \grG d
     A d \grG d \grg b \grd a \gre a
@@ -118,7 +124,7 @@
     \bar "||" \break
 
     % Part 6
-   
+
     \partial 8 e8
     \grg f8. \birl a8. \grg f8. \birl a8.
     \dble e8 c e \grg f8. \birl a8.
@@ -128,6 +134,7 @@
     \dble e8 a e \grg c \grd a \gre a
     \grg e8. \birl a8. \dble e8 d c
     \grg b \grd a \gre a \wbirl a4 e8
+    \break
 
     \grg f8. \birl a8. \grg f8. \birl a8.
     \dble e8 c e \grg f8. \birl a8.
@@ -141,14 +148,14 @@
     \override Glissando #'style = #'zigzag
     \dble e d c \grg c4. \glissando
     d4. ~ d4
-    \bar "|."    
-}
+    \bar "|."
+  }
 
-\header {
+  \header {
     meter = "Jig"
     title = "The Fiddler’s Rally"
     composer = "Gordon Walker"
     arranger = "arr. MPD"
-}
+  }
 
 }

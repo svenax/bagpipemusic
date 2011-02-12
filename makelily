@@ -4,7 +4,7 @@ from optparse import OptionParser
 
 class MakeLily:
     # Path constants
-    editor = 'mate'
+    editor = 'mvim'
     script_path = os.path.expanduser('~/Sheetmusic/Bagpipe')
     lilypond = 'lilypond'
     reader = 'open -a Preview.app '
@@ -15,21 +15,21 @@ class MakeLily:
         usage = 'makelily.py [options] music-file.ly'
         parser = OptionParser(usage)
         parser.add_option('-@', '--list-file',
-                          action='store', type='string', dest='list_file', default='')
+                action='store', type='string', dest='list_file', default='')
         parser.add_option('-s', '--staff-size',
-                          action='store', type='string', dest='staffsize', default='16')
+                action='store', type='string', dest='staffsize', default='16')
         parser.add_option('-p', '--paper-size',
-                          action='store', type='string', dest='papersize', default='a4')
+                action='store', type='string', dest='papersize', default='a4')
         parser.add_option('-l', '--landscape',
-                          action='store_const', const='landscape', dest='paperdir', default='portrait')
+                action='store_const', const='landscape', dest='paperdir', default='portrait')
         parser.add_option('-f', '--format',
-                          action='store', type='string', dest='format', default='format')
+                action='store', type='string', dest='format', default='format')
         parser.add_option('-v', '--version',
-                          action='store_true', dest='show_version', default=False)
+                action='store_true', dest='show_version', default=False)
         parser.add_option('-w', '--view-spacing',
-                          action='store_true', dest='view_spacing', default=False)
+                action='store_true', dest='view_spacing', default=False)
         parser.add_option('-o', '--open-pdf',
-                          action='store_true', dest='open_pdf', default=False)
+                action='store_true', dest='open_pdf', default=False)
 
         (self.options, self.args) = parser.parse_args()
 
@@ -82,6 +82,13 @@ class MakeLily:
     annotatespacing = """+self.options.view_spacing+"""
     ragged-bottom = ##t
 }
+\layout {
+  \context {
+    \Score
+    % We only permit explicit line breaks
+    \override NonMusicalPaperColumn #'line-break-permission = ##f
+  }
+}
 
 % The tune to generate.
 """
@@ -99,21 +106,18 @@ class MakeLily:
         # Move the output to the correct directories and delete temp files
         print '  Cleaning up'
         music_files = [file_base+ext for ext in ('.pdf', '.preview.png')]
-        junk_files = [file_base+ext for ext in ('.ly', '.ps', '.preview.eps', '.preview.pdf')]
+        junk_files = [file_base+ext for ext in ('.preview.eps', '.preview.pdf', '.ly', '.ps')]
         try: os.makedirs(out_path)
         except: pass
-        try:
-            for f in music_files:
-                os.remove(os.path.join(out_path, f))
-        except: pass
-        try:
-            for f in music_files:
-                os.rename(os.path.join(self.script_path, f), os.path.join(out_path, f))
-        except: pass
-        try:
-            for f in junk_files:
-                os.remove(os.path.join(self.script_path, f))
-        except: pass
+        for f in music_files:
+            try: os.remove(os.path.join(out_path, f))
+            except: pass
+        for f in music_files:
+            try: os.rename(os.path.join(self.script_path, f), os.path.join(out_path, f))
+            except: pass
+        for f in junk_files:
+            try: os.remove(os.path.join(self.script_path, f))
+            except: pass
         if is_ok:
             try:
                 os.remove(os.path.join(self.script_path, file_base+'.log'))
