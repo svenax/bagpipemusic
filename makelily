@@ -1,4 +1,4 @@
-#!/opt/local/bin/python2.5 -u
+#!/usr/bin/env python -u
 import codecs, os, string, subprocess, sys
 from optparse import OptionParser
 
