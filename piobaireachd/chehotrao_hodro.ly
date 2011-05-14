@@ -43,6 +43,8 @@ common = {
 
   }
 
+  % ---------------------------------------------------------------------------
+
   \score {
 
     {
@@ -95,225 +97,77 @@ common = {
   }
 
   % ---------------------------------------------------------------------------
-  %{
-    \score {
 
-      {
-        \common
+  \score {
 
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
-        \bar "|."
-      }
+    {
+      \common
 
-      \header {
-        piece = "III. Taorluath"
-      }
-
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
+      \bar "|."
     }
 
-    % ---------------------------------------------------------------------------
-
-    \score {
-
-      {
-        \common
-
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre a16 d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre a16 d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre G16 d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre a16 d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre G16 d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre G16 d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre a16 d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg c8. \gre G16 d8.
-        \bar "|."
-      }
-
-      \header {
-        piece = "IV. Taorluath Doubling"
-      }
-
+    \header {
+      piece = "III. Taorluath   VI. Crunluath"
     }
 
-    % ---------------------------------------------------------------------------
-
-    \score {
-
-      {
-        \common
-
-        \grg e4 \taor a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4 \taor a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
-        \bar "|."
-      }
-
-      \header {
-        piece = "V. Taorluath Trebling"
-      }
-
-    }
-
-    \markup { Repeat Urlar here. }
-
-    % ---------------------------------------------------------------------------
-
-    \score {
-
-      {
-        \common
-
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre G16 \grg b8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre G16 \grg b8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre G16 \grg b8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre G16 \grg b8.
-        \bar "|."
-      }
-
-      \header {
-        breakbefore = ##t
-        piece = "VI. Crunluath"
-      }
-
-    }
-
-    % ---------------------------------------------------------------------------
-
-    \score {
-
-      {
-        \common
-
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre a16 d8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre a16 d8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre G16 d8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre a16 d8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre G16 d8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre G16 d8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre a16 d8.
-        \grg e4 \crun d4 \gre a16 \grg c8. \gre G16 d8.
-        \bar "|."
-      }
-
-      \header {
-        piece = "VII. Crunluath Doubling"
-      }
-
-    }
-
-    % ---------------------------------------------------------------------------
-
-    \score {
-
-      {
-        \common
-
-        \grg e4 \crun d4 \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4 \crun d4 \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4 \crun d4 \gre a16 \grg d8. \gre G16 \grg d8.
-        \grg e4 \crun d4 \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4 \crun d4 \gre a16 \grg d8. \gre G16 \grg d8.
-        \grg e4 \crun d4 \gre a16 \grg d8. \gre G16 \grg d8.
-        \grg e4 \crun d4 \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4 \crun d4 \gre a16 \grg d8. \gre G16 \grg d8.
-        \bar "|."
-      }
-
-      \header {
-        piece = "VIII. Crunluath Trebling"
-      }
-
-    }
-
-    \markup { Repeat Urlar here. }
-    %}
-    % ---------------------------------------------------------------------------
-
-    \score {
-
-      {
-        \common
-
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
-        \bar "|."
-      }
-
-      \header {
-        piece = "III. Taorluath   VI. Crunluath"
-      }
-
-    }
-
-    % ---------------------------------------------------------------------------
-
-    \score {
-
-      {
-        \common
-
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 d8.
-        \bar "|."
-      }
-
-      \header {
-        piece = "IV. Taorluath Doubling   VII. Crunluath Doubling"
-      }
-
-    }
-
-    % ---------------------------------------------------------------------------
-
-    \score {
-
-      {
-        \common
-
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
-        \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
-        \bar "|."
-      }
-
-      \header {
-        piece = "IV. Taorluath Trebling   VIII. Crunluath Trebling"
-      }
-
-    }
-
-    %%% END SKIP
   }
+
+  % ---------------------------------------------------------------------------
+
+  \score {
+
+    {
+      \common
+
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre a16 d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg c8. \gre G16 d8.
+      \bar "|."
+    }
+
+    \header {
+      piece = "IV. Taorluath Doubling   VII. Crunluath Doubling"
+    }
+
+  }
+
+  % ---------------------------------------------------------------------------
+
+  \score {
+
+    {
+      \common
+
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
+      \grg e4_\txtaorcrun a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
+      \bar "|."
+    }
+
+    \header {
+      piece = "IV. Taorluath Trebling   VIII. Crunluath Trebling"
+    }
+
+  }
+
+  \markup{Repeat urlar after both taorluath and crunluath trebling.}
+  %%% END SKIP
+}
