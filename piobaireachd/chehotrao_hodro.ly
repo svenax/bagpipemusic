@@ -23,9 +23,9 @@ common = {
       \bagpipeKey
 
       \cadenzaOn
-      \grg e8 \gra e \grg e8. d16 \dbld d8 c8 \grip e8. d16 \dbld d8 b8
-      \grip e8. d16 \dbld d8 b8 \grG a4 \barluadh g8. e16 
-      \dari g8. d16 \grip e4 \grg e8 \gra e \grg e4
+      \grg e8[ \gra e] \grg e8.[ d16] \dbld d8[ c8] \grip e8.[ d16] \dbld d8[ b8]
+      \grip e8.[ d16] \dbld d8[ b8] \grG a4 \barluadh g8.[ e16]
+      \dari g8.[ d16] \grip e4 \grg e8[ \gra e] \grg e4
       \cadenzaOff
       \bar "|."
     }
@@ -35,7 +35,7 @@ common = {
     }
 
     \layout {
-      \context { 
+      \context {
         \Staff
         \remove "Time_signature_engraver"
       }
@@ -51,9 +51,11 @@ common = {
       \grg e8. c16 \pthrwd d8. b16 \grg c4 \grip c4
       \grg e8. c16 \pthrwd d8. b16 \grg c4 \grip c4
       \grg e8. c16 \pthrwd d8. b16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
+      \break
       \grg e8. c16 \pthrwd d8. b16 \grg c4 \grip c4
       \grg e8. c16 \pthrwd d8. b16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
       \grg e8. c16 \pthrwd d8. b16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
+      \break
       \grg e8. c16 \pthrwd d8. b16 \grg c4 \grip c4
       \grg e8. c16 \pthrwd d8. b16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
       \bar "|."
@@ -76,9 +78,11 @@ common = {
       \dblA A8. e16 \dare f8. d16 \grg c4 \dre e4
       \dblA A8. e16 \dare f8. d16 \grg c4 \dre e4
       \dblA A8. e16 \dare f8. d16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
+      \break
       \dblA A8. e16 \dare f8. d16 \grg c4 \dre e4
       \dblA A8. e16 \dare f8. d16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
       \dblA A8. e16 \dare f8. d16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
+      \break
       \dblA A8. e16 \dare f8. d16 \grg c4 \dre e4
       \dblA A8. e16 \dare f8. d16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
       \bar "|."
