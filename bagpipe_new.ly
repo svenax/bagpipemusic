@@ -52,9 +52,9 @@ showTrueKeySignature = {
   \override Staff.KeySignature #'stencil = #'ly:key-signature-interface::print
   \override StaffGroup.KeySignature #'stencil = #'ly:key-signature-interface::print
   \override Score.KeySignature #'stencil = #'ly:key-signature-interface::print
-  \override Stem #'direction = #0
-  \override Slur #'direction = #0
-  \override Tie #'direction = #0
+  \override Score.Stem #'direction = #'center
+  \override Score.Slur #'direction = #'center
+  \override Score.Tie #'direction = #'center
 }
 
 % gracenotesOff = #(set! showGracenotes ##f)
