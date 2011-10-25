@@ -23,6 +23,7 @@
     \gripthrwd d4 e8 \grA g8 ~ g4 \grA e8 b
     \gripthrwd d4 e8 \grA g8 ~ g4 \grA e8 b
     \gripthrwd d4 e8 \grA g8 ~ g8[ \dblA A8] ~ A4
+    \break
     g4 e8 \grA g8 ~ g4 \grA e8 b
     \gripthrwd d4 e8 \grA g8 ~ g4 \grA e8 d16 b
     \gripthrwd d4 e8 \grA g8 ~ g4 \grA e8 b
