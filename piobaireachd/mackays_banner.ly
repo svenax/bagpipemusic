@@ -2,7 +2,7 @@
 
 common = {
   \bagpipeKey
-  \override TextScript #'staff-padding = #2 
+  \override TextScript #'staff-padding = #2
 }
 
 \book {
@@ -135,18 +135,18 @@ common = {
       \cad a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
       \altBracket "T"
-      \grg c8[ \grd c16 \gre c] 
+      \grg c8[ \grd c16 \gre c]
       \altBracket "C"
-      \grg c16[ \grd c16 e8]\prall 
+      \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       c4_\txtaorcrun
       \cadenzaOff \bar "|"
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
       \altBracket "T"
-      \grg c8[ \grd c16 \gre c] 
+      \grg c8[ \grd c16 \gre c]
       \altBracket "C"
-      \grg c16[ \grd c16 e8]\prall 
+      \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       \cad c8 \grGcad a
       \cadenzaOff \bar "|"
@@ -157,9 +157,9 @@ common = {
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
       \altBracket "T"
-      \grg c8[ \grd c16 \gre c] 
+      \grg c8[ \grd c16 \gre c]
       \altBracket "C"
-      \grg c16[ \grd c16 e8]\prall 
+      \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       \cad c8 \grGcad a
       \cadenzaOff \bar "|"
@@ -172,9 +172,9 @@ common = {
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
       \altBracket "T"
-      \grg c8[ \grd c16 \gre c] 
+      \grg c8[ \grd c16 \gre c]
       \altBracket "C"
-      \grg c16[ \grd c16 e8]\prall 
+      \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       \cad c8 \grGcad a
       \cadenzaOff \bar "|"
@@ -191,6 +191,8 @@ common = {
 
   % ---------------------------------------------------------------------------
 
+  \pageBreak
+
   \score {
 
     {
@@ -200,18 +202,18 @@ common = {
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
       \altBracket "T"
-      \grg c8[ \grd c16 \gre c] 
+      \grg c8[ \grd c16 \gre c]
       \altBracket "C"
-      \grg c16[ \grd c16 e8]\prall 
+      \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       c4_\txtaorcrun
       \cadenzaOff \bar "|"
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
       \altBracket "T"
-      \grg c8[ \grd c16 \gre c] 
+      \grg c8[ \grd c16 \gre c]
       \altBracket "C"
-      \grg c16[ \grd c16 e8]\prall 
+      \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       c4_\txtaorcrun
       \cadenzaOff \bar "|"
@@ -222,9 +224,9 @@ common = {
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
       \altBracket "T"
-      \grg c8[ \grd c16 \gre c] 
+      \grg c8[ \grd c16 \gre c]
       \altBracket "C"
-      \grg c16[ \grd c16 e8]\prall 
+      \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       c4_\txtaorcrun
       \cadenzaOff \bar "|"
@@ -237,9 +239,9 @@ common = {
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
       \altBracket "T"
-      \grg c8[ \grd c16 \gre c] 
+      \grg c8[ \grd c16 \gre c]
       \altBracket "C"
-      \grg c16[ \grd c16 e8]\prall 
+      \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       c4_\txtaorcrun
       \cadenzaOff \bar "|"

@@ -180,14 +180,14 @@
     \grg e a \grG a \dblc c4 a8
     \grg c a \grG a \grg e a \grG a
     \dblc c a \grG a \grg e a \grG a
+    \break
     \grg c a \grG a \grg e a \grG a
     \grg b a \grG a \grg c a \grG a
-    \break
-
     \grg d a \grG a \grg f a \grG a
     \dbld d a d \grg f a \grG a
     \dbld d a d \grg f A f
     \grA g G \grd G \grg G4 b8
+    \break
     \grg a c \grG c \grg c e \gra e
     \grg e f \gre f \dblg g4 f8
     \grA g f g \grA e g c

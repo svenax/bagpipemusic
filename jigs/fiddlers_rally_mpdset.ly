@@ -132,14 +132,14 @@
     \dbld d c \grG c \dblc c4 d8
     \grg e8. \birl a8. \grg e8. \birl a8.
     \dble e8 a e \grg c \grd a \gre a
+    \break
     \grg e8. \birl a8. \dble e8 d c
     \grg b \grd a \gre a \wbirl a4 e8
-    \break
-
     \grg f8. \birl a8. \grg f8. \birl a8.
     \dble e8 c e \grg f8. \birl a8.
     \grg f8. \birl a8. \grg d8 f A
     g G \grd G \grg G4 \grd b8
+    \break
     \grg a c \grG c \grg c e \gra e
     \grg e f \gre f \dblg g4 f8
     \grA g f g \grA e g c

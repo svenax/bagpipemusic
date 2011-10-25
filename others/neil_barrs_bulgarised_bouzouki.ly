@@ -5,8 +5,7 @@
   {
     \bagpipeKey
     \time 7/16
-    \set beatGrouping = #'(3 4)
-
+    \set Score.beatStructure = #'(3 4)
     % Part 1
 
     \partial 8 e8

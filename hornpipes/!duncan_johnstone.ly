@@ -96,6 +96,7 @@
         A \grg A \grg A g \dblA A8 e16 f
         \grA g A \grg A g \grA e g \grA b d
         \dble e8 \grg a \wbirl a s
+        \break
       }
       {
         \dble e8 \grg d16 e \grg a e \grg d e
