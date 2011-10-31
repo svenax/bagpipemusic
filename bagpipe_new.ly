@@ -83,7 +83,7 @@ showTrueKeySignature = {
     \override Tie #'direction = #up
 
     \override KeySignature #'print-function = ##f
-    \override VoltaBracketSpanner #'Y-extent = #'(-1 . 0)
+    \override VoltaBracketSpanner #'Y-extent = #'(-1.5 . 0)
     \override VoltaBracket #'height = #2.2
   }
 
@@ -293,6 +293,7 @@ dbirl = { \pgrace { d32[ a G a G] } }
 grip  = { \pgrace { G32[ d G] } }
 dgrip = { \pgrace { G32[ b G] } }
 egrip = { \pgrace { G32[ e G] } }
+fgrip = { \pgrace { G32[ f G] } }
 
 % Taorluaths
 taor    = { \pgrace { G32[ d G e] } }
