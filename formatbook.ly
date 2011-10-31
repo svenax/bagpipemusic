@@ -13,9 +13,10 @@ today = #(date->string (current-date) "~B ~e, ~Y")
     raggedbottom = ##t
     tagline = \markup {
         \line {
-            "Rev. " \today
-            #(ly:export (ly:wide-char->utf-8 #x2014)) % Em-dash
-            "P/S Sven Axelsson, MPD"
+            "P/S Sven Axelsson, MPD,"
+            \with-url #"http://svenax.net/site/sheetmusic"
+            "http://svenax.net/site/sheetmusic"
+            \concat { "(rev. " \today ")" }
         }
     }
     bookTitleMarkup = \markup {
