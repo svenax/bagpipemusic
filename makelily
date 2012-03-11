@@ -4,7 +4,7 @@ from optparse import OptionParser
 
 class MakeLily:
     # Path constants
-    editor = 'mvim'
+    editor = 'subl'
     script_path = os.path.expanduser('~/Sheetmusic/Bagpipe')
     lilypond = 'lilypond'
     reader = 'open -a Preview.app '
@@ -30,6 +30,8 @@ class MakeLily:
                 action='store_true', dest='view_spacing', default=False)
         parser.add_option('-o', '--open-pdf',
                 action='store_true', dest='open_pdf', default=False)
+        parser.add_option('--no-log',
+                action='store_false', dest='log', default=True)
 
         (self.options, self.args) = parser.parse_args()
 
@@ -94,26 +96,33 @@ class MakeLily:
 """
         # Run Lilypond to produce output
 
+        if self.options.log:
+            log = ' > '+file_base+'.log 2>&1'
+        else:
+            log = ''
+
         print 'Processing "'+os.path.join(rel_dir, file_base)+'.ly"'
-        print '  Creating preview file'
-        self.maketemplate(file_base, file_path, out, 1)
-        is_ok = os.system(self.lilypond+' -dpreview -dresolution=84 -dpreview-include-book-title -dwithout-comment '+file_base+'.ly > '+file_base+'.log 2>&1') == 0
+        print '** Creating preview file'
+        self.maketemplate(file_base, file_path, out, True)
+        is_ok = os.system(self.lilypond+' -dpreview -dresolution=84 -dpreview-include-book-title -dwithout-comment '+file_base+'.ly'+log) == 0
         if is_ok:
-            print '  Creating PDF'
-            self.maketemplate(file_base, file_path, out, 0)
-            is_ok = os.system(self.lilypond+' --pdf '+file_base+'.ly > '+file_base+'.log 2>&1') == 0
+            print '** Creating PDF'
+            self.maketemplate(file_base, file_path, out, False)
+            is_ok = os.system(self.lilypond+' --pdf '+file_base+'.ly'+log) == 0
 
         # Move the output to the correct directories and delete temp files
-        print '  Cleaning up'
+        print '** Cleaning up'
         music_files = [file_base+ext for ext in ('.pdf', '.preview.png')]
         junk_files = [file_base+ext for ext in ('.preview.eps', '.preview.pdf', '.ly', '.ps')]
         try: os.makedirs(out_path)
         except: pass
         for f in music_files:
-            try: os.remove(os.path.join(out_path, f))
+            try:
+                os.remove(os.path.join(out_path, f))
             except: pass
         for f in music_files:
-            try: os.rename(os.path.join(self.script_path, f), os.path.join(out_path, f))
+            try:
+                os.rename(os.path.join(self.script_path, f), os.path.join(out_path, f))
             except: pass
         for f in junk_files:
             try: os.remove(os.path.join(self.script_path, f))
@@ -125,7 +134,8 @@ class MakeLily:
                     self.openpdf(os.path.join(out_path, file_base+'.pdf'))
             except: pass
         else:
-            os.system(self.editor+' '+file_base+'.log')
+            if not self.options.log:
+                os.system(self.editor+' '+file_base+'.log')
 
     # Read the included music file and append it to our template.
     # If minimal is set, skip lines between
@@ -141,14 +151,14 @@ class MakeLily:
         printit = 1
         for line in music:
             if minimal:
-                if line.startswith(u'%%% START SKIP'): printit = 0
-                if line.startswith(u'%%% END SKIP'): printit = 1
+                if line.strip().startswith(u'%%% START SKIP'): printit = 0
+                if line.strip().startswith(u'%%% END SKIP'): printit = 1
             if printit:
                 out_file.write(line.replace('\r', '')+'\n')
         out_file.close()
 
     def openpdf(self, pdf):
-        print '  Opening PDF'
+        print '** Opening PDF'
         os.system(self.reader+pdf+' &')
 
 # Create an object and start the processing
