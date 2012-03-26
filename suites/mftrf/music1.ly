@@ -129,9 +129,9 @@ ouvertureB = {
   % 25
 
   \dbld d4. \grG d8 \grg e4. \gra e8
-  \grg d2 \dblf f4. \gre f8
+  \grg d2 \grg f4. \gre f8
   \grg f8. e16 d4 \dblA A4. \grg A8
-  \grg A8. g16 f4 \dblf f4. \gre f8
+  \grg A8. g16 f4 \grg f4. \gre f8
   \grg f8. e16 d4 \dblA A4. \grg A8
 
   % 30
@@ -206,9 +206,9 @@ ouvertureC = {
   % 25
 
   \dblg g4 A8. g16 \dblA A4 \grf g8. f16
-  \grg f2 \grg d4. \gre d8
+  \grg f2 \grg d4. \grG d8
   \grg a4 \grd a4 \dblA A4. \grg A8
-  \grg A8. g16 \grA f4 \grg d4. \gre d8
+  \grg A8. g16 \grA f4 \grg d4. \grG d8
   \grg a4 \grd a4 \dblA A4. \grg A8
 
   % 30

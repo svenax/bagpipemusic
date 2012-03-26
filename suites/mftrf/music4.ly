@@ -63,13 +63,13 @@ laRejouissanceB = {
     \grg f8 g16 f \dble e8 d A4. d8
     \grg e8. d16 \grg e8. d16 \grg e8 a e \gra e
     \grg d8 f \grg e \gra e \grg e4. \gra e8
-    \grg e8 d16 e \grg f8 d \grg e a \wbirl a4
+    \grg e8 d16 e \grg f8 d \dble e a \wbirl a4
 
     % 10
 
     \grg a8 e a \grg a16 d c8 \grg c16 d e8 a
     \dblc c4 ~ c8 d16 b \dblc c4 ~ c8 b16 d
-    \dblc c4 ~ c8 b16 d \grg c4. \gra c8
+    \dblc c4 ~ c8 b16 d \dblc c4. \gra c8
     \dbld d8 \grG d ~ d16 c b d \dblc c8 \grG c ~ c16 b a c
     \dblf f8 \gre f ~ f16 e d f \dble e8 \gra e ~ e16 d c e
 

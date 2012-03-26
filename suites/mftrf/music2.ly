@@ -18,7 +18,7 @@ menuetTwoA = {
 
     % 5
 
-    \grg d4 \grg d8 e \dbld d4
+    \grg d4 \grG d8 e \dbld d4
     \grg e4 \gra e8 f \dble e4
     \grg f4 g f
     \dble e2.
@@ -47,7 +47,7 @@ menuetTwoB = {
 
     \dbld d4 \grG a A
     \hdbld d4 \grG a A
-    \dblf f4 a d
+    \grg f4 a d
     \grG a4 A f
 
     % 5
@@ -62,7 +62,7 @@ menuetTwoB = {
 
     \grg a4 e \grg d
     \grg c8 d \dble e4 \gra e
-    \dblc c4 \grG a c
+    \grg c4 \grG a c
     \grg b8 c \dblb b4 \grG b
     \dble e4 c d
 

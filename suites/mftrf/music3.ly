@@ -46,15 +46,15 @@ menuetOneB = {
     % 1
 
     \dblf f4 d f
-    \dble e4 \grg d2
+    \grg e4 d2
     \dblc c8 b c d e c
-    \dbld d8 c d e d e
+    \grg d8 c d e d e
 
     % 5
 
-    \dblf f4 d8 e \grg f4
+    \grg f4 d8 e \grg f4
     \dblg g4 \grA e4. d16 e
-    \dblf f4 g8 f e d
+    f4 g8 f e d
     \dblc c4 a8 b c a
     \grg c4 a8 b \dblc c4
 
