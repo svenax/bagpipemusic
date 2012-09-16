@@ -1,13 +1,13 @@
-﻿\version "2.12.0"
+﻿\version "2.16.0"
 
 \score {
 
 {
     \bagpipeKey
     \time 12/8
-    
+
     % Part 1
-    
+
     \partial 8 a8
     \dblf f4. ~ f8. g16 \grA e8 \thrwd d4. \gre a4.
     \dblb b4 e8 \dbld d8. b16 \grG b8 \grG a4. ~ a4.
@@ -19,9 +19,9 @@
     \grg f4 A8 \grg A8. f16 \grg d8 \dble e4 a8 \grg a8. \grd c16 e8
     \thrwd d4. ~ d4. \slurd d4. ~ d4
     \bar "||" \break
-    
+
     % Part 2
-    
+
     \partial 8 a8
     \dblA A4. \hdblf f8. d16 \gre a8 \thrwd d4. \gre a4.
     \dblb b4 g8 \grA g8. b16 \grG b8 \grG a4. ~ a4.
@@ -33,9 +33,9 @@
     \grg f4 A8 \grg A8. f16 \grg d8 \dble e4 a8 \grg a8. \grd c16 e8
     \thrwd d4. ~ d4. \slurd d4. ~ d4
     \bar "||" \break
-    
+
     % Part 3
-    
+
     \partial 8 f8
     \grg a4 \wbirl a8 \grg b16 d8. b8 \grG a4. ~ a4.
     \thrwd d4 \grg d8 \grg b16 d8. \gre b8 \grG a4. ~ a4.
@@ -47,9 +47,9 @@
     \grg f4 A8 \grg A8. f16 \grg d8 \dble e4 a8 \grg a8. \grd c16 e8
     \thrwd d4. ~ d4. \slurd d4. ~ d4
     \bar "||" \break
-    
+
     % Part 4
-    
+
     \grg \partial 8 c32 d16.
     \grg e4. ~ e8. f16 c8 \dble e4. ~ e4 \birl a8
     \grg f4 e8 \grg b16 d8. \gre b8 \grG a4. ~ a8 \grg c16 d8.

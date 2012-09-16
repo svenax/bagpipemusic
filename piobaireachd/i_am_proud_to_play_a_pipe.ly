@@ -1,9 +1,9 @@
-\version "2.12.0"
+\version "2.16.0"
 
 common = {
   \bagpipeKey
   \quarterBeaming
-  \override TextScript #'staff-padding = #2 
+  \override TextScript #'staff-padding = #2
   \time 4/4
 }
 
@@ -39,7 +39,7 @@ common = {
       \cad c4 \pthrwd d4 \grg e4 c16[ \grip c8.]
       \hcad d4 \dre e4 \cad c4 \pthrwd d4
       \hcad G4 \grd a4 \cad c4 \darodo b4
-      \grg e4 \dbirl a4 \grg e4 \dbirl a4 
+      \grg e4 \dbirl a4 \grg e4 \dbirl a4
       \bar "|."
     }
 
@@ -75,7 +75,7 @@ common = {
       \cad c4 \pthrwd d4 \grg e4 c16[ \grip c8.]
       \hcad d4 \dblA A4 \tcad c4 \pthrwd d4
       \hcad G4 \grd a4 \cad c4 \darodo b4
-      \grg e4 \dbirl a4 \grg e4 \dbirl a4 
+      \grg e4 \dbirl a4 \grg e4 \dbirl a4
       \bar "|."
     }
 
@@ -93,7 +93,7 @@ common = {
       \common
 
       e4_\txtaor e d_\txtaor e
-      c_\txtaor d 
+      c_\txtaor d
       \cadenzaOn
       \altBracket "T"
       \grg e c\prall
@@ -113,7 +113,7 @@ common = {
       \break
 
       e4_\txtaor e d_\txtaor e
-      c_\txtaor d 
+      c_\txtaor d
       \cadenzaOn
       \altBracket "T"
       \grg e c\prall
@@ -139,7 +139,7 @@ common = {
       \break
 
       e4_\txtaor e d_\txtaor e
-      c_\txtaor d 
+      c_\txtaor d
       \cadenzaOn
       \altBracket "T"
       \grg e c\prall
@@ -153,7 +153,7 @@ common = {
       \grg e \dbirl a \grg e \dbirl a
       \altBracket "T’"
       G4_\txtaor \grd c \grg b8.[ \taor G16] \grd b4
-      a_\txtaor \grd a a_\txtaor \grd a 
+      a_\txtaor \grd a a_\txtaor \grd a
       \altBracketEnd
       \bar "|."
     }
@@ -173,7 +173,7 @@ common = {
       \common
 
       e4_\txcrun a8 e d4_\txcrun a8 e
-      c4_\txcrun a8[ d] 
+      c4_\txcrun a8[ d]
       \cadenzaOn
       \altBracket "C"
       \grg e4 c\prall
@@ -193,7 +193,7 @@ common = {
       \break
 
       e4_\txcrun a8 e d4_\txcrun a8 e
-      c4_\txcrun a8[ d] 
+      c4_\txcrun a8[ d]
       \cadenzaOn
       \altBracket "C"
       \grg e4 c\prall
@@ -219,7 +219,7 @@ common = {
       \break
 
       e4_\txcrun a8 e d4_\txcrun a8 e
-      c4_\txcrun a8[ d] 
+      c4_\txcrun a8[ d]
       \cadenzaOn
       \altBracket "C"
       \grg e4 c\prall
@@ -233,7 +233,7 @@ common = {
       \grg e \dbirl a \grg e \dbirl a
       \altBracket "C’"
       G4_\txcrun a8 \grd c b4_\txcrun G8 \grd b
-      a4_\txcrun a16 \grd a8. a4_\txcrun a16 \grd a8.  
+      a4_\txcrun a16 \grd a8. a4_\txcrun a16 \grd a8.
       \altBracketEnd
       \bar "|."
     }

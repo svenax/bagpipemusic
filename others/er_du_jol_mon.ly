@@ -1,4 +1,4 @@
-\version "2.12.0"
+\version "2.16.0"
 
 common = {
   \bagpipeKey
@@ -51,7 +51,7 @@ musicB = {
   \grip f A e A \grg A d16 c \grg d8 e
   \dbld d8 \grg d \grg f e \thrwd d \grg d \grg c \grG a
   G8 b \grg c \grG c \thrwd d4 ~ d8^\markup { \right-align { \italic "D.C. al fine" } }
-}    
+}
 
 musicC = {
   \common
