@@ -2,7 +2,7 @@
     Header formatting for bagpipe tunes. Customize to get your name in the tag line.
 %}
 
-\version "2.12.0"
+\version "2.16.0"
 
 % Bring in the time/date package. Set format to month day, year
 
@@ -30,9 +30,9 @@ today = #(date->string (current-date) "~B ~e, ~Y")
                 \fromproperty #'header:meter
                 \line { \fromproperty #'header:composer " " \italic \fromproperty #'header:arranger }
             }
-            #(ly:export (if (not (ly:get-option 'without-comment))
-                         (markup #:justify-field 'header:comment)
-                         (markup)))
+            $(if (not (ly:get-option 'without-comment))
+                 (markup #:justify-field 'header:comment)
+                 (markup))
         }
     }
 }

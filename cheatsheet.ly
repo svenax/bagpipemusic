@@ -2,7 +2,7 @@
     All of the bagpipe specific markup.
 %}
 
-\version "2.12.0"
+\version "2.16.0"
 
 #(ly:set-option 'point-and-click #f)
 

@@ -2,33 +2,33 @@ WRITING BAGPIPE MUSIC WITH LILYPOND
 ===================================
 
 
-1. Installing Lilypond 2.12.0
------------------------------
+Installing Lilypond 2.16.0
+--------------------------
 
 * Grab the installer for your computer platform here:
-http://lilypond.org/web/install/#2.12
-* Or build from source (not really necessary anymore).
+  http://lilypond.org/download.html
+* Or build from source with Homebrew or MacPorts.
 
-Note: If you are using Mac OS 10.5 the GUI of Lilypond does not work. You can
-however do everything from the command line by creating files like this in
-a folder in your path (I use ~/bin).
+Note: The GUI is really pretty useless, but you can do everything from the
+command line by creating files like this in a folder in your path
+(I use ~/bin).
 
-#!/bin/bash
-exec /Applications/LilyPond.app/Contents/Resources/bin/lilypond $@
+    #!/bin/bash
+    exec /Applications/LilyPond.app/Contents/Resources/bin/lilypond $@
 
 Name the file `lilypond` and make it executable with `chmod a+x lilypond`.
 Do the same for other lilypond programs you want to have available, e.g.
 `lilypond-book`, `convert-ly`.
 
-2. Installing and using bagpipe.ly
-----------------------------------
+Installing and using bagpipe.ly
+-------------------------------
 
 Invoke lilypond on **cheatsheet.ly**. This creates a PDF with all available
 piping commands and grace notes. Now you can see how to write a crunluath a
 mach, for instance. This will also let you know if your installation is
 working properly.
 
-Note: When running Lilypond on a \*.ly file, it may seem as if the computer has
+Note: When running Lilypond on a *.ly file, it may seem as if the computer has
 stalled. This is normal. Lilypond is doing a lot of calculations, and when
 running a large file it may take a minute or so before you get any output.
 

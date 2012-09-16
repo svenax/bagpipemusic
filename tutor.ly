@@ -2,7 +2,7 @@
     MPD Bagpipe Tutor.
 %}
 
-\version "2.12.0"
+\version "2.16.0"
 
 \include "bagpipe.ly"
 \include "bagpipe_extra.ly"
@@ -15,7 +15,7 @@
 \markup { Note values }
 
 \markuplines {
-  \justified-lines { 
+  \justified-lines {
     The chart shows the relationships of the duration of the various note signs.
   }
 }
@@ -36,7 +36,7 @@
 \markup { Dotted notes and ties }
 
 \markuplines {
-  \justified-lines { 
+  \justified-lines {
     A dot after a note means that the note is lengthened by half its own value.
   }
 }
@@ -51,12 +51,12 @@
 }
 
 \markuplines {
-  \justified-lines { 
-    The arch above the second pair of notes is called a tie. It denotes that 
+  \justified-lines {
+    The arch above the second pair of notes is called a tie. It denotes that
     the two notes should be played as one note without a break in between.
   }
   \justified-lines {
-    Although a dot after a note always means that the note is lengthened by 
+    Although a dot after a note always means that the note is lengthened by
     half its own value, it occurs basically in two different situations:
   }
   \justified-lines {
@@ -73,7 +73,7 @@
 }
 
 \markuplines {
-  \justified-lines { 
+  \justified-lines {
     A dot lengthening one note at the expense of another.
   }
 }

@@ -1,4 +1,4 @@
-\version "2.12.0"
+\version "2.16.0"
 
 #(ly:set-option 'point-and-click #f)
 
@@ -20,7 +20,7 @@
         \override VoltaBracket #'height = #2.2
     }
 }
-\paper { 
+\paper {
     ragged-bottom = ##t
 }
 

@@ -7,7 +7,7 @@
   (http://www.murrays.nu)
 %}
 
-\version "2.12.0"
+\version "2.16.0"
 
 % Notes of the scale of the Great Highland Bagpipe. Extra high notes for bombarde.
 % Flat notes used mainly in some modern music.
@@ -36,7 +36,7 @@ pitchnames = \pitchnamesBagpipe
 % flattened notes, the flat should be shown on all instances.
 bagpipeKey = {
     \key d \major
-    #(set-accidental-style 'forget)
+    \accidentalStyle "forget"
 }
 
 % Show the key signature e.g. for BMW compatibility.
@@ -133,13 +133,13 @@ marchTime = {
 
 % Add appropriate tweaks needed for piping grace notes to look great.
 stemspace = #(define-music-function (parser location extent) (pair?) #{
-    \once \override Staff.Stem #'X-extent = #$extent
+  \once \override Staff.Stem #'X-extent = #extent
 #})
 pgrace = #(define-music-function (parser location notes) (ly:music?) #{
   \override Score.GraceSpacing #'spacing-increment = #0
-   \override Score.Stem #'beamlet-max-length-proportion = #'(0.5 . 0.5)
-   \small \grace $notes \normalsize
-   \revert Score.Stem #'beamlet-default-length
+  \override Score.Stem #'beamlet-max-length-proportion = #'(0.5 . 0.5)
+  \small \grace $notes \normalsize
+  \revert Score.Stem #'beamlet-default-length
 #})
 
 % Single pgrace notes

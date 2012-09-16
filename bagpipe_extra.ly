@@ -2,7 +2,7 @@
     Locally customized stuff and helper macros.
 %}
 
-\version "2.12.0"
+\version "2.16.0"
 
 % Use \nudge before a single grace note between two major notes
 % if you want to move the grace to a more centered position. Tweak the
