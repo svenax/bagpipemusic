@@ -8,7 +8,7 @@
     #(define page-breaking ly:minimal-breaking)
 }
 
-\markuplines{\wordwrap{Four bars jig intro, then first four bars extending the
+\markuplist{\wordwrap{Four bars jig intro, then first four bars extending the
     last note of bar 2 and 4 by four extra beats, then start again from the top.}}
 \include "jigs/archie_beag.ly"
 \include "airs/mist_covered_mountains.ly"
@@ -23,13 +23,13 @@
 \include "reels/foot_it_neatly.ly"
 \include "piobaireachd/lament_for_the_harp_tree.ly"
 
-\markuplines{\wordwrap{Hold the cluster for 10 seconds or so, start with cuttings
+\markuplist{\wordwrap{Hold the cluster for 10 seconds or so, start with cuttings
     from the top, one set of unison cuttings before the tune starts.}}
 
 \pageBreak
 \include "jigs/braes_of_mellinish.ly"
 
-\markuplines{\wordwrap{Cluster like before, one single beat in jig tempo then
+\markuplist{\wordwrap{Cluster like before, one single beat in jig tempo then
     break immediately into hornpipe.}}
 
 \pageBreak

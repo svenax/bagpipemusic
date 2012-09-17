@@ -14,7 +14,7 @@
 
 \markup { Note values }
 
-\markuplines {
+\markuplist {
   \justified-lines {
     The chart shows the relationships of the duration of the various note signs.
   }
@@ -35,7 +35,7 @@
 
 \markup { Dotted notes and ties }
 
-\markuplines {
+\markuplist {
   \justified-lines {
     A dot after a note means that the note is lengthened by half its own value.
   }
@@ -50,7 +50,7 @@
 \layout { ragged-right = ##f }
 }
 
-\markuplines {
+\markuplist {
   \justified-lines {
     The arch above the second pair of notes is called a tie. It denotes that
     the two notes should be played as one note without a break in between.
@@ -72,7 +72,7 @@
 \layout { ragged-right = ##t }
 }
 
-\markuplines {
+\markuplist {
   \justified-lines {
     A dot lengthening one note at the expense of another.
   }

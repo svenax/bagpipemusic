@@ -8,7 +8,7 @@
     #(define page-breaking ly:minimal-breaking)
 }
 
-\markuplines \table-of-contents
+\markuplist \table-of-contents
 
 \pageBreak
 
