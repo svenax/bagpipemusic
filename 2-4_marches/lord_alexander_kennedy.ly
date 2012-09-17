@@ -27,7 +27,7 @@ AltBracketEnd = {
       \grg \partial 8 e32 A16.
       a8.[ \taor a16] \wbirl a8. b16
       \grg a16. d32 \grg f32 A16. \hdble e4
-      \thrwd d8[ \grg c32 d16.]
+      \thrwd d8[ \grg c16. d32]
       \AltBracketOne
       \dblf f8[ \grg e16. a32]
       \AltBracketTwo
@@ -49,7 +49,7 @@ AltBracketEnd = {
       \grg \partial 8 c16. d32
       \dble e4 \grg e16. a32 \grg c32 e16.
       \dblf f4 \grg f16. d32 \grg f32 A16.
-      \thrwd d8[ \grg c32 d16.]
+      \thrwd d8[ \grg c16. d32]
       \AltBracketOne
       \dblf f8[ \grg e16. a32]
       \AltBracketTwo
@@ -62,7 +62,7 @@ AltBracketEnd = {
         \grg c16. d32]
         \break
         \dble e4 \grg e16. a32 \grg c32 e16.
-        \grg f4 \dblf f16. d32 \grg f32 A16.
+        \dblf f4 \grg f16. d32 \grg f32 A16.
         \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
         \grg a4 \wbirl a8
         \break
@@ -83,7 +83,7 @@ AltBracketEnd = {
       \dblA \partial 8 A8
       \birl a8 \grg c32 e16. \grg a16. d32 \grg f32 A16.
       \thrwd d8 \grg f32 A16. \hdble e4
-      \thrwd d8[ \grg c32 d16.]
+      \thrwd d8[ \grg c16. d32]
       \AltBracketOne
       \dblf f8[ \grg e16. a32]
       \AltBracketTwo
