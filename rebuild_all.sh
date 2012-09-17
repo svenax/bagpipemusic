@@ -25,7 +25,6 @@
 ./makelily -fformatbook piobaireachd/i_am_proud_to_play_a_pipe.ly
 ./makelily -fformatbook piobaireachd/lament_for_the_viscount_of_dundee.ly
 ./makelily -fformatbook piobaireachd/mackays_banner.ly
-./makelily -fformatbook piobaireachd/nae_door_pibroch.ly
 ./makelily -fformatbook piobaireachd/old_womans_lullaby.ly
 ./makelily -fformatbook piobaireachd/red_speckled_bull.ly
 
@@ -34,4 +33,4 @@
 ./makelily suites/murrays_fancy_4_pipe_corps_waltz_concert_pitch.ly
 ./makelily suites/murrays_fancy_6_hornpipe.ly
 ./makelily suites/music_for_the_royal_fireworks-parts.ly
-./makelily suites/music_for_the_royal_fireworks-score.ly
+./makelily -f formatbook suites/music_for_the_royal_fireworks-score.ly
