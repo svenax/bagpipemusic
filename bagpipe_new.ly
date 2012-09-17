@@ -112,11 +112,13 @@ showTrueKeySignature = {
 
 % Sets the autobeamer to span quarter notes only. Use for fast music.
 quarterBeaming = {
-    \set Staff.beamExceptions = #'()
+    \set Score.baseMoment = #(ly:make-moment 1 4)
+    \set Score.beatStructure = #'(1 1 1 1)
 }
+% Sets the autobeamer to span half notes. Mostly used in reels.
 halfBeaming = {
-    \set Staff.beamExceptions = #'((end . (((1 . 8) . (4 4))
-                                          ((1 . 12) . (3 3)))))
+    \set Score.baseMoment = #(ly:make-moment 1 2)
+    \set Score.beatStructure = #'(1 1)
 }
 
 % Reels are in allabreve time with half note beaming.
