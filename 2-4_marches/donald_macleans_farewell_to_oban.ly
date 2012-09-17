@@ -50,7 +50,6 @@
       \break
       \grg c32 \grd a16. \grg c16. d32 \dble e16. a32 \grg d16. e32
       \grg f16.[ a32 \dble e16. a32] \dblc c8 \grg f16. g32
-      \lowerBeam #2 #2
       A8[ \grip A16. f32] \grg e32 f16. \grg a16. b32
       \dblc c8 \gre a \wbirl a
     }

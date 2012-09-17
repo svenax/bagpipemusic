@@ -48,7 +48,6 @@
       \grg f16.[ b32 \shakeb b8] \dblc c16. b32 \grG b16. \grd c32
       \grg f16.[ b32 \shakeb b8] \dblf f8 \grg e16. f32
       \break
-      \lowerBeam #2.5 #2.5
       A16. e32 \gra e16. A32 \hdblf f16. e32 \grg f16. g32
       A16. e32 \grg f32 A16. \hdblf f8 \grg e16. c32
       \grg a16. \grd a32 \gre a16. \grd c32 \dblb b8 \gre a16. b32
@@ -60,7 +59,6 @@
 
     \repeat volta 2 {
       \dblg \partial 8 g8
-      \lowerBeam #2.5 #2.5
       A16. e32 \gra e16. A32 \hdblf f16. e32 \grg f32 A16.
       a16. A32 g32 A16. \hdblf f8 \grg e16. f32
       \dblA A8[ \hslurb b] \dblc c16. b32 \grG b16. \grd c32

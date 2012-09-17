@@ -44,7 +44,6 @@
       }
       {
         \set Score.measureLength = #(ly:make-moment 2 4)
-        \lowerBeam #2.5 #2.5
         A8[ \grip A] \hdblf f8 A
         f32[ A16. \hdblf f16. e32] \thrwd d8 \gre a
         \grg b32 \grd G16. g16. f32 \dble e8 \grg c32 \grd a16.
@@ -73,7 +72,6 @@
 
     \repeat volta 2 {
       \dblg \partial 8 g8
-      \lowerBeam #2.5 #2.5
       A8[ \grip A] \hdblf f8 A
       \thrwd d8 A \hdblf f16. d32 A16. f32
       \dblg g8 A \dble e[ \dblg g]
@@ -82,7 +80,6 @@
     }
     \alternative {
       {
-        \lowerBeam #2.5 #2.5
         A8[ \grip A] \hdblf f8 A
         f32[ A16. \hdblf f16. e32] \thrwd d8 \gre a
         \grg b32 \grd G16. g16. f32 \dble e8 \grg c32 \grd a16.
@@ -92,7 +89,6 @@
       }
       {
         \set Score.measureLength = #(ly:make-moment 2 4)
-        \lowerBeam #2.5 #2.5
         A8[ \grip A] a16. d32 \grg d32 f16.
         f32[ A16. \hdblf f16. e32] \thrwd d8 \gre a
         \grg b32 \grd G16. g16. f32 \dble e8 \grg c32 \grd a16.

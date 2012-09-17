@@ -64,11 +64,11 @@
     % Part 6
 
     \repeat volta 2 {
-      \grA g4 \crun e8 \grA g8 ~ \lowerBeam #2.0 #2.0 g8[ \crun e8] \grg e8 b
-      \grg d4 \dcrun e8 \grA g8 ~ \lowerBeam #2.0 #2.0 g8[ \crun e8] \grg e8 b
+      \grA g4 \crun e8 \grA g8 ~ g8[ \crun e8] \grg e8 b
+      \grg d4 \dcrun e8 \grA g8 ~ g8[ \crun e8] \grg e8 b
       \break
-      \grg d4 \dcrun e8 \grA g8 ~ \lowerBeam #2.0 #2.0 g8[ \crun e8] \grg e8 b
-      \grg d4 \dcrun e8 \grA g8 ~ \lowerBeam #2.0 #2.0 g8[ \crun e8] \grA g8 A
+      \grg d4 \dcrun e8 \grA g8 ~ g8[ \crun e8] \grg e8 b
+      \grg d4 \dcrun e8 \grA g8 ~ g8[ \crun e8] \grA g8 A
     }
   }
 

@@ -22,13 +22,10 @@
     }
     \alternative {
       {
-        \shakec c8[ \grg e16. g32]
-        \tdblf \lowerBeam #2.5 #3.0
-        f8[ \hslurd d16 a]
+        \shakec c8[ \grg e16. g32] \tdblf f8[ \hslurd d16 a]
       }
       {
-        \shakec c8[ \grg e16. g32]
-        \tdblf f16.[ a32 \grg d16. f32]
+        \shakec c8[ \grg e16. g32] \tdblf f16.[ a32 \grg d16. f32]
       }
     }
     \break
@@ -47,13 +44,10 @@
     }
     \alternative {
       {
-        \shakec c8[ \grg e16. g32]
-        \tdblf f16.[ a32 \grg d16. f32]
+        \shakec c8[ \grg e16. g32] \tdblf f16.[ a32 \grg d16. f32]
       }
       {
-        \shakec c8[ \grg e16. g32]
-        \tdblf \lowerBeam #2.5 #3.0
-        f8[ \hslurd d16]
+        \shakec c8[ \grg e16. g32] \tdblf f8[ \hslurd d16]
       }
     }
     \break
@@ -73,13 +67,10 @@
     }
     \alternative {
       {
-        \shakec c8[ \grg e16. g32]
-        \tdblf \lowerBeam #2.5 #3.0
-        f8[ \hslurd d16 a]
+        \shakec c8[ \grg e16. g32] \tdblf f8[ \hslurd d16 a]
       }
       {
-        \shakec c8[ \grg e16. g32]
-        \tdblf f16.[ a32 \grg d16. f32]
+        \shakec c8[ \grg e16. g32] \tdblf f16.[ a32 \grg d16. f32]
       }
     }
     \break
@@ -98,13 +89,10 @@
     }
     \alternative {
       {
-        \shakec c8[ \grg e16. g32]
-        \tdblf f16.[ a32 \grg d16. f32]
+        \shakec c8[ \grg e16. g32] \tdblf f16.[ a32 \grg d16. f32]
       }
       {
-        \shakec c8[ \grg e16. g32]
-        \tdblf \lowerBeam #2.5 #3.0
-        f8[ \hslurd d]
+        \shakec c8[ \grg e16. g32] \tdblf f8[ \hslurd d]
       }
     }
     \bar "|."

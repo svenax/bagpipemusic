@@ -35,7 +35,6 @@
       a16. \grd a32 \gre a16. \grd c32 \grg a16. \grd a32 \gre a16. \gre d32
       \grg b16. \grd b32 \gre b16. \grg e32 \grg c16. \grd c32 \gre c8
       \grg d16. f32 \grg d16. f32 \grg e16. g32 \grA f16. g32
-      \lowerBeam #2.5 #2.5
       A8[ \grip A] \grg A16. g32 \grA f16. e32
     }
   }

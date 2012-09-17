@@ -27,9 +27,7 @@
 
     \repeat volta 2 {
       \partial 8 \grg f16.[ g32]
-      \dblA A8.[ g16] \grA
-      \lowerBeam #2 #2
-      f8[ \thrwd d]
+      \dblA A8.[ g16] \grA f8[ \thrwd d]
       \grg a[ \thrwd d] \grg f4
       \dblf f8[ \birl a] \thrwd d[ f]
       A16.[ f32 \grg e16. d32]
@@ -38,9 +36,7 @@
       {
         \dble e8[ \grg f16. g32]
         \break
-        \dblA A8.[ g16] \grA
-        \lowerBeam #2 #2
-        f8[ \thrwd d]
+        \dblA A8.[ g16] \grA f8[ \thrwd d]
         \grg a[ \thrwd d] \grg f4
         \dblf f8[ \birl a] \grg f32[ A16. e f32]
         \thrwd d4 \slurd d8
@@ -77,9 +73,7 @@
     \repeat volta 2 {
       \partial 8 \dblg g8
       \dblA A4 \grip A8.[ g16]
-      \grA
-      \lowerBeam #2 #2
-      f8[ \thrwd d] \dblA A8.[ g16]
+      \grA f8[ \thrwd d] \dblA A8.[ g16]
       \hdblf f8[ \birl a] \thrwd d[ f]
       A16.[ f32 \grg e16. d32]
     }
@@ -88,9 +82,7 @@
         \dble e8[ \grg f16. g32]
         \break
         \dblA A4 \grip A8.[ g16]
-        \grA
-        \lowerBeam #2 #2
-        f8[ \thrwd d8] \dblA A8.[ g16]
+        \grA f8[ \thrwd d8] \dblA A8.[ g16]
         \hdblf f8[ \birl a] \grg f32[ A16. e f32]
         \thrwd d4 \slurd d8
         \break

@@ -44,8 +44,7 @@
       {
         \grg  \partial 8 c16 d
         \dble e8 \gra e16 f \grg e a \grd c e
-        \grg \lowerBeam #3 #2.5
-        d \grG d A f \dble e8 \grg c16 e
+        \grg d \grG d A f \dble e8 \grg c16 e
         \grg d c \grG c b \grG b f \grg e b
         \dblc c8 \gre a \wbirl a
       }

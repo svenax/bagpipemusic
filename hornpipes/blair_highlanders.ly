@@ -19,8 +19,7 @@
       \thrwd d8 \grg a16 d \grg f A f d
       \grg e d \grg e f \slurb b8 \grg e16 d
       \grg c e A e \grg f A c e
-      \grg \lowerBeam #2.5 #3.0
-      f d \grG d c \thrwd d8
+      \grg f d \grG d c \thrwd d8
     }
     \break
 
@@ -40,8 +39,7 @@
         \dblA A8 d16 e \grg f A f d
         \grg e d \grg e f \slurb b8 \grg e16 d
         \grg c e A e \grg f A c e
-        \grg \lowerBeam #2.5 #3.0
-        f d \grG d c \thrwd d8
+        \grg f d \grG d c \thrwd d8
         \break
       }
       {
@@ -49,8 +47,7 @@
         \thrwd d8 \grg a16 d \grg f A f d
         \grg e d \grg e f \slurb b8 \grg e16 d
         \grg c e A e \grg f A c e
-        \grg \lowerBeam #2.5 #3.0
-        f d \grG d c \thrwd d8
+        \grg f d \grG d c \thrwd d8
       }
     }
     \bar "||" \break
@@ -67,8 +64,7 @@
       \grg a d f a \grg d f a d
       \grg e d \grg e f \slurb b8 \grg e16 d
       \grg c e A e \grg f A c e
-      \grg \lowerBeam #2.5 #3.0
-      f d \grG d c \thrwd d8
+      \grg f d \grG d c \thrwd d8
     }
     \break
 
@@ -94,8 +90,7 @@
     \grg a d f a \grg d f a d
     \grg b d g b \grg d g b d
     \grg c e A e \grg f A c e
-    \grg \lowerBeam #2.5 #3.0
-    f d \grG d c \thrwd d8
+    \grg f d \grG d c \thrwd d8
     \bar "|."
   }
 
