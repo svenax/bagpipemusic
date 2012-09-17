@@ -66,7 +66,7 @@
     >>
 
     \header {
-      \piece = "La Rejouissance"
+      piece = "La Rejouissance"
     }
   }
 

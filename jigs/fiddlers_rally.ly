@@ -2,11 +2,11 @@
 
 % Corrections by Stig Bang-Mortensen
 
-\score {
-
 \paper {
     page-count = #1
 }
+
+\score {
 
   {
     \bagpipeKey
