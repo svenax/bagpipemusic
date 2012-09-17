@@ -16,7 +16,6 @@
 ./makelily reels/*
 ./makelily scandinavian/*
 ./makelily strathspeys/*
-./makelily suites/*
 
 # Then take care of the tunes that need special settings
 ./makelily -fformatbook piobaireachd/andrew_macneill_of_colonsay.ly
@@ -29,3 +28,10 @@
 ./makelily -fformatbook piobaireachd/nae_door_pibroch.ly
 ./makelily -fformatbook piobaireachd/old_womans_lullaby.ly
 ./makelily -fformatbook piobaireachd/red_speckled_bull.ly
+
+# Suites contains a subfolder we don't want to process
+./makelily suites/murrays_fancy_4_pipe_corps_waltz.ly
+./makelily suites/murrays_fancy_4_pipe_corps_waltz_concert_pitch.ly
+./makelily suites/murrays_fancy_6_hornpipe.ly
+./makelily suites/music_for_the_royal_fireworks-parts.ly
+./makelily suites/music_for_the_royal_fireworks-score.ly
