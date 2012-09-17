@@ -56,6 +56,8 @@
     }
   }
 
+  \pageBreak
+
   \score {
     \new StaffGroup <<
       \new Staff \laRejouissanceA
