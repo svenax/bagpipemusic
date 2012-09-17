@@ -1,3 +1,5 @@
+\version "2.16.0"
+
 \header {
     title = "Open Grade Quintet (MSR) 2011"
     dedication = "Mats, Sven, Christian, Eugen, Marie"

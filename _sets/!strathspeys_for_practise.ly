@@ -1,3 +1,5 @@
+\version "2.16.0"
+
 \header {
     title = "Strathspeys for practise"
 }

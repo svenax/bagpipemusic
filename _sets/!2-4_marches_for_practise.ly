@@ -1,3 +1,5 @@
+\version "2.16.0"
+
 \header {
     title = "2/4 Marches for practise"
 }
@@ -6,7 +8,7 @@
     #(define page-breaking ly:minimal-breaking)
 }
 
-\markuplines \table-of-contents
+\markuplist \table-of-contents
 
 \pageBreak
 
