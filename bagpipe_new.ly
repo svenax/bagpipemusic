@@ -106,6 +106,12 @@ showTrueKeySignature = {
 
     \override KeySignature #'stencil = ##f
   }
+
+  \context {
+    \Voice
+
+    \override TupletBracket #'bracket-visibility = ##t
+  }
 }
 
 % Some common timing tweaks.
