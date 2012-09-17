@@ -4,6 +4,10 @@
 
 \score {
 
+\paper {
+    page-count = #1
+}
+
   {
     \bagpipeKey
     \time 6/8
@@ -193,7 +197,8 @@
     \grA g f g \grA e g c
     \grA g f g \grA e g c
     \grA g f g \grA e g c
-    \dble e d c \grg c4.
+    \override Glissando #'style = #'zigzag
+    \dble e d c \grg c4. \glissando
     d4. ~ d4
     \bar "|."
   }
