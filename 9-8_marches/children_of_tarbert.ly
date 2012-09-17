@@ -11,12 +11,12 @@
     \repeat volta 2 {
       \partial 8 A8
       \hdblc c8. \grg b16 \grd c8 b8 \grg a4 \wbirl a4 b8
-      \dblc c8. \grg b16 \grd a8 \grg b8 e4 \gra e4.
+      \dblc c8. \grg b16 \grd a8 \grg c8 e4 \gra e4.
       \grg f16 A8. f8 \dble e4. \dblA A4 f8
       \dble e8. c16 \grd a8 \grg b4. \grip b4.
       \break
       \dblc c8. \grg b16 \grd c8 b8 \grg a4 \wbirl a4 b8
-      \dblc c8. \grg b16 \grd a8 \grg b8 e4 \gra e4.
+      \dblc c8. \grg b16 \grd a8 \grg c8 e4 \gra e4.
       \grg f16 A8. f8 \dble e4. \dblA A4 c8
       \grg b8. \grd c16 \gre b8 \grg a4. \wbirl
     }
@@ -45,7 +45,7 @@
       }
       {
         \dblc c8. \grg b16 \grd c8 b8 \grg a4 \wbirl a4 b8
-        \dblc c8. \grg b16 \grd a8 \grg b8 e4 \gra e4.
+        \dblc c8. \grg b16 \grd a8 \grg c8 e4 \gra e4.
         \grg f16 A8. f8 \dble e4. \dblA A4 c8
         \grg b8. \grd c16 \gre b8 \grg a4. \wbirl a4.
       }
