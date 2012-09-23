@@ -37,12 +37,12 @@
         \dblA A4 e8 \gra e4 \dblg g8
         A8. e16 \gra e8 \dble e8. d16 b8
         \grg G8. \grd b16 g8 \hdble e8. d16 b8
-        \set Score.measureLength = #(ly:make-moment 5 8)
+        \barLength 5 8
         \grg a4. \wbirl a4
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 6 8)
+        \barLength 6 8
         \grg a8. \grd b16 \gre G8 \grg a4.
         \dble e8. d16 g8 \hdble e8. d16 b8
         \grg G8. \grd b16 g8 \hdble e8. d16 b8
@@ -83,12 +83,12 @@
         \gbirl a4 A8 \grg A8. g16 A8
         g8. e16 \gra e8 \dble e8. d16 b8
         \grg G8. \grd b16 g8 \hdble e8. d16 b8
-        \set Score.measureLength = #(ly:make-moment 5 8)
+        \barLength 5 8
         \grg a4. \wbirl a4
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 6 8)
+        \barLength 6 8
         \grg a8. \grd b16 \gre G8 \grg a4.
         \dble e8. d16 g8 \hdble e8. d16 b8
         \grg G8. \grd b16 g8 \hdble e8. d16 b8

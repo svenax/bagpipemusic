@@ -38,12 +38,12 @@
         A4 \grip A8. g16
         \tdblf f8 A \hdblf f d
         \dblg g8. f16 \dble e8 A
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \hdblf f8 d \slurd d
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 2 4)
+        \barLength 2 4
         \thrwd d8 \gre a \thrwd d8. e16
         \grg f8 A \hdblf f d
         \dblg g8. f16 \dble e8 A

@@ -69,12 +69,12 @@
         A8 e \gra e \grg f e \gra e
         A e \gra e \grg e c d
         \grg e A f \grg e f d
-        \set Score.measureLength = #(ly:make-moment 5 8)
+        \barLength 5 8
         \grg c[ d \gre b] \grG a4
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 6 8)
+        \barLength 6 8
         \grg G8 \grd a \gre a \grg G \grd a \gre a
         \grg c \grd a \gre a \grg b c d
         \grg e A f \grg e f d

@@ -70,12 +70,12 @@
         \dble e8 A16. f32 \grg e16. c32 \grg a16. c32
         \thrwd d8 \grA g16. d32 \dblb b16. a32 \grg G16. \grd b32
         \dble e8 A16. f32 \grg e16. c32 \grg d16. b32
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \dblc c8 \gre a \wbirl a
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 2 4)
+        \barLength 2 4
         \dblc c8. \grg e16 ~ e16. c32 \grg a16. c32
         \grg d8 g ~ g16. e32 \grg \times 2/3 { f16 e d }
         \dble e8 A16. f32 \grg e16. c32 \grg d16. b32

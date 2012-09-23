@@ -85,11 +85,11 @@
     \alternative {
       {
         G d \grg b e \grg d f \dble e4
-        \set Score.measureLength = #(ly:make-moment 7 8)
+        \barLength 7 8
         \grg b8 e \grg d f \dblf f4 \hslure e8
       }
       {
-        \set Score.measureLength = #(ly:make-moment 4 4)
+        \barLength 4 4
         \hdblg g f g e \grg f d \grg e d
         \grg b8 e \grg d f \dblf f4 \hslure e
       }

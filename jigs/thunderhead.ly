@@ -22,7 +22,7 @@
     \alternative {
       { \grg a b d }
       {
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \grg a[ \grd b \gre a]
       }
     }
@@ -31,7 +31,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \set Score.measureLength = #(ly:make-moment 6 8)
+      \barLength 6 8
       A8 f d \grg e d b
       \grg a b d \grg c \grd c \gre c
       \grg b \grd c \gre c \grg b \grd c \gre c
@@ -63,7 +63,7 @@
     \alternative {
       { \grg a[ b d] }
       {
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \grg a[ \grd b \gre a]
       }
     }
@@ -72,7 +72,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \set Score.measureLength = #(ly:make-moment 7 8)
+      \barLength 7 8
       A8[ f d] \grg e[ d \grg d b]
       \time 6/8
       \grg a b d \dblc c4.

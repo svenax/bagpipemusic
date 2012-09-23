@@ -54,12 +54,12 @@
         \grg a8[ \taor a16. \grd c32] \grg c32 e16. \grg a16. \grd c32
         \grg d32 f16. \grg e32 A16. \hdblc c8[ \dble e16. d32]
         \dblb b8 \gre G16. \grd b32 \dble e16.[ c32 \dbld d16. b32]
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \dblc c8 \gre a \wbirl a
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 2 4)
+        \barLength 2 4
         \grg c8[ \taor a16. \grd c32] \grg c32 e16. \grg a16. \grd c32
         \grg d32 f16. \grg e32 A16. \hdblc c8[ \dble e16. d32]
         \dblb b8 \gre G16. \grd b32 \dble e16.[ c32 \dbld d16. b32]
@@ -83,12 +83,12 @@
         \grg a32 A16. g32 A16. f32[ A16. \hdble e16. c32]
         \grg d32 f16. \grg e16. A32 \hdblc c8[ \dble e16. d32]
         \dblb b8 \gre G16. \grd b32 \dble e16.[ c32 \dbld d16. b32]
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \dblc c8 \gre a \wbirl a
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 2 4)
+        \barLength 2 4
         \grg c32[ \grd a16. \dbld d16. b32] \grg c32 e16. \grg f16. d32
         \dble e16. a32 A16. e32 \dblc c8[ \dble e16. d32]
         \dblb b8 \gre G16. \grd b32 \dble e16.[ c32 \dbld d16. b32]

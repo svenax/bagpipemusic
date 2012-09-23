@@ -71,13 +71,13 @@
         \dblA A16. \grg A32 \grg A16. f32 \grA g16. e32 \gra e16. A32
         \grg A16. f32 \grA g16. f32 \dble e8 \grg f16. g32
         A16. e32 \gra e16. f32 \gre f8[ e32 \dbld d16.]
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \dgrip a4 \wbirl a8
         \break
       }
       {
         \grg \partial 8 a16. c32
-        \set Score.measureLength = #(ly:make-moment 2 4)
+        \barLength 2 4
         \grG c16. d32 \grG d16. c32 \grG c16. e32 \gra e16. b32
         \grG b16. c32 \grG c16. d32 \grG d16. f32 \gre f16. g32
         A16. e32 \gra e16. f32 \gre f8[ e32 \dbld d16.]

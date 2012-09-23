@@ -22,7 +22,7 @@
     }
     \alternative {
       { e8] }
-      { \set Score.measureLength = #(ly:make-moment 1 8) \grg a8}
+      { \barLength 1 8 \grg a8}
     }
     \break
 
@@ -57,7 +57,7 @@
     }
     \alternative {
       { \grg f8 g8 }
-      { \set Score.measureLength = #(ly:make-moment 2 8) \slurb b8[ \gre b] }
+      { \barLength 2 8 \slurb b8[ \gre b] }
     }
     \break
 

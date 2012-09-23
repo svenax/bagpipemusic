@@ -21,11 +21,11 @@
     \alternative {
         {
         \grg b8. d16 g8 \grA f8. d16 a8 \grg a8. d16 f8
-        \set Score.measureLength = #(ly:make-moment 8 8)
+        \barLength 8 8
         \grg e8.[ f16 e8] \thrwd d4. ~ d4
         }
         {
-        \set Score.measureLength = #(ly:make-moment 9 8)
+        \barLength 9 8
         \grg b8. d16 g8 \grA f8. d16 a8 A8. f16 d8
         \grg e8. f16 e8 \thrwd d4. ~ d4
         }
@@ -47,11 +47,11 @@
     \alternative {
         {
         \grg b8. d16 g8 \grA f8. d16 a8 \grg a8. d16 f8
-        \set Score.measureLength = #(ly:make-moment 8 8)
+        \barLength 8 8
         \grg e8.[ f16 e8] \thrwd d4. ~ d4
         }
         {
-        \set Score.measureLength = #(ly:make-moment 9 8)
+        \barLength 9 8
         \grg b8. d16 g8 \grA f8. d16 a8 A8. f16 d8
         \grg e8. f16 e8 \thrwd d4. ~ d4
         }

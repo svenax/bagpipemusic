@@ -102,12 +102,12 @@
         \dble e16. c32 \grg a16. \grd c32 A16. c32 \grg a16. \grd c32
         \dble e16. c32 \grg a16. \grd c32 A16. c32 \grg a16. \grd c32
         \grg f16.[ e32 \dbld d16. c32] \grg b16. c32 \grg d32 e16.
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \dblc c8 \gre a \wbirl a8
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 2 4)
+        \barLength 2 4
         \dble e8 \grg a16. \grd c32 \dblA A8 a16. \grd c32
         \grg f16. e32 \grg a16. \grd c32 \dblA A8 a16. \grd c32
         \grg f16.[ e32 \dbld d16. c32] \grg b16. c32 \grg d32 e16.

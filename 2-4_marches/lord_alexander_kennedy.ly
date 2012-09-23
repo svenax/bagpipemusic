@@ -1,7 +1,7 @@
 \version "2.16.0"
 
 AltBracketOne = {
-  \set Score.measureLength = #(ly:make-moment 3 4)
+  \barLength 3 4
   \set Score.repeatCommands = #'((volta "1."))
 }
 
@@ -11,7 +11,7 @@ AltBracketTwo = {
 
 AltBracketEnd = {
   \set Score.repeatCommands = #'((volta #f))
-  \set Score.measureLength = #(ly:make-moment 2 4)
+  \barLength 2 4
 }
 
 \score {
@@ -158,12 +158,12 @@ AltBracketEnd = {
         e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 A16.
         f16. \grg b32 d32 A16. f16. \grg b32 d32 A16.
         \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \grg a4 \wbirl a8
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 2 4)
+        \barLength 2 4
         \grA b32 \grd G16. \grg b32 d16. \grg e16. g32 \grA f32 A16.
         \hdble e8 \grg a \wbirl a8. b16
         \grg a16. d32 \grg f32 A16. \hdble e8. d16

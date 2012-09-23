@@ -38,12 +38,12 @@
         \dblA A8. f16 \thrwd d8[ \dblA A]
         \hdblf f16.[ a32 \thrwd d16. f32] \dblA A8[ \birl a]
         \grg b32 \grd G16. g16. f32 \dble e8 \grg c32 \grd a16.
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \thrwd d4 \slurd d8
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 2 4)
+        \barLength 2 4
         A8[ \grip A] \hdblf f8 A
         f32[ A16. \hdblf f16. e32] \thrwd d8 \gre a
         \grg b32 \grd G16. g16. f32 \dble e8 \grg c32 \grd a16.
@@ -83,12 +83,12 @@
         A8[ \grip A] \hdblf f8 A
         f32[ A16. \hdblf f16. e32] \thrwd d8 \gre a
         \grg b32 \grd G16. g16. f32 \dble e8 \grg c32 \grd a16.
-        \set Score.measureLength = #(ly:make-moment 3 8)
+        \barLength 3 8
         \thrwd d4 \slurd d8
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 2 4)
+        \barLength 2 4
         A8[ \grip A] a16. d32 \grg d32 f16.
         f32[ A16. \hdblf f16. e32] \thrwd d8 \gre a
         \grg b32 \grd G16. g16. f32 \dble e8 \grg c32 \grd a16.

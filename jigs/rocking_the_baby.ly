@@ -37,12 +37,12 @@
         A c \grG c \grg e c \grG c
         A c \grG c \grg d c b
         \gbirl a4 \grd c8 \grg b4 \grd c8
-        \set Score.measureLength = #(ly:make-moment 5 8)
+        \barLength 5 8
         \grg a[ \grd a \gre a] \wbirl a4
         \break
       }
       {
-        \set Score.measureLength = #(ly:make-moment 6 8)
+        \barLength 6 8
         A8 c \grG c \grg e c \grG c
         A c \grG c \grg b a G
         \grg d c b \grg e d c
