@@ -159,7 +159,6 @@ common = {
     }
 
     \header {
-      breakbefore = ##t
       piece = "III. Taorluath (T)   IV. Doubling (T’)"
     }
 
