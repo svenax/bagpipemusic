@@ -12,7 +12,8 @@
       \gbirl a8. c16 \grg e8. g16 \dblA A4
       \grg \times 2/3 { A4 \grf g e } \grg d8. e16
       \grg \times 2/3 { f8 e d } \dble e8. c16 \grG
-      \times 2/3 { a4 \grg a8 ~ a8 \grd c4 } \grG a2^\markup { \right-align { \italic "Fine." } }
+      \times 2/3 { a4 \grg a8 ~ a8 \grd c4 } \grG a2
+      \markTextEol "Fine"
     }
     \break
 
@@ -33,7 +34,8 @@
         \grg a8. b16 \grG \times 2/3 { b2 c4 }
       }
       {
-        \grg a8. b16 \grG b4 \dble e4_\markup { \right-align { \italic "D.C. al fine" } }
+        \grg a8. b16 \grG b4 \dble e4
+        \markTextEolDown "D.C. al fine"
       }
     }
   }

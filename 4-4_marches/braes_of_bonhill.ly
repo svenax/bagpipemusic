@@ -17,7 +17,8 @@
     \dblA A4 \grg A \grip A8 e \dblc c \gre a
     \thrwd d8 \grG d f \grg f e4 \grg a8. b16
     \grip c4 \grg c8 e \gra e d ~ d b
-    \grg a4 \wbirl a8 b \grG a4 s8^\markup { \right-align { \italic "Fine." } }
+    \grg a4 \wbirl a8 b \grG a4 s8
+    \markTextEol "Fine"
     \bar "||" \break
 
   % Part 2
@@ -31,7 +32,8 @@
   \dblA A4 \grg A \grip A8 e \dblc c \gre a
   \thrwd d8 \grG d f \grg f e4 \grg a8. b16
   \grip c4 \grg c8 e \gra e d ~ d b
-  \grg a4 \wbirl a8 b \grG a4 s8^\markup { \right-align { \italic "D.C. al fine" } }
+  \grg a4 \wbirl a8 b \grG a4 s8
+  \markTextEol "D.C. al fine"
   \bar "|."
   }
 
