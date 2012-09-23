@@ -4,24 +4,31 @@
 
 \version "2.16.0"
 
-% Use \nudge before a single grace note between two major notes
-% if you want to move the grace to a more centered position. Tweak the
-% \nudgeFactor to get the grace note to where you want it.
-nudgeFactor = #'(-1 . 0)
-nudge = {
-  \once \override Staff.NoteHead #'extra-offset = \nudgeFactor
-  \once \override Staff.Stem #'extra-offset = \nudgeFactor
-}
-
-% Use \space to put extra space between two notes to, for instance get a
-% glissando to be more visible. Tweak the \spaceFactor to get the space
-% you want.
-spaceFactor = #1.5
-space = \once \override Score.SeparationItem #'padding = \spaceFactor
-
 % Used when substituting a single bar or just a few notes to show alternative.
 altBracket = #(define-music-function (parser location tag) (string?)
   #{ \set Score.repeatCommands = #(list (list 'volta (markup #:text tag))) #})
 
 % End previous altBracket thingy.
 altBracketEnd = { \set Score.repeatCommands = #'((volta #f)) }
+
+markText = #(define-music-function (parser location text) (string?) #{
+    \once \override Score.RehearsalMark #'self-alignment-X = #LEFT
+    \mark \markup $text
+#})
+
+markTextEol = #(define-music-function (parser location text) (string?) #{
+    \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
+    \once \override Score.RehearsalMark #'self-alignment-X = #RIGHT
+    \mark \markup $text
+#})
+
+markTextEolDown = #(define-music-function (parser location text) (string?) #{
+    \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
+    \once \override Score.RehearsalMark #'self-alignment-X = #RIGHT
+    \once \override Score.RehearsalMark #'direction = #DOWN
+    \mark \markup $text
+#})
+
+barLength = #(define-music-function (parser location x y) (number? number?) #{
+    \set Score.measureLength = #(ly:make-moment x y)
+#})
