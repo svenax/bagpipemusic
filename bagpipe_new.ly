@@ -73,9 +73,6 @@ showTrueKeySignature = {
   \context {
     \Score
 
-    between-system-space = #0.1
-    between-system-padding = #0.0
-
     \remove "Bar_number_engraver"
 
     \override Stem #'direction = #down
@@ -90,11 +87,7 @@ showTrueKeySignature = {
   \context {
     \StaffGroup
 
-    between-system-space = #0.1
-    between-system-padding = #0.0
-
     extraNatural = ##f
-
     \override KeySignature #'stencil = ##f
   }
 
