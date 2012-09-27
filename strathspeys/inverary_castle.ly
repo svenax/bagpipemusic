@@ -22,7 +22,7 @@
 
     % Part 2
 
-    \partial 8 a8
+    a8
     \thrwd d8. f16 \dblA A8. d16 \dblf f8. d16 \grg \times 2/3 {f8 A f}
     \grg a8. d16 \dblf f8. d16 \grg \times 2/3 {f8 A g} \tdblf f8. d16
     \dblg g8. e16 \dblc c16 \gre a8. \grg c16[ \grip e8.] \grg a8. \grd c16
@@ -35,7 +35,7 @@
     \bar "||" \break
 
     % Part 3
-    \partial 8 a8
+    a8
     \thrwd d8. c16 \dblb b8. c16 \thrwd d8. f16 \grg a8. d16
     \dblf f8. A16 \times 2/3 {g8 f e} \dblf f8. d16 \grg \times 2/3 {d8 e f}
     \dblg g8. b16 \grg b8[ \taor b] \grg e8. f16 \dble e8. d16
@@ -49,7 +49,7 @@
 
     % Part 4
 
-    \partial 8 a8
+    a8
     \thrwd d4 \dblA A8. d16 \dblf f8. d16 \dblA A8. d16
     \dblf f8. A16 \times 2/3 {g8 f e} \dblf f8. d16 \grg \times 2/3 {d8 e f}
     \dblg g8. b16 \grg \times 2/3 {b8 c d} \grg e8. f16 \dble e8. d16

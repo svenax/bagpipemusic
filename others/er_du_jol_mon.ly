@@ -23,7 +23,7 @@ musicA = {
 
   % Part 2
 
-  \partial 8 a8
+  a8
   \grip b8 d \grg f[ \thrwd d] \grg c \grG a \grip b c
   \thrwd d f \grg e A f d16 e \grg f8 c
   \dbld d8 f \grg f e \thrwd d b \grg c \grG a
@@ -49,7 +49,7 @@ musicB = {
 
   % Part 2
 
-  \partial 8 a8
+  a8
   \grip b8 \grg b \grg f \gre f \grg f e \grip f c
   \grip f A e A \grg A d16 c \grg d8 e
   \dbld d8 \grg d \grg f e \thrwd d \grg d \grg c \grG a
@@ -74,7 +74,7 @@ musicC = {
 
   % Part 2
 
-  \partial 8 a8
+  a8
   \grip b8 f \grg f[ \thrwd d] \grg c \grG a \grip b c
   \thrwd d f \grg e A f d16 e \grg f8 c
   \dbld d8 A f A \thrwd d f g c

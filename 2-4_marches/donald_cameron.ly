@@ -30,7 +30,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \dble \partial 8 e16. c32
+      \dble e16. c32
       \wbirl a8 A32 \grg A16. \grf g8 \grA e16. d32
       \grg c32 \grd a16. \grg c16. d32 \dble e16. A32 e16. c32
       \wbirl a8 A32 \grg A16. \grf g8 \grA e16. c32
@@ -46,7 +46,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \dble \partial 8 e8
+      \dble e8
       \gbirl a8 \grg c32 \grd a16. \dble e16. a32 \grg c32 \grd a16.
       \grg c32 e16. \grg a16. \grd c32 \dble e16. a32 \grg c32 \grd a16.
       \dblG G8 \grg b32 \grd G16. \grg d16. \gre G32 \grg b32 \grd G16.
@@ -61,7 +61,7 @@
 
     % Part 4
 
-    \partial 8 A16. f32
+    A16. f32
     \dble e8 \grg c32 \grd a16. \dble e8 \grg c32 \grd a16.
     \grg c32 e16. \grg a16. \grd c32 \dble e8 \grg c32 \grd a16.
     \thrwd d8 \grg b32 \grd G16. \Gthrwd d8 \grg b32 \grd G16.
@@ -73,7 +73,7 @@
     \dblc c8 \gre a \wbirl a
     \bar "||" \break
 
-    \partial 8 A16. f32
+    A16. f32
     \dble e8 \grg c32 \grd a16. \dble e8 \grg c32 \grd a16.
     \grg c32 e16. \grg a16. \grd c32 \grg f16. e32 \grg c32 \grd a16.
     \thrwd d8 \grg b32 \grd G16. \Gthrwd d8 \grg b32 \grd G16.
@@ -88,7 +88,7 @@
     % Part 5
 
     \repeat volta 2 {
-      \partial 8 A16. f32
+      A16. f32
       \dble e16. a32 \grg c32 \grd a16. \dble e8 A16. f32
       \dble e16. a32 \grg c32 \grd a16. \grg e16. f32 \grA g16. e32
       \dbld d16. G32 \grg b32 \grd G16. \Gthrwd d8 g16. e32
@@ -104,7 +104,7 @@
     % Part 6
 
     \repeat volta 2 {
-      \dble \partial 8 e16. c32
+      \dble e16. c32
       \grg a16. e32 \grg c32 e16. A16. e32 \grg c32 e16.
       \dblf f16. e32 \grg c32 e16. \grg a16. e32 \grg c32 e16.
       \grg G16. d32 \grg b32 d16. \grA g16. d32 \grg b32 d16.

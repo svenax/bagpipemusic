@@ -61,9 +61,9 @@ common = {
       }
       \alternative {
         { \grg e8.[ b16] }
-        { \grg \partial 4 e8.[ c16] \bar "||" }
+        { \grg \partial 4 e8.[ c16] }
       }
-      \break
+      \bar "||" \break
       \grg b8[ \grip c] \grg e8. c16 \grg b8[ \grip c] \cad b8 \grGcad a
       \grg a8[ \grip c] \grg e8. b16 \grg c8 e \grg c16 \grGcad a8.
       \grg b8[ \grip c] \grg f8. c16 \grg e8 \grip e4 b8

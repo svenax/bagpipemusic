@@ -22,7 +22,7 @@
 
     % Part 2
 
-    \grg \partial 4 a8 \grd c
+    \grg a8 \grd c
     \dble e4 \grg a8 \grd c \dblA A4 a8 \grd c
     \grg e8. f16 \dble e8 c \dble e4 \grg a8 \grd c
     \dblA A4 a8 \grd c \dble e4 \dblc c8 e

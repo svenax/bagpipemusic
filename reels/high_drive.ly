@@ -58,7 +58,7 @@
 
     % Part 4
 
-    \grg \partial 4 f8 g
+    \grg f8 g
     A8 d \grG d A d \grG d A d
     g8 d \grG d g d \grG d g d
     \grg f8 d \grG d f \grg d \grG d \grg f d

@@ -26,7 +26,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg a8[ \taor a16. b32] \thrwd d8[ \slurd d16. e32]
       \dblg g8[ \tdblf f16. e32] \grg f32[ A16. \hdblf f16. d32]
       \grg a8[ \taor a16. b32] \thrwd d8[ \slurd d16. e32]

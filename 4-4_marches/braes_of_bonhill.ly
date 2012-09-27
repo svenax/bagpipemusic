@@ -23,7 +23,7 @@
 
   % Part 2
 
-  \partial 8 e8
+  e8
   \grg a4 \taor a8. b16 \dblc c8 e \gra e c
   \dblb b8 \grG a \wbirl a b \grG a2
   \grg f4 \thrwd d8 f \dblA A4 \grf g8 f

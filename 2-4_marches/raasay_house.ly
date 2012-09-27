@@ -26,7 +26,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \grg \partial 8 a16. c32
+      \grg a16. c32
       \grG c16. d32 \grG d16. c32 \grG c16. e32 \gra e16. b32
       \grG b16. c32 \grG c16. d32 \grG d8 \grg f16. g32
       A16. e32 \gra e16. f32 \grg f16. e32 \gra e16. c32
@@ -42,7 +42,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \grg \partial 8 a16. b32
+      \grg a16. b32
       \grg c32 \grd a16. \grg b16. \grd c32 \grg a16. e32 \grg a16. e32
       \gra e16. f32 \gre f16. e32 \dblc c8 \grg a16. b32
       \grg c32 \grd a16. \grg b16. \grd c32 \grg a16. e32 \grg a16. e32
@@ -58,7 +58,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \grg \partial 8 f16. g32
+      \grg f16. g32
       \dblA A16. \grg A32 \grg A16. f32 \grA g16. e32 \gra e16. A32
       \grg A16. f32 \grA g16. f32 \dble e8 \grg f16. g32
       \dblA A16. \grg A32 \grg A16. f32 \grA g16. e32 \gra e16. \grg c32
@@ -76,7 +76,7 @@
         \break
       }
       {
-        \grg \partial 8 a16. c32
+        \grg a16. c32
         \barLength 2 4
         \grG c16. d32 \grG d16. c32 \grG c16. e32 \gra e16. b32
         \grG b16. c32 \grG c16. d32 \grG d16. f32 \gre f16. g32

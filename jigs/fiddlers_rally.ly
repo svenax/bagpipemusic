@@ -37,7 +37,7 @@
 
     % Part 2
 
-    \partial 8 e8
+    e8
     \dblf f4. \grg f8 d b
     \grg a d f A f d
     \grg a d f A f d
@@ -60,7 +60,7 @@
 
     % Part 3
 
-    \partial 8 e8
+    e8
     \grg f8. \birl a8. \grg b8 \grd a \gre a
     \grg b d a \grg b \grd a \gre a
     \grg f8. \birl a8. \grg b8 d a
@@ -83,7 +83,7 @@
 
     % Part 4
 
-    \partial 8 e8
+    e8
     \grg f d \grG d \grg a d \grG d
     \grg f d \grG d \grg b \grd a \gre a
     \grg f d \grG d \grg a d \grG d
@@ -106,7 +106,7 @@
 
     % Part 5
 
-    \partial 8 f8
+    f8
     A d \grG d \grg a d \grG d
     A d \grG d \grg b \grd a \gre a
     A d \grG d \grg a d \grG d
@@ -129,7 +129,7 @@
 
     % Part 6
 
-    \partial 8 e8
+    e8
     \grg f8. \birl a8. \grg f8. \birl a8.
     \dble e8 c e \grg f8. \birl a8.
     \grg f8. \birl a8. \dble e8 a e
@@ -154,7 +154,7 @@
 
     % Part 7
 
-    \partial 8 f8
+    f8
     A f \gre f \grg a f \gre f
     A f d \grg b \grd a \gre a
     A f \gre f A f d
@@ -177,7 +177,7 @@
 
     % Part 8
 
-    \partial 8 a8
+    a8
     \grg d a \grG a \grg f a \grG a
     \dble e a \grG a \grg f a \grG a
     \grg d a \grG a \grg f a \grG a

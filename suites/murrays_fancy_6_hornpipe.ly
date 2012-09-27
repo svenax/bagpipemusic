@@ -30,7 +30,7 @@ musicA = {
   % Part 2
 
   \repeat volta 2 {
-    \grg \partial 8 f16 d
+    \grg f16 d
     \grg G16 \grd b \grG b G \grg b d \grg b \grd G
     \grg a16 \grd c \grG c a \grg c e \grg c \grd a
     \grg b16 d \grG d e \grg f A \grg A g
@@ -47,19 +47,19 @@ musicA = {
       \break
     }
     {
-      \grg \partial 8 f16 g
+      \grg f16 g
       A16 f \grg d A f d A f
       \grA g16 e \grg c g \grA e c \grA g e
       A16 d \grg f d \grA g e \grg a \grd c
       \grg e16 g \grA e c \thrwd d8.
     }
   }
-  \break
+  \bar "||" \break
 
   % Part 3
 
   \repeat volta 2 {
-    \partial 16 e16
+    e16
     f8. A16 g A f d
     \dble e8 g16 e \grg c g \grA e c
     \grg f16 d A f \grg d A f d
@@ -74,7 +74,7 @@ musicA = {
 
   % Part 4
 
-  \grg \partial 8 f16 e
+  \grg f16 e
   \grg d16 G \grg b \grd G \grg b d \grg G \grd b
   \grg e16 a \grg c \grd a \grg c e \grg a \grd c
   \grg f16 b \grg d b \grg d f \grg b d
@@ -140,7 +140,7 @@ musicA = {
       \break
     }
     {
-      \partial 16 f16
+      f16
       \grg b16 \grd G \grg d b \grg c \grd a \grg e c
       \grg d16 f \grg b d \grg e c \grA g e
       A16 d \grg f d \grA g e \grg a \grd c \thrwd d8
@@ -163,7 +163,7 @@ musicB = {
   % Part 2
 
   \repeat volta 2 {
-    \grR \partial 8 R8
+    \grR R8
     R1*2/4*3 R1*3/8
   }
   \alternative {
@@ -174,23 +174,23 @@ musicB = {
       \break
     }
     {
-      \grR \partial 8 R8
+      \grR R8
       R1*2/4*3 R1*7/16
     }
   }
-  \break
+  \bar "||" \break
 
   % Part 3
 
   \repeat volta 2 {
-    \partial 16 R16
+    R16
     R1*2/4*7 R1*3/8
   }
   \break
 
   % Part 4
 
-  \grR \partial 8 R8
+  \grR R8
   R1*2/4*16
   \pageBreak
 
@@ -237,7 +237,7 @@ musicB = {
       \break
     }
     {
-      \partial 16 f16
+      f16
       \grg b16 \grd G \grg d b \grg c \grd a \grg e c
       \grg d16 f \grg b d \grg e c \grA g e
       A16 d \grg f d \grA g e \grg a \grd c \thrwd d8

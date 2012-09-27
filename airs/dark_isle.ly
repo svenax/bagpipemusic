@@ -25,7 +25,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \grg \partial 8  f16. g32
+      \grg f16. g32
       \dblA A4 \birl a8 \dblf f4 e32 \grg d16.
       \grg b16 \grd G8. \grd b8 \grG a4 \thrwd d16. e32
       \grg f4 e32 \grg d16. \grg f16[ A8. \birl a8]

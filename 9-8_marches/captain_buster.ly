@@ -35,7 +35,7 @@
     % Part 2
 
     \repeat volta 2 {
-    \partial 8 f8
+    f8
     \grg a8. d16 f8 \dblA A4. \hdblf f4 d8
     \dble e8. d16 b8 \grg a4. ~ a4 d8
     \grg a8. d16 f8 \dblA A4. \hdblf f4 A8

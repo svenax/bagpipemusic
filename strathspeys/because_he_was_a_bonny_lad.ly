@@ -15,7 +15,7 @@
     }
     \break
 
-    \partial 8 A8
+    A8
     c16 \grd a8. \dble e8. a16 \dblf f8. a16 \dble e8. a16
     \grg c16 \grd a8. \dble e8. c16 \grg b4 \taor b8. A16
     c16 \grd a8. \dble e8. a16 \dblf f8. a16 \dble e8. c16

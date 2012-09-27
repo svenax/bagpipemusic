@@ -55,7 +55,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \partial 16 a16
+      a16
       \thrwd d8 \grg f16. a32 \grg d16. f32 \grg a16. d32
       \shaked d8[ \grg f16. a32] \grg d16. f32 \grg a16. d32
       \dblc c8[ \dble e16. a32] \shakec c8[ \grg e16. a32]

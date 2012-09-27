@@ -26,7 +26,7 @@
     % Part 2
 
     \repeat volta 2  {
-      \dblg \partial 8 g8
+      \dblg g8
       A4 \grip A8. g16
       \tdblf f8 A \hdblf f d
       \dblg g8. f16 \dble e8. d16

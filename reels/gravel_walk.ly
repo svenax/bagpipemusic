@@ -20,7 +20,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 b8
+      b8
       \gbirl a4 A8 a \grA g a \grg f a
       \gbirl a4 \grg e8 a \grg b a \grg G \grd b
       \gbirl a4 A8 a \grA g a \grg f a

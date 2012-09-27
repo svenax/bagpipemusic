@@ -25,7 +25,7 @@
         \dble e4 c8 \dbld d c b
       }
       {
-        \grg \partial 4. d4 f8
+        \grg d4 f8
         \grg e d b \grG a4
       }
     }
@@ -34,7 +34,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 A8
+      A8
       g \grA e A g \grA e A
       g e d \dblc c4 A8
       g \grA e A \hdble e4 c8

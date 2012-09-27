@@ -26,7 +26,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg f16 d \grG d \grg a ~ a8[ d16 \shaked d]
       \grg d16 f \gre f d \grG d8[ a16 \gbirl a]
       \grg G16 b \grG b \grg G ~ G8[ b16 \shakeb b]
@@ -42,7 +42,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \partial 8 a8
+      a8
       \grg a16 d \grG d \grg b ~ b8[ d16 \shaked d]
       \grg d8[ a16 \gbirl a] \grg a16 d \grG d a
       \grg G16 b \grG b G ~ G8[ b16 \shakeb b]
@@ -58,7 +58,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg f16 A \grg A d ~ d f \grg f \gre f
       \grg f16 g \grA f e \grg f8[ d16 \shaked d]
       \grg b16 d \grG d \grg b ~ b8[ d16 \shaked d]

@@ -28,12 +28,12 @@
         \grg e d \grG d c \thrwd d8
       }
     }
-    \break
+    \bar "||" \break
 
     % Part 2
 
     \repeat volta 2 {
-      \grg \partial 8 f16 g
+      \grg f16 g
       A a \grg f \gre f \grg a d \grG d a
       \grg f \gre f a \grg f \gre f a \grg d \grG d
       \grg G g \grf g a \grg f \gre f \grg a e
@@ -46,25 +46,23 @@
         A a \grg f \gre f \grg a d \grG d a
         \grg f \gre f a \grg f \gre f a \grg d \grG d
         g G \grg b g \grA f a \grg d f
-        \barLength 3 8
         \grg e d \grG d c \thrwd d8
         \break
       }
       {
-        \partial 8 f8
-        \barLength 2 4
+        f8
         \grg a16 d \grG d a \grg d \grG d \grG d a
         \grg d e \grg f d \grg e d \grg b \grd a
         g G \grg b g \grA f a \grg d f
         \grg e d \grG d c \thrwd d8
       }
     }
-    \break
+    \bar "||" \break
 
     % Part 3
 
     \repeat volta 2 {
-      \partial 8 f8
+      f8
       \grg a16 d \grG d a \grg d \grG d \grG d a
       \grg d c \grg d e \dblf f8 \grg e16 d
       g8 e16 \grg f ~ f d \grg e c
@@ -80,7 +78,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \grg \partial 8 f16 g
+      \grg f16 g
       A a g \grf g \grg a f \gre f a
       \grg e \gra e \grg b d \grg b g b a
       \grg G g \grf g a \grg f \gre f \grg a e
@@ -93,13 +91,11 @@
         A a g \grf g \grg a f \gre f a
         \grg e \gra e \grg b d \grg b g b a
         g G \grg b g \grA f a \grg d f
-        \barLength 3 8
         \grg e d \grG d c \thrwd d8
         \break
       }
       {
-        \partial 8 f8
-        \barLength 2 4
+        f8
         \grg a16 d \grG d a \grg e \gra e \grg a f
         \gre f a \grA g \grf g A f \grg d b
         g G \grg b g \grA f a \grg d f

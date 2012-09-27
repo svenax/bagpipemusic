@@ -26,10 +26,10 @@ bombarde = {
   e4. A8 B A
   d4. e8 f e
   b d f e c d
-  b2.
+  b4.
   \bar "||" \break
 
-  \partial 4. b8 d c
+  b8 d c
   b4. b8 d e
   f4. b8 d c
   b4. b8 d e
@@ -65,10 +65,10 @@ pipesA = {
   d8 A b \dblc c4. ~
   c8 f b \dblG G4. ~
   G8 b d \dble e A16 g \grA f8
-  b2.
+  b4.
   \bar "||" \break
 
-  \partial 4. b8 d c
+  b8 d c
   \dblb b4. \grg b8 d e
   \dblf f4. \grg b8 d c
   \dblb b4. \grg b8 d e
@@ -98,10 +98,10 @@ pipesB = {
   d8 A b \dblc c4. ~
   c8 f b \dblG G4. ~
   G8 b d \dble e A16 g \grA f8
-  b2.
+  b4.
   \bar "||" \break
 
-  \partial 4. b16 A f e f A
+  b16 A f e f A
   b A f e f8 \grg b16 A f b c a
   d b c a b8 \grg b16 A f e f A
   b A g e f8 \grg b16 A g b c A

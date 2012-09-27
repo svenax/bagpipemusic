@@ -22,7 +22,7 @@
     }
     \alternative {
       { a4 }
-      { \partial 8*3 a4. }
+      { a4. }
     }
     \bar "||" \break
 

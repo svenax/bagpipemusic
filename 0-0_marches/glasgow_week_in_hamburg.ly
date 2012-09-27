@@ -22,7 +22,7 @@
 
     % Part 2
 
-    \partial 8 a8
+    a8
     \dblA A4. \hdblf f8. d16 \gre a8 \thrwd d4. \gre a4.
     \dblb b4 g8 \grA g8. b16 \grG b8 \grG a4. ~ a4.
     \grg f4 \gre f8 A8. f16 \grg d8 \grg a4 A8 \hdblf f8. d16 \gre a8
@@ -36,7 +36,7 @@
 
     % Part 3
 
-    \partial 8 f8
+    f8
     \grg a4 \wbirl a8 \grg b16 d8. b8 \grG a4. ~ a4.
     \thrwd d4 \grg d8 \grg b16 d8. \gre b8 \grG a4. ~ a4.
     \grg a4 f8 \dblf f8. e16 \grg d8 \dblb b4 g8 \hdblf f8. e16 \grg d8
@@ -50,7 +50,7 @@
 
     % Part 4
 
-    \grg \partial 8 c32 d16.
+    \grg c32 d16.
     \grg e4. ~ e8. f16 c8 \dble e4. ~ e4 \birl a8
     \grg f4 e8 \grg b16 d8. \gre b8 \grG a4. ~ a8 \grg c16 d8.
     \grg e4. ~ e8. f16 c8 \dble e4. ~ e8 d16 \gre b8.

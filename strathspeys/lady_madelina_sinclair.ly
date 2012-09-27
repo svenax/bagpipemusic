@@ -19,7 +19,7 @@
 
     % Part 2
 
-    \partial 8 e8
+    e8
     \dblA A8. f16 \dblg g8. e16 \grg \times 2/3 {e8 f g} \dblA A8. f16
     \dble e8. c16 \dblA A8. c16 \dblc c16 \gre b8. \grip b8. e16
     \dblA A8. f16 \dblg g8. e16 \grg \times 2/3 {e8 f g} \dblA A4

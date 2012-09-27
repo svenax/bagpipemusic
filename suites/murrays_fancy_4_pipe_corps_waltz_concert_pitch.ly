@@ -29,7 +29,7 @@ musicA = {
   % Part 2
 
   \mark \default
-  \partial 8 A8
+  A8
   f8 d16 e f A f16 A d e f A
   f16 A d e f g A8 g f
   g8 c16 d e g e16 g c d e g
@@ -44,7 +44,7 @@ musicA = {
   % Part 3
 
   \mark \default
-  \partial 8 A8
+  A8
   f8 d16 e f A g8 f e
   f8 d b a4 d8
   e8 c16 d e f g8 f e
@@ -58,7 +58,7 @@ musicA = {
 
   % Part 4
 
-  \partial 8 A8
+  A8
   f8 d16 e f A g8 f e
   f8 d b a4 d8
   e8 c16 d e f g8 f e
@@ -73,7 +73,7 @@ musicA = {
   % Part 5
 
   \mark \default
-  \partial 8 A8
+  A8
   f8 d16 e f A f16 A d e f A
   f16 A d e f g A8 g f
   g8 c16 d e g e16 g c d e g
@@ -87,7 +87,7 @@ musicA = {
 
   % Part 6
   \mark \default
-  \partial 8 A8
+  A8
   f8 d16 e f A g8 f e
   f8 d b a4 d8
   e8 c16 d e f g8 f e
@@ -113,7 +113,7 @@ musicB = {
 
   % Part 2
 
-  \partial 8 r8
+  r8
   R1*6/8*4
   \break
   R1*6/8*3  R1*5/8*1
@@ -121,7 +121,7 @@ musicB = {
 
   % Part 3
 
-  \partial 8 A8
+  A8
   d4. c4.
   b4. c4 d8
   c4. b4.
@@ -135,7 +135,7 @@ musicB = {
 
   % Part 4
 
-  \partial 8 A8
+  A8
   d8 b a G b a
   b4 d8 c8 c16 d b a
   c8 a c b d c
@@ -149,7 +149,7 @@ musicB = {
 
   % Part 5
 
-  \partial 8 A8
+  A8
   f8 b16 c d A d16 A b c d A
   d16 A b c d e f8 e d
   g8 a16 b c g c16 g a b c g
@@ -163,7 +163,7 @@ musicB = {
 
   % Part 6
 
-  \partial 8 A8
+  A8
   d4. c4.
   b4. c4 d8
   c4. b4.

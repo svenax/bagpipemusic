@@ -18,15 +18,15 @@
 ./makelily strathspeys/*
 
 # Then take care of the tunes that need special settings
-./makelily -fformatbook piobaireachd/andrew_macneill_of_colonsay.ly
-./makelily -fformatbook piobaireachd/bells_of_perth.ly
-./makelily -fformatbook piobaireachd/cave_of_gold.ly
-./makelily -fformatbook piobaireachd/chehotrao_hodro.ly
-./makelily -fformatbook piobaireachd/i_am_proud_to_play_a_pipe.ly
-./makelily -fformatbook piobaireachd/lament_for_the_viscount_of_dundee.ly
-./makelily -fformatbook piobaireachd/mackays_banner.ly
-./makelily -fformatbook piobaireachd/old_womans_lullaby.ly
-./makelily -fformatbook piobaireachd/red_speckled_bull.ly
+./makelily -f formatbook piobaireachd/andrew_macneill_of_colonsay.ly
+./makelily -f formatbook piobaireachd/bells_of_perth.ly
+./makelily -f formatbook piobaireachd/cave_of_gold.ly
+./makelily -f formatbook piobaireachd/chehotrao_hodro.ly
+./makelily -f formatbook piobaireachd/i_am_proud_to_play_a_pipe.ly
+./makelily -f formatbook piobaireachd/lament_for_the_viscount_of_dundee.ly
+./makelily -f formatbook piobaireachd/mackays_banner.ly
+./makelily -f formatbook piobaireachd/old_womans_lullaby.ly
+./makelily -f formatbook piobaireachd/red_speckled_bull.ly
 
 # Suites contains a subfolder we don't want to process
 ./makelily suites/murrays_fancy_4_pipe_corps_waltz.ly

@@ -29,7 +29,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 f16 e
+      f16 e
       \dblA A8[ \dblf f16 e] \dblA A8[ \dblf f16 e]
       \grg f e c b \shakec c8 f16 e
       \grg f A \grg A f \grg e f a b
@@ -58,7 +58,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \partial 8 f16 e
+      f16 e
       \grg b32 \glissando c16. f16 e \gbirl a8 f16 e
       \grg b c \grG c b \shakec c8 f16 e
       \grg b32 \glissando c16. f16 e \gbirl a8 f16 e
@@ -74,7 +74,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \grg \partial 8 f16 e
+      \grg f16 e
       \dblA A8 f16 e \shakec c8 \grg f16 e
       \grg f A f e \shakec c8 f16 e
       \grg f A \grg A f \grg e f a b

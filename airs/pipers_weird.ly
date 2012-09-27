@@ -24,7 +24,7 @@
 
     % Part 2
 
-    \grg \partial 8  a8
+    \grg a8
     \dblA A4 a8 \dble e4 a8
     \grg f4 \grip f8 \dble e4 a8
     \dblA A4 a8 \dble e4 \grd c8

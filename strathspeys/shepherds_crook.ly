@@ -19,7 +19,7 @@
 
     % Part 2
 
-    \partial 8 f8
+    f8
     \dble e8. f16 \dblA A8. c16 \dblb b8. \grg a16 \grd G8. f16
     \dble e8. f16 \dblA A8. c16 \grg e8. f16 \dblA A8. g16
     \tdblf f8. e16 \dblA A8. c16 \dblb b8. \grg a16 \grd G8. f16

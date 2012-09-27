@@ -22,7 +22,7 @@
 
     % Part 2
 
-    \partial 8 e8
+    e8
     \dblA A8. e16 \grg f8 A \hdble e c \dblb b \grG a
     \grg c16 e8. \grg f8 A \hdble e4 \grg f8. g16
     \dblA A8. e16 \grg f8 A \hdble e c \dblb b \grG a
@@ -49,7 +49,7 @@
 
     % Part 4
 
-    \partial 8 e8
+    e8
     \dblA A4 \grip A8 f \dble e c \grg b16 \grd c8.
     \grg a4 \taor a8 \grd c \dble e4 \grg f8. g16
     \dblA A4 \grip A8 f \dble e c \dblb b \grG a

@@ -27,7 +27,7 @@ partA = {
   % Part 2
 
   \repeat volta 2 {
-    \partial 8 e8
+    e8
     \dblA A4. \grg A
     f8 e d e \grg a e
     \dblA A4. \grg A
@@ -43,7 +43,7 @@ partA = {
   % Part 3
 
   \repeat volta 2 {
-    \partial 8 e8
+    e8
     \grg c8 \grd a \gre a \grg a \grd a \gre a
     \grg c8 \grd a \gre a \grg c e4
     \grg c8 \grd a \gre a \grg a \grd a \gre a
@@ -59,7 +59,7 @@ partA = {
   % Part 4
 
   \repeat volta 2 {
-    \partial 8 e8
+    e8
     \dblA A8 c A g a g
     \grA f8 a f \grg e a e
     \dblA A8 a A g a g
@@ -106,7 +106,7 @@ partB = {
   % Part 2
 
   \repeat volta 2 {
-    \partial 8 e8
+    e8
     \grg c8 \grd a \gre a \grg c8 \grd a \gre a
     \grg d8 c b c \gre a4
     \dblA A4 e8 \grg f8 e d
@@ -122,7 +122,7 @@ partB = {
   % Part 3
 
   \repeat volta 2 {
-    \partial 8 e8
+    e8
     A8 \grf g4 \grf g8 A g
     e8 g4 \grf g e8
     \dblA A8 g e \grg c e g
@@ -138,7 +138,7 @@ partB = {
   % Part 4
 
   \repeat volta 2 {
-    \partial 8 e8
+    e8
     \grg c8 \grd a \grd c \grg b \grd a \grd c
     \grg d8 \gre a d \grg c \grd a \gre b
     \grg c8 \grd a \grd c \grg b \grd a \grd c

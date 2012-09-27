@@ -46,7 +46,7 @@ AltBracketEnd = {
     % Part 2
 
     \repeat volta 2 {
-      \grg \partial 8 c16. d32
+      \grg c16. d32
       \dble e4 \grg e16. a32 \grg c32 e16.
       \dblf f4 \grg f16. d32 \grg f32 A16.
       \thrwd d8[ \grg c16. d32]
@@ -80,7 +80,7 @@ AltBracketEnd = {
     % Part 3
 
     \repeat volta 2 {
-      \dblA \partial 8 A8
+      \dblA A8
       \birl a8 \grg c32 e16. \grg a16. d32 \grg f32 A16.
       \thrwd d8 \grg f32 A16. \hdble e4
       \thrwd d8[ \grg c16. d32]
@@ -114,7 +114,7 @@ AltBracketEnd = {
     % Part 4
 
     \repeat volta 2 {
-      \grg \partial 8 c16. d32
+      \grg c16. d32
       \dble e8 \grg c32 e16. \dble e16. a32 \grg c32 \grd a16.
       \dblf f8 \grg d16. f32 \dble e8 \grg c32 \grd a16.
       \thrwd d8 \grg f32 A16. e16. a32 \grg c32 \grd a16.
@@ -130,7 +130,7 @@ AltBracketEnd = {
     % Part 5
 
     \repeat volta 2 {
-      \grg \partial 8 f32 A16.
+      \grg f32 A16.
       a16. d32 \grg f32 A16. a16. d32 \grg f32 A16.
       \thrwd d8 \grg f32 A16. \thrwd d16. A32 g32 A16.
       \hdblc c8 \grg e32 A16. \hdblc c8 \grg e32 A16.
@@ -146,7 +146,7 @@ AltBracketEnd = {
     % Part 6
 
     \repeat volta 2 {
-      \grg \partial 8 c16. d32
+      \grg c16. d32
       \dble e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 A16.
       f16. \grg b32 d32 A16. f16. \grg b32 d32 A16.
       e16. \grg a32 \grd c32 A16. e16. \grg a32 \grd c32 g16.

@@ -25,7 +25,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \dblg \partial 8 g8
+      \dblg g8
       \dblA A4 e8 \gra e4 \dblg g8
       A8. e16 \gra e8 \dble e8. d16 b8
       \grg a8. \grd b16 \gre a8 \grg G4 \grd b8
@@ -54,7 +54,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg a8. e16 \gra e8 \grg d8. e16 \gra e8
       \grg a8. e16 \gra e8 \dble e8. d16 b8
       \grg a8. \grd b16 \gre a8 \grg G8. \grd G16 \gre G8
@@ -70,7 +70,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \gbirl a4 A8 \grg A8. g16 A8
       g8. e16 \gra e8 \dble e8. d16 b8
       \grg a8. \grd b16 \gre a8 \grg G4 \grd b8

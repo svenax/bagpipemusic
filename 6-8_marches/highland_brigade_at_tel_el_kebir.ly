@@ -25,7 +25,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg c4 \taor c8 \dblA A4 e8
       \grg c4 \taor c8 \dblf f4 e8
       \grg c4 \taor c8 \dblA A4 e8
@@ -41,7 +41,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \dblA A4 e8 \grg c4 \taor c8
       \grg c4 \taor c8 \grg c4 \taor c8
       \dblA A4 e8 \grg c4 \taor c8
@@ -57,7 +57,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg c4 \taor c8 \grg c16 A8. e8
       \thrwd d8. f16 \grg e8 \grg c16 A8. e8
       \grg c4 \taor c8 \grg c16 A8. e8

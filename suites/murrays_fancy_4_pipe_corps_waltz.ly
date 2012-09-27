@@ -28,7 +28,7 @@ musicA = {
   % Part 2
 
   \mark \default
-  \dblA \partial 8 A8
+  \dblA A8
   f8 d16 e \grg f A f16 A d e \grg f A
   f16 A d e \grg f g \dblA A8 g f
   \dblg g8 c16 d \grg e g e16 g c d \grg e g
@@ -43,7 +43,7 @@ musicA = {
   % Part 3
 
   \mark \default
-  \dblA \partial 8 A8
+  \dblA A8
   f8 d16 e \grg f A g8 \grA f e
   \grg f8 d \gre b \grG a4 d8
   \grg e8 c16 d \grg e f \dblg g8 \grA f e
@@ -57,7 +57,7 @@ musicA = {
 
   % Part 4
 
-  \dblA \partial 8 A8
+  \dblA A8
   f8 d16 e \grg f A g8 \grA f e
   \grg f8 d \gre b \grG a4 d8
   \grg e8 c16 d \grg e f \dblg g8 \grA f e
@@ -72,7 +72,7 @@ musicA = {
   % Part 5
 
   \mark \default
-  \dblA \partial 8 A8
+  \dblA A8
   f8 d16 e \grg f A f16 A d e \grg f A
   f16 A d e \grg f g \dblA A8 g f
   \dblg g8 c16 d \grg e g e16 g c d \grg e g
@@ -86,7 +86,7 @@ musicA = {
 
   % Part 6
   \mark \default
-  \dblA \partial 8 A8
+  \dblA A8
   f8 d16 e \grg f A g8 \grA f e
   \grg f8 d \gre b \grG a4 d8
   \grg e8 c16 d \grg e f \dblg g8 \grA f e
@@ -112,7 +112,7 @@ musicB = {
 
   % Part 2
 
-  \grace { s32*2 } \partial 8 r8
+  \grace { s32*2 } r8
   R1*6/8*4
   \break
   R1*6/8*3  R1*5/8*1
@@ -120,7 +120,7 @@ musicB = {
 
   % Part 3
 
-  \dblA \partial 8 A8
+  \dblA A8
   d4. \grg c4.
   \grg b4. \grd c4 d8
   \grg c4. \grg b4.
@@ -134,7 +134,7 @@ musicB = {
 
   % Part 4
 
-  \dblA \partial 8 A8
+  \dblA A8
   d8 b a \grg G \grd b \gre a
   \grg b4 d8 \grg c8 \grg c16 d b a
   \grg c8 a \grd c \grg b d \gre c
@@ -148,7 +148,7 @@ musicB = {
 
   % Part 5
 
-  \dblA \partial 8 A8
+  \dblA A8
   f8 b16 c \grg d A d16 A b c \grg d A
   d16 A b c \grg d e \grg f8 e d
   \dblg g8 a16 b \grg c g c16 g a b \grg c g
@@ -162,7 +162,7 @@ musicB = {
 
   % Part 6
 
-  \dblA \partial 8 A8
+  \dblA A8
   d4. \grg c4.
   \grg b4. \grd c4 d8
   \grg c4. \grg b4.

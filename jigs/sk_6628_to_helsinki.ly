@@ -25,7 +25,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       A e \gra e \grg f e \gra e
       \grg e f g A e \gra e
       \grg f e \gra e \grg e d c
@@ -41,7 +41,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \partial 8 A8
+      A8
       \grg a \grd a \gre a \grg a \grd a \gre a
       \grg G \grd a \gre a \grg c \grd a \gre a
       \grg e A \grg A \grg e f d
@@ -57,7 +57,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       A e \gra e \grg f e \gra e
       A e \gra e \grg e f g
       A g f \grg e d c

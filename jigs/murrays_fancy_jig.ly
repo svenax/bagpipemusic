@@ -25,7 +25,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 b8
+      b8
       \grg G \grd b \grG b \grg b d b
       \grg a \grd c \grG c \grg c e c
       \grg b d \grG d \grg e d e
@@ -49,12 +49,12 @@
         \grg e d \grG d \grg d4
       }
     }
-    \break
+    \bar "||" \break
 
     % Part 3
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg f A \grg A f A d
       \grg c A \grg A e A c
       \grg b g \grf g \grA d g b

@@ -20,7 +20,7 @@ musicA = {
   \thrwd d4. \slurd d4
   \bar "||" \break
 
-  \partial 8 a8
+  a8
   \grg f4. \dble e4 f8
   \dblA A8. f16 d8 \grg b4 \thrwd d8
   \grg a8. d16 f8 \dblA A8. g16 f8
@@ -40,7 +40,7 @@ musicB = {
   R1*6/8*7 R1*5/8
   \bar "||" \break
 
-  \partial 8 R8
+  R8
   R1*6/8*4
   \break
   \grg A8. g16 f8 \grg e8 f A

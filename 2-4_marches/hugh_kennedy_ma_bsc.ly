@@ -26,7 +26,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \grg \partial 8 c16. d32
+      \grg c16. d32
       \dble e8 \grg a16. \grd c32 A16. e32 \grg c16. d32
       \dble e8 \grg a16. \grd c32 \grg f16.[ e32 \dblc c8]
       \thrwd d8 \gre G16. \grd b32 \grA g16. d32 \grg b32 d16.
@@ -55,7 +55,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \dble \partial 8 e8
+      \dble e8
       \grg a16.[ b32 \dblc c8] \grg a16.[ \grd c32 \dble e8]
       \grg a16.[ \grd c32 \dble e16. c32] A16.[ e32 \dblc c8]
       \grg G16.[ a32 \dblb b8] \grg G16.[ b32 \thrwd d8]
@@ -71,7 +71,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \dblg \partial 8 g8
+      \dblg g8
       A16. e32 \grg c32 e16. \dblf f16. e32 \grg c32 e16.
       \grg a16. e32 \grg c32 e16. A16.[ e32 \dblc c8]
       \grA g16. d32 \grg b32 d16. \dble e16. d32 \grg b32 d16.

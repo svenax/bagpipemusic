@@ -25,7 +25,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \dblA A4. \grg A
       c8 e \gra e \grg f e \gra e
       \dblA A4. \grg A
@@ -42,7 +42,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \birl a4. \dblc c4 \gre a8
       \grg c e \gra e \grg f e \gra e
       \birl a4. \dblc c4 \gre a8
@@ -58,7 +58,7 @@
 
     % Part 4
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg f A \grg A f e \gra e
       \grg c e \gra e \grg f e \gra e
       \grg f A \grg A f e \gra e

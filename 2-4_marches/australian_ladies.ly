@@ -26,7 +26,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \grg \partial 8 f16. g32
+      \grg f16. g32
       \dblA A8. f16 \thrwd d8[ \dblA A]
       \hdblf f16.[ a32 \thrwd d16. f32] \dblA A8 e16. f32
       \dblg g8. e16 \dblc c8 e
@@ -50,12 +50,12 @@
         \thrwd d4 \slurd d8
       }
     }
-    \break
+    \bar "||" \break
 
     % Part 3
 
     \repeat volta 2 {
-      \grg \partial 8 a16. d32
+      \grg a16. d32
       \grg d32 f16. \grg a16. d32 \grg d32 f16. \grg a16. f32
       \grg f32 A16. a16. f32 \dblf f8 \grg e16. f32
       \dblg g16. e32 \grg c32 e16. \dble e8. d16
@@ -71,7 +71,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \dblg \partial 8 g8
+      \dblg g8
       A8[ \grip A] \hdblf f8 A
       \thrwd d8 A \hdblf f16. d32 A16. f32
       \dblg g8 A \dble e[ \dblg g]

@@ -26,7 +26,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 g8
+      g8
       \tdblf f b \grA g f \grg e g \grA b g
       \tdblf f b A g \grA g4 \hslurf f8 g
       \tdblf f b \grA g f \grg e g \grA b g
@@ -37,7 +37,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \partial 8 g8
+      g8
       \tdblG G4 \grd b8 e \grg b e \grA g e
       \dblg g4 \grA f8 g \grA e g \grA b e
     }
@@ -56,7 +56,7 @@
     % Part 4
 
     \repeat volta 2 {
-      \partial 8 f8
+      f8
       g \grA e f g \grA e f g \grA e
       f \grg d e f \grg d e f \grg d
       g \grA e f g \grA e f g \grA e
@@ -67,7 +67,7 @@
     % Part 5
 
     \repeat volta 2 {
-      \partial 8 g8
+      g8
       \grA b e \grA g f \grip e4 \grg f8 d
       \grg b e \grg d f \dble e d \grg b \grd a
       \grd b e \grA g f \grip e4 \grg f8 d
@@ -78,7 +78,7 @@
     % Part 6
 
     \repeat volta 2 {
-      \partial 8 g8
+      g8
       \grA G d \grg b e \grg d f \dble e4
       \grA g8 f g e \grg b e g A
     }

@@ -26,7 +26,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \grg \partial 8 f16 g
+      \grg f16 g
       \dblA A8 d16 e \grg f A f d
       \grg e d \grg e f \slurb b8 \grg e16 d
       \grg c A a A e A c A
@@ -55,7 +55,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \grg \partial 8 f16 d
+      \grg f16 d
       \grg a d f a \grg d f a d
       \grg b d g b \grg d g b d
       \grg c e A c \grg e A c e
@@ -70,7 +70,7 @@
 
     % Part 4
 
-    \grg \partial 8 f16 g
+    \grg f16 g
     A d \grg f A g e \gra e g
     \grA f A d f \grg e c \grG c f
     \grg d f \grg b f \grg c e \grg a e
