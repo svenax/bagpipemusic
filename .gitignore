@@ -2,8 +2,5 @@
 *.pdf
 *.png
 *.log
-
-
 bwwtolily.py
-
-_output/index.html
+_output/
