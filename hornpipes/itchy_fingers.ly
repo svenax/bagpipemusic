@@ -27,7 +27,7 @@
     \repeat volta 2 {
       \grg c16 e
       \dblA A8 a16 A c A a A
-      f A d A \hdble e8 \grg c16 e
+      f A d f \hdble e8 \grg c16 e
       \dblA A8 a16 A c A a A
       c \grd a \grg d c \slurb b8[
     }
@@ -36,7 +36,7 @@
         \grg c16 e]
         \break
         \dblA A8 a16 A c A a A
-        f A d A \hdble e8 \grg c16 e
+        f A d f \hdble e8 \grg c16 e
         \grg d c \grG c b \grG b f \grg e b
         \dblc c8 \gre a \wbirl a
         \break
