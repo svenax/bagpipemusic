@@ -29,7 +29,7 @@ common = {
       \break
       \grg b8[ \grip c] \dgrip a4 \grg b16 \grGcad a8. \grip b4
       \cad c4 a8[ \dre e] \grg b16 \grGcad a8. \grip c4
-      \grg f4 \dre e8. f16 \grg f8 \grip e4 b8
+      \grg f4 \dre e8. f16 \grg e8 \grip e4 b8
       \hcad a8. b16 \grip c8 \grGcad a \grg b16 \grGcad a8. \grip b4
       \break
       \grg a4 \dblA A f8. e16 \grg f8 c
