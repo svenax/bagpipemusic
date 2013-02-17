@@ -48,12 +48,12 @@
     % Part 4
 
     G8. \grd G16 \gre G16 \grd b8. \grg G8. \grd G16 \gre G16 \grd b8.
-    \grg G16 \grd G \gre G8 \Gthrwd d16 \gre G8. \dblc c8. \grg a16 \grd G16 \grd b8.
+    \grg G16 \grd G \gre G8 \Gthrwd d16 \gre G8. \dblb b8. \grg a16 \grd G16 \grd b8.
     \grg a4 \taor a8. \grd c16 \grg a4 \taor a8. \grd c16
     \dble e8. c16 \dblA A8. e16 \dblc c16 \gre a8. \wbirl a16 g8.
     \break
     G8. \grd G16 \gre G16 \grd b8. \grg G8. \grd G16 \gre G16 \grd b8.
-    \grg G16 \grd G \gre G8 \Gthrwd d16 \gre G8. \dblc c8. \grg a16 \grd G16 \grd b8.
+    \grg G16 \grd G \gre G8 \Gthrwd d16 \gre G8. \dblb b8. \grg a16 \grd G16 \grd b8.
     \grg a8. b16 \grip c8. d16 \dble e8. a16 \grg e16 f g8
     \dblA A4 \hdble e8. A16 \hdblc c16 \gre a8. \wbirl a4
     \bar "|."
