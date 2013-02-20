@@ -9,8 +9,8 @@
     % Part 1
 
     \grg \partial 4 e8 d
-    \dblc c4 \grg b8 c \grG a4 \grg e8 d
-    \grg c4 \grg b8 c \grG a2
+    \dblc c4 \gre b8 c \grG a4 \grg e8 d
+    \dblc c4 \gre b8 c \grG a2
     \grg f4 \thrwd d8 f \dblA A4 \grf g8 f
     \dblf f8 e \gra e c \dble e4 ~ e8 f
     \break
