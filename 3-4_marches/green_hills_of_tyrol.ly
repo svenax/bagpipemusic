@@ -46,12 +46,12 @@ musicB = {
   \repeat volta 2 {
     \grg a8. b16 \grip c4 \dblc c8 \gre a
     \grg c8[ \thrwd d] \grg c4 \grip c8 d
-    \dblc c8 d \dble c8. a16 \grg G4
+    \dblc c8 d \dblc c8. a16 \grg G4
     \grd G8 d \dblc c8. a16 \grg a4
     \break
     \grg a8. b16 \grip c4 \dblc c8 \gre a
     \grg c8[ \thrwd d] \grg c4 \grip c8 d
-    \dblc c8 d \dble c8. a16 \grg G4
+    \dblc c8 d \dblc c8. a16 \grg G4
     \grd G8 d \dblc c8. a16 \grg a4
   }
   \break
