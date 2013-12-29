@@ -10,7 +10,7 @@
 #(set-global-staff-size 18)
 #(set-default-paper-size "a4" 'landscape)
 
-\include "./bagpipe_new.ly"
+\include "bagpipe.ly"
 
 \paper {
   indent = 0\mm
@@ -27,7 +27,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = "Plain notes "
     G4 a b c cflat d e f fflat g gflat A
     }
@@ -38,7 +38,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = "Single grace notes "
     \grG a4 \gra a \grb a \grc a \grd a
     \gre a \grf a \grg a \grA a
@@ -51,7 +51,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = "Doublings "
     \dblG G \dbla a \dblb b \dblc c \dbld d
     \dble e \dblf f \dblg g \dblA A \tripleA A
@@ -67,7 +67,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = "Slurs "
     \slura a \slurb b \slurc c \slurd d \wslurd d
     \slure e \slurf f \slurg g \slurA A
@@ -86,7 +86,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = "Shakes "
     \shakea a \shakeb b \shakec c \shaked d
     \shakee e \shakef f \shakeg g \shakeA A
@@ -103,7 +103,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = "Catches "
     e \catcha a e \catchb b e \catchc c e \catchd d
     f \catche e f \gcatchc c g \tcatchc c
@@ -117,7 +117,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = "Throws "
     a \thrwd d G \Gthrwd d a \thrwe e a \wthrwe e
     d \thrwf f a \gripthrwd d
@@ -130,7 +130,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = "Grips and birls "
     a \grip c d \dgrip d a \egrip c
     \birl a \wbirl a \gbirl a \dbirl a
@@ -143,7 +143,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = \markup { "Taorluath " }
     e \taor a d \dtaor a G \Gtaor a
     b \taoramb b c \taoramc c b \taoramd d
@@ -156,7 +156,7 @@
     }
 }
 \markup { "\\taorjmd is how the taorluath is written in Joseph MacDonald’s book."
-          "It is never played that way nowdays." }
+          "It is never played that way nowadays." }
 \markup { "\\taorold is how it was played in late 19:th early 20:th century."
           "It was usually not written like this, but rather as a grip and an e gracenote on a." }
 
@@ -164,7 +164,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = \markup { "Crunluath " }
     e \crun e d \dcrun e G \Gcrun e
     b \crunamb e c \crunamc e b \crunamd e
@@ -179,7 +179,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = \markup { \column { "Piobaireachd " "notation " } }
     \cad c4 A \hcad c
     e \gracad e d \grGcad d
@@ -196,7 +196,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = " "
     a16_\trebling d8. a4_\txtaor a4_\txcrun a4_\txtaorcrun
     a4_\txtaoram a4_\txcrunam a4_\txtaorcrunam
@@ -209,7 +209,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = \markup { \column { "Ancient movements" "J. MacDonald" } }
     e \fifteenthcutting a G \Gfifteenthcutting a
     e \seventeenthcutting a G \Gseventeenthcutting a
@@ -222,7 +222,7 @@
 
 \score {
     {
-    \bagpipeKey
+    \hideKeySignature
     \set Staff.instrumentName = " "
     e \barluadh g G \Gbarluadh g
     }
@@ -235,25 +235,16 @@
 \column {
     \override #'(line-width . 140)
     \justify {
-    These are the specific bagpipe markups that are
-    available. You need to know alot more about entering normal music
-    in order to produce userful output. All of this is available in
-    the Lilypond tutorial and manual, as well as in the tips, regression
-    tests, and snippet repository.
-    }
-    \line { " " }
-    \override #'(line-width . 140)
-    \justify {
-    Check out \with-url #"http://www.lilypond.org/" {\bold www.lilypond.org} to learn
-    more about this. All of these things are linked from the documentation
-    page. Make sure you use the \bold 2.12.0 documentation — lots of
-    things have changed since the older versions.
+    These are the specific bagpipe markups that are available. You need to
+    know a lot more about entering normal music in order to produce userful
+    output. All such information is available in the Lilypond tutorial and
+    manual, as well as in the tips, regression tests, and snippet repository.
     }
 }
 }
 
 \header {
     title = "Cheat sheet for entering bagpipe music"
-    subtitle = "Intended for Lilypond 2.14 or better"
+    subtitle = "Intended for Lilypond 2.16 or better"
     tagline = \markup { "P/S Sven Axelsson, The Murray Pipes & Drums of Gothenburg" }
 }
