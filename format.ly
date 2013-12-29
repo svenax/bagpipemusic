@@ -4,10 +4,7 @@
 
 \version "2.16.0"
 
-% Bring in the time/date package. Set format to month day, year
-
-#(use-modules (srfi srfi-19))
-today = #(date->string (current-date) "~B ~e, ~Y")
+today = #(strftime "%B %e, %Y" (localtime (current-time)))
 
 \paper {
     raggedbottom = ##t
