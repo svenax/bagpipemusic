@@ -310,6 +310,7 @@ taoramd = { \pgrace { G32[ d G c d e] } }
 crun    = { \pgrace { G32[ d G e a f a ] } }
 dcrun   = { \pgrace { G32[ b G e a f a ] } }
 Gcrun   = { \pgrace { d32[ G e G f a ] } }
+crunG   = { \pgrace { G32[ d G e G f G ] } }
 crunamb = { \pgrace { G32[ d G b e b f b ] } }
 crunamc = { \pgrace { G32[ d G c e c f c ] } }
 crunamd = { \pgrace { G32[ d G c d e d f d ] } }
@@ -320,6 +321,7 @@ crunamdfosg = { \pgrace { e32[ d f d ] } }
 % Special piobaireachd notations
 grGcad   = { \pgrace { G16 } }
 gracad   = { \pgrace { a16 } }
+grecad   = { \pgrace { e16 } }
 cad      = { \pgrace { \stemspace #'(0 . 0.5) g32[ e8 d32] } }
 hcad     = { \pgrace { \stemspace #'(0 . 0.5) g32[ e8] } }
 tcad     = { \pgrace { e8[ d32] } }
