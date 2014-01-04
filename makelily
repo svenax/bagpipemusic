@@ -64,7 +64,7 @@ class MakeLily:
         out_path = os.path.join(self.SCRIPT_PATH, '_output', rel_dir)
         (file_base, _) = os.path.splitext(os.path.basename(rel_file_path))
         orig_file_base = file_base
-        header_format = self.args.format
+        header_format = self.options.format
         if header_format == None:
             if file_base.endswith(".book"):
                 header_format = "header_book"
