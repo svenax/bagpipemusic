@@ -90,30 +90,30 @@ common = {
 
       % Line 1
 
-      \grg e4_\txtaor \grg e4 \grg d4_\txtaor \grg d4
-      \grg b4_\txtaor \grg b4 \grg G4_\txtaor \grg b4
-      \grg e4_\txtaor \grg e4 \grg d4_\txtaor \grg d4
-      \grg b4_\txtaor \grg b4 \grg e4 \dbirl a4
+      \grg e4_\txtaorcrun \grg e4 \grg d4_\txtaorcrun \grg d4
+      \grg b4_\txtaorcrun \grg b4 \grg G4_\txtaorcrun \grg b4
+      \grg e4_\txtaorcrun \grg e4 \grg d4_\txtaorcrun \grg d4
+      \grg b4_\txtaorcrun \grg b4 \grg e4 \dbirl a4
       \bar "||" \break
 
       % Line 2
 
-      \grg e4_\txtaor \grg e4 \grg f4_\txtaor \grg f4
-      \grg b4_\txtaor \grg b4 \grg G4_\txtaor \grg b4
-      \grg e4_\txtaor \grg e4 \grg f4_\txtaor \grg f4
-      \grg b4_\txtaor \grg b4 \grg e4 \dbirl a4
+      \grg e4_\txtaorcrun \grg e4 \grg f4_\txtaorcrun \grg f4
+      \grg b4_\txtaorcrun \grg b4 \grg G4_\txtaorcrun \grg b4
+      \grg e4_\txtaorcrun \grg e4 \grg f4_\txtaorcrun \grg f4
+      \grg b4_\txtaorcrun \grg b4 \grg e4 \dbirl a4
       \bar "||" \break
 
       % Line 3
 
-      \grg e4_\txtaor \grg e4 \grg f4_\txtaor \grg f4
-      \grA g4_\txtaor \grA g4 \grg G8.[ \bari g16] \grg f4
-      \grg e4_\txtaor \grg e4 \grg f4_\txtaor \grg f4
-      \grg g4_\txtaor \grg b4 \grg e4 \dbirl a4
+      \grg e4_\txtaorcrun \grg e4 \grg f4_\txtaorcrun \grg f4
+      \grA g4_\txtaorcrun \grA g4 \grg G8.[ \bari g16] \grg f4
+      \grg e4_\txtaorcrun \grg e4 \grg f4_\txtaorcrun \grg f4
+      \grg g4_\txtaorcrun \grg b4 \grg e4 \dbirl a4
       \bar "|." \break
     }
     \header {
-      piece = "III. Taorluath"
+      piece = "III. Taorluath   V. Crunluath"
     }
   }
 
@@ -123,99 +123,32 @@ common = {
 
       % Line 1
 
-      \grg e4_\txtaor \grg e4_\txtaor \grg d4_\txtaor \grg d4_\txtaor
-      \grg b4_\txtaor \grg b4_\txtaor \grg G4_\txtaor \grg b4_\txtaor
-      \grg e4_\txtaor \grg e4_\txtaor \grg d4_\txtaor \grg d4_\txtaor
-      \grg b4_\txtaor \grg e4_\txtaor \grg a4_\txtaor \grg a4_\txtaor
+      \grg e4_\txtaorcrun \grg e4_\txtaorcrun \grg d4_\txtaorcrun \grg d4_\txtaorcrun
+      \grg b4_\txtaorcrun \grg b4_\txtaorcrun \grg G4_\txtaorcrun \grg b4_\txtaorcrun
+      \grg e4_\txtaorcrun \grg e4_\txtaorcrun \grg d4_\txtaorcrun \grg d4_\txtaorcrun
+      \grg b4_\txtaorcrun \grg e4_\txtaorcrun \grg a4_\txtaorcrun \grg a4_\txtaorcrun
       \bar "||" \break
 
       % Line 2
 
-      \grg e4_\txtaor \grg e4_\txtaor \grg f4_\txtaor \grg f4_\txtaor
-      \grg b4_\txtaor \grg b4_\txtaor \grg G4_\txtaor \grg b4_\txtaor
-      \grg e4_\txtaor \grg e4_\txtaor \grg f4_\txtaor \grg f4_\txtaor
-      \grg b4_\txtaor \grg e4_\txtaor \grg a4_\txtaor \grg a4_\txtaor
+      \grg e4_\txtaorcrun \grg e4_\txtaorcrun \grg f4_\txtaorcrun \grg f4_\txtaorcrun
+      \grg b4_\txtaorcrun \grg b4_\txtaorcrun \grg G4_\txtaorcrun \grg b4_\txtaorcrun
+      \grg e4_\txtaorcrun \grg e4_\txtaorcrun \grg f4_\txtaorcrun \grg f4_\txtaorcrun
+      \grg b4_\txtaorcrun \grg e4_\txtaorcrun \grg a4_\txtaorcrun \grg a4_\txtaorcrun
       \bar "||" \break
 
       % Line 3
 
-      \grg e4_\txtaor \grg e4_\txtaor \grg f4_\txtaor \grg f4_\txtaor
-      \grA g4_\txtaor \grA g4_\txtaor \grg f4_\txtaor \grg f4_\txtaor
-      \grg e4_\txtaor \grg e4_\txtaor \grg f4_\txtaor \grg f4_\txtaor
-      \grA g4_\txtaor \grg e4_\txtaor \grg a4_\txtaor \grg a4_\txtaor
+      \grg e4_\txtaorcrun \grg e4_\txtaorcrun \grg f4_\txtaorcrun \grg f4_\txtaorcrun
+      \grA g4_\txtaorcrun \grA g4_\txtaorcrun \grg f4_\txtaorcrun \grg f4_\txtaorcrun
+      \grg e4_\txtaorcrun \grg e4_\txtaorcrun \grg f4_\txtaorcrun \grg f4_\txtaorcrun
+      \grA g4_\txtaorcrun \grg e4_\txtaorcrun \grg a4_\txtaorcrun \grg a4_\txtaorcrun
       \bar "|." \break
     }
     \header {
-      piece = "IV. Taorluath Doubling"
+      piece = "IV. Taorluath Doubling   VI. Crunluath Doubling"
     }
   }
-
-  \pageBreak
-
-  \score {
-    {
-      \common
-
-      % Line 1
-
-      \grg e4_\txcrun \grg e4 \grg d4_\txcrun \grg d4
-      \grg b4_\txcrun \grg b4 \grg G4_\txcrun \grg b4
-      \grg e4_\txcrun \grg e4 \grg d4_\txcrun \grg d4
-      \grg b4_\txcrun \grg b4 \grg e4 \dbirl a4
-      \bar "||" \break
-
-      % Line 2
-
-      \grg e4_\txcrun \grg e4 \grg f4_\txcrun \grg f4
-      \grg b4_\txcrun \grg b4 \grg G4_\txcrun \grg b4
-      \grg e4_\txcrun \grg e4 \grg f4_\txcrun \grg f4
-      \grg b4_\txcrun \grg b4 \grg e4 \dbirl a4
-      \bar "||" \break
-
-      % Line 3
-
-      \grg e4_\txcrun \grg e4 \grg f4_\txcrun \grg f4
-      \grA g4_\txcrun \grA g4 \grg G8.[ \bari g16] \grg f4
-      \grg e4_\txcrun \grg e4 \grg f4_\txcrun \grg f4
-      \grg g4_\txcrun \grg b4 \grg e4 \dbirl a4
-      \bar "|." \break
-    }
-    \header {
-      piece = "V. Crunluath"
-    }
-  }
-
-  \score {
-    {
-      \common
-
-      % Line 1
-
-      \grg e4_\txcrun \grg e4_\txcrun \grg d4_\txcrun \grg d4_\txcrun
-      \grg b4_\txcrun \grg b4_\txcrun \grg G4_\txcrun \grg b4_\txcrun
-      \grg e4_\txcrun \grg e4_\txcrun \grg d4_\txcrun \grg d4_\txcrun
-      \grg b4_\txcrun \grg e4_\txcrun \grg a4_\txcrun \grg a4_\txcrun
-      \bar "||" \break
-
-      % Line 2
-
-      \grg e4_\txcrun \grg e4_\txcrun \grg f4_\txcrun \grg f4_\txcrun
-      \grg b4_\txcrun \grg b4_\txcrun \grg G_\txcrun \grg b4_\txcrun
-      \grg e4_\txcrun \grg e4_\txcrun \grg f4_\txcrun \grg f4_\txcrun
-      \grg b4_\txcrun \grg e4_\txcrun \grg a4_\txcrun \grg a4_\txcrun
-      \bar "||" \break
-
-      % Line 3
-
-      \grg e4_\txcrun \grg e4_\txcrun \grg f4_\txcrun \grg f4_\txcrun
-      \grA g4_\txcrun \grA g4_\txcrun \grg f4_\txcrun \grg f4_\txcrun
-      \grg e4_\txcrun \grg e4_\txcrun \grg f4_\txcrun \grg f4_\txcrun
-      \grA g4_\txcrun \grg e4_\txcrun \grg a4_\txcrun \grg a4_\txcrun
-      \bar "|." \break
-    }
-    \header {
-      piece = "VI. Crunluath Doubling"
-    }
   }
   %%% END SKIP
 }
