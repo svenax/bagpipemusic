@@ -8,7 +8,7 @@
     #(define page-breaking ly:minimal-breaking)
 }
 
-\include "airs/leaving-lismor.ly"
-\include "jigs/glasgow_police_pipers.ly"
+\include "airs/leaving_lismore.ly"
+\include "jigs/!glasgow_police_pipers.ly"
 \pageBreak
 \include "jigs/paddys_leather_breeches.ly"
