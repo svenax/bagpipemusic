@@ -35,8 +35,8 @@ pitchnames = \pitchnamesBagpipe
 % Bagpipe music is written in something like D major. If we use
 % flattened notes, the flat should be shown on all instances.
 bagpipeKey = {
-    \key d \major
-    \accidentalStyle "forget"
+  \key d \major
+  \accidentalStyle "forget"
 }
 
 % Show the key signature e.g. for BMW compatibility.
@@ -63,8 +63,8 @@ showTrueKeySignature = {
 
 % Various tweaks to get good defaults for bagpipe music.
 \paper {
-    top-margin = 4\mm
-    bottom-margin = 4\mm
+  top-margin = 4\mm
+  bottom-margin = 4\mm
 }
 
 \layout {
@@ -111,13 +111,13 @@ showTrueKeySignature = {
 
 % Sets the autobeamer to span quarter notes only. Use for fast music.
 quarterBeaming = {
-    \set Score.baseMoment = #(ly:make-moment 1 4)
-    \set Score.beatStructure = #'(1 1 1 1)
+  \set Score.baseMoment = #(ly:make-moment 1 4)
+  \set Score.beatStructure = #'(1 1 1 1)
 }
 % Sets the autobeamer to span half notes. Mostly used in reels.
 halfBeaming = {
-    \set Score.baseMoment = #(ly:make-moment 1 2)
-    \set Score.beatStructure = #'(1 1)
+  \set Score.baseMoment = #(ly:make-moment 1 2)
+  \set Score.beatStructure = #'(1 1)
 }
 
 % Reels are in allabreve time with half note beaming.

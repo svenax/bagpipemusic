@@ -4,10 +4,10 @@ from optparse import OptionParser
 
 class MakeLily:
     # Path constants
-    EDITOR = 'subl'
+    EDITOR = 'mvim'
     LILYPOND = 'lilypond'
     READER = 'open -a Preview.app '
-    SCRIPT_PATH = os.path.expanduser('~/Sheetmusic/Bagpipe')
+    SCRIPT_PATH = os.path.expanduser('~/Documents/Sheetmusic/Bagpipe')
 
     def __init__(self):
         # Gather options and create the template file
@@ -15,23 +15,32 @@ class MakeLily:
         usage = 'makelily.py [options] music-file.ly'
         parser = OptionParser(usage)
         parser.add_option('-@', '--list-file',
-                action='store', type='string', dest='list_file', default='')
+                action='store', type='string', dest='list_file', default='',
+                help='Read files to process from a file.')
         parser.add_option('-s', '--staff-size',
-                action='store', type='string', dest='staffsize', default='16')
+                action='store', type='string', dest='staffsize', default='16',
+                help='Staff size. Default 16pt.')
         parser.add_option('-p', '--paper-size',
-                action='store', type='string', dest='papersize', default='a4')
+                action='store', type='string', dest='papersize', default='a4',
+                help='Paper size. Default A4 (Yes, I am from Europe).')
         parser.add_option('-l', '--landscape',
-                action='store_const', const='landscape', dest='paperdir', default='portrait')
+                action='store_const', const='landscape', dest='paperdir', default='portrait',
+                help='Use landscape paper orientation. Default portrait.')
         parser.add_option('-f', '--format',
-                action='store', type='string', dest='format', default=None)
+                action='store', type='string', dest='format', default=None,
+                help='Use header format file "header_{format}". Default "header_default".')
         parser.add_option('-v', '--version',
-                action='store_true', dest='show_version', default=False)
+                action='store_true', dest='show_version', default=False,
+                help='Show Lilypond version.')
         parser.add_option('-w', '--view-spacing',
-                action='store_true', dest='view_spacing', default=False)
+                action='store_true', dest='view_spacing', default=False,
+                help='Turn on "Paper.annotatespacing".')
         parser.add_option('-o', '--open-pdf',
-                action='store_true', dest='open_pdf', default=False)
+                action='store_true', dest='open_pdf', default=False,
+                help='Open the generated PDF in the configured reader.')
         parser.add_option('--no-log',
-                action='store_false', dest='log', default=True)
+                action='store_false', dest='log', default=True,
+                help='Do not generate log files.')
 
         (self.options, self.args) = parser.parse_args()
 
