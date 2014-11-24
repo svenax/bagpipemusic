@@ -31,7 +31,7 @@
       \break
       \grg G4. \dblg g4.
       \dblA A4 g8 \grA f g f
-      \dble e4 d8 \grg b \gre b \grG b
+      \dble e4 d8 \grg b \grd b \gre b
       \grg a4. \wbirl a4.
     }
     \break
@@ -52,13 +52,13 @@
 
     % Part 4
     \repeat volta 2 {
-      \grg G4. \dblg g4.
-      \grA g8 A f \dblg g4.
+      \grg G4. \dblg g4. ~
+      g8 A f \dblg g4 f8
       \dble e4 d8 \grg b \gre b \grG b
       \grg G8 e d \grg b \gre b \grG b
       \break
-      \grg G4. \dblg g4.
-      \grA g8 A f \dblg g4 f8
+      \grg G4. \dblg g4. ~
+      g8 A f \dblg g4 f8
       \dble e4 d8 \grg b \grd b \gre b
       \grg a4. \wbirl a4.
     }
