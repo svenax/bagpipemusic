@@ -143,7 +143,7 @@ pgrace = #(define-music-function (parser location notes) (ly:music?) #{
   \revert Score.Stem #'beamlet-default-length
 #})
 
-% Single pgrace notes
+% Single grace notes
 grG = { \pgrace { G32 } }
 gra = { \pgrace { a32 } }
 grb = { \pgrace { b32 } }
@@ -187,93 +187,97 @@ tdble = { \pgrace { A32[ e f] } }
 tdblf = { \pgrace { A32[ f g] } }
 tdblg = { \pgrace { A32[ g f] } }
 
-% Shakes
-% A few of these can't really be played and are here only for consistency.
+% Shakes / Pele
 shakea = { \pgrace { g32[ a e a G] } }
 shakeb = { \pgrace { g32[ b e b G] } }
 shakec = { \pgrace { g32[ c e c G] } }
 shaked = { \pgrace { g32[ d e d G] } }
+wshaked = { \pgrace { g32[ d e d c] } }
 shakee = { \pgrace { g32[ e f e a] } }
-shakef = { \pgrace { g32[ f g f a] } }
+shakef = { \pgrace { g32[ f g f e] } }
 shakeg = { \pgrace { A32[ f g a] } }
 shakeA = { \pgrace { A32[ g A a] } }
 
-% Half shakes
-hshakea = { \pgrace { a32[ d a G] } }
-hshakeb = { \pgrace { b32[ d b G] } }
-hshakec = { \pgrace { c32[ d c G] } }
+% Half shakes / Half Pele
+hshakea = { \pgrace { a32[ e a G] } }
+hshakeb = { \pgrace { b32[ e b G] } }
+hshakec = { \pgrace { c32[ e c G] } }
 hshaked = { \pgrace { d32[ e d G] } }
+whshaked = { \pgrace { d32[ e d c] } }
 hshakee = { \pgrace { e32[ f e a] } }
-hshakef = { \pgrace { f32[ g f a] } }
-hshakeg = { \pgrace { g32[ f g a] } }
+hshakef = { \pgrace { f32[ g f e] } }
+hshakeg = { \pgrace { g32[ A g f] } }
 hshakeA = { \pgrace { A32[ g A a] } }
 
-% Thumb shakes
-tshakea = { \pgrace { A32[ a d a G] } }
-tshakeb = { \pgrace { A32[ b d b G] } }
-tshakec = { \pgrace { A32[ c d c G] } }
+% Thumb shakes / Thumb Peles
+tshakea = { \pgrace { A32[ a e a G] } }
+tshakeb = { \pgrace { A32[ b e b G] } }
+tshakec = { \pgrace { A32[ c e c G] } }
 tshaked = { \pgrace { A32[ d e d G] } }
+wtshaked = { \pgrace { A32[ d e d c] } }
 tshakee = { \pgrace { A32[ e f e a] } }
-tshakef = { \pgrace { A32[ f g f a] } }
-tshakeg = { \pgrace { A32[ f g a] } }
+tshakef = { \pgrace { A32[ f g f e] } }
+tshakeg = { \pgrace { A32[ g A g f] } }
 tshakeA = { \pgrace { A32[ g A a] } }
 
-% Slurs
-% A few of these can't really be played and are here only for consistency.
+% Slurs / G - Grace Strike
 slura  = { \pgrace { g32[ a G] } }
 slurb  = { \pgrace { g32[ b G] } }
 slurc  = { \pgrace { g32[ c G] } }
 slurd  = { \pgrace { g32[ d G] } }
 wslurd = { \pgrace { g32[ d c] } }
 slure  = { \pgrace { g32[ e a] } }
-slurf  = { \pgrace { g32[ f a] } }
+slurf  = { \pgrace { g32[ f e] } }
 slurg  = { \pgrace { A32[ f a] } }
 slurA  = { \pgrace { f32[ a] } }
 
-% Half slurs
+% Half slurs / Half Strike
 hslura  = { \pgrace { a32[ G] } }
 hslurb  = { \pgrace { b32[ G] } }
 hslurc  = { \pgrace { c32[ G] } }
 hslurd  = { \pgrace { d32[ G] } }
 whslurd = { \pgrace { d32[ c] } }
 hslure  = { \pgrace { e32[ a] } }
-hslurf  = { \pgrace { f32[ a] } }
-hslurg  = { \pgrace { g32[ a] } }
+hslurf  = { \pgrace { f32[ e] } }
+hslurg  = { \pgrace { g32[ f] } }
 hslurA  = { \pgrace { A32[ a] } }
 
-% Thumb slurs
+% Thumb slurs / Thumb Strike
 tslura  = { \pgrace { A32[ a G] } }
 tslurb  = { \pgrace { A32[ b G] } }
 tslurc  = { \pgrace { A32[ c G] } }
 tslurd  = { \pgrace { A32[ d G] } }
 wtslurd = { \pgrace { A32[ d c] } }
 tslure  = { \pgrace { A32[ e a] } }
-tslurf  = { \pgrace { A32[ f a] } }
-tslurg  = { \pgrace { A32[ f a] } }
+tslurf  = { \pgrace { A32[ f e] } }
+tslurg  = { \pgrace { A32[ g f] } }
 tslurA  = { \pgrace { f32[ a] } }
 
-% Catches
-catcha = { \pgrace { a32[ G d G] } }
-catchb = { \pgrace { b32[ G d G] } }
-catchc = { \pgrace { c32[ G d G] } }
-catchd = { \pgrace { d32[ G b G] } }
-catche = { \pgrace { e32[ G d G] } }
+% Catches / G-Grace Grip
+catcha = { \pgrace { g32[ a G d G] } }
+catchb = { \pgrace { g32[ b G d G] } }
+catchc = { \pgrace { g32[ c G d G] } }
+catchd = { \pgrace { g32[ d G d G] } }
+wcatchd = { \pgrace { g32[ d G b G] } }
+catche = { \pgrace { g32[ e G d G] } }
 
-% G-pgrace catches
-gcatcha = { \pgrace { g32[ a G d G] } }
-gcatchb = { \pgrace { g32[ b G d G] } }
-gcatchc = { \pgrace { g32[ c G d G] } }
-gcatchd = { \pgrace { g32[ d G b G] } }
-gcatche = { \pgrace { g32[ e G d G] } }
+% Half Catches / Half Grip
+hcatcha = { \pgrace { a32[ G d G] } }
+hcatchb = { \pgrace { b32[ G d G] } }
+hcatchc = { \pgrace { c32[ G d G] } }
+hcatchd = { \pgrace { d32[ G d G] } }
+whcatchd = { \pgrace { d32[ G b G] } }
+hcatche = { \pgrace { e32[ G d G] } }
 
-% Thumb catches
+% Thumb catches / Thumb Grip
 tcatcha = { \pgrace { A32[ a G d G] } }
 tcatchb = { \pgrace { A32[ b G d G] } }
 tcatchc = { \pgrace { A32[ c G d G] } }
-tcatchd = { \pgrace { A32[ d G b G] } }
+tcatchd = { \pgrace { A32[ d G d G] } }
+wtcatchd = { \pgrace { A32[ d G b G] } }
 tcatche = { \pgrace { A32[ e G d G] } }
 
-% Triple strikes (BMW has them all, but I've never seen any but the A one used, so ...)
+% Triple strikes
 tripleA = { \pgrace { A32[ g A g A g] } }
 
 % Throws
@@ -290,9 +294,9 @@ wbirl = { \pgrace { G32[ a G] } }
 gbirl = { \pgrace { g32[ a G a G] } }
 dbirl = { \pgrace { d32[ a G a G] } }
 
-% Grips
+% Grips / Leumluath
 grip  = { \pgrace { G32[ d G] } }
-dgrip = { \pgrace { G32[ b G] } }
+bgrip = { \pgrace { G32[ b G] } }
 egrip = { \pgrace { G32[ e G] } }
 fgrip = { \pgrace { G32[ f G] } }
 
@@ -300,12 +304,13 @@ fgrip = { \pgrace { G32[ f G] } }
 taor    = { \pgrace { G32[ d G e] } }
 taorjmd = { \pgrace { G32[ d a e] } }
 taorold = { \pgrace { G32[ d G a e] } }
-dtaor   = { \pgrace { G32[ b G e] } }
+btaor   = { \pgrace { G32[ b G e] } }
 Gtaor   = { \pgrace { d32[ G e] } }
 taoramb = { \pgrace { G32[ d G b e] } }
 taoramc = { \pgrace { G32[ d G c e] } }
 taoramd = { \pgrace { G32[ d G c d e] } }
 
+% Special piobaireachd notations
 % Crunluaths
 crun    = { \pgrace { G32[ d G e a f a ] } }
 dcrun   = { \pgrace { G32[ b G e a f a ] } }
@@ -318,7 +323,6 @@ crunambfosg = { \pgrace { e32[ b f b ] } }
 crunamcfosg = { \pgrace { e32[ c f c ] } }
 crunamdfosg = { \pgrace { e32[ d f d ] } }
 
-% Special piobaireachd notations
 grGcad   = { \pgrace { G16 } }
 gracad   = { \pgrace { a16 } }
 grecad   = { \pgrace { e16 } }
