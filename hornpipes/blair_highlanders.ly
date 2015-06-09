@@ -25,31 +25,28 @@
 
     % Part 2
 
-    \repeat volta 2 {
-      \grg f16 g
-      \dblA A8 d16 e \grg f A f d
-      \grg e d \grg e f \slurb b8 \grg e16 d
-      \grg c A a A e A c A
-      d[ c \grg d f]
-    }
-    \alternative {
-      {
-        \dble e8 \grg f16 g
-        \break
-        \dblA A8 d16 e \grg f A f d
-        \grg e d \grg e f \slurb b8 \grg e16 d
-        \grg c e A e \grg f A c e
-        \grg f d \grG d c \thrwd d8
-        \break
-      }
-      {
-        \grg \partial 4 e16 c \grg a b
-        \thrwd d8 \grg a16 d \grg f A f d
-        \grg e d \grg e f \slurb b8 \grg e16 d
-        \grg c e A e \grg f A c e
-        \grg f d \grG d c \thrwd d8
-      }
-    }
+    \grg f16 g
+    \dblA A8 d16 e \grg f A f d
+    \grg e d \grg e f \slurb b8 \grg e16 d
+    \grg c A a A e A c A
+    d c \grg d f \dble e8 \grg f16 g
+    \break
+    \dblA A8 d16 e \grg f A f d
+    \grg e d \grg e f \slurb b8 \grg e16 d
+    \grg c e A e \grg f A c e
+    \grg f d \grG d c \thrwd d8
+    \bar "||" \break
+
+    \grg f16 g
+    \dblA A8 d16 e \grg f A f d
+    \grg e d \grg e f \slurb b8 \grg e16 d
+    \grg c A a A e A c A
+    d c \grg d f \grg e16 c \grg a b
+    \break
+    \thrwd d8 \grg a16 d \grg f A f d
+    \grg e d \grg e f \slurb b8 \grg e16 d
+    \grg c e A e \grg f A c e
+    \grg f d \grG d c \thrwd d8
     \bar "||" \break
 
     % Part 3

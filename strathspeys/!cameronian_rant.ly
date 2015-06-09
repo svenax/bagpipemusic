@@ -16,8 +16,8 @@
     \break
     \thrwd d16 \gre G8. \grg \times 2/3 { G8 \grd G \gre G } \Gthrwd d16 \gre G8. \dblb b16 g8.
     \thrwd d16 \gre G8. \dblb b16 \gre G8. \Gthrwd d16 f8. \grg \times 2/3 { f8 e d }
-    \thrwd d16 \gre G8. \grg \times 2/3 { G8 \grd G \gre G } \dblc c16 \gre a8. \dblb b16 \gre a8.
-    \thrwd d16 \gre G8. \grg \times 2/3 { G8 \grd G \gre G } \thrwd d4 \dblc c16 \gre b8.
+    \dblc c16 \gre a8. \grg \times 2/3 { a8 \grd a \gre a } \dblc c16 \gre a8. \dblb b16 \gre a8.
+    \hdblc c16 \gre a8. \grg \times 2/3 { a8 \grd a \gre a } \thrwd d4 \dblc c16 \gre b8.
     \bar "||" \break
 
     % Part 2

@@ -9,7 +9,7 @@
     % Part 1
 
     \repeat volta 2 {
-      \grg \partial 8 a16 \grd c
+      \partial 8 \grg a16 \grd c
       e[ \grg e \gra e d \dblc c e]
       A \grg A \grg A e \grg f e
       d[ \grg d \grG d f \dble e d]

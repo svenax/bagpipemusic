@@ -11,12 +11,12 @@
 
     \repeat volta 2 {
       \partial 8 e8
-      \grg a16 e \gra e d \grg e d \grG d e
+      \grg a16 e \gra e d \grg e d \grG d \grg e
       \gra e a \grg b d \grg e8[ \dblg g]
       \grA G16 d \grG d b \grg d b \grG b d
       \grg e g \grA d e \grg b d \gre G \grd b
       \break
-      \grg a16 e \gra e d \grg e d \grG d e
+      \grg a16 e \gra e d \grg e d \grG d \grg e
       \gra e a \grg b d \grg e8[ \dblg g]
       \grA e16 A \grg A g \grA e g \grA b d
       \dble e8 \grg a \wbirl a
@@ -43,7 +43,7 @@
         \break
       }
       {
-        \grg a16 e \gra e d \grg e d \grG d e
+        \grg a16 e \gra e d \grg e d \grG d \grg e
         \gra e a \grg b d \grg e8[ \dblg g]
         \grA e16 A \grg A g \grA e g \grA b d
         \dble e8 \grg a \wbirl a

@@ -9,13 +9,13 @@
     % Part 1
 
     \partial 8 e8
-    \grg a4 \taor a8 \grg c16 e8. b8 \grg c4 \taor a8 \wbirl a4 \grg c8
+    \grg a4 \taor a8 \grg c16 e8. b8 \grg c4 \taor a8 \wbirl a4 \grd c8
     \dble e8. c16 e8 \grg f16 A8. d8 \dble e4. ~ e4 f8
     \break
     \grg f8. d16 f8 \dblA A4 f8 \dble e8. c16 \grd a8 \gbirl a4 \grd c8
     \dble e8. c16 e8 \grg c16 d8. c8 \slurb b4. ~ b4 e8
     \break
-    \grg a4 \taor a8 \grg c16 e8. b8 \grg c4 \taor a8 \wbirl a4 \grg c8
+    \grg a4 \taor a8 \grg c16 e8. b8 \grg c4 \taor a8 \wbirl a4 \grd c8
     \dble e8. c16 e8 \grg f16 A8. d8 \dble e4. ~ e4 f8
     \break
     \grg f4 \grip f8 \dblA A4 f8 \dble e8. c16 \grd a8 \grg e16 A8. d8
