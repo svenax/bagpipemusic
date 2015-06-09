@@ -21,12 +21,12 @@
 
     % Part 2
 
-    \gcatchb b4 \grg b8. A16 \hslurb b8. A16 \thrwd d8. b16
+    \catchb b4 \grg b8. A16 \hslurb b8. A16 \thrwd d8. b16
     \grg e8. f16 \dble e8. d16 \dblc c4 \grg b16 \grd a8.
-    \gcatchb b4 \grg b8. A16 \hslurb b8. A16 \thrwd d8. b16
+    \catchb b4 \grg b8. A16 \hslurb b8. A16 \thrwd d8. b16
     \dblf f4 \grip e8. d16 \dblc c4 \grg b16 \grd a8.
     \break
-    \gcatchb b4 \grg b8. A16 \hslurb b8. A16 \thrwd d8. b16
+    \catchb b4 \grg b8. A16 \hslurb b8. A16 \thrwd d8. b16
     \grg e8. f16 \dble e8. d16 \dblc c4 \grg b16 \grd a8.
     \grg b4 \taor b8. c16 \thrwd d8. a16 \grg b16 c d8
     \dblf f8. a16 \dble e8. a16 \dblc c4 \grg b16 \grd a8.

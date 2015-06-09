@@ -22,7 +22,7 @@
 
     \dblg g4
     A4 ~ A8 g A8. f16 \grg e16 d8. ~ d4 \grg e8. f16
-    \dblg g2 \grA d4 \dgrip a2 \grg d8. b16
+    \dblg g2 \grA d4 \bgrip a2 \grg d8. b16
     \grg G4 ~ G8 \grd b \grg b16 d8. \grg d16 g8. ~ g8 \grA e A8. g16
     \grA f2 ~ f4 \dble e2 \dblg g4
     \break

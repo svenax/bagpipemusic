@@ -16,7 +16,7 @@
       \grg a16. \grd c32 \grg e16. g32 \tdblf f16. e32 \grg d16. b32
       \break
       \grg a16. d32 \grg f16. g32 \dblA A8 f
-      \dblA A8 f32 \grg d16. \dgrip a8 d32 \grg f16.
+      \dblA A8 f32 \grg d16. \bgrip a8 d32 \grg f16.
       \grA g16.[ e32 \gra e16. g32] \grA f16. d32 \grG d16. f32
       \grA g16. e32 \grg d16. c32 \thrwd d8.
     }

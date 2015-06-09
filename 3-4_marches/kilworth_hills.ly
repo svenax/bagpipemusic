@@ -43,7 +43,7 @@ musicA = {
   \repeat volta 2 {
     \grg b8. c16 \thrwd d4 \slurd d4
     \dble e8. d16 \grG d4 \gre c4
-    \dblc c4 \dgrip a4. \grd c8
+    \dblc c4 \bgrip a4. \grd c8
     \dble e8. c16 \dblb b2
     \break
     \thrwd d8. e16 \grg f4 \gre f4
@@ -61,7 +61,7 @@ musicA = {
     \grg f8. e16 \grg c4. f8
     \dble e8. c16 \dblb b2
     \break
-    \dblc c4 \dgrip a4. \grd c8
+    \dblc c4 \bgrip a4. \grd c8
     \grg e8. f16 \dble e4 \grd c4
     \grg a8. \grd c16 \dble e4. b8
     \dbld d16 c8. \grG a2

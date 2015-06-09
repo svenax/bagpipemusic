@@ -39,7 +39,7 @@
     f8
     \dble e8. a16 \gbirl a4 \gbirl a4 \dblc c16 \gre a8.
     \dblc c16 \gre a8. \gbirl a4 \grg c16 e8. \gra e16 A8.
-    \hdblf f8. b16 \gcatchb b4 \darodo b4 \thrwd d8. c16
+    \hdblf f8. b16 \catchb b4 \darodo b4 \thrwd d8. c16
     \darodo b4 \thrwd d8. e16 \dblf f4 \grg f16 A8.
     \break
     \hdble e8. a16 \gbirl a4 \gbirl a4 \dblc c16 \gre a8.

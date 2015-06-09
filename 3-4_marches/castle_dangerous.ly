@@ -11,12 +11,12 @@
     \repeat volta 2 {
       \thrwd d8. e16 \grg f4 \dblA A
       \dblf f8 d \grg G4 \grd b
-      \dbld d \dgrip a \thrwd d
+      \dbld d \bgrip a \thrwd d
       \grg f8 A \hdble e4 ~ e
       \break
       \thrwd d8. e16 \grg f4 \dblA A
       \dblf f8 d \grg G4 \grd b
-      \dbld d \dgrip a \dblf f
+      \dbld d \bgrip a \dblf f
       \dblg g8 \grA c \thrwd d4 \slurd d
     }
     \break
@@ -26,12 +26,12 @@
     \repeat volta 2 {
       \grg f8. g16 \dblA A4 f8 A
       \dblf f d \grg G4 \grd b
-      \dbld d \dgrip a \thrwd d
+      \dbld d \bgrip a \thrwd d
       \grg f8 A \hdble e4 ~ e
       \break
       \grg f8. g16 \dblA A4 f8 A
       \dblf f d \grg G4 \grd b
-      \dbld d \dgrip a \dblf f
+      \dbld d \bgrip a \dblf f
       \dblg g8 \grA c \thrwd d4 \slurd d
     }
   }

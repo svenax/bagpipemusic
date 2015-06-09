@@ -17,7 +17,7 @@
       \grg a4 \taor a8 b \grG a4 \dblc c8 e
       \dblA A4 \dblf f8 d \dble e2
       \dblA A4 \dblf f8 d \dble e4 \dbld d4
-      \dgrip a2 \wbirl a
+      \bgrip a2 \wbirl a
     }
     \break
 
@@ -32,7 +32,7 @@
       \grg a4 \taor a8 b \grG a4 \dblc c8 e
       \dblA A4 \dblf f8 d \dble e2
       \dblA A4 \dblf f8 d \dble e4 \dbld d
-      \dgrip a2 \wbirl a2
+      \bgrip a2 \wbirl a2
 
     }
   }

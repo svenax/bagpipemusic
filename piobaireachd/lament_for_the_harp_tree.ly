@@ -12,7 +12,7 @@
     \cad c8. b16 \grip c4 \grg e8. c16 \grg e4
     \grg f8. e16 \grg f4 A8. f16 A4
     c8. b16 \grip c4 \grg e8. c16 \grg e4
-    \grg f8. c16 \grg e4 \cad c \dgrip a
+    \grg f8. c16 \grg e4 \cad c \bgrip a
     \break
     \grg f8. e16 \grg f4 \grg e8. c16 \grg e4
     \cad c8. b16 \grip c4 \cad b8 a \grd G4

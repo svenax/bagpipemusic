@@ -37,7 +37,7 @@
     % Part 3
 
     e8
-    \gcatchc c4 \dblg g8 c \dble e c \dblg g8. e16
+    \catchc c4 \dblg g8 c \dble e c \dblg g8. e16
     \grg c4 \grip e8. f16 \dblg g8. e16 \dblc c8 e
     \thrwd d4 \dblA A8 d \dblf f d \dblA A8. f16
     \thrwd d8. e16 \grg f8. g16 \dblA A8. g16 \tdblf f8 A

@@ -19,7 +19,7 @@
       \grg e8[ \birl a] \dble e8. d16
       \dble e8 A \grg A8 g32 \grA f16.
       \dblg g8 \grA e \dble e8 \grg d
-      \dgrip a4 \wbirl a8
+      \bgrip a4 \wbirl a8
     }
     \break
 
@@ -39,7 +39,7 @@
         \dble e8 A \grg A8 g32 \grA f16.
         \dblg g8 f32 \grg e16. \dblA A8. f16
         \dblg g8 \grA e \dble e8 \grg d
-        \dgrip a4 \wbirl a8
+        \bgrip a4 \wbirl a8
         \break
       }
       {
@@ -47,7 +47,7 @@
         \grg e8[ \birl a] \dble e8. d16
         \dble e8 A \grg A8 g32 \grA f16.
         \dblg g8 \grA e \dble e8 \grg d
-        \dgrip a4 \wbirl a8
+        \bgrip a4 \wbirl a8
       }
     }
     \bar "||" \break
@@ -64,7 +64,7 @@
       \grg e8[ \birl a] \dblc c8 \grg b32 \grd a16.
       \dble e16. d32 \grg c16. d32 \dble e8 A
       \dblg g8 \grA e \dble e8 \grg d
-      \dgrip a4 \wbirl a8
+      \bgrip a4 \wbirl a8
     }
     \break
 
@@ -80,7 +80,7 @@
       \dble e16. a32 \grg c32 e16. \dblc c8 \grg b32 \grd a16.
       \dble e16. a32 \grg c32 e16. \dblA A8 g32 \grA f16.
       \dblg g8 \grA e \dble e8 \grg d
-      \dgrip a4 \wbirl a8
+      \bgrip a4 \wbirl a8
     }
   }
 

@@ -34,8 +34,8 @@
 
     \repeat volta 2 {
       \grg e8.[ \taor a16] ~ a8 \grg e8 ~ e4 \grg a8 b
-      \grg d8.[ \dtaor a16] ~ a8 \grg a8 ~ a4 \grg a8 b
-      \grg d8.[ \dtaor a16] ~ a8 \grg a8 ~ a8 \gre G8 ~ G4
+      \grg d8.[ \btaor a16] ~ a8 \grg a8 ~ a4 \grg a8 b
+      \grg d8.[ \btaor a16] ~ a8 \grg a8 ~ a8 \gre G8 ~ G4
       \grg e8.[ \taor a16] ~ a8 \grg a8 ~ a8 \gre G8 ~ G4
     }
     \break
@@ -44,9 +44,9 @@
 
     \repeat volta 2 {
       \grA g8.[ \taor a16] ~ a8 \grA g8 ~ g4 \grA e8 b
-      \grA d8.[ \dtaor a16] ~ a8 \grA g8 ~ g4 \grA e8 b
-      \grA d8.[ \dtaor a16] ~ a8 \grA g8 ~ g4 \grA e8 b
-      \grg d8.[ \dtaor a16] ~ a8 \grA g8 ~ g8[ \dblA A8] ~ A4
+      \grA d8.[ \btaor a16] ~ a8 \grA g8 ~ g4 \grA e8 b
+      \grA d8.[ \btaor a16] ~ a8 \grA g8 ~ g4 \grA e8 b
+      \grg d8.[ \btaor a16] ~ a8 \grA g8 ~ g8[ \dblA A8] ~ A4
     }
     \break
 

@@ -56,12 +56,12 @@
     \repeat volta 2 {
       f8
       \grg b8[ \taor b16. \grd c32] \grg f16. b32 \grd c32 e16.
-      \grg f16.[ b32 \gcatchb b8] \dblf f8[ \dble e16. c32]
+      \grg f16.[ b32 \catchb b8] \dblf f8[ \dble e16. c32]
       \grg a8[ \taor a16. \grd c32] \dble e16. a32 \grd c32 e16.
       \grg f32 A16. g32 A16. \hdblf f8[ \dble e16. c32]
       \break
       \grg b8[ \taor b16. \grd c32] \grg f16. b32 \grd c32 e16.
-      \grg f16.[ b32 \gcatchb b8] \dblf f8[ \dble e16. c32]
+      \grg f16.[ b32 \catchb b8] \dblf f8[ \dble e16. c32]
       \grg b32 \grd a16. \grg b16. \grd c32 \grg b32 f16. \grg e16. c32
       \dblc c8 \gre b \taor b
     }
@@ -89,7 +89,7 @@
       {
         \barLength 2 4
         \grg b8[ \taor b16. \grd c32] \grg f16. b32 \grd c32 e16.
-        \grg f16.[ b32 \gcatchb b8] \dblf f8[ \dble e16. c32]
+        \grg f16.[ b32 \catchb b8] \dblf f8[ \dble e16. c32]
         \grg b32 \grd a16. \grg b16. \grd c32 \grg b32 f16. \grg e16. c32
         \dblc c8 \gre b \taor b4
       }

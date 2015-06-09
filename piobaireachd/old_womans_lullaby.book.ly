@@ -21,13 +21,13 @@ common = {
       \common
 
       \repeat volta 2 {
-        \grg a8 \grd c \dgrip a4 \grg c16 \grGcad a8. \grip c4
-        \grg b8[ \grip c] \dgrip a4 \grg b16 \grGcad a8. \grip b4
+        \grg a8 \grd c \bgrip a4 \grg c16 \grGcad a8. \grip c4
+        \grg b8[ \grip c] \bgrip a4 \grg b16 \grGcad a8. \grip b4
         \grg a4 \dblA A f8. e16 \grg f8 c
         \grg e16 \gra e8. \gracad e4 \grg e8. f16 \dblA A8 c
       }
       \break
-      \grg b8[ \grip c] \dgrip a4 \grg b16 \grGcad a8. \grip b4
+      \grg b8[ \grip c] \bgrip a4 \grg b16 \grGcad a8. \grip b4
       \cad c4 a8[ \dre e] \grg b16 \grGcad a8. \grip c4
       \grg f4 \dre e8. f16 \grg e8 \grip e4 b8
       \hcad a8. b16 \grip c8 \grGcad a \grg b16 \grGcad a8. \grip b4
