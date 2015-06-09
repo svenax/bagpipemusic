@@ -41,7 +41,7 @@
       \bar "|."
     }
   >>
-  \header { \title = "" }
+  \header { title = "" }
 }
 
 \markuplist{\wordwrap{Play this as transition between final reel and jig on page 3.}}
@@ -57,7 +57,7 @@
     \grg b8. a16 \grg c8. b16 \grg c8 b8 \grg a4
   }
 
-  \header { \title = "" }
+  \header { title = "" }
 }
 
 \pageBreak

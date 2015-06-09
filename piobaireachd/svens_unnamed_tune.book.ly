@@ -149,6 +149,5 @@ common = {
       piece = "IV. Taorluath Doubling   VI. Crunluath Doubling"
     }
   }
-  }
   %%% END SKIP
 }
