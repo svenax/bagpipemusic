@@ -7,7 +7,7 @@ common = {
 }
 
 commonLayout = \layout {
-  line-width = 6.5\cm
+  line-width = 9.0\cm
   ragged-last = ##f
 }
 
