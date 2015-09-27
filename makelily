@@ -4,8 +4,8 @@ from optparse import OptionParser
 
 class MakeLily:
     # Path constants
-    EDITOR = 'mvim'
-    LILYPOND = 'lilypond'
+    EDITOR = 'subl'
+    LILYPOND = '~/bin/lilypond'
     READER = 'open -a Preview.app '
     SCRIPT_PATH = os.path.expanduser('~/Documents/Sheetmusic/Bagpipe')
 
