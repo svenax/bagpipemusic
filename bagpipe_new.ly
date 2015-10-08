@@ -7,7 +7,7 @@
   (http://www.murrays.nu)
 %}
 
-\version "2.16.0"
+\version "2.19.28"
 
 % Notes of the scale of the Great Highland Bagpipe. Extra high notes for bombarde.
 % Flat notes used mainly in some modern music.
@@ -30,31 +30,31 @@ pitchnamesBagpipe = #`(
   (C     . ,(ly:make-pitch 2 0 SHARP))
 )
 pitchnames = \pitchnamesBagpipe
-#(ly:parser-set-note-names parser pitchnames)
+#(ly:parser-set-note-names pitchnames)
 
 % Bagpipe music is written in something like D major. If we use
 % flattened notes, the flat should be shown on all instances.
 bagpipeKey = {
   \key d \major
-  \accidentalStyle "forget"
+  \accidentalStyle forget
 }
 
 % Show the key signature e.g. for BMW compatibility.
 showKeySignature = {
-  \override Staff.KeySignature #'stencil = #'ly:key-signature-interface::print
-  \override StaffGroup.KeySignature #'stencil = #'ly:key-signature-interface::print
-  \override Score.KeySignature #'stencil = #'ly:key-signature-interface::print
+  \override Staff.KeySignature.stencil = #'ly:key-signature-interface::print
+  \override StaffGroup.KeySignature.stencil = #'ly:key-signature-interface::print
+  \override Score.KeySignature.stencil = #'ly:key-signature-interface::print
 }
 
 % Show the true key signature (E-flat major). Use together with
 % \transpose f a to print scores for other instruments.
 showTrueKeySignature = {
-  \override Staff.KeySignature #'stencil = #'ly:key-signature-interface::print
-  \override StaffGroup.KeySignature #'stencil = #'ly:key-signature-interface::print
-  \override Score.KeySignature #'stencil = #'ly:key-signature-interface::print
-  \override Score.Stem #'direction = #'center
-  \override Score.Slur #'direction = #'center
-  \override Score.Tie #'direction = #'center
+  \override Staff.KeySignature.stencil = #'ly:key-signature-interface::print
+  \override StaffGroup.KeySignature.stencil = #'ly:key-signature-interface::print
+  \override Score.KeySignature.stencil = #'ly:key-signature-interface::print
+  \override Score.Stem.direction = #'center
+  \override Score.Slur.direction = #'center
+  \override Score.Tie.direction = #'center
 }
 
 % gracenotesOff = #(set! showGracenotes ##f)
@@ -75,20 +75,20 @@ showTrueKeySignature = {
 
     \remove "Bar_number_engraver"
 
-    \override Stem #'direction = #down
-    \override Slur #'direction = #up
-    \override Tie #'direction = #up
+    \override Stem.direction = #down
+    \override Slur.direction = #up
+    \override Tie.direction = #up
 
-    \override KeySignature #'print-function = ##f
-    \override VoltaBracketSpanner #'Y-extent = #'(-1.5 . 0)
-    \override VoltaBracket #'height = #2.2
+    %\override KeySignature.print-function = ##f
+    \override VoltaBracketSpanner.Y-extent = #'(-1.5 . 0)
+    \override VoltaBracket.height = #2.2
   }
 
   \context {
     \StaffGroup
 
     extraNatural = ##f
-    \override KeySignature #'stencil = ##f
+    \override KeySignature.stencil = ##f
   }
 
   \context {
@@ -97,13 +97,13 @@ showTrueKeySignature = {
     extraNatural = ##f
     midiInstrument = #"bagpipe"
 
-    \override KeySignature #'stencil = ##f
+    \override KeySignature.stencil = ##f
   }
 
   \context {
     \Voice
 
-    \override TupletBracket #'bracket-visibility = ##t
+    \override TupletBracket.bracket-visibility = ##t
   }
 }
 
@@ -111,12 +111,12 @@ showTrueKeySignature = {
 
 % Sets the autobeamer to span quarter notes only. Use for fast music.
 quarterBeaming = {
-  \set Score.baseMoment = #(ly:make-moment 1 4)
+  \set Score.baseMoment = #(ly:make-moment 1/4)
   \set Score.beatStructure = #'(1 1 1 1)
 }
 % Sets the autobeamer to span half notes. Mostly used in reels.
 halfBeaming = {
-  \set Score.baseMoment = #(ly:make-moment 1 2)
+  \set Score.baseMoment = #(ly:make-moment 1/2)
   \set Score.beatStructure = #'(1 1)
 }
 
@@ -133,14 +133,14 @@ marchTime = {
 }
 
 % Add appropriate tweaks needed for piping grace notes to look great.
-stemspace = #(define-music-function (parser location extent) (pair?) #{
-  \once \override Staff.Stem #'X-extent = #extent
+stemspace = #(define-music-function (extent) (pair?) #{
+  \once \override Staff.Stem.X-extent = #extent
 #})
-pgrace = #(define-music-function (parser location notes) (ly:music?) #{
-  \override Score.GraceSpacing #'spacing-increment = #0
-  \override Score.Stem #'beamlet-max-length-proportion = #'(0.5 . 0.5)
+pgrace = #(define-music-function (notes) (ly:music?) #{
+  \override Score.GraceSpacing.spacing-increment = #0
+  \override Score.Stem.beamlet-max-length-proportion = #'(0.5 . 0.5)
   \small \grace $notes \normalsize
-  \revert Score.Stem #'beamlet-default-length
+  \revert Score.Stem.beamlet-default-length
 #})
 
 % Single grace notes
