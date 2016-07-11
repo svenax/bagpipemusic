@@ -132,11 +132,11 @@
     {
     \hideKeySignature
     \set Staff.instrumentName = "Grips and birls "
-    a \grip c d \bgrip d a \egrip c
+    a \grip c d \dgrip d a \egrip c
     \birl a \wbirl a \gbirl a \dbirl a
     }
     \addlyrics {
-    \skip 4 "\grip" \skip 4 "\bgrip" \skip 4 "\egrip"
+    \skip 4 "\grip" \skip 4 "\dgrip" \skip 4 "\egrip"
     "\birl" "\wbirl" "\gbirl" "\dbirl"
     }
 }
@@ -145,12 +145,12 @@
     {
     \hideKeySignature
     \set Staff.instrumentName = \markup { "Taorluath " }
-    e \taor a d \btaor a G \Gtaor a
+    e \taor a d \dtaor a G \Gtaor a
     b \taoramb b c \taoramc c b \taoramd d
     e \taorjmd a e \taorold a
     }
     \addlyrics {
-    \skip 4 "\\taor" \skip 4 "\btaor" \skip 4 "\Gtaor"
+    \skip 4 "\\taor" \skip 4 "\dtaor" \skip 4 "\Gtaor"
     \skip 4 "\\taoramb" \skip 4 "\\taoramc" \skip 4 "\\taoramd"
     \skip 4 "\\taorjmd" \skip 4 "\\taorold"
     }
