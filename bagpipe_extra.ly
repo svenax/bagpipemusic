@@ -4,9 +4,18 @@
 
 \version "2.16.0"
 
+\allowVoltaHook "|"
+% \allowVoltaHook "||"
+
 % Used when substituting a single bar or just a few notes to show alternative.
-altBracket = #(define-music-function (parser location tag) (string?)
-  #{ \set Score.repeatCommands = #(list (list 'volta (markup #:text tag))) #})
+altBracket = #(define-music-function (parser location tag) (string?) #{ 
+    \once \override Score.VoltaBracket.shorten-pair = #'(0.3 . 0.3)
+    \set Score.repeatCommands = #(list (list 'volta (markup #:number tag))) 
+#})
+altBracketText = #(define-music-function (parser location tag) (string?) #{ 
+    \once \override Score.VoltaBracket.shorten-pair = #'(0.3 . 0.3)
+    \set Score.repeatCommands = #(list (list 'volta (markup #:text tag)))
+#})
 
 % End previous altBracket thingy.
 altBracketEnd = { \set Score.repeatCommands = #'((volta #f)) }

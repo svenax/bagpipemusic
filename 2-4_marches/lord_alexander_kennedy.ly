@@ -1,19 +1,5 @@
 \version "2.16.0"
 
-AltBracketOne = {
-  \barLength 3 4
-  \set Score.repeatCommands = #'((volta "1."))
-}
-
-AltBracketTwo = {
-  \set Score.repeatCommands = #'((volta "2."))
-}
-
-AltBracketEnd = {
-  \set Score.repeatCommands = #'((volta #f))
-  \barLength 2 4
-}
-
 \score {
 
   {
@@ -28,11 +14,11 @@ AltBracketEnd = {
       a8.[ \taor a16] \wbirl a8. b16
       \grg a16. d32 \grg f32 A16. \hdble e4
       \thrwd d8[ \grg c16. d32]
-      \AltBracketOne
+      \altBracket "1."
       \dblf f8[ \grg e16. a32]
-      \AltBracketTwo
+      \altBracket "2."
       \grg f16.[ e32 \grg c32 \grd a16.]
-      \AltBracketEnd
+      \altBracketEnd
       \dblc c8 \grg b \taor b \grg e32 A16.
       \break
       a8.[ \taor a16] \wbirl a8. b16
@@ -50,11 +36,11 @@ AltBracketEnd = {
       \dble e4 \grg e16. a32 \grg c32 e16.
       \dblf f4 \grg f16. d32 \grg f32 A16.
       \thrwd d8[ \grg c16. d32]
-      \AltBracketOne
+      \altBracket "1."
       \dblf f8[ \grg e16. a32]
-      \AltBracketTwo
+      \altBracket "2."
       \grg f16.[ e32 \grg c32 \grd a16.]
-      \AltBracketEnd
+      \altBracketEnd
       \dblc c8 \grg b \taor b8[
     }
     \alternative {
@@ -84,11 +70,11 @@ AltBracketEnd = {
       \birl a8 \grg c32 e16. \grg a16. d32 \grg f32 A16.
       \thrwd d8 \grg f32 A16. \hdble e4
       \thrwd d8[ \grg c16. d32]
-      \AltBracketOne
+      \altBracket "1."
       \dblf f8[ \grg e16. a32]
-      \AltBracketTwo
+      \altBracket "2."
       \grg f16.[ e32 \grg c32 \grd a16.]
-      \AltBracketEnd
+      \altBracketEnd
       \dblc c8 \grg b \taor b8[
     }
     \alternative {

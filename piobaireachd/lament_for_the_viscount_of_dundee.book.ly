@@ -69,16 +69,16 @@ common = {
       \repeat volta 2 {
         \cadenzaOn
         \grg a8.[ e16] \grg d8.[ e16] \bar "|"
-        \altBracket "V"
+        \altBracketText "V"
         \grg c8.[ b16]
-        \altBracket "V’"
+        \altBracketText "V’"
         \grg c8.[ e16]
         \altBracketEnd
         \grg c8.[ e16] \bar "|"
         \grg d8.[ f16] \grg e8.[ f16] \bar "|"
-        \altBracket "V"
+        \altBracketText "V"
         \grg d8.[ b16]
-        \altBracket "V’"
+        \altBracketText "V’"
         \grg d8.[ e16]
         \altBracketEnd
         \grg d8.[ e16] \bar ":|"
@@ -87,22 +87,22 @@ common = {
       \break
 
       \cadenzaOn
-      \altBracket "V"
+      \altBracketText "V"
       \grg c8.[ b16]
-      \altBracket "V’"
+      \altBracketText "V’"
       \grg c8.[ e16]
       \altBracketEnd
       \grg c8.[ e16] \bar "|"
-      \altBracket "V"
+      \altBracketText "V"
       \grg d8.[ b16]
-      \altBracket "V’"
+      \altBracketText "V’"
       \grg d8.[ e16]
       \altBracketEnd
       \grg d8.[ f16] \bar "|"
       \grg d8.[ f16] \grg e8.[ f16] \bar "|"
-      \altBracket "V"
+      \altBracketText "V"
       \grg c8.[ b16]
-      \altBracket "V’"
+      \altBracketText "V’"
       \grg c8.[ e16]
       \altBracketEnd
       \grg c8.[ e16] \bar "|"
@@ -111,16 +111,16 @@ common = {
 
       \cadenzaOn
       \grg a8.[ f16] \grg e8.[ f16]  \bar "|"
-      \altBracket "V"
+      \altBracketText "V"
       \grg d8.[ b16]
-      \altBracket "V’"
+      \altBracketText "V’"
       \grg d8.[ e16]
       \altBracketEnd
       \grg d8.[ f16] \bar "|"
       \grg e8.[ f16] \grg d8.[ e16] \bar "|"
-      \altBracket "V"
+      \altBracketText "V"
       \grg c8.[ b16]
-      \altBracket "V’"
+      \altBracketText "V’"
       \grg c8.[ e16]
       \altBracketEnd
       \grg c8.[ e16]
@@ -146,18 +146,18 @@ common = {
         \grg a8.[ d16] \grg a8.[ d16]
         \grg a8.[ \grd c16]
         \cadenzaOn
-        \altBracket "V"
+        \altBracketText "V"
         \grg c8\fermata[ \grGcad a8\fermata]
-        \altBracket "V’"
+        \altBracketText "V’"
         \grg a8.[ \grd c16]
         \altBracketEnd
         \cadenzaOff \bar "|"
         \grg G8.[ d16] \grg a8.[ \grd c16]
         \grg G8.[ d16]
         \cadenzaOn
-        \altBracket "V"
+        \altBracketText "V"
         \grg d8\fermata[ G8\fermata]
-        \altBracket "V’"
+        \altBracketText "V’"
         \grg a8.[ d16]
         \altBracketEnd
         \cadenzaOff \bar "|"
@@ -166,26 +166,26 @@ common = {
 
       \grg a8.[ \grd c16]
       \cadenzaOn
-      \altBracket "V"
+      \altBracketText "V"
       \grg c8\fermata[ \grGcad a8\fermata]
-      \altBracket "V’"
+      \altBracketText "V’"
       \grg a8.[ \grd c16]
       \altBracketEnd
       \cadenzaOff \bar "|"
       \grg G8.[ d16]
       \cadenzaOn
-      \altBracket "V"
+      \altBracketText "V"
       \grg d8\fermata[ G8\fermata]
-      \altBracket "V’"
+      \altBracketText "V’"
       \grg a8.[ d16]
       \altBracketEnd
       \cadenzaOff \bar "|"
       \grg a8.[ \grd c16] \grg a8.[ d16]
       \grg a8.[ \grd c16]
       \cadenzaOn
-      \altBracket "V"
+      \altBracketText "V"
       \grg c8\fermata[ \grGcad a8\fermata]
-      \altBracket "V’"
+      \altBracketText "V’"
       \grg a8.[ \grd c16]
       \altBracketEnd
       \cadenzaOff \bar "|"
@@ -194,18 +194,18 @@ common = {
       \grg G8.[ d16] \grg a8.[ \grd c16]
       \grg G8.[ d16]
       \cadenzaOn
-      \altBracket "V"
+      \altBracketText "V"
       \grg d8\fermata[ G8\fermata]
-      \altBracket "V’"
+      \altBracketText "V’"
       \grg a8.[ d16]
       \altBracketEnd
       \cadenzaOff \bar "|"
       \grg a8.[ \grd c16] \grg a8.[ d16]
       \grg a8.[ \grd c16]
       \cadenzaOn
-      \altBracket "V"
+      \altBracketText "V"
       \grg c8\fermata \grGcad a8\fermata
-      \altBracket "V’"
+      \altBracketText "V’"
       \grg a8.[ \grd c16]
       \altBracketEnd
       \cadenzaOff
@@ -230,18 +230,18 @@ common = {
         \grg a16_\trebling[ d8.] \grg a16_\trebling[ d8.]
         \grg a16_\trebling[ \grd c8.]
         \cadenzaOn
-        \altBracket "T"
+        \altBracketText "T"
         \grg c8\fermata[ \grGcad a8\fermata]
-        \altBracket "T’"
+        \altBracketText "T’"
         \grg a16_\trebling[ \grd c8.]
         \altBracketEnd
         \cadenzaOff \bar "|"
         \grg G16_\trebling[ d8.] \grg a16_\trebling[ \grd c8.]
         \grg G16_\trebling[ d8.]
         \cadenzaOn
-        \altBracket "T"
+        \altBracketText "T"
         \grg d8\fermata[ G8\fermata]
-        \altBracket "T’"
+        \altBracketText "T’"
         \grg a16_\trebling[ d8.]
         \altBracketEnd
         \cadenzaOff \bar "|"
@@ -250,26 +250,26 @@ common = {
 
       \grg a16_\trebling[ \grd c8.]
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8\fermata[ \grGcad a8\fermata]
-      \altBracket "T’"
+      \altBracketText "T’"
       \grg a16_\trebling[ \grd c8.]
       \altBracketEnd
       \cadenzaOff \bar "|"
       \grg G16_\trebling[ d8.]
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg d8\fermata[ G8\fermata]
-      \altBracket "T’"
+      \altBracketText "T’"
       \grg a16_\trebling[ d8.]
       \altBracketEnd
       \cadenzaOff \bar "|"
       \grg a16_\trebling[ \grd c8.] \grg a16_\trebling[ d8.]
       \grg a16_\trebling[ \grd c8.]
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8\fermata[ \grGcad a8\fermata]
-      \altBracket "T’"
+      \altBracketText "T’"
       \grg a16_\trebling[ \grd c8.]
       \altBracketEnd
       \cadenzaOff \bar "|"
@@ -278,18 +278,18 @@ common = {
       \grg G16_\trebling[ d8.] \grg a16_\trebling[ \grd c8.]
       \grg G16_\trebling[ d8.]
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg d8\fermata[ G8\fermata]
-      \altBracket "T’"
+      \altBracketText "T’"
       \grg a16_\trebling[ d8.]
       \altBracketEnd
       \cadenzaOff \bar "|"
       \grg a16_\trebling[ \grd c8.] \grg a16_\trebling[ d8.]
       \grg a16_\trebling[ \grd c8.]
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8\fermata \grGcad a8\fermata
-      \altBracket "T’"
+      \altBracketText "T’"
       \grg a16_\trebling[ \grd c8.]
       \altBracketEnd
       \cadenzaOff

@@ -78,17 +78,17 @@ common = {
       \grg f8. a16 A8. a16
       \grg e8. a16 \grg f8. a16
       \grg b8. a16 \grg d4
-      \altBracket "Singling"
+      \altBracketText "Singling"
       \hcad d8. \grG b16 \grG a4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       a16 \grg d8. a16 \grg a8.
       \altBracketEnd
       \grg f8. a16 A8. a16
       \grg b8. a16 \grg d8. a16
       \grg f8. a16 \grg e4
-      \altBracket "Singling"
+      \altBracketText "Singling"
       \grg e8 d ~ d4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       a16 \grg d8. a16 \grg d8.
       \altBracketEnd
       \bar "|" \break
@@ -98,17 +98,17 @@ common = {
       \grg e8. a16 \grg f8. a16
       A8. a16 A8. a16
       \grg b8. a16 \grg d4
-      \altBracket "Singling"
+      \altBracketText "Singling"
       \hcad d8. \grG b16 \grG a4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       a16 \grg d8. a16 \grg a8.
       \altBracketEnd
       \grg f8. a16 \grg f8. a16
       \grg e8. a16 \grg e8. a16
       \grg f8. a16 \grg e4
-      \altBracket "Singling"
+      \altBracketText "Singling"
       \grg e8 d ~ d4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       a16 \grg d8. a16 \grg d8.
       \altBracketEnd
       \bar "|" \break
@@ -118,17 +118,17 @@ common = {
       \grg e8. a16 \grg f8. a16
       A8. a16 A8. a16
       \grg b8. a16 \grg d4
-      \altBracket "Singling"
+      \altBracketText "Singling"
       \hcad d8. \grG b16 \grG a4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       a16 \grg d8. a16 \grg a8.
       \altBracketEnd
       \grg b8. a16 \grg d8. a16
       \grg e8. a16 \grg f8. a16
       A8. a16 \grg e4
-      \altBracket "Singling"
+      \altBracketText "Singling"
       \grg e8 d ~ d4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       a16 \grg d8. a16 \grg d8.
       \altBracketEnd
       \bar "|." \break
@@ -151,19 +151,19 @@ common = {
 
       f4_\txtaorcrun A_\txtaorcrun
       e_\txtaorcrun f_\txtaorcrun
-      \altBracket "Singling"
+      \altBracketText "Singling"
       b_\txtaorcrun \grg d
       \hcad d8. \grG b16 \grG a4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       b_\txtaorcrun d_\txtaorcrun
       d_\txtaorcrun a_\txtaorcrun
       \altBracketEnd
       f_\txtaorcrun A_\txtaorcrun
       b_\txtaorcrun d_\txtaorcrun
       f_\txtaorcrun e_\txtaorcrun
-      \altBracket "Singling"
+      \altBracketText "Singling"
       \grg e8 d ~ d4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       d_\txtaorcrun d_\txtaorcrun
       \altBracketEnd
       \bar "|" \break
@@ -172,19 +172,19 @@ common = {
 
       e_\txtaorcrun f_\txtaorcrun
       A_\txtaorcrun A_\txtaorcrun
-      \altBracket "Singling"
+      \altBracketText "Singling"
       b_\txtaorcrun \grg d
       \hcad d8. \grG b16 \grG a4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       b_\txtaorcrun d_\txtaorcrun
       d_\txtaorcrun a_\txtaorcrun
       \altBracketEnd
       f_\txtaorcrun f_\txtaorcrun
       e_\txtaorcrun e_\txtaorcrun
       f_\txtaorcrun e_\txtaorcrun
-      \altBracket "Singling"
+      \altBracketText "Singling"
       \grg e8 d ~ d4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       d_\txtaorcrun d_\txtaorcrun
       \altBracketEnd
       \bar "|" \break
@@ -193,19 +193,19 @@ common = {
 
       e_\txtaorcrun f_\txtaorcrun
       A_\txtaorcrun A_\txtaorcrun
-      \altBracket "Singling"
+      \altBracketText "Singling"
       b_\txtaorcrun \grg d
       \hcad d8. \grG b16 \grG a4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       b_\txtaorcrun d_\txtaorcrun
       d_\txtaorcrun a_\txtaorcrun
       \altBracketEnd
       b_\txtaorcrun d_\txtaorcrun
       e_\txtaorcrun f_\txtaorcrun
       A_\txtaorcrun e_\txtaorcrun
-      \altBracket "Singling"
+      \altBracketText "Singling"
       \grg e8 d ~ d4
-      \altBracket "Doubling"
+      \altBracketText "Doubling"
       d_\txtaorcrun d_\txtaorcrun
       \altBracketEnd
       \bar "|." \break

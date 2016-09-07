@@ -95,18 +95,18 @@ common = {
       e4_\txtaor e d_\txtaor e
       c_\txtaor d
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg e c\prall
-      \altBracket "T’"
+      \altBracketText "T’"
       e_\txtaor \grd c
       \altBracketEnd
       \cadenzaOff \bar "|"
       d_\txtaor e c_\txtaor d
       G_\txtaor \grd c
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \cad b8 a \grd G4
-      \altBracket "T"
+      \altBracketText "T"
       \grg b8.[ \taor G16] \grd b4
       \altBracketEnd
       \cadenzaOff \bar "|"
@@ -115,24 +115,24 @@ common = {
       e4_\txtaor e d_\txtaor e
       c_\txtaor d
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg e c\prall
-      \altBracket "T’"
+      \altBracketText "T’"
       e_\txtaor \grd c
       \altBracketEnd
       \cadenzaOff \bar "|"
       d_\txtaor e c_\txtaor d
-      \altBracket "T"
+      \altBracketText "T"
       \cad b8 a \grd G4 \grg e \dbirl a
-      \altBracket "T’"
+      \altBracketText "T’"
       \grg b8.[ \taor G16] \grd b4 \grg a4_\txtaor \grd a
       \altBracketEnd
       c_\txtaor d c_\txtaor e
       G_\txtaor \grd c
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \cad b8 a \grd G4
-      \altBracket "T"
+      \altBracketText "T"
       \grg b8.[ \taor G16] \grd b4
       \altBracketEnd
       \cadenzaOff \bar "|"
@@ -141,17 +141,17 @@ common = {
       e4_\txtaor e d_\txtaor e
       c_\txtaor d
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg e c\prall
-      \altBracket "T’"
+      \altBracketText "T’"
       e_\txtaor \grd c
       \altBracketEnd
       \cadenzaOff \bar "|"
       d_\txtaor e c_\txtaor d
-      \altBracket "T"
+      \altBracketText "T"
       G4_\txtaor \grd c \cad b8 a \grd G4
       \grg e \dbirl a \grg e \dbirl a
-      \altBracket "T’"
+      \altBracketText "T’"
       G4_\txtaor \grd c \grg b8.[ \taor G16] \grd b4
       a_\txtaor \grd a a_\txtaor \grd a
       \altBracketEnd
@@ -174,18 +174,18 @@ common = {
       e4_\txcrun a8 e d4_\txcrun a8 e
       c4_\txcrun a8[ d]
       \cadenzaOn
-      \altBracket "C"
+      \altBracketText "C"
       \grg e4 c\prall
-      \altBracket "C’"
+      \altBracketText "C’"
       e_\txcrun a8 \grd c
       \altBracketEnd
       \cadenzaOff \bar "|"
       d4_\txcrun a8 e c4_\txcrun a8 d
       G4_\txcrun a8[ \grd c]
       \cadenzaOn
-      \altBracket "C"
+      \altBracketText "C"
       \cad b8 a \grd G4
-      \altBracket "C"
+      \altBracketText "C"
       \grg b4_\txcrun G8 \grd b
       \altBracketEnd
       \cadenzaOff \bar "|"
@@ -194,24 +194,24 @@ common = {
       e4_\txcrun a8 e d4_\txcrun a8 e
       c4_\txcrun a8[ d]
       \cadenzaOn
-      \altBracket "C"
+      \altBracketText "C"
       \grg e4 c\prall
-      \altBracket "C’"
+      \altBracketText "C’"
       e_\txcrun \grd a8 \grd c
       \altBracketEnd
       \cadenzaOff \bar "|"
       d4_\txcrun a8 e c4_\txcrun a8 d
-      \altBracket "C"
+      \altBracketText "C"
       \cad b8 a \grd G4 \grg e \dbirl a
-      \altBracket "C’"
+      \altBracketText "C’"
       b_\txcrun G8 \grd b a4_\txcrun a16 \grd a8.
       \altBracketEnd
       c4_\txcrun a8 d c4_\txcrun a8 e
       G4 a8[ \grd c]
       \cadenzaOn
-      \altBracket "C"
+      \altBracketText "C"
       \cad b8 a \grd G4
-      \altBracket "C’"
+      \altBracketText "C’"
       b4_\txcrun G8 \grd b
       \altBracketEnd
       \cadenzaOff \bar "|"
@@ -220,17 +220,17 @@ common = {
       e4_\txcrun a8 e d4_\txcrun a8 e
       c4_\txcrun a8[ d]
       \cadenzaOn
-      \altBracket "C"
+      \altBracketText "C"
       \grg e4 c\prall
-      \altBracket "C’"
+      \altBracketText "C’"
       e_\txcrun \grd a8 \grd c
       \altBracketEnd
       \cadenzaOff \bar "|"
       d4_\txcrun a8 e c4_\txcrun a8 d
-      \altBracket "C"
+      \altBracketText "C"
       G4_\txcrun a8 \grd c \cad b8 a \grd G4
       \grg e \dbirl a \grg e \dbirl a
-      \altBracket "C’"
+      \altBracketText "C’"
       G4_\txcrun a8 \grd c b4_\txcrun G8 \grd b
       a4_\txcrun a16 \grd a8. a4_\txcrun a16 \grd a8.
       \altBracketEnd

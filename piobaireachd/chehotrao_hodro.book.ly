@@ -70,10 +70,10 @@ myTitle = #(define-music-function (parser location text) (string?)
             \common
 
             \myTitle "Urlar"
-            \altBracket "Twice in line 1"
+            \altBracketText "Twice in line 1"
             \grg e8. c16 \pthrwd d8. b16 \grg c4 \grip c4
             \altBracketEnd
-            \altBracket "Twice in line 2"
+            \altBracketText "Twice in line 2"
             \grg e8. c16 \pthrwd d8. b16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
             \altBracketEnd
             \bar "|."
@@ -96,10 +96,10 @@ myTitle = #(define-music-function (parser location text) (string?)
             \common
 
             \myTitle "Thumb Variation"
-            \altBracket "Twice in line 1"
+            \altBracketText "Twice in line 1"
             \dblA A8. f16 \fdari g8. d16 \grg c4 \dre e4
             \altBracketEnd
-            \altBracket "Twice in line 2"
+            \altBracketText "Twice in line 2"
             \dblA A8. f16 \fdari g8. d16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
             \altBracketEnd
             \bar "|."
@@ -126,10 +126,10 @@ myTitle = #(define-music-function (parser location text) (string?)
             \common
 
             \myTitle "Taoludh geàrr"
-            \altBracket "Twice in line 1"
+            \altBracketText "Twice in line 1"
             \grg e4_\txtaor a16 d8. \gre a16 \grg c8. \gre a16 \grg b8.
             \altBracketEnd
-            \altBracket "Twice in line 2"
+            \altBracketText "Twice in line 2"
             \grg e4_\txtaor a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
             \altBracketEnd
             \bar "|."
@@ -147,10 +147,10 @@ myTitle = #(define-music-function (parser location text) (string?)
           {
             \common
 
-            \altBracket "Twice in line 1"
+            \altBracketText "Twice in line 1"
             \grg e4_\txtaor a16 d8. \gre a16 \grg c8. \gre a16 d8.
             \altBracketEnd
-            \altBracket "Twice in line 2"
+            \altBracketText "Twice in line 2"
             \grg e4_\txtaor a16 d8. \gre a16 \grg c8. \gre G16 d8.
             \altBracketEnd
             \bar "|."
@@ -168,10 +168,10 @@ myTitle = #(define-music-function (parser location text) (string?)
           {
             \common
 
-            \altBracket "Twice in line 1"
+            \altBracketText "Twice in line 1"
             \grg e4_\txtaor a16 d8. \gre a16 \grg d8. \gre a16 \grg d8.
             \altBracketEnd
-            \altBracket "Twice in line 2"
+            \altBracketText "Twice in line 2"
             \grg e4_\txtaor a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
             \altBracketEnd
             \bar "|."
@@ -194,10 +194,10 @@ myTitle = #(define-music-function (parser location text) (string?)
             \common
 
             \myTitle "Crunludh fosgailte"
-            \altBracket "Twice in line 1"
+            \altBracketText "Twice in line 1"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 \grd c16 e16\prall \grg a8 \grd b16 e16\prall
             \altBracketEnd
-            \altBracket "Twice in line 2"
+            \altBracketText "Twice in line 2"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 \grd c16 e16\prall \grg G8 \grd b16 e16\prall
             \altBracketEnd
             \bar "|."
@@ -215,10 +215,10 @@ myTitle = #(define-music-function (parser location text) (string?)
           {
             \common
 
-            \altBracket "Twice in line 1"
+            \altBracketText "Twice in line 1"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 \grd c16 e16\prall \grg a8 d16 e16\prall
             \altBracketEnd
-            \altBracket "Twice in line 2"
+            \altBracketText "Twice in line 2"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 \grd c16 e16\prall \grg G8 d16 e16\prall
             \altBracketEnd
             \bar "|."
@@ -236,10 +236,10 @@ myTitle = #(define-music-function (parser location text) (string?)
           {
             \common
 
-            \altBracket "Twice in line 1"
+            \altBracketText "Twice in line 1"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 d16 e16\prall \grg a8 d16 e16\prall
             \altBracketEnd
-            \altBracket "Twice in line 2"
+            \altBracketText "Twice in line 2"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 d16 e16\prall \grg G8 d16 e16\prall
             \altBracketEnd
             \bar "|."

@@ -134,18 +134,18 @@ common = {
 
       \cad a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8[ \grd c16 \gre c]
-      \altBracket "C"
+      \altBracketText "C"
       \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       c4_\txtaorcrun
       \cadenzaOff \bar "|"
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8[ \grd c16 \gre c]
-      \altBracket "C"
+      \altBracketText "C"
       \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       \cad c8 \grGcad a
@@ -156,9 +156,9 @@ common = {
 
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8[ \grd c16 \gre c]
-      \altBracket "C"
+      \altBracketText "C"
       \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       \cad c8 \grGcad a
@@ -171,9 +171,9 @@ common = {
 
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8[ \grd c16 \gre c]
-      \altBracket "C"
+      \altBracketText "C"
       \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       \cad c8 \grGcad a
@@ -201,18 +201,18 @@ common = {
 
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8[ \grd c16 \gre c]
-      \altBracket "C"
+      \altBracketText "C"
       \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       c4_\txtaorcrun
       \cadenzaOff \bar "|"
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8[ \grd c16 \gre c]
-      \altBracket "C"
+      \altBracketText "C"
       \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       c4_\txtaorcrun
@@ -223,9 +223,9 @@ common = {
 
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8[ \grd c16 \gre c]
-      \altBracket "C"
+      \altBracketText "C"
       \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       c4_\txtaorcrun
@@ -238,9 +238,9 @@ common = {
 
       a4_\txtaorcrun b_\txtaorcrun
       \cadenzaOn
-      \altBracket "T"
+      \altBracketText "T"
       \grg c8[ \grd c16 \gre c]
-      \altBracket "C"
+      \altBracketText "C"
       \grg c16[ \grd c16 e8]\prall
       \altBracketEnd
       c4_\txtaorcrun
