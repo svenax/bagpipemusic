@@ -79,7 +79,6 @@ showTrueKeySignature = {
     \override Slur.direction = #up
     \override Tie.direction = #up
 
-    %\override KeySignature.print-function = ##f
     \override VoltaBracketSpanner.Y-extent = #'(-1.5 . 0)
     \override VoltaBracket.height = #2.2
   }
@@ -365,7 +364,6 @@ trebling = \markup {
   }
 }
 % Abbreviated notation common in piobaireachd scores.
-% TODO: Make sure these are put on a fixed Y-position.
 txtaor = \markup { \center-align "T" }
 txcrun = \markup { \center-align "C" }
 txtaorcrun = \markup {
