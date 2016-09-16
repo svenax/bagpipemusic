@@ -4,7 +4,7 @@
 
   {
     \bagpipeKey
-    \time 4/4
+    \marchTime
 
     % Part 1
 
