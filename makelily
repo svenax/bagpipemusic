@@ -18,8 +18,8 @@ class MakeLily:
                 action='store', type='string', dest='list_file', default='',
                 help='Read files to process from a file.')
         parser.add_option('-s', '--staff-size',
-                action='store', type='string', dest='staffsize', default='16',
-                help='Staff size. Default 16pt.')
+                action='store', type='string', dest='staffsize', default='15',
+                help='Staff size. Default 15pt.')
         parser.add_option('-p', '--paper-size',
                 action='store', type='string', dest='papersize', default='a4',
                 help='Paper size. Default A4 (Yes, I am from Europe).')
