@@ -81,7 +81,7 @@
         \break
       }
       {
-        c16. b32
+        \grg c16. b32
         \grg a16. b32 \grg c32 \grd a16. \dblb b8 \grg a16. b32
         \dblc c16. b32 \grg c32 e16. \dblf f8 \grg e16. f32
         A16.[ f32 \dble e16. c32] \grg b32 \grd a16. \grg b32 \grd c16.
