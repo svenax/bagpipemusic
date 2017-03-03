@@ -31,6 +31,7 @@
         \break
       }
       {
+        \grace s32*5
         A8. e16 \gra e8 \grg e8. g16 f8 \dble e4 d8
         \grg G8. \grd G16 \gre G8 \grg G4 \grd a8 \grg b8. e16 \gra e8
       }

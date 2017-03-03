@@ -38,10 +38,11 @@
         g16 A g \grA e d \gre b d e
         \grg G16 \grd b g A \hdble e8. f16
         g16 A g \grA e d \gre b d e
-        \grg a4 \wbirl a8
+        \grg a4 \wbirl a8 \noBeam
         \break
       }
       {
+        \grace s32
         e8
         \gbirl a8 A g16 e \grg d e
         \dblG G8 g16 A \hdble e8. f16

@@ -13,12 +13,14 @@
       \grg \partial 8 e32 A16.
       a8.[ \taor a16] \wbirl a8. b16
       \grg a16. d32 \grg f32 A16. \hdble e4
+      \barLength 3 4
       \thrwd d8[ \grg c16. d32]
       \altBracket "1."
       \dblf f8[ \grg e16. a32]
       \altBracket "2."
       \grg f16.[ e32 \grg c32 \grd a16.]
       \altBracketEnd
+      \barLength 2 4
       \dblc c8 \grg b \taor b \grg e32 A16.
       \break
       a8.[ \taor a16] \wbirl a8. b16
@@ -36,11 +38,13 @@
       \dble e4 \grg e16. a32 \grg c32 e16.
       \dblf f4 \grg f16. d32 \grg f32 A16.
       \thrwd d8[ \grg c16. d32]
+      \barLength 3 4
       \altBracket "1."
       \dblf f8[ \grg e16. a32]
       \altBracket "2."
       \grg f16.[ e32 \grg c32 \grd a16.]
       \altBracketEnd
+      \barLength 2 4
       \dblc c8 \grg b \taor b8[
     }
     \alternative {
@@ -50,10 +54,11 @@
         \dble e4 \grg e16. a32 \grg c32 e16.
         \dblf f4 \grg f16. d32 \grg f32 A16.
         \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
-        \grg a4 \wbirl a8
+        \grg a4 \wbirl a8 \noBeam
         \break
       }
       {
+        \grace s32
         A16. f32
         \dble e8[ \gbirl a] \grg a8. b16
         \grg a16. d32 \grg f32 A16. \hdble e8. d16
@@ -61,7 +66,7 @@
         \grg a4 \wbirl a8
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 
@@ -70,11 +75,13 @@
       \birl a8 \grg c32 e16. \grg a16. d32 \grg f32 A16.
       \thrwd d8 \grg f32 A16. \hdble e4
       \thrwd d8[ \grg c16. d32]
+      \barLength 3 4
       \altBracket "1."
       \dblf f8[ \grg e16. a32]
       \altBracket "2."
       \grg f16.[ e32 \grg c32 \grd a16.]
       \altBracketEnd
+      \barLength 2 4
       \dblc c8 \grg b \taor b8[
     }
     \alternative {
@@ -84,10 +91,11 @@
         \birl a8 \grg c32 e16. \grg a16. d32 \grg f32 A16.
         \thrwd d8 \grg f32 A16. \hdble e8. d16
         \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
-        \grg a4 \wbirl a8
+        \grg a4 \wbirl a8 \noBeam
         \break
-      }
+      } 
       {
+        \grace s32*4
         A16. f32
         \dble e8[ \gbirl a] \grg a8. b16
         \grg a16. d32 \grg f32 A16. \hdble e8. d16
@@ -95,7 +103,7 @@
         \grg a4 \wbirl a8
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 4
 

@@ -28,7 +28,7 @@
         \grg e d \grG d c \thrwd d8
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 2
 
@@ -46,10 +46,11 @@
         A a \grg f \gre f \grg a d \grG d a
         \grg f \gre f a \grg f \gre f a \grg d \grG d
         g G \grg b g \grA f a \grg d f
-        \grg e d \grG d c \thrwd d8
+        \grg e d \grG d c \thrwd d8 \noBeam
         \break
       }
       {
+        \grace s32
         f8
         \grg a16 d \grG d a \grg d \grG d \grG d a
         \grg d e \grg f d \grg e d \grg b \grd a
@@ -57,7 +58,7 @@
         \grg e d \grG d c \thrwd d8
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 
@@ -91,10 +92,11 @@
         A a g \grf g \grg a f \gre f a
         \grg e \gra e \grg b d \grg b g b a
         g G \grg b g \grA f a \grg d f
-        \grg e d \grG d c \thrwd d8
+        \grg e d \grG d c \thrwd d8 \noBeam
         \break
       }
       {
+        \grace s32
         f8
         \grg a16 d \grG d a \grg e \gra e \grg a f
         \gre f a \grA g \grf g A f \grg d b

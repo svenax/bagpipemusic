@@ -39,10 +39,11 @@
         \dblc c8 e \dble e8 \grg c32 \grd a16.
         \thrwd d8 f \dblf f[ \dblA A]
         \thrwd d8. f16 \grg e16. f32 g32 A16.
-        \hdblc c8 \gre a \wbirl a
+        \hdblc c8 \gre a \wbirl a \noBeam
         \break
       }
       {
+        \grace s32
         e8
         \dblA A8 g16. f32 \dble e8[ \dblA A]
         \hdblc c8 \grg e16. c32 \grg a8 \grd c32 e16.
