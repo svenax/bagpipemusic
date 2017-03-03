@@ -49,7 +49,7 @@
         \grg e d \grG d \grg d4
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 

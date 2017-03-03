@@ -29,7 +29,7 @@
     \grg c16 A8. g16 A8. \hdblf f8. b16 \grG b8. f16
     \grg e16 A8. g16 A8. f16 A8. e8. d16
     \grg c16 A8. b16 A8. c8.[ \grd a16 \gre a8]
-    \bar "||" \break
+    \break
 
     % Part 3
 

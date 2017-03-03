@@ -49,7 +49,7 @@
         \grg a4 \taor a8 \wbirl a4
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 

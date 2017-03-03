@@ -50,7 +50,7 @@
         \thrwd d4 \slurd d8
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 

@@ -29,7 +29,7 @@
     \dblc c16 \gre a8. \grg c16[ \grip e8.] \dblg g8. A16 \times 2/3 {f8 e d}
     \times 2/3 {A8 g f} \grg e16 A8. \thrwd d8. A16 \hdblc c16 A8.
     \grf g8. c16 \darodo b4 \thrwd d8. e16 \grg \times 2/3 {f8 d b}
-    \bar "||" \break
+    \break
 
     % Part 3
 

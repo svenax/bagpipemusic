@@ -71,7 +71,7 @@
     \dble e16. c32 A16. e32 \grg f32[ A16. \hdble e16. d32]
     \grg b32 d16. \grg G16. \grd b32 \dble e16.[ b32 \dbld d16. b32]
     \grg a8[ \taor a] \wbirl a
-    \bar "||" \break
+    \break
 
     % Part 4
 

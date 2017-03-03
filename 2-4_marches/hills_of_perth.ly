@@ -50,7 +50,7 @@
         \bgrip a4 \wbirl a8
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 

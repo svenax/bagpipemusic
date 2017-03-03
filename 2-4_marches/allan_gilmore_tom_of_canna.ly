@@ -50,7 +50,7 @@
         \dblc c8 \gre a \wbirl a
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 

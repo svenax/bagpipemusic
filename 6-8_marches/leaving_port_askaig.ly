@@ -49,7 +49,7 @@
         \dblb b4. \grG a4
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 

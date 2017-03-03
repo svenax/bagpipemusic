@@ -47,7 +47,7 @@
     \grg e d \grg e f \slurb b8 \grg e16 d
     \grg c e A e \grg f A c e
     \grg f d \grG d c \thrwd d8
-    \bar "||" \break
+    \break
 
     % Part 3
 

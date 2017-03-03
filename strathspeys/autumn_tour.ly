@@ -30,7 +30,7 @@
     \grg e8. f16 \dble e8. d16 \dblc c4 \grg b16 \grd a8.
     \grg b4 \taor b8. c16 \thrwd d8. a16 \grg b16 c d8
     \dblf f8. a16 \dble e8. a16 \dblc c4 \grg b16 \grd a8.
-    \bar "||" \break
+    \break
 
     % Part 3
 

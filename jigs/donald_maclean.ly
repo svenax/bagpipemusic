@@ -23,7 +23,7 @@
     \alternative {
       {\dblA A4.} {\dblA A4}
     }
-    \bar "||" \break
+    \break
 
     % Part 2
 
@@ -42,7 +42,7 @@
     \alternative {
       {\dblA A4} {\dblA A4.}
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 
@@ -60,7 +60,7 @@
     \alternative {
       {\dblA A4.} {\dblA A4}
     }
-    \bar "||" \break
+    \break
 
     % Part 4
 

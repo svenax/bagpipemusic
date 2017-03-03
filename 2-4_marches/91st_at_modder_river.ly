@@ -49,7 +49,7 @@
         \dblc c8 \gre b \taor b
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 

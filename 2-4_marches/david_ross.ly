@@ -49,7 +49,7 @@
         \dblc c8 \gre a \wbirl a4
       }
     }
-    \bar "||" \break
+    \break
 
     % Part 3
 

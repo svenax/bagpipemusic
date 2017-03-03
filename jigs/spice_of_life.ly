@@ -23,7 +23,7 @@
       { \gbirl a4. }
       { \gbirl a4 }
     }
-    \bar "||" \break
+    \break
 
     % Part 2
 
