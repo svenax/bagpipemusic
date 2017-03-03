@@ -95,6 +95,7 @@ showTrueKeySignature = {
 
     extraNatural = ##f
     midiInstrument = #"bagpipe"
+    strictBeatBeaming = ##t
 
     \override KeySignature.stencil = ##f
   }
