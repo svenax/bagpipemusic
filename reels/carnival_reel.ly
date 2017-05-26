@@ -9,15 +9,15 @@
     % Part 1
 
     \repeat volta 2 {
-        \grg d8[ e f \gbirl a~] a f \grg e d
-        \grg e8 f g \grA b~ b g \grA f e
-        \grg d8[ e f \gbirl a~] a f \grg e d
-        g8 b \grG b g b g \grA f e
-        \break
-        \grg d8[ e f \gbirl a~] a f \grg e d
-        \grg e8 f g \grA b~ b g \grA f e
-        \grg d8 e f d g e \grg d c
-        \grg d8 e c \grg d~ d4 \grg a
+      \grg d8[ e f \gbirl a~] a f \grg e d
+      \grg e8 f g \grA b~ b g \grA f e
+      \grg d8[ e f \gbirl a~] a f \grg e d
+      g8 b \grG b g b g \grA f e
+      \break
+      \grg d8[ e f \gbirl a~] a f \grg e d
+      \grg e8 f g \grA b~ b g \grA f e
+      \grg d8 e f d g e \grg d c
+      \grg d8 e c \grg d~ d4 \grg a
     }
     \break
 
@@ -47,15 +47,15 @@
     % Part 3
 
     \repeat volta 2 {
-        \grg d8[ e f \gbirl a~] a f \gbirl a4
-        \grg b8 e g b e g \grA f e
-        \grg d8[ e f \gbirl a~] a f \gbirl a4
-        \grg c8 d \grg e c g e \grg d c
-        \break
-        \grg d8[ e f \gbirl a~] a f \gbirl a4
-        \grg b8 e g b e g \grA f e
-        \grg d8 e f d g e \grg d c
-        \grg d8 e c \grg d~ d4 \grg a
+      \grg d8[ e f \gbirl a~] a f \gbirl a4
+      \grg b8 e g b e g \grA f e
+      \grg d8[ e f \gbirl a~] a f \gbirl a4
+      \grg c8 d \grg e c g e \grg d c
+      \break
+      \grg d8[ e f \gbirl a~] a f \gbirl a4
+      \grg b8 e g b e g \grA f e
+      \grg d8 e f d g e \grg d c
+      \grg d8 e c \grg d~ d4 \grg a
     }
     \break
     
