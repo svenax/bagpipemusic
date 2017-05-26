@@ -31,7 +31,7 @@
 
     \repeat volta 2 {
       \grg b16 f \gre f e \grg f \gre f \grg b f \gre f e \grg c \grG c
-      \grg a16 e \gra e c \grg e \gra e a f \gre f e \grg c \grA c
+      \grg a16 e \gra e c \grg e \gra e a f \gre f e \grg c \grG c
       \grg b16 f \gre f e \grg f \gre f \grg b f \gre f e \grg c \grG c
       \grg a16 e \gra e c \grg e \gra e \grg e f \gre f c \grg b \grG b
     }
