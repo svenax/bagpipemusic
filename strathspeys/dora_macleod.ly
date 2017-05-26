@@ -32,7 +32,7 @@
     % Part 3
 
     \repeat volta 2 {
-      \gbirl a4 \grd a8. b16 \catchc c4 c8. e16
+      \gbirl a4 \grd a8. b16 \catchc c4 \dblc c8. e16
       \thrwf f4 \dblf f8. e16 \dblA A8. e16 \grg f16 g A8
       \birl a4 \grd a8. b16 \catchc c4 \dblc c8. e16
       \grg f16 g A8 \hdblf f8. c16 \dble e8. a16 \dblc c16 \gre b8.
