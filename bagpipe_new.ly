@@ -142,6 +142,7 @@ pgrace = #(define-music-function (notes) (ly:music?) #{
   \small \grace $notes \normalsize
   \revert Score.Stem.beamlet-default-length
 #})
+morespace = \once \override NoteColumn.X-offset = 0.5
 
 % Single grace notes
 grG = { \pgrace { G32 } }
@@ -235,9 +236,9 @@ slurA  = { \pgrace { f32[ a] } }
 hslura  = { \pgrace { a32[ G] } }
 hslurb  = { \pgrace { b32[ G] } }
 hslurc  = { \pgrace { c32[ G] } }
-hslurd  = { \pgrace { d32[ G] } }
+hslurd  = { \pgrace { d32[ \morespace G] } }
 whslurd = { \pgrace { d32[ c] } }
-hslure  = { \pgrace { e32[ a] } }
+hslure  = { \pgrace { e32[ \morespace a] } }
 hslurf  = { \pgrace { f32[ e] } }
 hslurg  = { \pgrace { g32[ f] } }
 hslurA  = { \pgrace { A32[ a] } }
