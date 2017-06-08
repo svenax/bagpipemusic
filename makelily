@@ -6,6 +6,7 @@ class MakeLily:
     # Path constants
     EDITOR = 'subl'
     LILYPOND = 'lilypond'
+    MOGRIFY = 'mogrify'
     READER = 'open -a PDF\ Expert.app '
     SCRIPT_PATH = os.path.expanduser('~/Documents/Sheetmusic/Bagpipe')
 
@@ -29,6 +30,15 @@ class MakeLily:
         parser.add_option('-f', '--format',
                 action='store', type='string', dest='format', default=None,
                 help='Use header format file "header_{format}". Default "header_default".')
+        parser.add_option('-t', '--type',
+                action='store', type='string', dest='type', default='pdf',
+                help="Save output as {type}.")
+        parser.add_option('-c', '--crop',
+                action='store_true', dest='crop', default=False,
+                help='Crop page to minimal size.')
+        parser.add_option('-r', '--root',
+                action='store_true', dest='root', default=False,
+                help='Save result in project root.')
         parser.add_option('-v', '--version',
                 action='store_true', dest='show_version', default=False,
                 help='Show Lilypond version.')
@@ -71,8 +81,12 @@ class MakeLily:
         rel_dir = os.path.dirname(rel_file_path)
         rel_dir = rel_dir.replace('/', '')
         out_path = os.path.join(self.SCRIPT_PATH, '_output', rel_dir)
+
+        if self.options.root:
+            out_path = self.SCRIPT_PATH
         (file_base, _) = os.path.splitext(os.path.basename(rel_file_path))
         orig_file_base = file_base
+
         header_format = self.options.format
         if header_format == None:
             if file_base.endswith(".book"):
@@ -80,6 +94,10 @@ class MakeLily:
                 file_base = file_base.replace(".book", "")
             else:
                 header_format = "header_default"
+
+        elide_tagline = ''
+        if self.options.crop:
+            elide_tagline = 'tagline = ""'
 
         # The output file header
         out = u"""
@@ -100,7 +118,8 @@ class MakeLily:
 \\paper {
     annotatespacing = """+self.options.view_spacing+"""
     ragged-bottom = ##t
-}
+    """+elide_tagline+"""
+    }
 \layout {
   \context {
     \Score
@@ -122,10 +141,14 @@ class MakeLily:
         print '** Creating preview file'
         self.maketemplate(file_base, file_path, out, True)
         is_ok = os.system(self.LILYPOND+' -dpreview -dresolution=84 -dpreview-include-book-title -dwithout-comment '+file_base+'.ly'+log) == 0
+        
         if is_ok:
-            print '** Creating PDF'
+            print '** Creating output file'
             self.maketemplate(file_base, file_path, out, False)
-            is_ok = os.system(self.LILYPOND+' --pdf '+file_base+'.ly'+log) == 0
+            if self.options.type == 'pdf':
+                is_ok = os.system(self.LILYPOND+' --pdf '+file_base+'.ly'+log) == 0
+            else:
+                is_ok = os.system(self.LILYPOND+' --png -dresolution=144 '+file_base+'.ly'+log) == 0
 
         # Move the output to the correct directories and delete temp files
         print '** Cleaning up'
@@ -133,22 +156,30 @@ class MakeLily:
         junk_files = [file_base+ext for ext in ('.preview.eps', '.preview.pdf', '.ly', '.ps')]
         try: os.makedirs(out_path)
         except: pass
-        for f in music_files:
-            try:
-                os.remove(os.path.join(out_path, f))
-            except: pass
-        for f in music_files:
-            try:
-                os.rename(os.path.join(self.SCRIPT_PATH, f), os.path.join(out_path, f))
-            except: pass
+
+        if not self.options.root:
+            for f in music_files:
+                try:
+                    os.remove(os.path.join(out_path, f))
+                except: pass
+            for f in music_files:
+                try:
+                    os.rename(os.path.join(self.SCRIPT_PATH, f), os.path.join(out_path, f))
+                except: pass
+
         for f in junk_files:
             try: os.remove(os.path.join(self.SCRIPT_PATH, f))
             except: pass
+
+        if self.options.crop:
+            os.system(self.MOGRIFY+' -trim -bordercolor white -border 12 '+os.path.join(out_path, file_base+'.'+self.options.type))
+
         if is_ok:
             try:
                 os.remove(os.path.join(self.SCRIPT_PATH, file_base+'.log'))
                 if self.options.open_pdf:
-                    self.openpdf(os.path.join(out_path, file_base+'.pdf'))
+                    print '** Opening PDF'
+                    os.system(self.READER+os.path.join(out_path, file_base+'.pdf')+' &')
             except: pass
         else:
             if not self.options.log:
@@ -173,10 +204,6 @@ class MakeLily:
             if printit:
                 out_file.write(line.replace('\r', '')+'\n')
         out_file.close()
-
-    def openpdf(self, pdf):
-        print '** Opening PDF'
-        os.system(self.READER+pdf+' &')
 
 # Create an object and start the processing
 MakeLily()
