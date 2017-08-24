@@ -24,7 +24,7 @@
         \grg e d \grG d c \thrwd d8 s8
       }
       {
-        \grg G16 g \grf g a\grg f \gre f a e
+        \grg G16 g \grf g a \grg f \gre f a e
         \grg e d \grG d c \thrwd d8
       }
     }
