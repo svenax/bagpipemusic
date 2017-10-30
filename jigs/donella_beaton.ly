@@ -67,7 +67,7 @@
       {
         \break
         \grg c8 \grd a \gre a A a A
-        f8 \grg a f \grg a e c
+        f8 \grg a f \grg a e b
         \dblc c4 e8 f \grg b \grd b
         \grg b8 \grd a \gre a \wbirl a4
       }
