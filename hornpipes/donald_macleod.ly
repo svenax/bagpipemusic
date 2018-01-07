@@ -22,7 +22,6 @@
     }
     \break
 
-
     % Part 2
 
     \repeat volta 2 {
@@ -38,7 +37,6 @@
       \grg a4 \wbirl a8
     }
     \break
-
 
     % Part 3
 
