@@ -7,7 +7,7 @@ class MakeLily:
     EDITOR = 'subl'
     LILYPOND = 'lilypond'
     MOGRIFY = 'mogrify'
-    READER = 'open -a PDF\ Expert.app '
+    READER = 'open -a Preview '
     SCRIPT_PATH = os.path.expanduser('~/Documents/Sheetmusic/Bagpipe')
 
     def __init__(self):
@@ -116,7 +116,7 @@ class MakeLily:
 
 % Local tweaks
 \\paper {
-    annotatespacing = """+self.options.view_spacing+"""
+    annotate-spacing = """+self.options.view_spacing+"""
     ragged-bottom = ##t
     """+elide_tagline+"""
     }
