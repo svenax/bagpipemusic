@@ -15,7 +15,7 @@
       \grg A8 g e \grg e d b
       \break
       \dble e4 a8 \grg e d b
-      d4 \shaked d8 g d b
+      c4 \shakec c8 g d b
       a4 \gbirl a8 \grg a8 \grd c e
       a4 \gbirl a8 \grg a4.
     }

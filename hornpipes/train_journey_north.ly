@@ -79,7 +79,7 @@
     \repeat volta 2 {
       \dblA A8[ f16. d32] \shaked d8[ A16. f32]
       \grA g16. f32 \grg e16. d32 \grg c16. d32 \grg e16. f32
-      \dblg g8[ \tdble e16. c32] \shakec c8[ \dble e16. a32]
+      \dblg g8[ \tdble e16. c32] \shakec c8[ \grg e16. a32]
       \shaked d8[ \grg f16. g32] \dblA A8[ f16. g32]
       \break
       \dblA A8[ f16. d32] \shaked d8[ A16. f32]

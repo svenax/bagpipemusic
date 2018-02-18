@@ -41,7 +41,7 @@
         \break
       }
       {
-        \grg a8 d16 c \grg d e \grg d8. e16 \grg f e
+        \grg a8[ d16 c \grg d e] \grg d8. e16 \grg f e
         \grg e d c e \grg d b \grG a4 \grg e16 f
         \grA g8 e16 f g e \grg f8 d16 e \grg f d
         \grg e d c d e c \grg d4

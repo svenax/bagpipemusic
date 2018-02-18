@@ -68,7 +68,7 @@
     \break
     \grg f8 A \grg A d A \grg A f A
     e8 A \grg A c A \grg A e A
-    \grg d8 e f d g e \grg d c
+    d8 e f d g e \grg d c
     \grg d8 e c \grg d~ d4 \grg a
     \bar "||" \break
     \grg f8 A \grg A d A \grg A f A

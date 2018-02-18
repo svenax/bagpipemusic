@@ -33,8 +33,8 @@
       \break
       f \grg f \gre f a \grA g f
       e \grg e \gra e g \grA f e
-      d[ \grg d \grG d f \dble e G]
-      \grg a4
+      d[ \grg d \grG d f \dble e c]
+      \grg d4
     }
   }
 
