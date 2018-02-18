@@ -1,12 +1,11 @@
 WRITING BAGPIPE MUSIC WITH LILYPOND
 ===================================
 
-
 Installing Lilypond 2.16.0
 --------------------------
 
 * Grab the installer for your computer platform here:
-  http://lilypond.org/download.html
+  <http://lilypond.org/download.html>
 * Or build from source with Homebrew or MacPorts.
 
 Note: The GUI is really pretty useless, but you can do everything from the
@@ -63,6 +62,5 @@ Lilypond documentation, available
 
 Note: All files *must* be saved in UTF-8 format, at least if you are going to
 use anything but ASCII7, else the output will look like garbage.
-
 
 That's it.
