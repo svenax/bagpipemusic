@@ -89,6 +89,8 @@
     meter = "March"
     title = "Arthur Bignold of Lochrosque"
     composer = "John MacColl"
+    loc = "57.567516,-5.1547896"
+    map = "https://goo.gl/maps/1x58pKMVg7r"
   }
 
 }

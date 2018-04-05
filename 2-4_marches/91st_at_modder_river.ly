@@ -101,6 +101,8 @@
   \header {
     meter = "March"
     title = "The 91st at Modder River"
+    loc = "-29.0740618,24.6120954"
+    map = "https://goo.gl/maps/TWELc6dDueq"
   }
 
 }

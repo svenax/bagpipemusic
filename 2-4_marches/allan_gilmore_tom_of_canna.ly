@@ -88,6 +88,8 @@
     meter = "March"
     title = "Allan Gilmore, Tom of Canna"
     composer = "John MacColl"
+    loc = "57.056633,-6.6187386"
+    map = "https://goo.gl/maps/6ujXm1xjUtu"
   }
 
 }

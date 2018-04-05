@@ -67,6 +67,8 @@
     meter = "March"
     title = "Glasgow Week in Hamburg"
     composer = "J. McAllister"
+    loc = "53.5582447,9.647645"
+    map = "https://goo.gl/maps/hkXdwRJHoRp"
 }
 
 }

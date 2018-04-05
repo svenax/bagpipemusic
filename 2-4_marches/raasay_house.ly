@@ -91,6 +91,8 @@
     meter = "March"
     title = "Raasay House"
     composer = "A. M. Lee"
+    loc = "57.353605,-6.0813417"
+    map = "https://goo.gl/maps/LWx2kiLz8G72"
   }
 
 }

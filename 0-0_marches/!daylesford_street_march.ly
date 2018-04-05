@@ -74,6 +74,8 @@
     title = "The Daylesford Street March"
     composer = "Mark Saul"
     arranger = "Arr. MPD"
+    loc = "-37.3485988,144.1086471"
+    map = "https://goo.gl/maps/pVcSmXGaYqB2"
   }
 
 }

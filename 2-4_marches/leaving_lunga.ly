@@ -91,6 +91,8 @@
     meter = "March"
     title = "Leaving Lunga"
     composer = "John Gordon"
+    loc = "56.1997685,-5.572358"
+    map = "https://goo.gl/maps/E5QbmRKVFqj"
   }
 
 }

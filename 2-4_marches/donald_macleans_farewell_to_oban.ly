@@ -89,6 +89,8 @@
     meter = "March"
     title = "Donald MacLean’s Farewell to Oban"
     composer = "A. MacNeil"
+    loc = "56.4110465,-5.4896182"
+    map = "https://goo.gl/maps/uTknrqky1z62"
   }
 
 }

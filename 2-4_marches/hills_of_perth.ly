@@ -88,6 +88,8 @@
     meter = "March"
     title = "The Hills of Perth"
     arranger = "Trad. arr. MPD"
+    loc = "56.5120059,-4.0197808"
+    map = "https://goo.gl/maps/VaBKyoBExLn"
   }
 
 }

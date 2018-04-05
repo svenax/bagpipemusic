@@ -95,6 +95,8 @@
     title = "Leaving Glenurquhart"
     subtitle = "Tulloch McCarrick"
     composer = "W. MacDonald"
+    loc = "57.3333316,-4.6008429"
+    map = "https://goo.gl/maps/aFm48h5AvBp"
   }
 
 }

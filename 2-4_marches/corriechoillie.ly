@@ -54,6 +54,8 @@
     meter = "March"
     title = "Corriechoillie’s 43rd Welcome to the Northern Meeting"
     composer = "P/M W. Ross"
+    loc = "56.884058,-4.8814587"
+    map = "https://goo.gl/maps/FGL6BAo1Va12"
   }
 
 }
