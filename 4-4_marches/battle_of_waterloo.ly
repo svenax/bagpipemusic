@@ -38,6 +38,8 @@
   \header {
     meter = "March"
     title = "The Battle of Waterloo"
+    loc = "50.7033998,4.3630007"
+    map = "https://goo.gl/maps/zozrHm1oTP12"
   }
 
 }

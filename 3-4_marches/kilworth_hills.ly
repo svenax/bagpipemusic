@@ -142,6 +142,8 @@ musicB = {
     meter = "March"
     title = "Kilworth Hills"
     composer = "P/M G. S. McLennan"
+    loc = "52.1760515,-8.2648219"
+    map = "https://goo.gl/maps/7HHRixY9z2K2"
   }
 
 }

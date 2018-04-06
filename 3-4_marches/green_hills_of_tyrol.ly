@@ -58,7 +58,7 @@ musicB = {
 
   % Part 2
 
-  \repeat volta 2  {
+  \repeat volta 2 {
     \grace { s32 s g } a8 \grd c \grg f4 \gre f
     \dble e8 d \dbld d c \grip c4
     \grg c8. d16 \dblc c8 \gre b \grip b4
@@ -82,6 +82,12 @@ musicB = {
     meter = "March"
     title = "The Green Hills of Tyrol"
     composer = "P/M J. MacLeod"
+    comment = "The tune was originally from the opera “William Tell” by Rossini, 
+    but was transcribed to the pipes in 1854 by Pipe Major John MacLeod after 
+    he heard it played by a Sardinian military band when serving in the 
+    Crimean War with his Regiment, the 93rd Sutherland Highlanders."
+    loc = "44.49723,33.5969864"
+    map = "https://goo.gl/maps/RdkypmJ3T6U2"
   }
 
 }

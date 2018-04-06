@@ -50,6 +50,8 @@
         Jimmy died in August 1999. Mats and Sven were in Scotland
         at the time with the intention to visit Jimmy, but instead
         got to attend his funeral in Bonhill."
+    loc = "55.9789172,-4.5809298"
+    map = "https://goo.gl/maps/1A4f4wbB1WE2"
   }
 
 }

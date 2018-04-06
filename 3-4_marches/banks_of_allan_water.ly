@@ -42,6 +42,8 @@
     meter = "March"
     title = "The Banks of Allan Water"
     arranger = "P/M A. MacDonald"
+    loc = "56.2659952,-3.7652625"
+    map = "https://goo.gl/maps/2tLxHDdtniS2"
   }
 
 }

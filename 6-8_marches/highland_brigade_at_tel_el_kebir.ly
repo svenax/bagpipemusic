@@ -74,6 +74,8 @@
     meter = "March"
     title = "The Highland Brigade at Tel-El-Kebir"
     composer = "P/M J. Cameron"
+    loc = "30.483306,31.6188526"
+    map = "https://goo.gl/maps/mXftZpP15fp"
   }
 
 }

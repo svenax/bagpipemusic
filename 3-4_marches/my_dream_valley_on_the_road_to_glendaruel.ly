@@ -40,6 +40,8 @@
     meter = "Retreat"
     title = "My Dream Valley on the Road to Glendaruel"
     composer = "John MacLellan"
+    loc = "56.0089003,-5.2325687"
+    map = "https://goo.gl/maps/hxCaMVWrtcC2"
   }
 
 }

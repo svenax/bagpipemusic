@@ -41,6 +41,8 @@
     meter = "March"
     title = "The Heights of Dargai"
     composer = "J. Wallace"
+    loc = "34.181027,71.8835449"
+    map = "https://goo.gl/maps/UbPqfB6wQdH2"
   }
 
 }

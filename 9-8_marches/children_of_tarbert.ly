@@ -53,6 +53,8 @@
     meter = "March"
     title = "The Children of Tarbert"
     composer = "Robert Bruce"
+    loc = "55.8647432,-5.4211856"
+    map = "https://goo.gl/maps/NQ6oMVit77z"
   }
 
 }

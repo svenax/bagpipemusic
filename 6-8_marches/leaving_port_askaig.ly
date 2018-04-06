@@ -102,6 +102,8 @@
     meter = "March"
     title = "Leaving Port Askaig"
     composer = "P/M W. Ross"
+    loc = "55.8477722,-6.1150708"
+    map = "https://goo.gl/maps/uVzJxm9u1ED2"
   }
 
 }

@@ -102,6 +102,8 @@
     title = "The MacNeils of Ugadale"
     composer = "P/M J. M. MacKenzie"
     arranger = "Arr. MPD"
+    loc = "55.4232349,-5.7345576"
+    map = "https://goo.gl/maps/tYRATGa6nHJ2"
   }
 
 }

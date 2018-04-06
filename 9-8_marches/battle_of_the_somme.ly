@@ -41,6 +41,8 @@
     meter = "March"
     title = "The Battle of the Somme"
     arranger = "Trad. arr. MPD"
+    loc = "50.016667,2.683333"
+    map = "https://goo.gl/maps/UMfBHfv1oGk"
   }
 
 }
