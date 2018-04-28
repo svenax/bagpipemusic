@@ -11,7 +11,7 @@
     \repeat volta 2 {
       \grg e4 a \wbirl a e \grg f8 e d c
       \grg e4 a \wbirl a e \grg c A
-      \grg e4 a \wbirl a e \grg f8 e d c
+      e4 a \wbirl a e \grg f8 e d c
       \grg d4 b \grip b c \thrwd d f
     }
     \break
@@ -34,7 +34,7 @@
     \repeat volta 2 {
       \grg e4 \gra e \grg f8 e d c \grg f e d c
       \grg e4 \gra e \grg f8 e d c \grg e4 A
-      \grg e4 \gra e \grg f8 e d c \grg f e d c
+      e4 \gra e \grg f8 e d c \grg f e d c
       \grg d4 b \grip b c \thrwd d f
     }
     \break
@@ -54,7 +54,7 @@
     \repeat volta 2 {
       \grg e8 c e c \grg f d f d \grg e c a c
       \grg e8 a f a e c a c \grg e4 A
-      \grg e8 c e c \grg f d f d \grg e c a c
+      e8 c e c \grg f d f d \grg e c a c
       \grg d4 b \grip b c \thrwd d f
     }
   }
