@@ -59,7 +59,7 @@
     a16.[ b32 \grip c16. d32] \dble e8 \grg a32 \grd c16.
     \dble e16. a32 \grd c32 A16. \hdblc c8 \grg b32 \grd a16.
     \grg b32 d16. \grg G16. \grd b32 \dble e16.[ b32 \dbld d16. b32]
-    \grg a8[ \taor a] \wbirl a \dblA A
+    \grg a8[ \taor a] \wbirl a[ \dblA A]
     \break
 
     a16.[ b32 \grip c16. d32] \dble e8 \grg a32 \grd c16.
