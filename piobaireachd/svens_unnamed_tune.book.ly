@@ -18,9 +18,9 @@ common = {
 
       % Line 1
 
-      \grg e16 \gra e8. \gracad e4 \hcad d16 \grG d8. \grGcad d4
+      \grg e16 \gra e8. \gracad e4 \hcad d16 \grG d8. \pthrwd d4
       \cad b16 \grG b8. \grGcad b4 \hcad G8. \grd a16 \grip b4
-      \grg e16 \gra e8. \gracad e4 \hcad d16 \grG d8. \grGcad d4
+      \grg e16 \gra e8. \gracad e4 \hcad d16 \grG d8. \pthrwd d4
       \cad b16 \grG b8. \grGcad b4 \grg e4 \dbirl a4
       \bar "||" \break
 
@@ -55,9 +55,9 @@ common = {
 
       % Line 1
 
-      \grg e16 \gra e8. \gracad e4 \hcad d16 \grG d8. \grGcad d4
+      \grg e16 \gra e8. \gracad e4 \hcad d16 \grG d8. \pthrwd d4
       \cad b16 \grG b8. \grGcad b4 \dblA A4 b4
-      \grg e16 \gra e8. \gracad e4 \hcad d16 \grG d8. \grGcad d4
+      \grg e16 \gra e8. \gracad e4 \hcad d16 \grG d8. \pthrwd d4
       \cad b16 \grG b8. \grGcad b4 \dblA A8. d16 \gre a4
       \bar "||" \break
 
