@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 \paper {
   page-count = #1
 }

@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 \header {
     title = "Medley Selection 2"
 }

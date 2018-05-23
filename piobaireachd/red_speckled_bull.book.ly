@@ -1,5 +1,3 @@
-\version "2.18.0"
-
 common = {
   \bagpipeKey
   \override TextScript.staff-padding = #4

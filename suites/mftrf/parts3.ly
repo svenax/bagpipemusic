@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 \layout {
   \context {
     \Score

@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 \header {
     title = "Open Grade Quintet 2006"
     dedication = "Mats, Sven, Daniel, Eugen, Marie"

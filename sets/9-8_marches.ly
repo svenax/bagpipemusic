@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 \header {
     title = "9/8 Marches"
 }

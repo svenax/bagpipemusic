@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 #(set-global-staff-size 20)
 
 \score {

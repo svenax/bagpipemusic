@@ -2,8 +2,6 @@
     Locally customized stuff and helper macros.
 %}
 
-\version "2.16.0"
-
 \allowVoltaHook "|"
 % \allowVoltaHook "||"
 

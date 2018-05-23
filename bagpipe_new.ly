@@ -7,8 +7,6 @@
   (http://www.murrays.nu)
 %}
 
-\version "2.19.28"
-
 % Notes of the scale of the Great Highland Bagpipe. Extra high notes for bombarde.
 % Flat notes used mainly in some modern music.
 
@@ -111,11 +109,13 @@ showTrueKeySignature = {
 
 % Sets the autobeamer to span quarter notes only. Use for fast music.
 quarterBeaming = {
+  \set Timing.beamExceptions = #'()
   \set Score.baseMoment = #(ly:make-moment 1/4)
   \set Score.beatStructure = #'(1 1 1 1)
 }
 % Sets the autobeamer to span half notes. Mostly used in reels.
 halfBeaming = {
+  \set Timing.beamExceptions = #'()
   \set Score.baseMoment = #(ly:make-moment 1/2)
   \set Score.beatStructure = #'(1 1)
 }

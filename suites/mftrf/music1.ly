@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 ouvertureCommon = {
   \bagpipeKey
   \time 4/4

@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 \header {
     title = "2008 Medley for Strasbourg"
 }

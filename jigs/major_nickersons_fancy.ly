@@ -1,6 +1,4 @@
-﻿\version "2.16.0"
-
-\score {
+﻿\score {
 
   {
     \bagpipeKey

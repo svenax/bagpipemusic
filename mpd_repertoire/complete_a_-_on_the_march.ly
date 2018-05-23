@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 \header {
     title = "Repertoire A"
     dedication = "On the march"

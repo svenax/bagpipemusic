@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 \header {
     title = "2013 Quartet for Copenhagen Winter Competition"
 }

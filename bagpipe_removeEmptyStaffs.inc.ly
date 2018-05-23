@@ -2,8 +2,6 @@
     Include file for remove empty staffs layout.
 %}
 
-\version "2.16.0"
-
 % The necessary tweaks to remove empty staffs and staff group brackets
 % when we have a partial seconds.
 \layout {

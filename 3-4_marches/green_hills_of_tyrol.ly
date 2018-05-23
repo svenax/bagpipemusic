@@ -1,6 +1,4 @@
-﻿\version "2.16.0"
-
-common = {
+﻿common = {
   \bagpipeKey
   \time 3/4
 }

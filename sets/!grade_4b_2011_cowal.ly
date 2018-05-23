@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 \header {
     title = "2011 Set for Cowal Grade 4B"
 }

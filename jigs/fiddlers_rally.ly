@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 % Corrections by Stig Bang-Mortensen
 
 \paper {

@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 \header {
     title = "4/4 Marches Set 3"
 }

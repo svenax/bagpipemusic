@@ -2,8 +2,6 @@
     Header formatting for bagpipe tunes. Customize to get your name in the tag line.
 %}
 
-\version "2.16.0"
-
 today = #(strftime "%B %e, %Y" (localtime (current-time)))
 
 \paper {

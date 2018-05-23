@@ -1,5 +1,3 @@
-\version "2.16.0"
-
 chelalhodin = {
   \grg e8.[ \grace { \small f8[ d32 e] }
   \set stemLeftBeamCount = #1
