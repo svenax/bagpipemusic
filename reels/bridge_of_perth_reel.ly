@@ -23,7 +23,7 @@
     \wbirl a8. A16 e16 A8. \hdblc c8. A16 e16 A8.
     \hdblc c8. A16 e8. f16 \dble e8. a16 \dblc c4
     \wbirl a8. A16 e16 A8. \hdblc c8. A16 e8. f16
-    \dblg g8. A16 g8. e16 \dble e16 G8. \dblb b4
+    \dblg g8. A16 g8. e16 \dbld d16 G8. \dblb b4
     \break
     \wbirl a8. A16 e16 A8. \hdblc c8. A16 e16 A8.
     \hdblc c8. A16 e8. f16 \dble e8. a16 \grd c16 e8.
