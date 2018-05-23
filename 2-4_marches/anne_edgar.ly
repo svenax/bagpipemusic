@@ -11,7 +11,7 @@
       \grg \partial 8 e16. d32
       \dblc c8 \grg b32 \grd a16. \dble e16. a32 \grd c32 e16.
       A16. a32 \grg e16. a32 \dblc c8 \grg b32 \grd a16.
-      \dblb b8 \grg a32 \grd G16. \dbld d16. G32 \grd b32 d16.
+      \dblb b8 \grg a32 \grd G16. \dbld d16. G32 \grg b32 d16.
       \dble e16. d32 \grg b32 d16. \dblb b8 \grg a32 \grd G16.
       \break
       \dblc c8 \grg b32 \grd a16. \dble e16. a32 \grd c32 e16.
@@ -52,7 +52,7 @@
     a16.[ b32 \grip c16. d32] \dble e8 \grg a32 \grd c16.
     \dble e16. a32 \grd c32 A16. \hdblc c8 \grg b32 \grd a16.
     \grg G16. a32 \grg b16. c32 \thrwd d8 \grg G16. \grd b32
-    \dbld d16. G32 \grd b32 g16. \tdblb b8 \grg a32 \grd G16.
+    \dbld d16. G32 \grg b32 g16. \tdblb b8 \grg a32 \grd G16.
     \break
     a16.[ b32 \grip c16. d32] \dble e8 \grg a32 \grd c16.
     \dble e16. a32 \grd c32 A16. \hdblc c8 \grg b32 \grd a16.
