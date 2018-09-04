@@ -18,7 +18,6 @@ today = #(strftime "%B %e, %Y" (localtime (current-time)))
       \override #'(baseline-skip . 3.5)
       \column {
         \fill-line { \fromproperty #'header:dedication }
-        \override #'(baseline-skip . 3.5)
         \column {
           \huge \larger \bold
           \fill-line {
@@ -37,6 +36,10 @@ today = #(strftime "%B %e, %Y" (localtime (current-time)))
           \line { \fromproperty #'header:composer " " \italic \fromproperty #'header:arranger }
           }
         }
+        \override #'(baseline-skip . 1.2)
+        $(if (not (ly:get-option 'without-comment))
+          (markup #:override ('padding . 2) (#:justify-field 'header:comment))
+          (markup))
       }
     }
 }
