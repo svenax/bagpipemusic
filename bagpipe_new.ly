@@ -375,12 +375,12 @@ txtaorcrun = \markup {
     \center-align "C"
   }
 }
-txtaoram = \markup { \center-align \scale #'(-1 . -1) "T" }
-txcrunam = \markup { \center-align \scale #'(-1 . -1) "C" }
+txtaoram = \markup { \center-align \rotate #180 "T" }
+txcrunam = \markup { \center-align \rotate #180 "C" }
 txtaorcrunam = \markup {
   \override #'(baseline-skip . 1.8)
   \column {
-    \center-align \scale #'(-1 . -1) "T"
-    \center-align \scale #'(-1 . -1) "C"
+    \center-align \rotate #180 "T"
+    \center-align \rotate #180 "C"
   }
 }
