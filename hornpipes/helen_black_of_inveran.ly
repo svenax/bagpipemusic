@@ -12,7 +12,7 @@
       \grg c16. d32 \grg c16. b32 \grg b8[ \taor a16. \grd c32]
       \grg e16. f32 \grg e16. c32 \dble e8 \grg f16. g32
       A16. g32 \grA g16. f32 \grg f16. e32 \gra e16. c32
-      \grG c16. f32 \grg e16. c32 \slurb b8 \grg e16. d32
+      \grg c32 f16. \grg e16. c32 \slurb b8 \grg e16. d32
       \break
       \grg c16. d32 \grg c16. b32 \grg b8[ \taor a16. \grd c32]
       \grg e16. f32 \grg e16. c32 \dble e8 \grg f16. g32
@@ -28,7 +28,7 @@
       \grg c16. e32 \gra e16. f32 \gre f16. e32 \gra e16. c32
       \grG c16. e32 \gra e16. f32 \dble e8 \grg f16. g32
       A16. g32 \grA g16. f32 \grg f16. e32 \gra e16. c32
-      \grG c16. f32 \grg e16. c32 \slurb b8 \grg e16. d32
+      \grg c32 f16. \grg e16. c32 \slurb b8 \grg e16. d32
       \break
       \grg c16. e32 \gra e16. f32 \gre f16. e32 \gra e16. c32
       \grG c16. f32 \gre f16. e32 \dblf f8 \grg f16. g32
