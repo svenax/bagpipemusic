@@ -61,7 +61,6 @@
     \alternative {
       { \grg a[ b d] }
       {
-        \barLength 3 8
         \grg a[ \grd b \gre a]
       }
     }
