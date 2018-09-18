@@ -1,4 +1,4 @@
-﻿\score {
+\score {
 
   {
     \bagpipeKey
@@ -62,7 +62,7 @@
       \grA f4. b4 \grg f16 g
       \break
       \grA f8 e b \dble e4 d16 e
-      \grg d8 \grG a A \hdblf f4 b8
+      \grg d8 \grG a A <f d b>4\fermata b8
       \grg a4 \taor a8 \grg a8 b d
       \dble e4. \gra e4
     }

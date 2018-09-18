@@ -1,4 +1,4 @@
-﻿\score {
+\score {
 
   {
     \bagpipeKey
