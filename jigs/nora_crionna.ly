@@ -30,8 +30,8 @@
     } 
     \alternative {
       {
-        \dblA A4. \grg A
-        c8 e \gra e \grg f e \gra e
+        \dble e8 c e A c d
+        \grg e8 f e \dble e c e
         \tripleA A4 \grg A8 \grg A e c
         \slurb b4 c8 \dbld d c b
         \break
