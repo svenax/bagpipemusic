@@ -18,9 +18,20 @@ altBracketText = #(define-music-function (parser location tag) (string?) #{
 % End previous altBracket thingy.
 altBracketEnd = { \set Score.repeatCommands = #'((volta #f)) }
 
+markMark = #(define-music-function (parser location text) (markup?) #{
+    \once \override Score.RehearsalMark #'self-alignment-X = #LEFT
+    \mark $text
+#})
+
 markText = #(define-music-function (parser location text) (string?) #{
     \once \override Score.RehearsalMark #'self-alignment-X = #LEFT
     \mark \markup $text
+#})
+
+markMarkEol = #(define-music-function (parser location text) (markup?) #{
+    \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
+    \once \override Score.RehearsalMark #'self-alignment-X = #RIGHT
+    \mark $text
 #})
 
 markTextEol = #(define-music-function (parser location text) (string?) #{
@@ -29,12 +40,22 @@ markTextEol = #(define-music-function (parser location text) (string?) #{
     \mark \markup $text
 #})
 
+markMarkEolDown = #(define-music-function (parser location text) (markup?) #{
+    \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
+    \once \override Score.RehearsalMark #'self-alignment-X = #RIGHT
+    \once \override Score.RehearsalMark #'direction = #DOWN
+    \mark $text
+#})
+
 markTextEolDown = #(define-music-function (parser location text) (string?) #{
     \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
     \once \override Score.RehearsalMark #'self-alignment-X = #RIGHT
     \once \override Score.RehearsalMark #'direction = #DOWN
     \mark \markup $text
 #})
+
+markDCalFine = \markMarkEolDown \markup { \italic "D.C. al Fine" }
+markFine = \markMarkEolDown \markup { \italic "Fine" }
 
 barLength = #(define-music-function (parser location x y) (number? number?) #{
     \set Score.measureLength = #(ly:make-moment x y)
