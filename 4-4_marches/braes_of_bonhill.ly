@@ -16,7 +16,7 @@
     \thrwd d8 \grG d f \grg f e4 \grg a8. b16
     \grip c4 \grg c8 e \gra e d ~ d b
     \grg a4 \wbirl a8 b \grG a4 s8
-    \markTextEol "Fine"
+    \markFine
     \bar "||" \break
 
   % Part 2
@@ -31,7 +31,7 @@
   \thrwd d8 \grG d f \grg f e4 \grg a8. b16
   \grip c4 \grg c8 e \gra e d ~ d b
   \grg a4 \wbirl a8 b \grG a4 s8
-  \markTextEol "D.C. al fine"
+  \markDCalFine
   \bar "|."
   }
 

@@ -17,7 +17,7 @@
       \dblA A4. \grf g8 \grg f2
       \grg e4. f16 g \tdblf f8 d \grg a[ \thrwd d]
       \dble e4. d8 \slurd d2
-      \markTextEol "Fine"
+      \markFine
       \break
       \dblc c4. \gre a8 \dble e4. \grg c16 e
       \grg f4. c8 \dblc c4. \gre b8
@@ -30,7 +30,7 @@
       \grg a2 \wbirl a2
       \bar "||"
       \grg a4 \wbirl a \grg a \wbirl a
-      \markTextEolDown "D.C. al Fine"
+      \markDCalFine
     }
   }
 
