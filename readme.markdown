@@ -1,23 +1,12 @@
 WRITING BAGPIPE MUSIC WITH LILYPOND
 ===================================
 
-Installing Lilypond 2.16.0
+Installing Lilypond 2.18.0
 --------------------------
 
 * Grab the installer for your computer platform here:
   <http://lilypond.org/download.html>
-* Or build from source with Homebrew or MacPorts.
-
-Note: The GUI is really pretty useless, but you can do everything from the
-command line by creating files like this in a folder in your path
-(I use ~/bin).
-
-    #!/bin/bash
-    exec /Applications/LilyPond.app/Contents/Resources/bin/lilypond $@
-
-Name the file `lilypond` and make it executable with `chmod a+x lilypond`.
-Do the same for other lilypond programs you want to have available, e.g.
-`lilypond-book`, `convert-ly`.
+* Or install with `homebrew cask install lilypond`.
 
 Installing and using bagpipe.ly
 -------------------------------
