@@ -1,4 +1,6 @@
 __*
+*.pdf
+*.scm
 bwwtolily.py
 _output/
 _private/
