@@ -38,8 +38,8 @@
     title = "Scotland the Brave"
     arranger = "Trad. arr. MPD"
     comment = "Note that this setting is not the same as the one commonly
-        played in mass bands etc. The massed bands setting can be found
-        in the PBAS standard settings."
+    played in mass bands etc. The massed bands setting can be found
+    in the PBAS standard settings."
   }
 
 }

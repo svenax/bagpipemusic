@@ -1,9 +1,5 @@
 % Corrections by Stig Bang-Mortensen
 
-\paper {
-    page-count = #1
-}
-
 \score {
 
   {

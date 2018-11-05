@@ -1,7 +1,3 @@
-\paper {
-  page-count = #1
-}
-
 \score {
 
   {

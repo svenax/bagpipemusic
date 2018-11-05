@@ -48,6 +48,9 @@
     meter = "Strathspey"
     title = "Gomera"
     composer = "P/S Sven Axelsson"
+    date = "2018-11-01"
+    comment = "On vacation in Tenerife, looking out over the island of Gomera
+    from my terrace."
   }
 
 }

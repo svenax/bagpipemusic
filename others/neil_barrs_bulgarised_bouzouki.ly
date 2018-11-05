@@ -4,6 +4,7 @@
     \bagpipeKey
     \time 7/16
     \set Score.beatStructure = #'(3 4)
+
     % Part 1
 
     \partial 8 e8
@@ -20,22 +21,21 @@
     }
     \alternative {
       { e8] }
-      { \barLength 1 8 \grg a8}
+      { \grg a8}
     }
     \break
 
     % Part 2
 
     \repeat volta 2 {
-      \set Score.measureLength = #(ly:make-moment 7 16)
       \grg e16 b d \dble e8 \gra e
       \grA g16 e g A8 \grg A
-      g16 f g \grA f8 e16 d
+      g16 f g \grA f8 e16[ d]
       \grg e16 g f \grg e8 d
       \break
       \grg e16 b d \dble e8 \gra e
       \grA g16 e g A8 \grg A
-      g16 f g \grA f8 e16 d
+      g16 f g \grA f8 e16[ d]
       \grg e16 g f \grg e8 \gra e
     }
     \break
@@ -55,14 +55,13 @@
     }
     \alternative {
       { \grg f8 g8 }
-      { \barLength 2 8 \slurb b8[ \gre b] }
+      { \slurb b8[ \gre b] }
     }
     \break
 
     % Part 4
 
     \repeat volta 2 {
-      \set Score.measureLength = #(ly:make-moment 7 16)
       \dblA A8 e16 \grg e d \grg e g
       A16 \grg A \grg A g A f A
       g16 \grA d \grG d \grg e d \grg e f

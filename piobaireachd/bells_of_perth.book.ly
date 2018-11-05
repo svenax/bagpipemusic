@@ -286,7 +286,7 @@ common = {
 
   }
 
-  \markup { "The " \raise #1.5 \txtaoram "and " \raise #1.5 \txcrunam should be
+  \markup { The \txtaoram and \txcrunam should be
   played as regular taorluaths and crunluaths in the plain variations }
 
   %%% END SKIP
