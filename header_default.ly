@@ -5,6 +5,17 @@
 today = #(strftime "%B %e, %Y" (localtime (current-time)))
 
 \paper {
+    score-markup-spacing = #'((basic-distance . 12)
+                              (minimum-distance . 8)
+                              (padding . 0.5)
+                              (stretchability . 60))
+    markup-markup-spacing = #'((basic-distance . 6)
+                               (minimum-distance . 4)
+                               (padding . 0.5))
+    top-markup-spacing = #'((basic-distance . 6)
+                            (minimum-distance . 4)
+                            (padding . 1))
+
     raggedbottom = ##t
     tagline = \markup {
         \line {
@@ -23,11 +34,15 @@ today = #(strftime "%B %e, %Y" (localtime (current-time)))
                     \bold \fromproperty #'header:subtitle
                 }
                 \fromproperty #'header:meter
-                \line { \fromproperty #'header:composer " " \italic \fromproperty #'header:arranger }
+                \line {
+                    \fromproperty #'header:composer
+                    \italic \fromproperty #'header:arranger
+                    \tiny \fromproperty #'header:date
+                }
             }
-            $(if (not (ly:get-option 'without-comment))
-                 (markup #:justify-field 'header:comment)
-                 (markup))
+            $(unless (ly:get-option 'without-comment)
+                     (markup #:vspace 1.2 #:justify-field 'header:comment))
+            \vspace #0.6
         }
     }
 }
