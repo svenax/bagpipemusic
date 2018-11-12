@@ -4,9 +4,6 @@
     title = "All 2/4 Marches"
 }
 
-\paper {
-    tocItemMarkup = \tocItemWithDotsMarkup
-}
 \layout {
     \context {
         \Score
