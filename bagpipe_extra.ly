@@ -6,11 +6,11 @@
 % \allowVoltaHook "||"
 
 % Used when substituting a single bar or just a few notes to show alternative.
-altBracket = #(define-music-function (parser location tag) (string?) #{ 
+altBracket = #(define-music-function (parser location tag) (string?) #{
     \once \override Score.VoltaBracket.shorten-pair = #'(0.3 . 0.3)
-    \set Score.repeatCommands = #(list (list 'volta (markup #:number tag))) 
+    \set Score.repeatCommands = #(list (list 'volta (markup #:number tag)))
 #})
-altBracketText = #(define-music-function (parser location tag) (string?) #{ 
+altBracketText = #(define-music-function (parser location tag) (string?) #{
     \once \override Score.VoltaBracket.shorten-pair = #'(0.3 . 0.3)
     \set Score.repeatCommands = #(list (list 'volta (markup #:text tag)))
 #})
@@ -60,3 +60,19 @@ markFine = \markMarkEolDown \markup { \italic "Fine" }
 barLength = #(define-music-function (parser location x y) (number? number?) #{
     \set Score.measureLength = #(ly:make-moment x y)
 #})
+
+% TOC formatting
+\paper {
+  tocItemMarkup = \markup { \fill-line {
+    \override #'(line-width . 80)
+    \fill-with-pattern #1 #RIGHT . \fromproperty #'toc:text \fromproperty #'toc:page
+    }
+  }
+  tocSubheadMarkup = \markup \column {
+    \hspace #1
+    \fill-line { \null \bold \fromproperty #'toc:text \null }
+    \hspace #1
+  }
+}
+tocSubhead = #(define-music-function (text) (markup?)
+               (add-toc-item! 'tocSubheadMarkup text))
