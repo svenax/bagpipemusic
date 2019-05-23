@@ -164,6 +164,17 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
 
   % ---------------------------------------------------------------------------
 
+  \markup { \fill-line { \center-column {
+    \huge \larger \bold
+    \fill-line {
+      \larger "March of the Kings of Laois"
+    }
+    \fill-line {
+      \large \smaller \bold
+      \larger "Máirseáil Rí Laoise"
+    }
+  }}}
+
   \score {
 
     {
@@ -222,6 +233,18 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       piece = "VI. Alt. Var. II (twice)"
     }
 
+  }
+
+  \markup {
+    \vspace #2.0
+    \justify {
+      This is a combination of two tunes, first the piobaireachd as written
+      in manuscript K1.49: 112 by Angus MacKay. In this manuscript, the tune
+      ends just after the first variation. It is then followed by an Irish
+      tune “The March of the Kings of Laois” played in piobaireachd fashion.
+      This tune is mentioned in old manuscripts as “one of the Irish
+      pibrocks”, so this way of playing it has precedents.
+    }
   }
 
   %%% END SKIP
