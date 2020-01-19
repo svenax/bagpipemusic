@@ -3,6 +3,9 @@
 %}
 
 today = #(strftime "%B %e, %Y" (localtime (current-time)))
+comment = #(if (ly:get-option 'without-comment) 
+               "" 
+               (markup #:vspace 1.2 #:justify-field 'header:comment))
 
 \paper {
     score-markup-spacing = #'((basic-distance . 12)
@@ -52,8 +55,7 @@ today = #(strftime "%B %e, %Y" (localtime (current-time)))
                     }
                 }
             }
-            % #(unless (ly:get-option 'without-comment)
-            %          (markup #:vspace 1.2 #:justify-field 'header:comment))
+            \comment
             \vspace #0.6
         }
     }
