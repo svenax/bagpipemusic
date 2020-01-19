@@ -52,8 +52,8 @@ today = #(strftime "%B %e, %Y" (localtime (current-time)))
                     }
                 }
             }
-            $(unless (ly:get-option 'without-comment)
-                     (markup #:vspace 1.2 #:justify-field 'header:comment))
+            % #(unless (ly:get-option 'without-comment)
+            %          (markup #:vspace 1.2 #:justify-field 'header:comment))
             \vspace #0.6
         }
     }

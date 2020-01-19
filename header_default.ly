@@ -3,7 +3,7 @@
 %}
 
 today = #(strftime "%B %e, %Y" (localtime (current-time)))
-
+                        
 \paper {
     score-markup-spacing = #'((basic-distance . 12)
                               (minimum-distance . 8)
@@ -40,8 +40,8 @@ today = #(strftime "%B %e, %Y" (localtime (current-time)))
                     \tiny \fromproperty #'header:date
                 }
             }
-            $(unless (ly:get-option 'without-comment)
-                     (markup #:vspace 1.2 #:justify-field 'header:comment))
+            % #(unless (ly:get-option 'without-comment)
+            %          (markup #:vspace 1.2 #:justify-field 'header:comment))
             \vspace #0.6
         }
     }
