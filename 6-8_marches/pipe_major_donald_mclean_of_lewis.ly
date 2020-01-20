@@ -68,7 +68,7 @@
     % Part 4
 
     \repeat volta 2 {
-      e8
+      \grd b8
       \gbirl a4 A8 \grg A8. g16 A8
       g8. e16 \gra e8 \dble e8. d16 b8
       \grg a8. \grd b16 \gre a8 \grg G4 \grd b8
