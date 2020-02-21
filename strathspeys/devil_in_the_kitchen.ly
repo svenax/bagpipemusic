@@ -10,12 +10,12 @@
     \hdble e8. a16 \gbirl a4 \dble e8. a16 \grg \tuplet 3/2 {f8 e d}
     \dble e8. a16 \gbirl a4 \dblg g4 \grA f16 A8.
     \hdble e8. a16 \gbirl a4 \dble e8. a16 \grg \tuplet 3/2 {f8 e d}
-    \dblb b8. \gre G16 \Gdarodo b4 \dblg g4 \grA f16 A8.
+    \dblb b8. \gre G16 \Gbubly b4 \dblg g4 \grA f16 A8.
     \break
     \hdble e8. a16 \gbirl a4 \dble e8. a16 \grg \tuplet 3/2 {f8 e d}
     \dble e8. a16 \gbirl a4 \dblg g4 \grA f16 A8.
     \hdble e8. a16 \gbirl a4 \dble e8. a16 \grg \tuplet 3/2 {f8 e d}
-    \dblb b8. \gre G16 \Gdarodo b4 \dblg g4 \grA f8. g16
+    \dblb b8. \gre G16 \Gbubly b4 \dblg g4 \grA f8. g16
     \bar "||" \break
 
     % Part 2
@@ -23,7 +23,7 @@
     A8. a16 \gbirl a4 \dble e8. a16 \gbirl a4
     A8. a16 \gbirl a4 \dblg g4 \grA f8. g16
     A8. a16 \gbirl a4 \dble e8. a16 \grg \tuplet 3/2 {f8 e d}
-    \dblb b8. \gre G16 \Gdarodo b4 \dblg g4 \grA f8. g16
+    \dblb b8. \gre G16 \Gbubly b4 \dblg g4 \grA f8. g16
     \break
     A8. a16 \gbirl a4 \dble e8. a16 \gbirl a4
     A8. a16 \gbirl a4 \dblg g4 \grA f8. g16

@@ -229,7 +229,7 @@ slurd  = { \pgrace { g32[ d G] } }
 wslurd = { \pgrace { g32[ d c] } }
 slure  = { \pgrace { g32[ e a] } }
 slurf  = { \pgrace { g32[ f e] } }
-slurg  = { \pgrace { A32[ f a] } }
+slurg  = { \pgrace { A32[ g f] } }
 slurA  = { \pgrace { f32[ a] } }
 
 % Half slurs / Half Strike
@@ -289,6 +289,9 @@ thrwe     = { \pgrace { e32[ a f a] } }
 wthrwe    = { \pgrace { e32[ d f d] } }
 thrwf     = { \pgrace { f32[ e g e] } }
 
+bubly   = { \pgrace { G32[ d G c G] } }
+Gbubly  = { \pgrace { d32[ G c G] } }
+
 % Birls
 birl  = { \pgrace { a32[ G a G] } }
 wbirl = { \pgrace { G32[ a G] } }
@@ -339,7 +342,9 @@ bari     = { \pgrace { e32[ G f G] } }
 dari     = { \pgrace { f32[ e g e f e] } }
 fdari    = { \pgrace { e32[ g e f e] } }
 pthrwd   = { \pgrace { G16[ d32 c] } }
+% This is the same as bubly
 darodo   = { \pgrace { G32[ d G c G] } }
+% This is the same as Gbubly
 Gdarodo  = { \pgrace { d32[ G c G] } }
 pdarodo  = { \pgrace { G16[ d32 G c G16] } }
 pGdarodo = { \pgrace { d32[ G c G16] } }

@@ -28,19 +28,19 @@
     \times 2/3 { A8 f A } \times 2/3 { g8 \grA e g } \grA \times 2/3 { f8 d f } \grg \times 2/3 { e8 c e }
     \grg d16 f8 d16 \grg c16 A8 c16 \dblb b8. \grg a16 \grd G8. \grd b16
     \grg a16 b c8 \grg b16 c d8 \grg c16 d e8 \grg d16 e f8
-    \grg e16 d c8 \darodo b4 \gbirl a4 \dblA A4
+    \grg e16 d c8 \bubly b4 \gbirl a4 \dblA A4
     \bar "||" \break
 
     % Part 3
 
-    \hdble e8. c16 \darodo b4 \gbirl a4 \dblf f4
+    \hdble e8. c16 \bubly b4 \gbirl a4 \dblf f4
     \gbirl a4 \dblc c16 \gre a8. \dblb b8. \grg a16 \grd G8. \grd b16
-    \dble e8. c16 \darodo b4 \thrwd d8. e16 \dblf f8. d16
+    \dble e8. c16 \bubly b4 \thrwd d8. e16 \dblf f8. d16
     \dble e8. a16 \dblc c16 \gre b8. \dblb b16 \gre a8. \wbirl a16 A8.
     \break
-    \hdble e8. c16 \darodo b4 \gbirl a4 \dblf f4
+    \hdble e8. c16 \bubly b4 \gbirl a4 \dblf f4
     \gbirl a4 \dblc c16 \gre a8. \dblb b8. \grg a16 \grd G8. \grd b16
-    \dble e8. c16 \darodo b4 \thrwd d8. e16 \dblf f8. d16
+    \dble e8. c16 \bubly b4 \thrwd d8. e16 \dblf f8. d16
     \dble e8. a16 \dblc c16 \gre b8. \dblb b16 \gre a8. \wbirl a8. e16
     \bar "||" \break
 
@@ -54,7 +54,7 @@
     \grA f16 g A8 e16 f g8 \grA d16 e f8 \grg c16 d e8
     \grg b16 c d8 \dblc c16 e8. \dblb b8. \grg a16 \grd G8. \grd b16
     \grg a16 b c8 \grg b16 c d8 \grg c16 d e8 \grg d16 e f8
-    \grg e16 d c8 \darodo b4 \gbirl a4 \dblA A4
+    \grg e16 d c8 \bubly b4 \gbirl a4 \dblA A4
     \bar "|."
   }
 
