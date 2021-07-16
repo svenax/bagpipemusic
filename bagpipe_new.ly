@@ -79,6 +79,9 @@ showTrueKeySignature = {
 
     \override VoltaBracketSpanner.Y-extent = #'(-1.5 . 0)
     \override VoltaBracket.height = #2.2
+
+    \override Beam.beam-thickness = #0.52
+    \override Stem.thickness = #1.6
   }
 
   \context {
@@ -371,11 +374,20 @@ trebling = \markup {
   }
 }
 % Abbreviated notation common in piobaireachd scores.
+txleum = \markup { \center-align "L" }
 txtaor = \markup { \center-align "T" }
 txcrun = \markup { \center-align "C" }
 txtaorcrun = \markup {
   \override #'(baseline-skip . 1.8)
   \column {
+    \center-align "T"
+    \center-align "C"
+  }
+}
+txleumtaorcrun = \markup {
+  \override #'(baseline-skip . 1.8)
+  \column {
+    \center-align "L"
     \center-align "T"
     \center-align "C"
   }
