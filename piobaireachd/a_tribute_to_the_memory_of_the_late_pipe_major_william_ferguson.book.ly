@@ -7,7 +7,7 @@ common = {
 btaorcrunG = {
   \barLength 5 4
   \altBracketText "T" b8.[ \taor G16]
-  \altBracketText "C" b8.[ \crunG e16]
+  \altBracketText "C" b8.[ \Gcrun e16]
   \altBracketEnd
   \barLength 4 4
 }

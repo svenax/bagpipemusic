@@ -114,7 +114,7 @@ musicB = {
   r8
   R1*6/8*4
   \break
-  R1*6/8*3  R1*5/8*1
+  R1*6/8*3  s1*5/8*1
   \bar "||" \break
 
   % Part 3
@@ -177,8 +177,8 @@ musicB = {
 \score {
 
   \new StaffGroup <<
-    \new Staff \transpose a bflat, \musicA
-    \new Staff \transpose a bflat, \musicB
+    \new Staff \transpose a #(ly:make-pitch 0 6 FLAT) \musicA
+    \new Staff \transpose a #(ly:make-pitch 0 6 FLAT) \musicB
   >>
 
   \header {

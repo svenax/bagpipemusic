@@ -1,12 +1,5 @@
-\version "2.19.0"
-
-\include "bagpipe.ly"
-\include "../header_default.ly"
-
-#(set-global-staff-size 15)
-
 common = {
-  \hideKeySignature
+  \bagpipeKey
   \time 3/4
   \quarterBeaming
 }

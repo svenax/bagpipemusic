@@ -11,7 +11,7 @@
   Note: Only the first two parts are played in the medley set.
 }}
 \include "airs/el_alamein.ly"
-\include "strathspeys/macphedrans_strathspey.ly"
+\include "strathspeys/mcphedrans_strathspey.ly"
 \pageBreak
 \include "reels/airlies_big_day.ly"
 \include "reels/wretched_man.ly"
