@@ -1,7 +1,6 @@
 common = {
   \bagpipeKey
   \time 4/4
-  \override TextScript.staff-padding = #4
 }
 
 \book {

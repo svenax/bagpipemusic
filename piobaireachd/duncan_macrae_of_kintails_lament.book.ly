@@ -1,7 +1,6 @@
 common = {
   \bagpipeKey
   \quarterBeaming
-  \override TextScript.staff-padding = #4
   \time 4/4
 }
 

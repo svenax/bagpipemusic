@@ -2,8 +2,8 @@
 
   {
     \bagpipeKey
-    \time 4/4
     \quarterBeaming
+    \time 4/4
 
     % Ground
 

@@ -1,6 +1,5 @@
 common = {
   \bagpipeKey
-  \override TextScript.staff-padding = #4
 }
 
 \book {
