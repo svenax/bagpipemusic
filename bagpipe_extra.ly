@@ -8,7 +8,7 @@
 \paper {
   top-margin = 4\mm
   bottom-margin = 4\mm
-  tocItemMarkup = \markup { 
+  tocItemMarkup = \markup {
     \fill-line {
       \override #'(line-width . 80)
       \fill-with-pattern #1 #RIGHT . \fromproperty #'toc:text \fromproperty #'toc:page
@@ -41,6 +41,8 @@ tocSubhead = #(define-music-function (text) (markup?)
 
     \override Beam.beam-thickness = #0.52
     \override Stem.thickness = #1.6
+
+    \override TextScript.staff-padding = #4
   }
 
   \context {
@@ -114,6 +116,36 @@ txleumtaorcrun = \markup {
     \center-align "C"
   }
 }
+
+% Abbreviated notation common in piobaireachd scores.
+txleum = \markup { \center-align "L" }
+txtaor = \markup { \center-align "T" }
+txcrun = \markup { \center-align "C" }
+txtaorcrun = \markup {
+  \override #'(baseline-skip . 1.8)
+  \column {
+    \center-align "T"
+    \center-align "C"
+  }
+}
+txleumtaorcrun = \markup {
+  \override #'(baseline-skip . 1.8)
+  \column {
+    \center-align "L"
+    \center-align "T"
+    \center-align "C"
+  }
+}
+txtaoram = \markup { \center-align \rotate #180 "T" }
+txcrunam = \markup { \center-align \rotate #180 "C" }
+txtaorcrunam = \markup {
+  \override #'(baseline-skip . 1.8)
+  \column {
+    \center-align \rotate #180 "T"
+    \center-align \rotate #180 "C"
+  }
+}
+
 
 % Used when substituting a single bar or just a few notes to show alternative.
 altBracket = #(define-music-function (parser location tag) (string?) #{
