@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 %{
     Locally customized stuff and helper macros.
@@ -161,38 +161,38 @@ altBracketText = #(define-music-function (parser location tag) (string?) #{
 altBracketEnd = { \set Score.repeatCommands = #'((volta #f)) }
 
 markMark = #(define-music-function (parser location text) (markup?) #{
-    \once \override Score.RehearsalMark #'self-alignment-X = #LEFT
+    \once \override Score.RehearsalMark.self-alignment-X = #LEFT
     \mark $text
 #})
 
 markText = #(define-music-function (parser location text) (string?) #{
-    \once \override Score.RehearsalMark #'self-alignment-X = #LEFT
+    \once \override Score.RehearsalMark.self-alignment-X = #LEFT
     \mark \markup $text
 #})
 
 markMarkEol = #(define-music-function (parser location text) (markup?) #{
-    \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
-    \once \override Score.RehearsalMark #'self-alignment-X = #RIGHT
+    \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
+    \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
     \mark $text
 #})
 
 markTextEol = #(define-music-function (parser location text) (string?) #{
-    \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
-    \once \override Score.RehearsalMark #'self-alignment-X = #RIGHT
+    \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
+    \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
     \mark \markup $text
 #})
 
 markMarkEolDown = #(define-music-function (parser location text) (markup?) #{
-    \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
-    \once \override Score.RehearsalMark #'self-alignment-X = #RIGHT
-    \once \override Score.RehearsalMark #'direction = #DOWN
+    \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
+    \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+    \once \override Score.RehearsalMark.direction = #DOWN
     \mark $text
 #})
 
 markTextEolDown = #(define-music-function (parser location text) (string?) #{
-    \once \override Score.RehearsalMark #'break-visibility = #end-of-line-visible
-    \once \override Score.RehearsalMark #'self-alignment-X = #RIGHT
-    \once \override Score.RehearsalMark #'direction = #DOWN
+    \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
+    \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+    \once \override Score.RehearsalMark.direction = #DOWN
     \mark \markup $text
 #})
 

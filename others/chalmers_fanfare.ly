@@ -10,7 +10,7 @@
 
     R1*23
     \mark #3
-    R1^"Drones"
+      R1^"Drones"
 
     \repeat volta 2 {
       \thrwd d8. a16 \shaked d8 a16 f \grg e8. a16 \dre e8[ A8]

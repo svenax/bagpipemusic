@@ -37,7 +37,7 @@
   \header{
     meter = "Air"
     title = "Highland Cathedral"
-    arranger = "Trad. arr. MPD"
+    composer = "U. Roever / M. Korb"
     comment = "When playing together with an orchestra, the two extra
                bars at the end of each repeat are played for a unison
                crescendo. Usually the tune is repeated once, so, played

@@ -2,9 +2,11 @@
     Header formatting for bagpipe tunes. Customize to get your name in the tag line.
 %}
 
+\version "2.24.0"
+
 today = #(strftime "%B %e, %Y" (localtime (current-time)))
-comment = #(if (ly:get-option 'without-comment) 
-               "" 
+comment = #(if (ly:get-option 'without-comment)
+               ""
                (markup #:vspace 1.2 #:justify-field 'header:comment))
 
 \paper {

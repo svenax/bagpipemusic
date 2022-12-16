@@ -2,7 +2,7 @@
     All of the bagpipe specific markup.
 %}
 
-\version "2.16.0"
+\version "2.24.0"
 
 #(ly:set-option 'point-and-click #t)
 
@@ -21,7 +21,7 @@
   indent = 30\mm
   \context {
     \Score
-    \override NonMusicalPaperColumn #'line-break-permission = ##f
+    \override NonMusicalPaperColumn.line-break-permission = ##f
   }
 }
 
@@ -29,10 +29,10 @@
     {
     \hideKeySignature
     \set Staff.instrumentName = "Plain notes "
-    G4 a b c cflat d e f fflat g gflat A
+    G4 a b c c-flat d e f f-flat g g-flat A
     }
     \addlyrics {
-    G a b c cflat d e f fflat g gflat A
+    G a b c c-flat d e f f-flat g g-flat A
     }
 }
 
@@ -245,6 +245,6 @@
 
 \header {
     title = "Cheat sheet for entering bagpipe music"
-    subtitle = "Intended for Lilypond 2.16 or better"
+    subtitle = "Intended for Lilypond 2.24 or better"
     tagline = \markup { "P/S Sven Axelsson, The Murray Pipes & Drums of Gothenburg" }
 }
