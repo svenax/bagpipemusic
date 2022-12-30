@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 A8
+    \partial 8
+    A8
     \hdble e8. a16 \gbirl a4 \dble e8. a16 \grg \tuplet 3/2 {f8 e d}
     \dble e8. a16 \gbirl a4 \dblg g4 \grA f16 A8.
     \hdble e8. a16 \gbirl a4 \dble e8. a16 \grg \tuplet 3/2 {f8 e d}

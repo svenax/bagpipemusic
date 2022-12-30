@@ -21,16 +21,16 @@
       \dble e4. \grg c8 e \gra e \grg a e \gra e \grg f4 A8 f e \gra e
       \dble e4. \grg c8 e \gra e \grg a e \gra e \grg d f \gre f \grg c b \grG b
       \break
-    }
-    \alternative {
-      {
-        \dble e4. \grg c8 e \gra e \grg a e \gra e \grg f4 A8 f e \gra e
-        \grg f A \grg A f e \gra e \dblc c4. \grg c8 \grd a \grd c \grg b \grd a \gre a
-        \break
-      }
-      {
-        \grg c8 \grd c \gre c \dble e4 c8 \grg b \grd a \gre a \grg c e \gra e \grg f e \gra e
-        \grg f A \grg A f e \gra e \dblc c4. \grg c8 \grd a \grd c \grg b \grd a \gre a
+      \alternative {
+        {
+          \dble e4. \grg c8 e \gra e \grg a e \gra e \grg f4 A8 f e \gra e
+          \grg f A \grg A f e \gra e \dblc c4. \grg c8 \grd a \grd c \grg b \grd a \gre a
+          \break
+        }
+        {
+          \grg c8 \grd c \gre c \dble e4 c8 \grg b \grd a \gre a \grg c e \gra e \grg f e \gra e
+          \grg f A \grg A f e \gra e \dblc c4. \grg c8 \grd a \grd c \grg b \grd a \gre a
+        }
       }
     }
     \break
@@ -52,16 +52,16 @@
       \dblA A4. e8 A \grg A c A \grg A f4 A8 f e \gra e
       \dblA A4. e8 A \grg A d A \grg A c A \grg A c b \grG b
       \break
-    }
-    \alternative {
-      {
-        \dblA A4. e8 A \grg A c A \grg A f4 A8 f e \gra e
-        \grg f A \grg A f e \gra e \dblc c4. \grg c8 \grd a \grd c \grg b \grd a \gre a
-        \break
-      }
-      {
-        \grg c \grd a \gre a \grg b \grd a \gre a \dblc c4 b8 \grg c e \gra e \grg f e \gra e
-        \grg f A \grg A f e \gra e \dblc c4. \grg c8 \grd a \grd c \grg b \grd a \gre a
+      \alternative {
+        {
+          \dblA A4. e8 A \grg A c A \grg A f4 A8 f e \gra e
+          \grg f A \grg A f e \gra e \dblc c4. \grg c8 \grd a \grd c \grg b \grd a \gre a
+          \break
+        }
+        {
+          \grg c \grd a \gre a \grg b \grd a \gre a \dblc c4 b8 \grg c e \gra e \grg f e \gra e
+          \grg f A \grg A f e \gra e \dblc c4. \grg c8 \grd a \grd c \grg b \grd a \gre a
+        }
       }
     }
     \fine

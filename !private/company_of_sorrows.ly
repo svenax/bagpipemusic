@@ -7,8 +7,9 @@ musicA = {
   \common
 
   % Part 1
+  \partial 8
   \repeat volta 2 {
-    \grg \partial 8 a8
+    \grg a8
     \dblf f4 A16. f32 \thrwd d4 e16. a32
     \dblc c4 b8 \grG a4 f16. g32
     \dblA A4 a16. d32 \grg b4 d16. e32
@@ -40,14 +41,15 @@ musicB = {
   \common
 
   % Part 1
+  \partial 8
   \repeat volta 2 {
-    \grg \partial 8 a8
+    \grg a8
     \grg d8 a d \grg a b c
     \grg e8 a G \grg c d A
     \birl a8 f a \grg G d a
     A8 d b A a d
     \break
-    \grg d8 a d \grg a b c
+    \grgIII d8 a d \grg a b c
     \grg e8 a G \grg c d A
     \birl a8 f a \grg G d a
     \wbirl a4 \grd b8 \grG a4
@@ -62,7 +64,7 @@ musicB = {
     \wbirl a8 f a \grg G d a
     A8 d b A a d
     \break
-    \grg f8[ a \wbirl a] \grg a f a
+    \grgII f8[ a \wbirl a] \grg a f a
     \wbirl a8 b a \grg c d a
     \wbirl a8 f a \grg G d a
     \wbirl a4 \grd b8 \grG a4

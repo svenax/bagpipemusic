@@ -8,9 +8,10 @@ musicA = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
     \mark \default
-    \dblA \partial 8 A8
+    \dblA A8
     f8 d16 e \grg f A g8 \grA f e
     \grg f8 d \gre b \grG a4 d8
     \grg e8 c16 d \grg e f \dblg g8 \grA f e
@@ -101,8 +102,9 @@ musicB = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
-    \grace { s32*2 } \partial 8 r8
+    \grace s32*2 r8
     R1*6/8*4
     \break
     R1*6/8*3  R1*5/8*1

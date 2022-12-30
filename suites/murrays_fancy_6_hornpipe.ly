@@ -11,8 +11,9 @@ musicA = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
-    \grg \partial 8 d16 e
+    \grg d16 e
     \grg f8 \grg f16 A g A f d
     \grg G16 \grd b \grG b G \grg b d \grg b G
     \grg a16 \grd a \gre a \grd b \grg b d \grG d e
@@ -152,8 +153,9 @@ musicB = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
-    \grR \partial 8 R8
+    \grR R8
     R1*2/4*7 R1*3/8
   }
   \break

@@ -6,7 +6,8 @@ ouvertureCommon = {
 ouvertureA = {
   \ouvertureCommon
 
-  \grg \partial 4*2 a4. \grd a8
+  \partial 4*2
+  \grg a4. \grd a8
 
   % 1
 
@@ -83,7 +84,8 @@ ouvertureA = {
 ouvertureB = {
   \ouvertureCommon
 
-  \grg \partial 4*2 a4. \grd a8
+  \partial 4*2
+  \grg a4. \grd a8
 
   % 1
 
@@ -160,7 +162,8 @@ ouvertureB = {
 ouvertureC = {
   \ouvertureCommon
 
-  \grg \partial 4*2 a4. \grd a8
+  \partial 4*2
+  \grg a4. \grd a8
 
   % 1
 

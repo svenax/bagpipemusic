@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 a8
+    \partial 8
+    a8
     \repeat volta 2 {
       \grg e16 \gra e8. a8 e8 ~ e4 \grg a8 b
       \gripthrwd d4 e8[ \wbirl a8] ~ a4 \grg a8 b

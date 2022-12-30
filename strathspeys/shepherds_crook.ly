@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 A8
+      A8
       \birl a4 \dblc c16 \gre a8. \dblb b8. \grg a16 \grd G8. \grd b16
       \gbirl a4 \dblc c16 \gre a8. \gbirl a4 \dblc c4
       \thrwd d16 \gre b8. \dblc c16 \gre a8. \dblb b8. \grg a16 \grd G8. f16

@@ -15,13 +15,13 @@
       \grg d8 c \grg e c \grg d a \grg f g
       A a \grA g a \grg f a \grg e f
       \grA g e \grg f g \grA e d \grg c b
-    }
-    \alternative {
-      {
-        \grg a d \grG d c \grg d g \grA f e
-      }
-      {
-        \grg a d \grG d c \grg d e \grg f g
+      \alternative {
+        {
+          \grg a d \grG d c \grg d g \grA f e
+        }
+        {
+          \grg a d \grG d c \grg d e \grg f g
+        }
       }
     }
     \break

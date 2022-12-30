@@ -16,17 +16,16 @@
       \slurc c4 G8 \slurd d4 G8
       A e d \dre e4 d8
       \grg c a G
-    }
-    \alternative {
-      { \gbirl a4. }
-      { \gbirl a4 }
+      \alternative {
+        { \gbirl a4. } { \gbirl a4 }
+      }
     }
     \break
 
     % Part 2
 
     \repeat volta 2 {
-      \partial 8 G8
+      G8
       \grg c4 d8 \grg e4 \grip e8
       \grg e g \grf g \grA e A \grg A
       \hdblc c4 d8 \grg e4 \grip e8
@@ -64,22 +63,20 @@
       \grg d c a \gbirl a4 e8
       \grg d c a \grg G b d
       \break
-    }
-    \alternative {
-      {
-        \dblg g4 e8 \dblg g4 A8
-        g e d \grg d e \gra e
-        A e d \dre e4 d8
-        \barLength 5 8
-        \grg c a G \gbirl a4
-        \break
-      }
-      {
-        \barLength 6 8
-        \slurc c4 G8 \grg a \grd a \gre a
-        \slurd d4 G8 \grg a \grd a \gre a
-        A e d \dre e4 d8
-        \grg c a G \gbirl a4.
+      \alternative {
+        {
+          \dblg g4 e8 \dblg g4 A8
+          g e d \grg d e \gra e
+          A e d \dre e4 d8
+          \grg c a G \gbirl a4
+          \break
+        }
+        {
+          \slurc c4 G8 \grg a \grd a \gre a
+          \slurd d4 G8 \grg a \grd a \gre a
+          A e d \dre e4 d8
+          \grg c a G \gbirl a4.
+        }
       }
     }
     \fine

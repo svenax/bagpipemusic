@@ -6,7 +6,8 @@ common = {
 musicA = {
   \common
 
-  \partial 8 A8
+  \partial 8
+  A8
   \hdblf f8. e16 d8 \grg b4 \thrwd d8
   \grg a4 \taor a8 \thrwd d4 e8
   \grg f4 \grip f8 \dblA A8. g16 f8
@@ -34,7 +35,8 @@ musicA = {
 musicB = {
   \common
 
-  \partial 8 R8
+  \partial 8
+  R8
   R1*6/8*7 R1*5/8
   \section \break
 

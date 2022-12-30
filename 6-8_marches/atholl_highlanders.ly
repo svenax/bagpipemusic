@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 4
     \repeat volta 2 {
-      \grg \partial 4 c16 d8.
+      \grg c16 d8.
       \dble e4. \grg e8. c16 \grd a8
       \grg e8. c16 \grd a8 \grg b8. c16 d8
       \dble e4. \grg e8. c16 \grd a8
@@ -45,22 +46,20 @@
       A4 \grip e8 \dble e8. d16 c8
       \grg b8. c16 d8 \dblc c4 e8
       \break
-    }
-    \alternative {
-      {
-        A4 \grip e8 \dble e8. d16 c8
-        A4 \grip e8 \dble e4 d8
-        \grg c16 A8. e8 \dblf f8. e16 d8
-        \barLength 5 8
-        \grg c16[ d8. \gre b8] \grG a4
-        \break
-      }
-      {
-        \barLength 6 8
-        A4 \grip e8 A4 \grip e8
-        \grg f4 \grip f8 \dble e4 d8
-        \grg c16 A8. e8 \dblf f8. e16 d8
-        \grg c16 d8. \gre b8 \grG a4
+      \alternative {
+        {
+          A4 \grip e8 \dble e8. d16 c8
+          A4 \grip e8 \dble e4 d8
+          \grg c16 A8. e8 \dblf f8. e16 d8
+          \grg c16[ d8. \gre b8] \grG a4
+          \break
+        }
+        {
+          A4 \grip e8 A4 \grip e8
+          \grg f4 \grip f8 \dble e4 d8
+          \grg c16 A8. e8 \dblf f8. e16 d8
+          \grg c16 d8. \gre b8 \grG a4
+        }
       }
     }
     \break

@@ -5,9 +5,10 @@
     \time 2/4
 
     % Part 1
-    \bar "|:"
+
+    \partial 8
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg a8. b16 \grG a8[ \thrwd d]
       \dble e8. d16 \dblb b8 \grG a
       \thrwd d8. e16 \grg f8 A
@@ -29,20 +30,20 @@
       \thrwd d8. e16 \grg f8 A
       \dblf f8 e \gra e[ \dblg g]
       \break
-    }
-    \alternative {
-      {
-        \dblA A8. f16 \thrwd d8 f
-        \dble e8. d16 \dblb b8 \grG a
-        \thrwd d8. e16 \grg f8 A
-        \hdblf f8 d \slurd d s
-        \break
-      }
-      {
-        \grg a8. b16 \grG a8[ \thrwd d]
-        \dble e8. d16 \dblb b8 \grG a
-        \thrwd d8. e16 \grg f8 A
-        \hdblf f8 d \slurd d
+      \alternative {
+        {
+          \dblA A8. f16 \thrwd d8 f
+          \dble e8. d16 \dblb b8 \grG a
+          \thrwd d8. e16 \grg f8 A
+          \hdblf f8 d \slurd d s
+          \break
+        }
+        {
+          \grg a8. b16 \grG a8[ \thrwd d]
+          \dble e8. d16 \dblb b8 \grG a
+          \thrwd d8. e16 \grg f8 A
+          \hdblf f8 d \slurd d
+        }
       }
     }
     \fine

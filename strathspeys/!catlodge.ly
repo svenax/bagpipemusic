@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 A8
+    \partial 8
+    A8
     \hdblf f8. e16 \thrwd d8. e16 \grg d16 f8. \grg a8. d16
     \grg f8. e16 \thrwd d8. e16 \grg f16 A8. \grg A8. f16
     \dble e8. d16 \grg c8. d16 \grg c16 e8. \grg a8. \grd c16

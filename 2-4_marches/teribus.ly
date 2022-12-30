@@ -7,8 +7,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 a8
+      a8
       \thrwd d8 \gre a \thrwd d8. e16
       \grg f8 A \hdblf f d
       \dblg g8. f16 \dble e8. d16
@@ -30,22 +31,20 @@
       \dblg g8. f16 \dble e8. d16
       \dblc c8 e \dblc c \gre a
       \break
-    }
-    \alternative {
-      {
-        A4 \grip A8. g16
-        \tdblf f8 A \hdblf f d
-        \dblg g8. f16 \dble e8 A
-        \barLength 3 8
-        \hdblf f8 d \slurd d
-        \break
-      }
-      {
-        \barLength 2 4
-        \thrwd d8 \gre a \thrwd d8. e16
-        \grg f8 A \hdblf f d
-        \dblg g8. f16 \dble e8 A
-        \hdblf f8 d \slurd d
+      \alternative {
+        {
+          A4 \grip A8. g16
+          \tdblf f8 A \hdblf f d
+          \dblg g8. f16 \dble e8 A
+          \hdblf f8 d \slurd d
+          \break
+        }
+        {
+          \thrwd d8 \gre a \thrwd d8. e16
+          \grg f8 A \hdblf f d
+          \dblg g8. f16 \dble e8 A
+          \hdblf f8 d \slurd d
+        }
       }
     }
     \fine

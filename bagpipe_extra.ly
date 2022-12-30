@@ -39,10 +39,16 @@ tocSubhead = #(define-music-function (text) (markup?)
     \override VoltaBracketSpanner.Y-extent = #'(-1.5 . 0)
     \override VoltaBracket.height = #2.2
 
+    \override Glissando.style = #'zigzag
+    \override Glissando.minimum-length = #5
+    \override Glissando.springs-and-rods = #ly:spanner::set-spacing-rods
+
     \override Beam.beam-thickness = #0.52
     \override Stem.thickness = #1.6
 
     \override TextScript.staff-padding = #4
+
+    \override NonMusicalPaperColumn.line-break-permission = ##f
   }
 
   \context {
@@ -100,14 +106,17 @@ showTrueKeySignature = {
 }
 
 \allowVoltaHook "|"
-% \allowVoltaHook "||"
+
+% Common padded grace notes for use in multi-part scores
+grgII = \pgrace { s32 g32 }
+grgIII = \pgrace { s16 g32 }
 
 % Extra movements
-fgrip = { \pgrace { G32[ f G] } }
-fdari = { \pgrace { e32[ g e f e] } }
-grecad = { \pgrace { e16 } }
-bubly = { \pgrace { G32[ d G c G] } }
-Gbubly = { \pgrace { d32[ G c G] } }
+fgrip = \pgrace { G32[ f G] }
+fdari = \pgrace { e32[ g e f e] }
+grecad = \pgrace { e16 }
+bubly = \pgrace { G32[ d G c G] }
+Gbubly = \pgrace { d32[ G c G] }
 txleumtaorcrun = \markup {
   \override #'(baseline-skip . 1.8)
   \column {

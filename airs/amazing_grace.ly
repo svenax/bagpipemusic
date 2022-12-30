@@ -7,7 +7,8 @@ common = {
 musicA = {
   \common
 
-  \grg \partial 4 a8. d16
+  \partial 4
+  \grg a8. d16
   \slurd d2 \grg f8[ e32 d16.]
   \grg f2 \grg f8 e
   \thrwd d2 \grg b4
@@ -32,7 +33,8 @@ musicA = {
 musicB = {
   \common
 
-  \grg \partial 4 a8. d16
+  \partial 4
+  \grg a8. d16
   \grg f2 a4
   \grg d2 \dbld d8. c16
   \grg b2 \grg G4
@@ -57,7 +59,8 @@ musicB = {
 musicC = {
   \common
 
-  \grg \partial 4 a4
+  \partial 4
+  \grg a4
   d2 A4
   \hdblf f2 \grg b8. a16
   \gre G4. \grg b8 d4

@@ -4,7 +4,8 @@
     \bagpipeKey
     \time 2/4
 
-    \partial 4 \grg a16 \grG a8.
+    \partial 4
+    \grg a16 \grG a8.
     \dblf f4 \grg e8. f16
     \slurb b4 \grg a16 d8.
     \dblf f4 A8. f16

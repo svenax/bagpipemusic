@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 e8
+    \partial 8
+    e8
     \grg a4 \taor a8. b16 \dblc c8 \grg a \dblc c e
     \dblA A4 \grg A \grip A8 e \dblc c \gre a
     \thrwd d4 \grg f8. d16 \dblc c8 e \dblc c \gre a

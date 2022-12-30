@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 A8
+    \partial 8
+    A8
     b16 d8. \gre G8. \grd b16 \dble e4 \dblg g4
     \tdbld d8. b16 \grG b8. g16 \tdblb b4 \grg b16[ \grd G8.]
     \grg b16 d8. \gre G8. \grd b16 \dble e4 \dblg g4

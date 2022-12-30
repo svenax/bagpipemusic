@@ -5,7 +5,8 @@
     \time 2/4
     \quarterBeaming
 
-    \grg \partial 8 a8
+    \partial 8
+    \grg a8
     \wbirl a8 f \grg e d
     \grg a4. \grg a8
     \wbirl a8 f \grg e d

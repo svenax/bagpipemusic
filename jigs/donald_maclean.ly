@@ -6,8 +6,9 @@
 
     % Part 1
 
-    \partial 8 A8
+    \partial 8
     \repeat volta 2 {
+      A8
       a \grd a \gre a \grg c e \gra e
       \grg a d \gre a c \gre G \grd b
       \grg a \grd b \gre b \grg b \grd c \gre c
@@ -15,11 +16,11 @@
       \break
       \grg a \grd a \gre a \grg c e \gra e
       \grg a d \gre a c \gre G \grd b
-      \grg e c \grG c d \gre b \grd c 
-      \grg a \grd c e 
-    }
-    \alternative {
-      {\dblA A4.} {\dblA A4}
+      \grg e c \grG c d \gre b \grd c
+      \grg a \grd c e
+      \alternative {
+        {\dblA A4.} {\dblA A4}
+      }
     }
     \break
 
@@ -30,15 +31,15 @@
       \grg e f \grg e \grg a4 \grd c 8
       \grg e f \grg e \grg c \gre a \grd c
       \grg f e \gra e \dblc c4 e8
-      \grg f e \gra e \grg f A f 
+      \grg f e \gra e \grg f A f
       \break
       \grg e f \grg e \grg a4 \grd c 8
       \grg e f \grg e \grg c A f
-      \grg e c \grG c d \gre b \grd c 
+      \grg e c \grG c d \gre b \grd c
       \grg a \grd c e
-    }
-    \alternative {
-      {\dblA A4} {\dblA A4.}
+      \alternative {
+        {\dblA A4} {\dblA A4.}
+      }
     }
     \break
 
@@ -52,11 +53,11 @@
       \break
       a \grd a \gre a \grg c \grd c \gre c
       d \gre c \grd c d \gre G \grd b
-      \grg e c \grG c d \gre b \grd c 
-      \grg a \grd c e 
-    }
-    \alternative {
-      {\dblA A4.} {\dblA A4}
+      \grg e c \grG c d \gre b \grd c
+      \grg a \grd c e
+      \alternative {
+        {\dblA A4.} {\dblA A4}
+      }
     }
     \break
 

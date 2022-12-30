@@ -6,7 +6,8 @@ common = {
 bombarde = {
   \common
 
-  \partial 4. b8 d c
+  \partial 4.
+  b8 d c
   b4. b8 d e
   f4. b8 d c
   b4. b8 d e
@@ -43,7 +44,8 @@ bombarde = {
 pipesA = {
   \common
 
-  \partial 4. b8 \grg f4 ~
+  \partial 4.
+  b8 \grg f4 ~
   f8 A g \grA f4 e8
   \grg d16 c b8 a \grg b \grg f4 ~
   f8 A g \grA g4 \grA g8
@@ -82,7 +84,8 @@ pipesA = {
 pipesB = {
   \common
 
-  \partial 4. r4.
+  \partial 4.
+  r4.
   R1*6/8*7
   b4. \grg b8 \grg f4 ~
   \break

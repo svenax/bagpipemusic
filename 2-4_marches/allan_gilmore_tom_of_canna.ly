@@ -7,8 +7,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 A8
+      A8
       \hdble e4 \grg a8 \grd c
       \grg a16. b32 \grg c16. d32 \grg e16. g32 \grA f16. e32
       \thrwd d4 \gre G8 \grd b
@@ -30,22 +31,22 @@
       \thrwd d8[ \dblg g] \tdblG G \grd b
       \grg G16. a32 \grg b16. c32 \thrwd d16.[ e32 \dblc c16. b32]
       \break
-    }
-    \alternative {
-      {
-        \dble e8[ \dblA A] \birl a \grd c
-        \grg a16. b32 \grg c16. d32 \dble e8[ \dblg g]
-        \dblA A8. f16 \grA g16.[ e32 \thrwd d16. e32]
-        \barLength 3 8
-        \dblc c8 \gre a \wbirl a8
-        \break
-      }
-      {
-        \barLength 2 4
-        \dble e8[ \dblA A] \hdblc c8 \gre b16. \grd c32
-        \grg a16. b32 \grg c16. d32 \dble e8[ \dblg g]
-        \dblA A8. f16 \grA g16.[ e32 \thrwd d16. e32]
-        \dblc c8 \gre a \wbirl a
+      \alternative {
+        {
+          \dble e8[ \dblA A] \birl a \grd c
+          \grg a16. b32 \grg c16. d32 \dble e8[ \dblg g]
+          \dblA A8. f16 \grA g16.[ e32 \thrwd d16. e32]
+          \barLength 3 8
+          \dblc c8 \gre a \wbirl a8
+          \break
+        }
+        {
+          \barLength 2 4
+          \dble e8[ \dblA A] \hdblc c8 \gre b16. \grd c32
+          \grg a16. b32 \grg c16. d32 \dble e8[ \dblg g]
+          \dblA A8. f16 \grA g16.[ e32 \thrwd d16. e32]
+          \dblc c8 \gre a \wbirl a
+        }
       }
     }
     \break

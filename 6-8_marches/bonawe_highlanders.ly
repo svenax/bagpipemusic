@@ -57,20 +57,20 @@
       A4 \grip A8 \grf g8. f16 \grg e8
       \grg f16 A8. g8 \tdblf f4 \grG e8
       \break
-    }
-    \alternative {
-      {
-        \grg f4 \grip f8 \dblf f8. e16 \grg c8
-        \grg a8.[ b16 \grip c8] \dblA A4 e8
-        \grg f16 A8. f8 \dble e8. c16 \grd a8
-        \grg b4 \taor b8 \dblc c4 \grG a8
-        \break
-      }
-      {
-        A4 \taor a8 \dblc c8. \grg b16 \grd a8
-        \grg a8.[ b16 \grip c8] \dblA A4 e8
-        \grg f16 A8. f8 \dble e8. c16 \grd a8
-        \grg b4 \taor b8 \dblc c4 \grG a8
+      \alternative {
+        {
+          \grg f4 \grip f8 \dblf f8. e16 \grg c8
+          \grg a8.[ b16 \grip c8] \dblA A4 e8
+          \grg f16 A8. f8 \dble e8. c16 \grd a8
+          \grg b4 \taor b8 \dblc c4 \grG a8
+          \break
+        }
+        {
+          A4 \taor a8 \dblc c8. \grg b16 \grd a8
+          \grg a8.[ b16 \grip c8] \dblA A4 e8
+          \grg f16 A8. f8 \dble e8. c16 \grd a8
+          \grg b4 \taor b8 \dblc c4 \grG a8
+        }
       }
     }
     \fine

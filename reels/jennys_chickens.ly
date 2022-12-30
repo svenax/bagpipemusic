@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 e8
+    \partial 8
+    e8
     \thrwf f4. g8 \grA f e \grg c e
     \grg f e \grg f A e a \grd c e
     f \grg f \gre f g \grA f e \grg c e

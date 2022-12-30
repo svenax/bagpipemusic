@@ -8,7 +8,8 @@
 
     % Part 1
 
-    \dblA \partial 8 A8
+    \partial 8
+    \dblA A8
     a d \grG d \grg d f \gre f
     \grg f A \grg A \grg A f A
     f A \grg A f A f
@@ -191,7 +192,6 @@
     \grA g f g \grA e g c
     \grA g f g \grA e g c
     \grA g f g \grA e g c
-    \override Glissando.style = #'zigzag
     \dble e d c \grg c4. \glissando
     d4. ~ d4
     \fine

@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \grd \partial 16 c16
+    \partial 16
+    \grd c16
     \repeat volta 2 {
       \grg a8. \grd a16 \gre a8. b16 \grip c4 \dblc c
       \grg c8. \grd b16 \grg c8. e16 \dblf f4 \grg e

@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 4 a4
+    \partial 4
+    a4
     \shaked d4 \grg d8 c \grg d e \grg f d
     \grg e8  d \grg c e \thrwd d4 \grg e8 f
     \dblg g4 \grA e8 g \grA f4 \hslurd d8 f

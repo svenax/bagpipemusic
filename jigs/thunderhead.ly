@@ -16,12 +16,8 @@
       \grg e b \grG b \grg d e f
       \grA g f e \grg f e d
       \grg e[ d b]
-    }
-    \alternative {
-      { \grg a b d }
-      {
-        \barLength 3 8
-        \grg a[ \grd b \gre a]
+      \alternative {
+        { \grg a b d } { \grg a[ \grd b \gre a] }
       }
     }
     \break
@@ -57,11 +53,8 @@
       \time 7/8
       \grA g[ f \grg f e] \grg f[ e d]
       \grg e[ d \grg d b]
-    }
-    \alternative {
-      { \grg a[ b d] }
-      {
-        \grg a[ \grd b \gre a]
+      \alternative {
+        { \grg a[ b d] } { \grg a[ \grd b \gre a] }
       }
     }
     \break

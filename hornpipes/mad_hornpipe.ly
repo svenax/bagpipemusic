@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \grg \partial 8 f16. e32
+    \partial 8
+    \grg f16. e32
     \grg d16. a32 \grg a16. d32 \grg a16. d32 \grg d16. a32
     A16. a32 \grg a16. d32 \dblf f8 \grg e16. f32
     \dblg g16. A32 g16. e32 \grg b16. g32 \grA e16. c32

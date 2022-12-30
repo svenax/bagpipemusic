@@ -7,7 +7,8 @@
 
     % Part 1
 
-    \partial 8 A8
+    \partial 8
+    A8
     \repeat volta 2 {
       \hdble e8. a16 \gbirl a4 \dble e8. d16 \dblc c16 A8.
       \birl a4 \dblc c16 e8. \dblg g8. A16 \times 2/3 {f8 e d}

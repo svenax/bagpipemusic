@@ -37,12 +37,11 @@
       b8 g \grA f e \grg e d \dblc c b
       \grg b16 a G a \grg f8. e16 \thrwd d8 \grg d16 \gre d \grG d4
     }
-    \break
+    \break \section \sectionLabel "Trio"
 
     % Part 4
 
     \repeat volta 2 {
-      \markText "Trio"
       \dblA A2 f4 d
       \grG a2 ~ a8 \grg a d8. f16
       \dblA A2 f4 A

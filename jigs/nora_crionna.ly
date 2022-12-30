@@ -27,20 +27,20 @@
       \dble e8 c e A e c
       \slurb b4 c8 \dbld d c b
       \break
-    }
-    \alternative {
-      {
-        \dble e8 c e A c d
-        \grg e8 f e \dble e c e
-        \tripleA A4 \grg A8 \grg A e c
-        \slurb b4 c8 \dbld d c b
-        \break
-      }
-      {
-        \dble e8 c e \grg f c d
-        \dble e8 c e \grA g A e
-        \dble e8 c e A e c
-        \slurb b4 c8 \dbld d c b
+      \alternative {
+        {
+          \dble e8 c e A c d
+          \grg e8 f e \dble e c e
+          \tripleA A4 \grg A8 \grg A e c
+          \slurb b4 c8 \dbld d c b
+          \break
+        }
+        {
+          \dble e8 c e \grg f c d
+          \dble e8 c e \grA g A e
+          \dble e8 c e A e c
+          \slurb b4 c8 \dbld d c b
+        }
       }
     }
     \fine

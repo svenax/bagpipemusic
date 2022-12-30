@@ -7,8 +7,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \dblA \partial 8 A8
+      \dblA A8
       \grg \times 4/6 { a16 \grd c e \grg f e c} \grG a4
       \grg c32 e16. \grg a16. f32 \dble e4
       \grg \times 4/6 { a16 \grd c e \grg f e c} \dble e8 A16. e32

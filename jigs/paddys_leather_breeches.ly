@@ -57,20 +57,20 @@
       A8 g A \hdblf f4 e8
       c8 \grd a \gre a \grg f e c
       \break
-    }
-    \alternative {
-      {
-        A8 g A \hdblf f4 e8
-        \grg f8 b \grG b \dblf f4 e8
-        \grg f8 g A e f A
-        c8 \grd a \gre a \grg f e c
-        \break
-      }
-      {
-        \dblA A4. \hdblf f4 e8
-        \grg f8 b \grG b \dblf f4 e8
-        \grg f8 g A e f A
-        c8 \grd a \gre a \grg f e c
+      \alternative {
+        {
+          A8 g A \hdblf f4 e8
+          \grg f8 b \grG b \dblf f4 e8
+          \grg f8 g A e f A
+          c8 \grd a \gre a \grg f e c
+          \break
+        }
+        {
+          \dblA A4. \hdblf f4 e8
+          \grg f8 b \grG b \dblf f4 e8
+          \grg f8 g A e f A
+          c8 \grd a \gre a \grg f e c
+        }
       }
     }
   }

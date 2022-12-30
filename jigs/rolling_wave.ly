@@ -6,8 +6,9 @@
 
     % Part 1
 
-    \partial 8 e8
+    \partial 8
     \repeat volta 2 {
+      e8
       \dblc c8 b c \grg a \grd a \gre a
       \gbirl a4 A8 g e d
       \dblc c8 b c \grg a \grd a \gre a
@@ -16,15 +17,15 @@
       \dblc c8 b c \grg a \grd a \gre a
       \gbirl a4 A8 g e d
       \grg \times 2/3 { c[ d e } c]
-    }
-    \alternative {
-      {
-        \grg d8 f d
-        \dble e4 c8 \dbld d c b
-      }
-      {
-        \grg d4 f8
-        \grg e d b \grG a4
+      \alternative {
+        {
+          \grg d8 f d
+          \dble e4 c8 \dbld d c b
+        }
+        {
+          \grg d4 f8
+          \grg e d b \grG a4
+        }
       }
     }
     \break

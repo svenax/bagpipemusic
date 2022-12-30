@@ -23,7 +23,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \grg \partial 8 a16. d32
+      \grg a16. d32
       \grg f8 a16. d32 \grg f32 A16. d32 f16.
       \dble e8 \grg a16. \grd c32 g16. e32 \grg c32 e16.
       \grg f8 a16. d32 \grg f32 A16. d32 f16.

@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \dblA A4 a8. b16 \grip c8. d16 \grg e8. f16
       \dblg g4 \grA d8. c16 \grg b8. \grd G16 \gre G8. e16
       \dblA A4 a8. b16 \grip c8. d16 \grg e8. g16

@@ -9,9 +9,10 @@ musicA = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
     \mark \default
-    \partial 8 A8
+    A8
     f8 d16 e f A g8 f e
     f8 d b a4 d8
     e8 c16 d e f g8 f e
@@ -102,8 +103,9 @@ musicB = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
-    \partial 8 r8
+    r8
     R1*6/8*4
     \break
     R1*6/8*3  R1*5/8*1

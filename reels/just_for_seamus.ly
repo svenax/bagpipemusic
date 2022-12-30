@@ -31,13 +31,13 @@
       \grg f8 d \grG d c d \grg d \grG d f
       \grg e8 a \gbirl a4 \grg f8 a \gbirl a4
       \grg e8 a \gbirl a4
-    }
-    \alternative {
-      {
-        e8 \grg e \gra e f
-      }
-      {
-        e8 \grg e A g
+      \alternative {
+        {
+          e8 \grg e \gra e f
+        }
+        {
+          e8 \grg e A g
+        }
       }
     }
     \fine

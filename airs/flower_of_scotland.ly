@@ -4,7 +4,8 @@
     \bagpipeKey
     \time 6/8
 
-    \partial 8 a8
+    \partial 8
+    a8
     \grg f4 e8 \thrwd d4.
     \gre a4. ~ a4 \grg a8
     \thrwd d4 f8 \dble e4. ~

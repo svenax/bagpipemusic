@@ -31,17 +31,16 @@
       \grg a8 b \shakeb b4 g8 b \grg d b
       \grg G8 a \gbirl a4 \grg f8 e \grg d f
       \grg e8[ d \dblc c e]
-    }
-    \alternative {
-      { d2 }
-      { d4 }
+      \alternative {
+        { d2 } { d4 }
+      }
     }
     \break
 
     % Part 3
 
     \repeat volta 2 {
-      \grg \partial 4 f8 e
+      \grg f8 e
       \grg d8 a \grg e a \grg f a \gbirl a4
       g8 b \grG b a \grg b g A g
       f8 a \gbirl a4 A8 f \grg d f

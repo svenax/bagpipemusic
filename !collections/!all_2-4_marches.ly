@@ -4,13 +4,6 @@
     title = "All 2/4 Marches"
 }
 
-\layout {
-    \context {
-        \Score
-        \autoPageBreaksOff
-    }
-}
-
 \markuplist \table-of-contents
 
 \pageBreak

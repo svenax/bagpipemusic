@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 16
     \repeat volta 2 {
-      \partial 16 e16
+      e16
       \grg a4 \taor a8. b16 \dble e8. d16 \grg \times 2/3 {e8 f g}
       \grA b16 \grd G8. \Gthrwd d8. G16 \dblb b8. \grg a16 \grd G8. \grd b16
       \grg a4 \taor a8. b16 \dble e8. d16 \grg \times 2/3 {b8 c d}

@@ -26,14 +26,14 @@
       \dblA A8. a16 \grd c8. e16 \dblA A8. g16
       \grA g8. f16 \gre f2 ~
       f8 b16 c d e d c b8. a16
-    }
-    \alternative {
-      {
-        \grg a8. b16 \grG \times 2/3 { b2 c4 }
-      }
-      {
-        \grg a8. b16 \grG b4 \dble e4
-        \markDCalFine
+      \alternative {
+        {
+          \grg a8. b16 \grG \times 2/3 { b2 c4 }
+        }
+        {
+          \grg a8. b16 \grG b4 \dble e4
+          \markDCalFine
+        }
       }
     }
   }

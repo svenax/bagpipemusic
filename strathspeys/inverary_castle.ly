@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 a8
+    \partial 8
+    a8
     \thrwd d8. f16 \grg \times 2/3 {e8 d c} \thrwd d4 \gre a8. b16
     \thrwd d4 \dblA A8. g16 \hdblf f8. e16 \thrwd d8. f16
     \grg \times 2/3 {e8 f g} \grA \times 2/3 {f g A} a8. b16 \thrwd d8. e16

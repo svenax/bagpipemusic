@@ -27,20 +27,20 @@
       A4 \grip A8 \hdblf f4 e8
       \dblf f8. e16 c8 \dblb b4.
       \break
-    }
-    \alternative {
-      {
-        A4 \grip A8 \hdblf f4 e8
-        \dblf f8. e16 c8 \dble e4.
-        \gra e8. f16 A8 \hdblc c4 b8
-        \dblc c8 b16 \grG a8. \wbirl a4.
-        \break
-      }
-      {
-        \grg a8.[ b16 \grip c8] \grg e4 A8
-        \hdblf f8. e16 c8 \dble e4.
-        \gra e8. f16 A8 \hdblc c4 b8
-        \dblc c8 b16 \grG a8. \wbirl a4.
+      \alternative {
+        {
+          A4 \grip A8 \hdblf f4 e8
+          \dblf f8. e16 c8 \dble e4.
+          \gra e8. f16 A8 \hdblc c4 b8
+          \dblc c8 b16 \grG a8. \wbirl a4.
+          \break
+        }
+        {
+          \grg a8.[ b16 \grip c8] \grg e4 A8
+          \hdblf f8. e16 c8 \dble e4.
+          \gra e8. f16 A8 \hdblc c4 b8
+          \dblc c8 b16 \grG a8. \wbirl a4.
+        }
       }
     }
     \fine

@@ -26,25 +26,25 @@
       \grg a8 d f A f d
       b8 \grg b \grG b \grg b a b
       \grg d8[ e f]
-    }
-    \alternative {
-      {
-        \grA g8 f e
-        \break
-        f8 \grg f \gre f A f d
-        \grg a8 d f A f d
-        \grg b8 a b \grg d e f
-        \grg e8 d c \thrwd d4.
-        \break
-      }
-      {
-        \grg \partial 8*3
-        e8 d c
-        \grg d8 b d \grg e d b
-        \grg f d b \grg e d b
-        A8 f d \grg a d f
-        \grg e8 d c \thrwd d4.
-        \section
+      \alternative {
+        {
+          \grA g8 f e
+          \break
+          f8 \grg f \gre f A f d
+          \grg a8 d f A f d
+          \grg b8 a b \grg d e f
+          \grg e8 d c \thrwd d4.
+          \break
+        }
+        {
+          \grg
+          e8 d c
+          \grg d8 b d \grg e d b
+          \grg f d b \grg e d b
+          A8 f d \grg a d f
+          \grg e8 d c \thrwd d4.
+          \section
+        }
       }
     }
     \break
