@@ -111,9 +111,9 @@ common = {
       \grg b8. \gre b16 \grg b8. \gre b16
       \grg G8. \gre a16 \grg b8. \gre b16
       \grg a8. \gre a16 \grg a8. \gre a16
-      \once \override Score.RehearsalMark #'break-visibility = #all-visible
-      \once \override Score.RehearsalMark #'self-alignment-X = #left
-      \once \override Score.RehearsalMark #'extra-offset = #'(2 . -4)
+      \once \override Score.RehearsalMark.break-visibility = #all-visible
+      \once \override Score.RehearsalMark.self-alignment-X = #left
+      \once \override Score.RehearsalMark.extra-offset = #'(2 . -4)
       \mark "Etc."
 
     }

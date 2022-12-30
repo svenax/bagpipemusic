@@ -4,9 +4,9 @@
     \bagpipeKey
     \time 2/4
     \quarterBeaming
-    \override Glissando #'style = #'zigzag
-    \override Glissando #'minimum-length = #5
-    \override Glissando #'springs-and-rods = #ly:spanner::set-spacing-rods
+    \override Glissando.style = #'zigzag
+    \override Glissando.minimum-length = #5
+    \override Glissando.springs-and-rods = #ly:spanner::set-spacing-rods
 
     % Part 1
 

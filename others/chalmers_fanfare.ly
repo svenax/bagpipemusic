@@ -3,7 +3,7 @@
   {
     \bagpipeKey
     \time 4/4
-    \set Score.markFormatter = #format-mark-box-letters
+    \set Score.rehearsalMarkFormatter = #format-mark-box-letters
     \set Score.skipBars = ##t
 
     % Part 1

@@ -1,7 +1,7 @@
 \layout {
   \context {
     \Score
-    \revert NonMusicalPaperColumn #'line-break-permission
+    \revert NonMusicalPaperColumn.line-break-permission
     \consists "Bar_number_engraver"
   }
 }

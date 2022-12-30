@@ -85,7 +85,7 @@ musicB = {
 
 \score {
 
-  %\transpose a bflat
+  %\transpose a b-flat
   \new StaffGroup <<
     \new Staff \musicA
     \new Staff \musicB

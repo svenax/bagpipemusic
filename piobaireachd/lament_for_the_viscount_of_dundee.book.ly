@@ -381,9 +381,9 @@ common = {
 
       \grg a8[ d16 \crunamdfosg e16] \grg a8[ d16 \crunamdfosg e16]
       \grg a8[ \grd c16 \crunamcfosg e16] \grg a8[ \grd c16 \crunamcfosg e16]
-      \once \override Score.RehearsalMark #'break-visibility = #all-visible
-      \once \override Score.RehearsalMark #'self-alignment-X = #left
-      \once \override Score.RehearsalMark #'extra-offset = #'(2 . -4)
+      \once \override Score.RehearsalMark.break-visibility = #all-visible
+      \once \override Score.RehearsalMark.self-alignment-X = #left
+      \once \override Score.RehearsalMark.extra-offset = #'(2 . -4)
       \mark "Etc."
     }
 

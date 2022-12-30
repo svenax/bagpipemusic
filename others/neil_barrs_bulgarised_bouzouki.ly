@@ -3,7 +3,7 @@
   {
     \bagpipeKey
     \time 7/16
-    \set Score.beatStructure = #'(3 4)
+    \set Score.beatStructure = 3,4
 
     % Part 1
 

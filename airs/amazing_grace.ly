@@ -45,11 +45,11 @@ musicB = {
 
   a8. d16 \grg f8. A16 f8[ e32 d16.]
   \slurd d4. a8 \dbld d8. c16
-  \grg b4. d8 \grA gflat8. d16
+  \grg b4. d8 \grA g-flat8. d16
   \grg f2 \grg a8. d16
   \grg f2 \grg f8[ e32 d16.]
   \slurd d4 \grg c e
-  \grA gflat4 f e
+  \grA g-flat4 f e
   f8 e f4\fermata
   \bar "|."
 }
@@ -74,7 +74,7 @@ musicC = {
   \grg b16 \grG a8. ~ a4 \grg a
   d2 A4
   \hdblf f4 e a
-  \grA gflat4 f e
+  \grA g-flat4 f e
   \thrwd d2\fermata
   \bar "|."
 }

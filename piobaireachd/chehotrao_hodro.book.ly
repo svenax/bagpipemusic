@@ -8,10 +8,10 @@ commonLayout = \layout {
   ragged-last = ##f
 }
 
-myTitle = #(define-music-function (parser location text) (string?)
+myTitle = #(define-music-function (text) (string?)
 #{
-\once \override Score.RehearsalMark #'extra-offset = #'(0 . 1)
-\once \override Score.RehearsalMark #'self-alignment-X = #LEFT
+\once \override Score.RehearsalMark.extra-offset = #'(0 . 1)
+\once \override Score.RehearsalMark.self-alignment-X = #LEFT
 \mark \markup { \left-align { \large \bold $text } }
 #})
 

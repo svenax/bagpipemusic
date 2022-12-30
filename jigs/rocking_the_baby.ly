@@ -44,7 +44,7 @@
         A8 c \grG c \grg e c \grG c
         A c \grG c \grg b a G
         \grg d c b \grg e d c
-        \override Staff.Tie #'x-gap = #1
+        \override Staff.Tie.x-gap = #1
         \grg f e d \dblA A4. ~
         \time 9/8 A ~ A ~ A \time 6/8
         \gbirl a4 \grd c8 \grg b4 \grd c8

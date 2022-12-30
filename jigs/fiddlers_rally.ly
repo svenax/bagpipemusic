@@ -191,7 +191,7 @@
     \grA g f g \grA e g c
     \grA g f g \grA e g c
     \grA g f g \grA e g c
-    \override Glissando #'style = #'zigzag
+    \override Glissando.style = #'zigzag
     \dble e d c \grg c4. \glissando
     d4. ~ d4
     \bar "|."
