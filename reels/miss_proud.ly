@@ -16,7 +16,7 @@
     \grg c16[ \grd a8. \dble e8. c16] \grg b16[ \grd G8. \dbld d8. b16]
     \dblc c4 \dble e8. d16 \grg c16 \grd a8. A8. f16
     \dble e8.[ c16 \dbld d8. b16] \wbirl a4 \dblA A
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -29,7 +29,7 @@
     \grg c16 \grd a8. \grg c16 \grd a8. \grg e8.[ f16 \dble e8. d16]
     \dblc c8. b16 \grg a8. \grd c16 \grg b16[ \grd G8. \Gthrwd d8. f16]
     \dble e8.[ c16 \dbld d8. b16] \wbirl a4 \dblA A
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -42,7 +42,7 @@
     \grg b8.[ c16 \thrwd d8. e16] \dbld d8. c16 \grg d8. b16
     c16 e8. \gra e8. f16 \dble e4 \grip e8 g
     \tdblf f8. e16 \grg f16 g8. A4 \grip A8. d16
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -55,7 +55,7 @@
     \grg a8.[ b16 \grip c8. d16] \grg e8.[ f16 \dble e8. d16]
     \dblc c8. b16 \grg a8. \grd c16 \grg b16[ \grd G8. \Gthrwd d8. f16]
     \dble e8.[ c16 \dbld d8. b16] \wbirl a4 \dblA A
-    \bar "|."
+    \fine
   }
 
   \header {

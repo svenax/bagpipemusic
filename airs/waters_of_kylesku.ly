@@ -26,7 +26,7 @@ partA = {
   \dblA A4 f8 \dble <G b e>8 <G c e>\fermata d
   \grg c16 e8. \dblc c4. b8
   A8 <A e> <A e c> a4.
-  \bar "|."
+  \fine
 }
 
 partB = {
@@ -52,7 +52,7 @@ partB = {
   c4. \dble <G b e>8 <G c e>\fermata d
   \grg c16 e8. \dblc c4. b8
   A8 <A e> <A e c> a4.
-  \bar "|."
+  \fine
 }
 
 \score {

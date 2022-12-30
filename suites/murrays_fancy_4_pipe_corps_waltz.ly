@@ -36,7 +36,7 @@ musicA = {
   \grg f8 d16 e \grg f d \dblg g8 \grA e16 f g e
   A16 f \grg e d \grg e f \dblg g8 \grA f e
   \grg e8 d c \thrwd d4
-  \bar "||" \break
+  \section \break
 
   % Part 3
 
@@ -51,7 +51,7 @@ musicA = {
   \grg f8 d \gre b \grG a4 d8
   \grg e8 c16 d \grg e f \dblg g8 \grA f e
   \grg f8 d c \thrwd d4
-  \bar "||" \break
+  \section \break
 
   % Part 4
 
@@ -65,7 +65,7 @@ musicA = {
   \grg f8 d \gre b \grG a4 d8
   \grg e8 c16 d \grg e f \dblg g8 \grA f e
   \grg f8 d c \thrwd d4
-  \bar "||" \break
+  \section \break
 
   % Part 5
 
@@ -80,7 +80,7 @@ musicA = {
   \grg f8 d16 e \grg f d \dblg g8 \grA e16 f g e
   A16 f \grg e d \grg e f \dblg g8 \grA f e
   \grg e8 d c \thrwd d4
-  \bar "||" \pageBreak
+  \section \pageBreak
 
   % Part 6
   \mark \default
@@ -114,7 +114,7 @@ musicB = {
   R1*6/8*4
   \break
   R1*6/8*3  R1*5/8*1
-  \bar "||" \break
+  \section \break
 
   % Part 3
 
@@ -128,7 +128,7 @@ musicB = {
   \grg b4. \grd c4 d8
   \grg c4. \grg b4.
   \grg a4. <a f>4
-  \bar "||" \break
+  \section \break
 
   % Part 4
 
@@ -142,7 +142,7 @@ musicB = {
   \grg b4 d8 \grg c8 \grg c16 d b a
   \grg c8 a \grd c \grg b d \gre c
   \grG a4. <a f>4
-  \bar "||" \break
+  \section \break
 
   % Part 5
 
@@ -156,7 +156,7 @@ musicB = {
   \grg b4. \grg c4.
   \grg a4. \grd b4.
   \grG a4. <a f>4
-  \bar "||" \pageBreak
+  \section \pageBreak
 
   % Part 6
 
@@ -170,7 +170,7 @@ musicB = {
   \grg b4. \grd c4 d8
   \grg c4. \grg b4.
   \grg a4. <a f>4.
-  \bar "|."
+  \fine
 }
 
 \score {

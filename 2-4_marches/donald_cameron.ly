@@ -65,7 +65,7 @@
     \grg c32 e16. \grg a16. \grd c32 \dblg g8 \grA f16. g32
     A16. f32 \grA g16. e32 \thrwd d16.[ f32 \dble e16. d32]
     \dblc c8 \gre a \wbirl a
-    \bar "||" \break
+    \section \break
 
     A16. f32
     \dble e8 \grg c32 \grd a16. \dble e8 \grg c32 \grd a16.

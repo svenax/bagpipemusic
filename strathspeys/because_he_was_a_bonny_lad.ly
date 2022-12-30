@@ -23,7 +23,7 @@
     c16 \grd a8. \dble e8. a16 \dblf f8. a16 \dble e8. a16
     \grg c16 \grd a8. \dble e8. c16 \grg b4 \taor b8. g16
     \times 2/3 { A8 g f } \dblg g8. e16 \dblf f8. d16 \dble e8. c16
-    \thrwd d8. f16 \dble e8. c16 \grg a4 \taor a8 \bar "|."
+    \thrwd d8. f16 \dble e8. c16 \grg a4 \taor a8 \fine
   }
 
   \header{

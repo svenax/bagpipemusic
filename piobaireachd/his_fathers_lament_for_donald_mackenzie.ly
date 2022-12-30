@@ -10,7 +10,7 @@
     \grg f8. e16 \grg c8 f8 \grg e16 \gra e8. \gracad e4
     \cad c8. b16 \grg a8. \grd c16 \grg e16 \gra e8. \gracad e4
     \grg f8. e16 \grg c8 e8 \cad b4 \grGcad a4
-    \bar "|."
+    \fine
 }
 
 \header {

@@ -16,7 +16,7 @@
     f \grg f \gre f A e a \grd c e
     \dblf f4 A8 f \grg f e \grg c e
     A4 \grg A8 f \dble e4 \grg c8 e
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -29,7 +29,7 @@
     \grg f b \grg b \grG b \dble e4 \grg c8 e
     \grg f b \grG b a \grg b c \grg d e
     \dblf f4 A8 f \grg e a \grd c e
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -42,7 +42,7 @@
     \slurb b4 \grg f8 b \grg e a \grd c e
     \slurb b4 A8 b \grA g b \grg f b
     \grg f g A f \grg e a \grd c e
-    \bar "|."
+    \fine
   }
 
   \header {

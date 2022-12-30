@@ -39,9 +39,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       \grg e4 \dare f \grg e c16[ \grip c8.]
       \grg d4 \dare f \grg e c16[ \grip c8.]
       \grg c4 \gre a8 \grd c \grg b4 \gre G8 \grd b8
-      \bar "||"
+      \section
       \repeat percent 4 { \oldbirl }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -76,9 +76,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       \grg e4 \dare f \grg e c16[ \grip c8.]
       \grg d4 \dare f \grg e c16[ \grip c8.]
       \grg c4 \gre a8 \grd c \grg b4 \gre G8 \grd b8
-      \bar "||"
+      \section
       \repeat percent 4 { \oldbirl }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -112,9 +112,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       \grg e4 \dare f \grg e c16[ \grip c8.]
       \grg d4 \dare f \grg e c16[ \grip c8.]
       \grg c4 \gre a8 \grd c \grg b4 \gre G8 \grd b8
-      \bar "||"
+      \section
       \repeat percent 4 { \oldbirl }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -148,9 +148,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       \grg e4 \dare f \grg e c16[ \grip c8.]
       \grg d4 \dare f \grg e c16[ \grip c8.]
       \grg c4 \gre a8 \grd c \grg b4 \gre G8 \grd b8
-      \bar "||"
+      \section
       \repeat percent 4 { \oldbirl }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -191,9 +191,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       \dble e2 \gra e4 d8 c
       \dblb b4 g16 d8. \grg b4 \gre G16 \grd b8.
       \thrwd d4 g16 d8. \grg b4 \gre G16 \grd b8.
-      \bar "||"
+      \section
       \repeat percent 4 { \grg a8.[ \taor a16] }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -223,9 +223,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
 
       \dblb b4 g16 d8. \grg b4 \gre G16 \grd b8.
       \thrwd d4 g16 d8. \grg b4 \gre G16 \grd b8.
-      \bar "||"
+      \section
       \repeat percent 4 { \grg a8.[ \taor a16] }
-      \bar "|."
+      \fine
     }
 
     \header {

@@ -73,7 +73,7 @@
         \grg b g d \dble e4.
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

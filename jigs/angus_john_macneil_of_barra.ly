@@ -65,7 +65,7 @@
         \grg G8. \grd G16 \gre G8 \grg G4 \grd a8 \grg b8. e16 \gra e8
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

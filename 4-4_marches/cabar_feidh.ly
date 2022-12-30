@@ -16,7 +16,7 @@
     \dblg g4 \thrwd d8. c16 \dblb b8. a16 \grg G8. \grd b16
     \grg a8. b16 \grg c4 \grip e8. f16 \dblg g8 e
     \dblA A4 \hdble e8. d16 \dblc c8. b16 \grG a8
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \grA G8. \grd b16 \thrwd d8 \gre G \dblb b8. a16 \grg G8. \grd b16
     \grg a8. b16 \grg c4 \grip e8. f16 \dblg g8 e
     \dblA A4 \hdble e8. d16 \dblc c8. b16 \grG a8
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -44,7 +44,7 @@
     \grg c4 \grip e8. f16 \dblg g8. e16 \dblc c8 e
     \dblA A8. f16 \dblg g8 e \dblf f d \dble e c
     \dblA A4 \hdble e8. d16 \dblc c8. b16 \grG a8
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -58,7 +58,7 @@
     \grg G8. \grd G16 \gre G8 d \dblb b8. a16 \grg G8. \grd b16
     \grg a8. b16 \grg c4 \grip e8. f16 \dblg g8 e
     \dblA A4 \hdble e8. d16 \dblc c8. b16 \grG a8
-    \bar "|."
+    \fine
   }
 
   \header {

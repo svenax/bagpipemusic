@@ -92,7 +92,7 @@
         \grg a4 \taor a8 \wbirl a4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

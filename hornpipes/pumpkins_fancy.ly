@@ -96,7 +96,7 @@
         \shakec c8 \grG a \gbirl a
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

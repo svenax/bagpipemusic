@@ -45,7 +45,7 @@
         \grg e d c d e c \grg d4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

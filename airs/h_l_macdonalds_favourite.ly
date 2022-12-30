@@ -48,7 +48,7 @@
         \grg a4 \wbirl a8
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

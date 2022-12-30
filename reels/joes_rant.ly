@@ -50,7 +50,7 @@
     \grG c d \grg e f \grA g e \grg f e
 
     \thrwd d2 ~ d
-    \bar "|."
+    \fine
   }
 
   \header {

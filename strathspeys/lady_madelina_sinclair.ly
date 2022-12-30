@@ -27,7 +27,7 @@
     \thrwd d16 A8. \hdblc c16 A8. \hdblc c16 b8. \grip b8. d16
     \grg c16[ \grip e8.] \dblf f8. e16 \grg c16[ \grip e8.] \dblA A4
     \birl a4 \dblc c16 \gre b8. \dblb b16 \gre a8. \wbirl a8
-    \bar "|."
+    \fine
   }
 
   \header {

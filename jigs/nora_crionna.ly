@@ -27,7 +27,7 @@
       \dble e8 c e A e c
       \slurb b4 c8 \dbld d c b
       \break
-    } 
+    }
     \alternative {
       {
         \dble e8 c e A c d
@@ -43,7 +43,7 @@
         \slurb b4 c8 \dbld d c b
       }
     }
-    \bar "|."
+    \fine
 
   }
 

@@ -15,7 +15,7 @@
     \grg e8. f16 \dblA A8. e16 \dbld d8. c16 \grg b16 \grd a8.
     \thrwd d8. e16 \grg f8. d16 \grg c4 \grip e8. c16
     \grg b8. c16 \thrwd d8. e16 \grg f4 \grg \times 2/3 {e8 f g}
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -28,7 +28,7 @@
     \grg e8. f16 \dblA A8. e16 \dbld d8. c16 \grg b16 \grd a8.
     \thrwd d8. e16 \grg f8. d16 \grg c4 \grip e8. c16
     \grg b8. c16 \thrwd d8. e16 \grg f4 \dblA A
-    \bar "|."
+    \fine
   }
 
   \header {

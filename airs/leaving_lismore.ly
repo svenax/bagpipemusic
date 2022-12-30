@@ -43,7 +43,7 @@
         \dblc c8 b16 \grG a8. \wbirl a4.
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

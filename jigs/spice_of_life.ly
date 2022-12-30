@@ -82,7 +82,7 @@
         \grg c a G \gbirl a4.
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

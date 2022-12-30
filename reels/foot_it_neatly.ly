@@ -27,7 +27,7 @@
     \grg b16 g8. \grA d8. c16 \grg b8. \grd G16 \gre G8. \grd b16
     \grg a8. \grd c16 \grg b16 d8. \grg c16 e8. \grg d8. f16
     \grg e8.[ d16 \dblc c8. b16] \grg c8.[ \grd a16 \gre a8]
-    \bar "|."
+    \fine
   }
 
   \header {

@@ -37,7 +37,7 @@ common = {
       \hcad a8. b16 \grip c4 \cad c \grGcad a
       \grg b4 \catchc c \hcad a \dare f
       \grg e8. b16 \grip c4 \cad b \grGcad a
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -75,7 +75,7 @@ common = {
       \grg a4 \dblA A \tcad c \grGcad a
       \grg b4 \catchc c \hcad a \dblA A
       \grg e8. b16 \grip c4 \cad b \grGcad a
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -112,7 +112,7 @@ common = {
       \hcad a8. b16 \grip c4 \hcad a8. b16 \grip c4
       \grg b4 \catchc c \hcad a8. b16 \grip c4
       \grg b4 \catchc c \grg b \catchc c
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -149,7 +149,7 @@ common = {
       \grg a4 c16 \grGcad a8. \cad c4 \grGcad a
       \grg b4 c16 \grGcad a8. \grg a4 c16 \grGcad a8.
       \grg b4 c16 \grGcad a8. \cad b4 \grGcad a
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -188,7 +188,7 @@ common = {
       \grg a4 c16 \grGcad a8. \grg a4 c16 \grGcad a8.
       \grg b4 c16 \grGcad a8. \grg a4 c16 \grGcad a8.
       \grg b4 c16 \grGcad a8. \grg b4 c16 \grGcad a8.
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -225,7 +225,7 @@ common = {
       \grg a16 \grd c8. \cad c8 \grGcad a
       \grg b8. \grd c16 \grg a8. \grd c16
       \grg b16 \grd c8. \cad b8 \grGcad a
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -262,7 +262,7 @@ common = {
       \grg a8. \grd c16 \grg a8. \grd c16
       \grg b8. \grd c16 \grg a8. \grd c16
       \grg b8. \grd c16 \grg b8. \grd c16
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -299,7 +299,7 @@ common = {
       a16_\trebling \grd c8. \cad c8 \grGcad a
       b16_\trebling \grd c8. a16_\trebling \grd c8.
       b16_\trebling \grd c8. \cad b8 \grGcad a
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -338,7 +338,7 @@ common = {
       a16_\trebling \grd c8. a16_\trebling \grd c8.
       b16_\trebling \grd c8. a16_\trebling \grd c8.
       b16_\trebling \grd c8. b16_\trebling \grd c8.
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -375,7 +375,7 @@ common = {
       \grg a8[ \grd c16 \dre e] \cad c8 \grGcad a
       \grg b8[ \grd c16 \dre e] \grg a8[ \grd c16 \dre e]
       \grg b8[ \grd c16 \dre e] \cad b8 \grGcad a
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -412,7 +412,7 @@ common = {
       \grg a8[ \grd c16 \dre e] \grg a8[ \grd c16 \dre e]
       \grg b8[ \grd c16 \dre e] \grg a8[ \grd c16 \dre e]
       \grg b8[ \grd c16 \dre e] \grg b8[ \grd c16 \dre e]
-      \bar "|."
+      \fine
     }
 
     \header {

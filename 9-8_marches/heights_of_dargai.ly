@@ -26,7 +26,7 @@
       \grg a8. \grd c16 e8 \grg f4. \dblf f8. d16 f8
       A8. g16 \grA f8 \dble e4. \grd c4.
       \dblA A8. g16 f8 \dble e4. \grg a8. \grd c16 e8
-      \dblf f8. e16 c8 \grg b4. \taor 
+      \dblf f8. e16 c8 \grg b4. \taor
     }
     \alternative {
       {
@@ -46,7 +46,7 @@
         \dblc c8. \gre b16 \grd c8 \grG a4. \wbirl a4.
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

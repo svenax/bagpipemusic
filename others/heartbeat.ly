@@ -30,11 +30,11 @@ musicA = {
   \time 7/8
   \grg e8[ A \grg A] c[ e] \grg d[ f]
   \grg e[ g \grf g] e[ g] \dblA A4
-  \bar "||"
+  \section
   \cadenzaOn
   g32[ f e d c b a16]
   \cadenzaOff
-  \bar "|."
+  \fine
 }
 
 musicB = {
@@ -63,11 +63,11 @@ musicB = {
   \time 7/8
   \grg e8[ A \grg A] c[ e] \grg d[ f]
   \grg e[ g \grf g] e[ g] \dblA A4
-  \bar "||"
+  \section
   \cadenzaOn
   g32[ f e d c b a16]
   \cadenzaOff
-  \bar "|."
+  \fine
 }
 
 \score {

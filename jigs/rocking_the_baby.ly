@@ -51,7 +51,7 @@
         \grg a \grd a \gre a \wbirl a4.
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

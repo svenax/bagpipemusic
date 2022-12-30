@@ -33,7 +33,7 @@
     \wbirl a8 A16. e32 \grg f16. e32 \grg c32 \grd a16.
     \grg b16.[ c32 \thrwd d16. e32] \grg f32[ A16. \hdble e16. b32]
     \dblc c8 \gre a \wbirl a[ \dblg g]
-    \bar "||" \break
+    \section \break
 
     A16. g32 A16. f32 \dble e8 \grg c32 \grd a16.
     \wbirl a8 A16. e32 \grg f16. e32 \grg c32 \grd a16.
@@ -74,7 +74,7 @@
     \thrwd d8 \grg c32 f16. \dble e16. a32 \grg c32 \grd a16.
     \grg b16.[ c32 \thrwd d16. e32] \grg f32[ A16. \hdble e16. b32]
     \dblc c8 \gre a \wbirl a \grg c16. d32
-    \bar "||" \break
+    \section \break
 
     \dble e16. c32 \grg a16. \grd c32 \dble e16. a32 \grg c32 \grd a16.
     \thrwd d8 \grg c32 f16. \dble e16. a32 \grg c32 \grd a16.
@@ -85,7 +85,7 @@
     \thrwd d8 \grg c32 f16. \dble e16. a32 \grg c32 \grd a16.
     \grg b16.[ c32 \thrwd d16. e32] \grg f32[ A16. \hdble e16. b32]
     \dblc c8 \gre a \wbirl a
-    \bar "|."
+    \fine
   }
 
   \header {

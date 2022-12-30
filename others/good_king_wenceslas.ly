@@ -27,7 +27,7 @@
     \dblA A4 g \grA f e
     \thrwd d2 g
     \thrwd d1
-    \bar "|."
+    \fine
   }
 
   \header {

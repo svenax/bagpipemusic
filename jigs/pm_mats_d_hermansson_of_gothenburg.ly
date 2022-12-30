@@ -79,7 +79,7 @@ partA = {
       \grg c8 \grd a \gre a \wbirl a4
     }
   }
-  \bar "|."
+  \fine
 }
 
 partB = {
@@ -158,7 +158,7 @@ partB = {
       \grg a8 \grd c e \dblA A4
     }
   }
-  \bar "|."
+  \fine
 }
 
 \score {

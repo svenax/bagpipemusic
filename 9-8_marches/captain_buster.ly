@@ -54,7 +54,7 @@
         \grg e8. f16 e8 \thrwd d4. ~ d4
         }
     }
-    \bar "|."
+    \fine
 }
 
 \header {

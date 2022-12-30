@@ -16,7 +16,7 @@
     \grip c8. d16 \dble e8 c \thrwd d4 \grg e8 f16 g
     \dblA A8. g16 \hdble e8 d \dble e d \dblb b \gre G
     \grg a2 \wbirl a4
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \grip c8. d16 \dble e8 c \thrwd d4 \grg e8 f16 g
     \dblA A8. g16 \hdble e8 d \dble e d \dblb b \gre G
     \grg a2 \wbirl a4
-    \bar "|."
+    \fine
   }
 
   \header {

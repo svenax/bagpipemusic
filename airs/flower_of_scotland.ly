@@ -23,7 +23,7 @@
     \grg f4 e8 \thrwd d4. ~
     d4 \grG d8 \grg c4 e8
     \thrwd d4. ~ d4
-    \bar "|."
+    \fine
   }
 
   \header {

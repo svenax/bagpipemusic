@@ -73,7 +73,7 @@
         \grg b4 \taor b8 \dblc c4 \grG a8
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

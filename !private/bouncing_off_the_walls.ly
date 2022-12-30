@@ -89,7 +89,7 @@
         \grA f16. d32 \grg e16. c32 \grg d4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

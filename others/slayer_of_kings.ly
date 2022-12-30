@@ -15,7 +15,7 @@
       { \grg c8 d16 c \grg b a G8 \gre a2 }
       { \grg c8 d16 c \grg b a G8 A2\fermata }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

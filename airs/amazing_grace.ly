@@ -26,7 +26,7 @@ musicA = {
   \grg f2 e4
   \thrwd d4 c b
   \grG a2\fermata
-  \bar "|."
+  \fine
 }
 
 musicB = {
@@ -51,7 +51,7 @@ musicB = {
   \slurd d4 \grg c e
   \grA g-flat4 f e
   f8 e f4\fermata
-  \bar "|."
+  \fine
 }
 
 musicC = {
@@ -76,7 +76,7 @@ musicC = {
   \hdblf f4 e a
   \grA g-flat4 f e
   \thrwd d2\fermata
-  \bar "|."
+  \fine
 }
 
 \score {

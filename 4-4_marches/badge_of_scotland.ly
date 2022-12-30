@@ -16,7 +16,7 @@
     \grg a4 \taor a8 \grg b \gbirl a4 \thrwd d8. e16
     \grg f16 A8. \hdblf f8 A \birl a4 \grg f8. e16
     \thrwd d4 \slurd d8. e16 \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \dblb b8 d \grg b16 d8. \grG a4 \thrwd d8. e16
     \grg f16 A8. \hdblf f8 A \birl a4 \grg f8. e16
     \thrwd d4 \slurd d8. e16 \thrwd d4
-    \bar "|."
+    \fine
   }
 
   \header {

@@ -93,7 +93,7 @@
         \dblc c8 \gre a \wbirl a
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

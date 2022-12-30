@@ -77,7 +77,7 @@ ouvertureA = {
   \grA e4 d8. e16 e4.\trill d8
   \grg d2
 
-  \bar "|."
+  \fine
 }
 
 ouvertureB = {
@@ -154,7 +154,7 @@ ouvertureB = {
   \grg c4 d2 \grg c8. a16
   \grg d2
 
-  \bar "|."
+  \fine
 }
 
 ouvertureC = {
@@ -231,5 +231,5 @@ ouvertureC = {
   \grA e4 d8. e16 e4.\trill d8
   \grg d2
 
-  \bar "|."
+  \fine
 }

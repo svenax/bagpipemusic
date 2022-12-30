@@ -45,7 +45,7 @@
         \thrwd d4 \slurd d8
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

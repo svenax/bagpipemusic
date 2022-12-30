@@ -17,7 +17,7 @@
     \grip c4 \grg c8 e \gra e d ~ d b
     \grg a4 \wbirl a8 b \grG a4 s8
     \markFine
-    \bar "||" \break
+    \section \break
 
   % Part 2
 
@@ -32,7 +32,7 @@
   \grip c4 \grg c8 e \gra e d ~ d b
   \grg a4 \wbirl a8 b \grG a4 s8
   \markDCalFine
-  \bar "|."
+  \fine
   }
 
   \header {

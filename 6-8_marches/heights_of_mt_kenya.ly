@@ -74,7 +74,7 @@
         \grg A8. e16 \grg c8 \slurb b4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

@@ -16,7 +16,7 @@
     \grip c8 e ~ e4 \dblf f4 ~ f8 e
     \gra e8 c ~ c4 \dblb b4 ~ b8 a
     \grg a2 \wbirl a4.
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \grip c8 e ~ e4 \dblf f4 ~ f8 e
     \gra e8 c ~ c4 \dblb b4 ~ b8 a
     \grg a2 \wbirl a4
-    \bar "|."
+    \fine
   }
 
   \header {

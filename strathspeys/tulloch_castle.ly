@@ -50,7 +50,7 @@
     \dblg g8. A16 \catchc c4 \dblg g8. A16 \times 2/3 {g8 f e}
     \dblA A8. e16 \grg \times 2/3 {f8 g A} \hdble e8. A16 \hdblc c16 A8.
     \grf g8. c16 \bubly b4 \thrwd d8. e16 \grg \times 2/3 {f8 d b}
-    \bar "|."
+    \fine
   }
 
   \header {

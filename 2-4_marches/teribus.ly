@@ -48,7 +48,7 @@
         \hdblf f8 d \slurd d
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

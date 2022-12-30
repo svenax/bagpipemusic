@@ -32,7 +32,7 @@ common = {
       \hcad a8. b16 \grip b4 \cad b16 \grG b8. \grGcad b4
       \hcad a8. b16 \grip c4 \hcad G8. b16 \grip b4
       \hcad a4 \dre e4 b16[ \grip c8.] \darodo a4
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -65,7 +65,7 @@ common = {
       \grg a8. \gre a16 \grg b8. \gre a16 \grg b8. \gre a16 \grg b8. \gre a16
       \grg a8. \gre a16 \grg c8. \gre a16 \grg G8. \grg a16 \grg b8. \gre a16
       \grg a8. \gre a16 \grg e8. \grg a16 \grg c8. \gre a16 \grg a8. \gre a16
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -125,7 +125,7 @@ common = {
       a_\txtaorcrun b_\txtaorcrunam b_\txtaorcrunam b_\txtaorcrunam
       a_\txtaorcrun c_\txtaorcrunam G_\txtaorcrun b_\txtaorcrunam
       a_\txtaorcrun e_\txtaorcrun c_\txtaorcrunam a_\txtaorcrun
-      \bar "|."
+      \fine
     }
 
     \header {

@@ -89,7 +89,7 @@
         \grg e8[ d32 \shaked d16.] \grg d8
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

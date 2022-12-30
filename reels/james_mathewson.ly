@@ -16,7 +16,7 @@
     \grg e8  d \grg c e \thrwd d4 \grg e8 f
     \dblg g4 \grA e8 g \grA f4 \hslurd d8 f
     \grg e4 \hslurd d8 c \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \grg e4 \hslurd d8 c \thrwd d4 \grg e8 f
     \dblg g4 \grA e8 g \grA f4 \hslurd d8 f
     \grg e4 \hslurd d8 c \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -44,7 +44,7 @@
     \grg f8 e d c \thrwd d4 \grg e8 f
     \dblg g4 \grA e8 g \grA f4 \hslurd d8 f
     \grg e4 \hslurd d8 c \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -58,7 +58,7 @@
     \grg f8 e d c \thrwd d4 \grg e8 f
     \dblg g4 \grA e8 g \grA f4 \hslurd d8 f
     \grg e4 \hslurd d8 c \thrwd d4
-    \bar "|."
+    \fine
   }
 
   \header {

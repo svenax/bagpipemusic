@@ -88,7 +88,7 @@
         \grg c8 \grd a \gre a \wbirl a4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

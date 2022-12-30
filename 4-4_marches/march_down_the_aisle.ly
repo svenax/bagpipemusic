@@ -16,7 +16,7 @@
     \gre G8 \grd a \dble e c \thrwd d4 \gre a8 f
     \dblg g8. f16 \grg e8 d \dblc c e  \grg a8. \grd a16
     \gre G8 \grd a d \gre c \thrwd d4.
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \gre G8 \grd a \dble e c \thrwd d4 \gre a8 f
     \dblg g8. f16 \grg e8 d \dblc c e  \grg a8. \grd a16
     \gre G8 \grd a d \gre c \thrwd d4.
-    \bar "|."
+    \fine
   }
 
   \header {

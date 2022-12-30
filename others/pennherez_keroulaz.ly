@@ -25,7 +25,7 @@ bombarde = {
   d4. e8 f e
   b d f e c d
   b4.
-  \bar "||" \break
+  \section \break
 
   b8 d c
   b4. b8 d e
@@ -37,7 +37,7 @@ bombarde = {
   d4. e8 f e
   b d f e c d
   b4.\fermata
-  \bar "|."
+  \fine
 }
 
 pipesA = {
@@ -64,7 +64,7 @@ pipesA = {
   c8 f b \dblG G4. ~
   G8 b d \dble e A16 g \grA f8
   b4.
-  \bar "||" \break
+  \section \break
 
   b8 d c
   \dblb b4. \grg b8 d e
@@ -76,7 +76,7 @@ pipesA = {
   \dbld d4. \grg e8 f e
   \dblb b d f \dble e c \grg d
   b4.\fermata
-  \bar "|."
+  \fine
 }
 
 pipesB = {
@@ -97,7 +97,7 @@ pipesB = {
   c8 f b \dblG G4. ~
   G8 b d \dble e A16 g \grA f8
   b4.
-  \bar "||" \break
+  \section \break
 
   b16 A f e f A
   b A f e f8 \grg b16 A f b c a
@@ -109,7 +109,7 @@ pipesB = {
   c16 A f8 g16 b G b d a G8 ~
   G16 d A b a b c a A e b a
   b4.\fermata
-  \bar "|."
+  \fine
 }
 
 \score {

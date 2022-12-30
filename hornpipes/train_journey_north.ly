@@ -92,7 +92,7 @@
         \shakec c8[ \grg e16. g32] \tdblf f8[ \hslurd d]
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

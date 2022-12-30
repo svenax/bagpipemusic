@@ -91,7 +91,7 @@
         \grg c32 e16. \grg a16. \grd c32 \grg b32 d16. \grg G16. \grd b32
         \grg a4 \wbirl a8 \noBeam
         \break
-      } 
+      }
       {
         \grace s32*4
         A16. f32
@@ -163,7 +163,7 @@
         \grg a4 \wbirl a8
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

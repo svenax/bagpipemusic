@@ -16,7 +16,7 @@
     \grg a4 \taor a8. b16 \thrwd d16 \gre b8. \dblc c16 \gre a8.
     \grg b16 c d8 \dblc c16 e8. \thrwd d8. c16 \dblb b16 \gre G8.
     \grg a4 \taor a8. \grd c16 \dblb b16 \gre G8. \grg a4
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -29,7 +29,7 @@
     \grip e4 \gra e8. f16 \dblg g8. e16 \dblA A8. e16
     \dblg g8. A16 g16 f e8 \thrwd d16 \gre G8. \Gthrwd d16 \gre b8.
     \grip A4 \grf g8. e16 \dblf f8. d16 \dble e4
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -42,7 +42,7 @@
     \grg a16 d8. \slurd d8. f16 \dblg g8. e16 \dblf f8. d16
     \dblg g8. f16 \dble e8. d16 \dblc c16 \gre a8. \dblb b16 \gre G8.
     \grg a16 d8. \slurd d8. f16 \dble e8. c16 \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 4
 

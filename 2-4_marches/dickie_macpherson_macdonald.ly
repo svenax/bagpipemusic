@@ -44,7 +44,7 @@
     \grg c32 e16. \grg a16. f32 \dble e8 \grg f16. g32
     A16. a32 \grg \times 2/3 { c16 e A } \times 4/6 { a16 \grd c e \grg f e d}
     \grg c32 e16. \grg a8 \wbirl a
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -85,7 +85,7 @@
     \times 4/6 { a16 \grd c e \grg f e c} \dble e8 \grg f16. g32
     A16. a32 \grg \times 2/3 { c16 e A } \times 4/6 { a16 \grd c e \grg f e d}
     \grg c32 e16. \grg a8 \wbirl a
-    \bar "|."
+    \fine
   }
 
   \header {

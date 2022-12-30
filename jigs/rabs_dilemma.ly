@@ -64,7 +64,7 @@
         \grg f A \grg A f e \gra e \dblc c4. \grg c8 \grd a \grd c \grg b \grd a \gre a
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

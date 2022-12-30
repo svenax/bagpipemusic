@@ -15,7 +15,7 @@
     \thrwd d4 \grg d8 b \grg G \grd b \grg b d
     A f \grA g e \grg f d \grg b d
     \grg e g \grA f d \dble e4 \gra e8 f
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -28,7 +28,7 @@
     A4 \grg A8 g A g \grA e g
     A f \grA g e \grg f d \grg b d
     \grg e g \grA f d \dble e2
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -41,7 +41,7 @@
     \gbirl a4 \grg a8 \grd b \grg a b \grg c d
     \grg e c \grg d b \grg c \grd a \gre a \grd c
     \grg b d \grg c \grd a \grip b4. c8
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -54,7 +54,7 @@
     \dble e4 \gra e8 d \grg e d \grg b d
     \grg e c \grg d b \grg c \grd a \gre a \grd c
     \grg b d \grg c \grd a \grip b2
-    \bar "|."
+    \fine
   }
 
   \header {

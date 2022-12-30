@@ -16,7 +16,7 @@
     \dble e4 \grg d8 e g e \grg d e
     \dblA A4 e8 A g[ e \dbld d b]
     \gbirl a4 \gre a \grg G8 \grd a \gre a e
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -29,7 +29,7 @@
     \dble e4 \grg d8 e g e \grg d e
     \dblA A4 e8 A g[ e \dbld d b]
     \gbirl a4 \gre a \grg G8 \grd a \gre a A
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -42,7 +42,7 @@
     \hdble e4 \grg d8 e g e \grg d e
     \dblA A4 e8 A g[ e \dbld d b]
     \gbirl a4 \gre a \grg G8 \grd a \gre a e
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -55,7 +55,7 @@
     \dble e4 \grg d8 e g e \grg d e
     \dblA A4 e8 A g[ e \dbld d b]
     \gbirl a4 \gre a \grg G8[ \grd a \gre a]
-    \bar "|."
+    \fine
   }
 
   \header {

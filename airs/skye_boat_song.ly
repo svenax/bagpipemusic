@@ -38,7 +38,7 @@
     \grg e8. f16 \grg e8 \dblA A4.
     \dblf f8. \grg e16 f8 \grg b4 \grd c8
     \thrwd d4. \slurd d4.
-    \bar "|."
+    \fine
   }
 
   \header {

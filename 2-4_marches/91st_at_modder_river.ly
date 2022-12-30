@@ -92,7 +92,7 @@
         \dblc c8 \gre b \taor b4
       }
     }
-    \bar "|."
+    \fine
 
   }
 

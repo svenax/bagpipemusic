@@ -43,7 +43,7 @@ musicA = {
       \grg e4 \grd c4 \grg c8 b\fermata \grd c4\fermata
     }
   }
-  \bar "|."
+  \fine
 }
 
 musicB = {
@@ -86,7 +86,7 @@ musicB = {
       \grg a4 \wbirl a \grg a8 G\fermata \grg a4\fermata
     }
   }
-  \bar "|."
+  \fine
 }
 
 \score {

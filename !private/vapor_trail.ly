@@ -39,7 +39,7 @@
         \grg f32 e8.. d32 \grc d8..
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

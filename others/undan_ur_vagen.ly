@@ -33,7 +33,7 @@
       { \grG a4. b8 }
       { \grG a2 }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

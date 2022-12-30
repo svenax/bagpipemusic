@@ -16,7 +16,7 @@
     \dblb b16. c32 b16 G \grg b16. c32 b16 G \grg b8 g16. f32 \dble e8 d
     \dblc c8. d16 \dblc c8 b \grg a g \tdblf f e
     \thrwd d8 \grg f16. d32 \dblc c16.[ d32 \dble e16. c32] \thrwd d4 \slurd d8
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \dblg g4 \grg b8. d16 \dblg g8 f \dble e d
     \dblc c8. d16 \dblc c8 b \grg a g \tdblf f e
     \thrwd d8 \grg f16. d32 \dblc c16.[ d32 \dble e16. c32] \thrwd d4 \slurd d8
-    \bar "|."
+    \fine
   }
 
   \header {

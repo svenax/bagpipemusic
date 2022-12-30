@@ -96,7 +96,7 @@
         \dblc c8 \gre a8 \wbirl a4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

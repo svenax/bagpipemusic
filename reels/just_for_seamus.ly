@@ -40,7 +40,7 @@
         e8 \grg e A g
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

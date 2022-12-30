@@ -86,7 +86,7 @@
         \dblb b8 \gre a \wbirl a
       }
     }
-    \bar "|."
+    \fine
 
   }
 

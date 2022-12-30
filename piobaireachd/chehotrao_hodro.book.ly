@@ -36,7 +36,7 @@ myTitle = #(define-music-function (text) (string?)
       \grip e8.[ d16] \dbld d8[ b8] \grG a4 \barluadh g8.[ f16]
       \fdari g8.[ e16] \fgrip e4 \grg e8[ \gra e] \grg e4
       \cadenzaOff
-      \bar "|."
+      \fine
     }
 
     \layout {
@@ -73,7 +73,7 @@ myTitle = #(define-music-function (text) (string?)
             \altBracketText "Twice in line 2"
             \grg e8. c16 \pthrwd d8. b16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -99,7 +99,7 @@ myTitle = #(define-music-function (text) (string?)
             \altBracketText "Twice in line 2"
             \dblA A8. f16 \fdari g8. d16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -129,7 +129,7 @@ myTitle = #(define-music-function (text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txtaor a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -150,7 +150,7 @@ myTitle = #(define-music-function (text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txtaor a16 d8. \gre a16 \grg c8. \gre G16 d8.
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -171,7 +171,7 @@ myTitle = #(define-music-function (text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txtaor a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -197,7 +197,7 @@ myTitle = #(define-music-function (text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 \grd c16 e16\prall \grg G8 \grd b16 e16\prall
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -218,7 +218,7 @@ myTitle = #(define-music-function (text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 \grd c16 e16\prall \grg G8 d16 e16\prall
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -239,7 +239,7 @@ myTitle = #(define-music-function (text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 d16 e16\prall \grg G8 d16 e16\prall
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }

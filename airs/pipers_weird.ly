@@ -43,7 +43,7 @@
     \dblb b8. \gre a16 \grd b8 \dblc c4 \grG a8
     \grg f4 \grip f8 \dble e4 \dblc c8
     e8. \grg b16 e8 \grG a4
-    \bar "|."
+    \fine
   }
 
   \header {

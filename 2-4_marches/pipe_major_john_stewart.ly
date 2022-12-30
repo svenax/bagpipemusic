@@ -94,7 +94,7 @@
         \dblc c8 \grd a \wbirl a
       }
     }
-    \bar "|." \break
+    \fine \break
   }
 
   \header {

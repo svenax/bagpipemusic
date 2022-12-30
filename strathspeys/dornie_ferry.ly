@@ -52,7 +52,7 @@
     \thrwd d8. e16 \dblg g8. e16 \dblA A4 \times 2/3 {e8 f g}
     \dblA A8. f16 \grg \times 2/3 {e8 f g} \dble e8. d16 \grg \times 2/3 {b8 c d}
     \grg b16 \grd G8. \dblg g8. d16 \dble e4 \birl a8.
-    \bar "|."
+    \fine
   }
 
   \header {

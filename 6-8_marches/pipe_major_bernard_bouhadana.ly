@@ -92,7 +92,7 @@
         \thrwd d4. \slurd d4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

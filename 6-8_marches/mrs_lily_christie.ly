@@ -92,7 +92,7 @@
         \grg a8. e16 \grg c8 \thrwd d4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

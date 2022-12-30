@@ -37,7 +37,7 @@ common = {
       \cad c4 \grip c8. b16 c4 b
       \cad b16 \grG b8. \grGcad b8 f4. a4
       \grg e16 \gra e8. \gracad e4 \cad c4 b
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -75,7 +75,7 @@ common = {
       \cad c4 \dblA A c8 \grGcad a4.
       \cad b16 \grG b8. \grGcad b8 f4. a4
       \grg e4 \dblA A c b
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -112,7 +112,7 @@ common = {
       \grg e4 \dblA A c16 \grGcad a8.
       \grg b4 \dblA A c16 \grGcad a8.
       \grg e4 \dblA A b16 \grGcad a8.
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -177,7 +177,7 @@ common = {
       \cadenzaOff \bar "|"
       b4_\txtaorcrun f_\txtaorcrun
       e4_\txtaorcrun \cad b8 \grGcad a
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -244,7 +244,7 @@ common = {
       \cadenzaOff \bar "|"
       b4_\txtaorcrun f_\txtaorcrun
       e4_\txtaorcrun b_\txtaorcrun
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -281,7 +281,7 @@ common = {
       c4_\txtaorcrun c_\txtaorcrun
       b4_\txtaorcrun f_\txtaorcrun
       e4_\txtaorcrun b_\txtaorcrun
-      \bar "|."
+      \fine
     }
 
     \header {

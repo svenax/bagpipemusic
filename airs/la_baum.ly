@@ -19,7 +19,7 @@
       { \grip b2.. \grg a16 b }
       { \wbirl a1 }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

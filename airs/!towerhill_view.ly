@@ -16,7 +16,7 @@
     \thrwd d2 \wthrwe e4 \thrwf f2 \grg e8. d16
     \grg b16 \grd G8. ~ G8 \grd b \grg a8. b16 \grip c16 e8. ~ e8 A g8. e16
     \thrwd d2 ~ d4 \slurd d2
-    \bar "||" \break
+    \section \break
 
     \dblg g4
     A4 ~ A8 g A8. f16 \grg e16 d8. ~ d4 \grg e8. f16
@@ -28,7 +28,7 @@
     \thrwd d2 \wthrwe e4 \thrwf f2 \grg e8. d16
     \grg b16 \grd G8. ~ G8 \grd b \grg a8. b16 \grip c16 e8. ~ e8 A g8. e16
     \thrwd d2 ~ d4 \slurd d2
-    \bar "|."
+    \fine
   }
 
   \header {

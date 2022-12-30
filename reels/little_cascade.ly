@@ -92,7 +92,7 @@
         \grg b8 e \grg d f \dblf f4 \hslure e
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

@@ -46,7 +46,7 @@ common = {
       \pthrwd d8. b16 \dre e8. c16 \pthrwd d8. c16 \grg b8 G8\fermata
       \chelalhodin \pthrwd d8. c16 \grg b8 G8\fermata
       \grg c16 \grGcad a8. b16[ \pthrwd d8.] \chelalhodin
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -123,7 +123,7 @@ common = {
       \altBracketEnd
       \grg c8.[ e16]
       \cadenzaOff
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -207,7 +207,7 @@ common = {
       \grg a8.[ \grd c16]
       \altBracketEnd
       \cadenzaOff
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -291,7 +291,7 @@ common = {
       \grg a16_\trebling[ \grd c8.]
       \altBracketEnd
       \cadenzaOff
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -327,7 +327,7 @@ common = {
       \grg G8 d16 e16\prall\fermata \hcad d8 G8
       \grg a8 \grd c16 e16\prall \grg a8 d16 e16\prall
       \grg a8 \grd c16 e16\prall\fermata \cad c8 \grGcad a8
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -362,7 +362,7 @@ common = {
       \grg G8 d16 e16\prall \grg a8 d16 e16\prall
       \grg a8 \grd c16 e16\prall \grg a8 d16 e16\prall
       \grg a8 \grd c16 e16\prall \grg a8 \grd c16 e16\prall
-      \bar "|."
+      \fine
     }
 
     \header {

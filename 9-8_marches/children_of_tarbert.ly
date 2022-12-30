@@ -44,7 +44,7 @@
         \grg b8. \grd c16 \gre b8 \grg a4. \wbirl a4.
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

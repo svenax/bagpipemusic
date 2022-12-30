@@ -78,7 +78,7 @@
     \grg d8 G b d g b d b
     \grg G8 a \gbirl a4 \grg f8 e \grg d f
     \grg e8 d \grg c e \grg d4
-    \bar "|."
+    \fine
   }
 
   \header {

@@ -25,7 +25,7 @@
     \dble e4 d8 \dblc c4 b8
     \grg a8 \grd c e A e c
     \grG a4. \wbirl a4 e8
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -48,7 +48,7 @@
     \dble e4 d8 \dblc c4 b8
     \grg a8 \grd c e A e c
     \grG a4. \dblA A
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -71,7 +71,7 @@
     \dble e4 d8 \dblc c4 b8
     \grg a8 \grd c e A e c
     \grG a4. \grg a8 \grd c e
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -94,7 +94,7 @@
     \grg e8 f e \grg d8 c b8
     \grg a8 \grd c e A e c
     \grG a4. \dblA A
-    \bar "|."
+    \fine
 
   }
 

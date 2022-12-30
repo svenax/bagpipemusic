@@ -93,7 +93,7 @@
         \dblb b4. \grG a4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

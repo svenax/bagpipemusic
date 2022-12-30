@@ -93,7 +93,7 @@
         \grg a4. \wbirl a4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

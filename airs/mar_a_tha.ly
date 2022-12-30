@@ -13,7 +13,7 @@
     \grip b4 \grg d8. b16
     \grG a4 \grg f8. e16
     \thrwd d4
-    \bar "|."
+    \fine
   }
 
   \header {

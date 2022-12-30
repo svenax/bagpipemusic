@@ -79,7 +79,7 @@
         \grg f16 g8. \grA e8 \thrwd d4.
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

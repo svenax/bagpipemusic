@@ -16,7 +16,7 @@
     \grg e16 d8 G16 \dblb b4 \grG a4. \wbirl a8
     \grg b16 \grd G8 \grd b16 \grG a4 \grip f4 ~ f4
     \grg e16 f8 e16 \thrwd d4 \dbld c16 d e c \grg d4
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \grg b16 \grd G8 \grd b16 \grG a4 \grip f4 ~ f4
     \grg e16 f8 e16 \thrwd d4 \dbld c16 d e c \grg d8
     \cadenzaOn a_\markup{O - lé!} d \cadenzaOff
-    \bar "|."
+    \fine
   }
 
   \header {

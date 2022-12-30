@@ -90,7 +90,7 @@
         \dble e8 \grg a \wbirl a
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

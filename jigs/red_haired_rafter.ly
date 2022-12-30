@@ -44,7 +44,7 @@
         \grg f d b \grg e d b
         A8 f d \grg a d f
         \grg e8 d c \thrwd d4.
-        \bar "||"
+        \section
       }
     }
     \break
@@ -71,7 +71,7 @@
     \slurb b4 g8 \grA f e d
     \grg b8 a b \grg d e f
     \grg e8 d c \thrwd d4.
-    \bar "|."
+    \fine
   }
 
   \header {

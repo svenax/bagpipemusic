@@ -102,7 +102,7 @@
         \grg e d \grG d c \thrwd d8
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

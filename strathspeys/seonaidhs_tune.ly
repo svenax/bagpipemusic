@@ -15,7 +15,7 @@
     \thrwd d8. e16 \grg f8. g16 \grA f16 d8. \dble e4
     \grg b16 e8. \dblg g8. f16 \grg e16 d8. \dblc c8. b16
     \grg a8. \grd c16 \grg e16 g8. \grA f16 d8. \slurd d4
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -28,7 +28,7 @@
     \grg f8. g16 \dblA A8. g16 \grA f16 d8. \dble e4
     \grg b16 e8. \dblg g8. f16 \grg e16 d8. \dblc c8. b16
     \grg a8. \grd c16 \grg e16 g8. \grA f16 d8. \slurd d4
-    \bar "|."
+    \fine
 
   }
 

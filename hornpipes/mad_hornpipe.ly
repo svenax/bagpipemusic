@@ -26,7 +26,7 @@
     \grg f16. a32 \grg a16. A32 f8 \grg e16. f32
     \dblg g16. A32 g16. e32 \grg b16. g32 \grA e16. c32
     \grg a16. A32 e16. c32 d8
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -50,7 +50,7 @@
     \dbld d16.[ a32 \dblb b16. a32] \dblf f16. a32 \grg e16. f32
     \dblg g16. A32 g16. e32 \grg b16. g32 \grA e16. c32
     \grg a16. A32 e16. c32 d8
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -74,7 +74,7 @@
     \dbld d16.[ a32 \dblb b16. a32] \dblf f16. a32 \grg e16. f32
     \dblg g16. A32 g16. e32 \grg b16. A32 g16. A32
     f16. A32 e16. A32 d8
-    \bar "|."
+    \fine
   }
 
   \header {

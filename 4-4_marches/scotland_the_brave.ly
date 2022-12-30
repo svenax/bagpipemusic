@@ -16,7 +16,7 @@
     \dblA A4 \grg A \grip A8 e \dblc c \gre a
     \thrwd d4 \grg f8. d16 \dblc c8 e \dblc c \gre a
     \grip b4 \grg a \taor a
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \dblA A4 \grg A \grip A8 e \dblc c \gre a
     \thrwd d4 \grg f8. d16 \dblc c8 e \dblc c \gre a
     \grip b4 \grg a \taor a
-    \bar "|."
+    \fine
   }
 
   \header {

@@ -44,7 +44,7 @@
     \dble e16. a32 A16. e32 \dblc c8 \grg b32 \grd a16.
     \grg b32 d16. \grg G16. \grd b32 \dble e16.[ b32 \dbld d16. b32]
     \grg a8[ \taor a] \wbirl a
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -98,7 +98,7 @@
         \grg a8[ \taor a] \wbirl a
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

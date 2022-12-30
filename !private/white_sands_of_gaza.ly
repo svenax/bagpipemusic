@@ -68,7 +68,7 @@ musicA = {
     { \thrwd d4. a8 }
     { \thrwd d2 }
   }
-  \bar "|."
+  \fine
 }
 
 musicB = {
@@ -135,7 +135,7 @@ musicB = {
     { \pgrace{s16 g32} a4. e8 }
     { \pgrace{s16 g32} a2 }
   }
-  \bar "|."
+  \fine
 }
 
 \score {

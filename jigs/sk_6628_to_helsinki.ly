@@ -79,7 +79,7 @@
         \grg c d \gre b \grG a4
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

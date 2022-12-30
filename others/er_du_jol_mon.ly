@@ -27,7 +27,7 @@ musicA = {
   \dbld d8 f \grg f e \thrwd d b \grg c \grG a
   \grip b8 d \grg c \grG a \grip b4 ~ b8
   \markDCalFine
-  \bar "|."
+  \fine
 }
 
 musicB = {
@@ -78,7 +78,7 @@ musicC = {
   \dbld d8 A f A \thrwd d f g c
   \thrwd d8 g f \grg e f4 ~ f8
   \markDCalFine
-  \bar "|."
+  \fine
 }
 
 \score {

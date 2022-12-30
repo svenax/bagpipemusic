@@ -92,7 +92,7 @@ musicA = {
   \grg d16 f \grg b d \grg e c \grA g e
   A16 d \grg f d \grA g e \grg a \grd c
   \grg e16 g \grA e c \thrwd d4
-  \bar "||"
+  \section
   \pageBreak
 
   % Part 5
@@ -116,7 +116,7 @@ musicA = {
   \grg e16 c \grA g e \grg c g \grA e c
   A16 d \grg f d \grA g e \grg a \grd c
   \time 5/4 \grg e16 g \grA e c \thrwd d2 ~ d2
-  \bar "||" \break
+  \section \break
 
   % Part 6
 
@@ -144,7 +144,7 @@ musicA = {
       A16 d \grg f d \grA g e \grg a \grd c \thrwd d8
     }
   }
-  \bar "|."
+  \fine
 }
 
 musicB = {
@@ -176,7 +176,7 @@ musicB = {
       R1*2/4*3 R1*7/16
     }
   }
-  \bar "||" \break
+  \section \break
 
   % Part 3
 
@@ -213,7 +213,7 @@ musicB = {
   \grg e16 c \grA g e \grg c g \grA e c
   A16 d \grg f d \grA g e \grg a \grd c
   \time 5/4 \grg e16 g \grA e c g4 e4 f2
-  \bar "||" \break
+  \section \break
 
   % Part 6
 
@@ -241,7 +241,7 @@ musicB = {
       A16 d \grg f d \grA g e \grg a \grd c \thrwd d8
     }
   }
-  \bar "|."
+  \fine
 }
 
 \score {

@@ -24,7 +24,7 @@
       \barLength 2 4
       A16. f32 \grg d16. b32 \grg e16. d32 \grg c16. b32
       \dblc c8 \gre a \wbirl a
-      \bar "|."
+      \fine
     }
     \new Staff {
       \bagpipeKey
@@ -36,7 +36,7 @@
       \barLength 2 4
       f16. d32 \grg b16. d32 \grg c16. b32 \grg a16. f32
       \dble e8 \grg c \grip c
-      \bar "|."
+      \fine
     }
   >>
   \header { title = "" }

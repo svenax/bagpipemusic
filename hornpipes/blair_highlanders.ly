@@ -33,7 +33,7 @@
     \grg e d \grg e f \slurb b8 \grg e16 d
     \grg c e A e \grg f A c e
     \grg f d \grG d c \thrwd d8
-    \bar "||" \break
+    \section \break
 
     \grg f16 g
     \dblA A8 d16 e \grg f A f d
@@ -75,7 +75,7 @@
     \grA e d \grg e f \slurb b8 \grg e16 d
     \grg c e A e \grg f A c e
     \grg f d \grG d c \thrwd d8 \grg f16 g
-    \bar "||" \break
+    \section \break
 
     A d \grg f A g e \gra e g
     \grA f A d f \grg e c \grG c f
@@ -86,7 +86,7 @@
     \grg b d g b \grg d g b d
     \grg c e A e \grg f A c e
     \grg f d \grG d c \thrwd d8
-    \bar "|."
+    \fine
   }
 
   \header {
