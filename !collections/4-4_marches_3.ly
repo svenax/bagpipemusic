@@ -1,5 +1,5 @@
 \header {
-    title = "4/4 Marches Set 3"
+  title = "4/4 Marches Set 3"
 }
 
 \include "4-4_marches/boys_brigade_centenary_march.ly"

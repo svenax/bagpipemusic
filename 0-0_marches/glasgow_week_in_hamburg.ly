@@ -1,6 +1,6 @@
 \score {
 
-{
+  {
     \bagpipeKey
     \time 12/8
 
@@ -59,14 +59,14 @@
     \grg f4 A8 \grg A8. f16 d8 \dble e4 a8 \grg a8. \grd c16 e8
     \thrwd d4. ~ d4. \slurd d4. ~ d4
     \fine
-}
+  }
 
-\header {
+  \header {
     meter = "March"
     title = "Glasgow Week in Hamburg"
     composer = "J. McAllister"
     loc = "53.5582447,9.647645"
     map = "https://goo.gl/maps/hkXdwRJHoRp"
-}
+  }
 
 }

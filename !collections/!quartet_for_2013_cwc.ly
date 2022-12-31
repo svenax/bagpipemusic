@@ -1,12 +1,14 @@
 \header {
-    title = "2013 Quartet for Copenhagen Winter Competition"
+  title = "2013 Quartet for Copenhagen Winter Competition"
 }
 
-\markup \fill-line {\center-column {
+\markup \fill-line {
+  \center-column {
     \null
     "Sven, Mats, Magnus, Christian"
     \null
-}}
+  }
+}
 
 \include "2-4_marches/brigadier_general_ronald_cheape_of_tiroran.ly"
 \pageBreak

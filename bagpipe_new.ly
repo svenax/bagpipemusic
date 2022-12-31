@@ -1,4 +1,4 @@
-﻿%{
+﻿﻿%{
   Bagpipe music settings for Lilypond.
   This file builds on work by Andrew McNabb (http://www.mcnabbs.org/andrew/)
 
@@ -11,22 +11,22 @@
 % Flat notes used mainly in some modern music.
 
 pitchnamesBagpipe = #`(
-  (G     . ,(ly:make-pitch 0 4 NATURAL))
-  (a     . ,(ly:make-pitch 0 5 NATURAL))
-  (b     . ,(ly:make-pitch 0 6 NATURAL))
-  (bflat . ,(ly:make-pitch 0 6 FLAT))
-  (c     . ,(ly:make-pitch 1 0 SHARP))
-  (cflat . ,(ly:make-pitch 1 0 FLAT))
-  (d     . ,(ly:make-pitch 1 1 NATURAL))
-  (e     . ,(ly:make-pitch 1 2 NATURAL))
-  (f     . ,(ly:make-pitch 1 3 SHARP))
-  (fflat . ,(ly:make-pitch 1 3 FLAT))
-  (g     . ,(ly:make-pitch 1 4 NATURAL))
-  (gflat . ,(ly:make-pitch 1 4 FLAT))
-  (A     . ,(ly:make-pitch 1 5 NATURAL))
-  (B     . ,(ly:make-pitch 1 6 NATURAL))
-  (C     . ,(ly:make-pitch 2 0 SHARP))
-)
+                        (G     . ,(ly:make-pitch 0 4 NATURAL))
+                        (a     . ,(ly:make-pitch 0 5 NATURAL))
+                        (b     . ,(ly:make-pitch 0 6 NATURAL))
+                        (bflat . ,(ly:make-pitch 0 6 FLAT))
+                        (c     . ,(ly:make-pitch 1 0 SHARP))
+                        (cflat . ,(ly:make-pitch 1 0 FLAT))
+                        (d     . ,(ly:make-pitch 1 1 NATURAL))
+                        (e     . ,(ly:make-pitch 1 2 NATURAL))
+                        (f     . ,(ly:make-pitch 1 3 SHARP))
+                        (fflat . ,(ly:make-pitch 1 3 FLAT))
+                        (g     . ,(ly:make-pitch 1 4 NATURAL))
+                        (gflat . ,(ly:make-pitch 1 4 FLAT))
+                        (A     . ,(ly:make-pitch 1 5 NATURAL))
+                        (B     . ,(ly:make-pitch 1 6 NATURAL))
+                        (C     . ,(ly:make-pitch 2 0 SHARP))
+                        )
 pitchnames = \pitchnamesBagpipe
 #(ly:parser-set-note-names pitchnames)
 
@@ -138,13 +138,13 @@ marchTime = {
 % Add appropriate tweaks needed for piping grace notes to look great.
 stemspace = #(define-music-function (extent) (pair?) #{
   \once \override Staff.Stem.X-extent = #extent
-#})
+               #})
 pgrace = #(define-music-function (notes) (ly:music?) #{
   \override Score.GraceSpacing.spacing-increment = #0
   \override Score.Stem.beamlet-max-length-proportion = #'(0.5 . 0.5)
   \small \grace $notes \normalsize
   \revert Score.Stem.beamlet-default-length
-#})
+            #})
 morespace = \once \override NoteColumn.X-offset = 0.5
 
 % Single grace notes

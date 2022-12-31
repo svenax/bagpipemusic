@@ -9,11 +9,11 @@ commonLayout = \layout {
 }
 
 myTitle = #(define-music-function (text) (string?)
-#{
-\once \override Score.RehearsalMark.extra-offset = #'(0 . 1)
-\once \override Score.RehearsalMark.self-alignment-X = #LEFT
-\mark \markup { \left-align { \large \bold $text } }
-#})
+             #{
+               \once \override Score.RehearsalMark.extra-offset = #'(0 . 1)
+               \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+               \mark \markup { \left-align { \large \bold $text } }
+             #})
 
 
 \book {
@@ -23,7 +23,7 @@ myTitle = #(define-music-function (text) (string?)
     source = "Colin Campbell’s Canntaireachd MSS (1782–1819), Vol. 2 no. 33, PS 117"
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -49,8 +49,8 @@ myTitle = #(define-music-function (text) (string?)
 
   }
 
-  %%% START SKIP
-  % ---------------------------------------------------------------------------
+%%% START SKIP
+%%% ---------------------------------------------------------------------------
 
   \markup {
     \line { "In all the following variations, repeat each line three times." }
@@ -81,7 +81,7 @@ myTitle = #(define-music-function (text) (string?)
 
       }
 
-      % ---------------------------------------------------------------------------
+    %%% ---------------------------------------------------------------------------
 
       \null
       \column {
@@ -110,7 +110,7 @@ myTitle = #(define-music-function (text) (string?)
     }
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \markup{
     \fill-line {
@@ -136,7 +136,7 @@ myTitle = #(define-music-function (text) (string?)
 
         }
 
-        % ---------------------------------------------------------------------------
+      %%% ---------------------------------------------------------------------------
 
         \vspace #1
         \score {
@@ -157,7 +157,7 @@ myTitle = #(define-music-function (text) (string?)
 
         }
 
-        % ---------------------------------------------------------------------------
+      %%% ---------------------------------------------------------------------------
 
         \vspace #1
         \score {
@@ -179,7 +179,7 @@ myTitle = #(define-music-function (text) (string?)
         }
       }
 
-      % -------------------------------------------------------------------------
+    %%% -------------------------------------------------------------------------
 
       \null
       \column {
@@ -204,7 +204,7 @@ myTitle = #(define-music-function (text) (string?)
 
         }
 
-        % ---------------------------------------------------------------------------
+      %%% ---------------------------------------------------------------------------
 
         \vspace #1
         \score {
@@ -225,7 +225,7 @@ myTitle = #(define-music-function (text) (string?)
 
         }
 
-        % ---------------------------------------------------------------------------
+      %%% ---------------------------------------------------------------------------
 
         \vspace #1
         \score {
@@ -250,5 +250,5 @@ myTitle = #(define-music-function (text) (string?)
     }
   }
 
-  %%% END SKIP
+%%% END SKIP
 }

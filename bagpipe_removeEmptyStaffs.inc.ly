@@ -1,10 +1,10 @@
-﻿%{
-    Include file for remove empty staffs layout.
+﻿﻿%{
+    Include file for removing empty staves layout.
 %}
 
 \version "2.24.0"
 
-% The necessary tweaks to remove empty staffs and staff group brackets
+% The necessary tweaks to remove empty staves and staff group brackets
 % when we have a partial seconds.
 \layout {
   \context {

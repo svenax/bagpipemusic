@@ -44,7 +44,7 @@
     \dblf f8. A16 \times 2/3 {g8 f e} \dblf f8. d16 \dblf f4
     \grg \times 2/3 {e8 f g} \grA \times 2/3 {f8 g A} \times 2/3 {g8 f e} \dblA A8. e16
     \grg \times 2/3 {f8 A g} \tdblf f8. e16 \grg f8. d16 \slurd d8
-     \section \break
+    \section \break
 
     % Part 4
 

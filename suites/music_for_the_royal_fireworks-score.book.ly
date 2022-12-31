@@ -30,7 +30,7 @@
     }
   }
 
-  %%% START SKIP
+%%% START SKIP
 
   \score {
     \new StaffGroup <<
@@ -68,6 +68,6 @@
     }
   }
 
-  %%% END SKIP
+%%% END SKIP
 
 }

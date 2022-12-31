@@ -54,7 +54,7 @@
       \grg b16[ \grd b \gre b]
       \alternative {
         { \grg f8 g8 } { \slurb b8[ \gre b] }
-    }
+      }
     }
     \break
 

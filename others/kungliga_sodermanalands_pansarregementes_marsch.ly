@@ -6,8 +6,8 @@
 
     % Part 1
 
-      \grg a4 \grd c8. e16 \dblA A8 g \grA f e
-      \dbld d8 c \grg b \grG a b \grg e16 \grf e \gra e8 \grg e
+    \grg a4 \grd c8. e16 \dblA A8 g \grA f e
+    \dbld d8 c \grg b \grG a b \grg e16 \grf e \gra e8 \grg e
 
     % Part 2
 

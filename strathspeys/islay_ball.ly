@@ -62,6 +62,6 @@
   \header {
     meter = "Strathspey"
     title = "The Islay Ball"
-    }
+  }
 
 }

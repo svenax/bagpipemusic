@@ -1,9 +1,9 @@
 \header {
-    title = "Slow Air & Jigs"
+  title = "Slow Air & Jigs"
 }
 
 \paper {
-    #(define page-breaking ly:minimal-breaking)
+  #(define page-breaking ly:minimal-breaking)
 }
 
 \include "airs/leaving_lismore.ly"

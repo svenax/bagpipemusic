@@ -11,17 +11,17 @@
 
 % Local tweaks
 \layout {
-    indent = 0.0\cm
+  indent = 0.0\cm
 
-    \context {
-        \Score
-        \remove "Bar_number_engraver"
-        \override VoltaBracket #'Y-offset = #7.5
-        \override VoltaBracket #'height = #2.2
-    }
+  \context {
+    \Score
+    \remove "Bar_number_engraver"
+    \override VoltaBracket #'Y-offset = #7.5
+    \override VoltaBracket #'height = #2.2
+  }
 }
 \paper {
-    ragged-bottom = ##t
+  ragged-bottom = ##t
 }
 
 % The tune to generate.
