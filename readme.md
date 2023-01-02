@@ -1,7 +1,7 @@
 WRITING BAGPIPE MUSIC WITH LILYPOND
 ===================================
 
-Installing Lilypond 2.22.0
+Installing Lilypond 2.24.0
 --------------------------
 
 * Grab the installer for your computer platform here:

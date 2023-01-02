@@ -71,7 +71,6 @@
 
     \repeat volta 2 {
       \dblg g8
-      \barLength 2 4
       \grA f16. g32 A16. f32 \grg e16.[ f32 \dble e16. c32]
       \thrwd d16.[ e32 \dbld d16. b32] \dblc c16. b32 \grg c32 \grd a16.
       \thrwd d16. e32 \grg f16. d32 \grg c16.[ d32 \dble e16. c32]

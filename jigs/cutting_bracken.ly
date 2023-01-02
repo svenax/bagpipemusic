@@ -17,7 +17,6 @@
       \grg a8 \grd a \gre a \dblA A4.
       g8 e \gra e \dblg g4.
       \tdble e4 d8 \grg b e \gra e
-      \barLength 5 8
       \grg a4. \wbirl a4
     }
     \break
@@ -25,7 +24,6 @@
     % Part 2
 
     \repeat volta 2 {
-      \barLength 6 8
       \dble e4 d8 \grg b \grd a \gre a
       \grg G \grd a \gre a \grg b \grd G \gre G
       \dble e4 d8 \grg b \grd a \gre a
@@ -50,7 +48,6 @@
       \grg a8 \grd a \gre a \dblA A4.
       g8 e \gra e \grg d e g
       \tdble e4 d8 \grg b e \gra e
-      \barLength 5 8
       \grg a4. \wbirl a4
     }
     \break
@@ -58,7 +55,6 @@
     % Part 4
 
     \repeat volta 2 {
-      \barLength 6 8
       \dble e4 d8 \grg b \grd b \gre b
       \grg G \grd a \gre a \grg b \grd b \gre b
       \grg G \grd a \gre a \grg b \grd a \gre a

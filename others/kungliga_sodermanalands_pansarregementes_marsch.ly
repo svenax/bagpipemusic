@@ -60,7 +60,7 @@
       \grg a2 \wbirl a8 d \grg f A
       \grf g4 e \dblc c \grd a
       \thrwd d4 \grg a8. \grd a16 d2
-      \markTextEol "Da capo"
+      \textEndMark "Da capo"
     }
 
   }

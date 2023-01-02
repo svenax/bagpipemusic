@@ -78,12 +78,10 @@
           \dblA A8. a16 \grg d8 \slurd d8. \grg e16 f8
           \dblg g8. f16 \grg b8 \grG b8. \grg e16 f8
           \dblg g8. f16 \grg b8 g16 \grA e8. \grg c8
-          \barLength 5 8
           \thrwd d4. \slurd d4
           \break
         }
         {
-          \barLength 6 8
           \dblA A4 \birl a8 \grg f8. e16 \grg d8
           \grg G8. d16 \gre b8 \grG a8. \grg e16 f8
           \dblg g8. f16 \grg b8 g16 \grA e8. \grg c8

@@ -67,7 +67,7 @@ musicB = {
     \grd a8 e16 d \gre a8 \grg a16 e \grg b8 \grd c
     \grg d16 a d8 \gre c \grg a16 e A g \grA c8
     \grg d16 b \grG a8 e16 f \grg a4 G8
-    \grg e4 \thrwd d8 \gre c4 \markFine
+    \grg e4 \thrwd d8 \gre c4
   }
   \break
 
@@ -97,7 +97,7 @@ musicB = {
     \grd c16 e A8 a16 b \grd c16 A e8 a16 b
     \grg c16[ A \hdblc c d32 c b8] \grg e8 a\fermata e
     \grg d16 b \grG a8 e16 f \grg a4 G8
-    \grg e4 \thrwd d8 \gre c4 \markDCalFine
+    \grg e4 \thrwd d8 \gre c4
   }
 }
 
