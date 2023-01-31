@@ -1,5 +1,5 @@
 \header {
-    title = "Christmas Carols"
+  title = "Christmas Carols"
 }
 
 \include "others/come_all_ye_faithful.ly"

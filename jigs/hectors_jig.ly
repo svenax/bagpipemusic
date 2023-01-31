@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 A8
+      A8
       c e \gra e \grg e c \grG a
       \grg c e \gra e \dblA A4.
       c8 e \gra e \grg e c \grG a

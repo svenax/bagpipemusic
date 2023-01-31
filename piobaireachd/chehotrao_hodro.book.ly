@@ -8,12 +8,12 @@ commonLayout = \layout {
   ragged-last = ##f
 }
 
-myTitle = #(define-music-function (parser location text) (string?)
-#{
-\once \override Score.RehearsalMark #'extra-offset = #'(0 . 1)
-\once \override Score.RehearsalMark #'self-alignment-X = #LEFT
-\mark \markup { \left-align { \large \bold $text } }
-#})
+myTitle = #(define-music-function (text) (string?)
+             #{
+               \once \override Score.RehearsalMark.extra-offset = #'(0 . 1)
+               \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+               \mark \markup { \left-align { \large \bold $text } }
+             #})
 
 
 \book {
@@ -23,7 +23,7 @@ myTitle = #(define-music-function (parser location text) (string?)
     source = "Colin Campbell’s Canntaireachd MSS (1782–1819), Vol. 2 no. 33, PS 117"
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -36,7 +36,7 @@ myTitle = #(define-music-function (parser location text) (string?)
       \grip e8.[ d16] \dbld d8[ b8] \grG a4 \barluadh g8.[ f16]
       \fdari g8.[ e16] \fgrip e4 \grg e8[ \gra e] \grg e4
       \cadenzaOff
-      \bar "|."
+      \fine
     }
 
     \layout {
@@ -49,8 +49,8 @@ myTitle = #(define-music-function (parser location text) (string?)
 
   }
 
-  %%% START SKIP
-  % ---------------------------------------------------------------------------
+%%% START SKIP
+%%% ---------------------------------------------------------------------------
 
   \markup {
     \line { "In all the following variations, repeat each line three times." }
@@ -73,7 +73,7 @@ myTitle = #(define-music-function (parser location text) (string?)
             \altBracketText "Twice in line 2"
             \grg e8. c16 \pthrwd d8. b16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -81,7 +81,7 @@ myTitle = #(define-music-function (parser location text) (string?)
 
       }
 
-      % ---------------------------------------------------------------------------
+    %%% ---------------------------------------------------------------------------
 
       \null
       \column {
@@ -99,7 +99,7 @@ myTitle = #(define-music-function (parser location text) (string?)
             \altBracketText "Twice in line 2"
             \dblA A8. f16 \fdari g8. d16 \grg a8. \grd b16 \gre G8.\fermata \grd b16
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -110,7 +110,7 @@ myTitle = #(define-music-function (parser location text) (string?)
     }
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \markup{
     \fill-line {
@@ -129,14 +129,14 @@ myTitle = #(define-music-function (parser location text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txtaor a16 d8. \gre a16 \grg c8. \gre G16 \grg b8.
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
 
         }
 
-        % ---------------------------------------------------------------------------
+      %%% ---------------------------------------------------------------------------
 
         \vspace #1
         \score {
@@ -150,14 +150,14 @@ myTitle = #(define-music-function (parser location text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txtaor a16 d8. \gre a16 \grg c8. \gre G16 d8.
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
 
         }
 
-        % ---------------------------------------------------------------------------
+      %%% ---------------------------------------------------------------------------
 
         \vspace #1
         \score {
@@ -171,7 +171,7 @@ myTitle = #(define-music-function (parser location text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txtaor a16 d8. \gre a16 \grg d8. \gre G16 \grg d8.
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -179,7 +179,7 @@ myTitle = #(define-music-function (parser location text) (string?)
         }
       }
 
-      % -------------------------------------------------------------------------
+    %%% -------------------------------------------------------------------------
 
       \null
       \column {
@@ -197,14 +197,14 @@ myTitle = #(define-music-function (parser location text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 \grd c16 e16\prall \grg G8 \grd b16 e16\prall
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
 
         }
 
-        % ---------------------------------------------------------------------------
+      %%% ---------------------------------------------------------------------------
 
         \vspace #1
         \score {
@@ -218,14 +218,14 @@ myTitle = #(define-music-function (parser location text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 \grd c16 e16\prall \grg G8 d16 e16\prall
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
 
         }
 
-        % ---------------------------------------------------------------------------
+      %%% ---------------------------------------------------------------------------
 
         \vspace #1
         \score {
@@ -239,7 +239,7 @@ myTitle = #(define-music-function (parser location text) (string?)
             \altBracketText "Twice in line 2"
             \grg e4_\txcrun \grg a8 d16 e16\prall \grg a8 d16 e16\prall \grg G8 d16 e16\prall
             \altBracketEnd
-            \bar "|."
+            \fine
           }
 
           \layout { \commonLayout }
@@ -250,5 +250,5 @@ myTitle = #(define-music-function (parser location text) (string?)
     }
   }
 
-  %%% END SKIP
+%%% END SKIP
 }

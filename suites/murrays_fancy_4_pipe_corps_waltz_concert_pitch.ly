@@ -9,9 +9,10 @@ musicA = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
     \mark \default
-    \partial 8 A8
+    A8
     f8 d16 e f A g8 f e
     f8 d b a4 d8
     e8 c16 d e f g8 f e
@@ -37,7 +38,7 @@ musicA = {
   f8 d16 e f d g8 e16 f g e
   A16 f e d e f g8 f e
   e8 d c d4
-  \bar "||" \break
+  \section \break
 
   % Part 3
 
@@ -52,7 +53,7 @@ musicA = {
   f8 d b a4 d8
   e8 c16 d e f g8 f e
   f8 d c d4
-  \bar "||" \break
+  \section \break
 
   % Part 4
 
@@ -66,7 +67,7 @@ musicA = {
   f8 d b a4 d8
   e8 c16 d e f g8 f e
   f8 d c d4
-  \bar "||" \break
+  \section \break
 
   % Part 5
 
@@ -81,7 +82,7 @@ musicA = {
   f8 d16 e f d g8 e16 f g e
   A16 f e d e f g8 f e
   e8 d c d4
-  \bar "||" \pageBreak
+  \section \pageBreak
 
   % Part 6
   \mark \default
@@ -102,8 +103,9 @@ musicB = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
-    \partial 8 r8
+    r8
     R1*6/8*4
     \break
     R1*6/8*3  R1*5/8*1
@@ -115,7 +117,7 @@ musicB = {
   R1*6/8*4
   \break
   R1*6/8*3  s1*5/8*1
-  \bar "||" \break
+  \section \break
 
   % Part 3
 
@@ -129,7 +131,7 @@ musicB = {
   b4. c4 d8
   c4. b4.
   a4. <a f>4
-  \bar "||" \break
+  \section \break
 
   % Part 4
 
@@ -143,7 +145,7 @@ musicB = {
   b4 d8 c8 c16 d b a
   c8 a c b d c
   a4. <a f>4
-  \bar "||" \break
+  \section \break
 
   % Part 5
 
@@ -157,7 +159,7 @@ musicB = {
   b4. c4.
   a4. b4.
   a4. <a f>4
-  \bar "||" \pageBreak
+  \section \pageBreak
 
   % Part 6
 
@@ -171,7 +173,7 @@ musicB = {
   b4. c4 d8
   c4. b4.
   a4. <a f>4.
-  \bar "|."
+  \fine
 }
 
 \score {

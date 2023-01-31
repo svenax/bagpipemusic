@@ -15,7 +15,7 @@
     \grg e A \grg A e g e \grg d b
     \shakec c4 \grg c8 d \grg e f \grA g e
     \dbld d b g b \gbirl a4 \grg b8 d
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -28,7 +28,7 @@
     e A \grg A e g e \grg d b
     \grg G \grd G \grg b d \grg e g \grA \times 2/3 { e f g }
     A e g b \gbirl a2
-    \bar "|."
+    \fine
   }
 
   \header {

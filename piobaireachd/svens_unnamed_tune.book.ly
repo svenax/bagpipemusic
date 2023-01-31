@@ -9,7 +9,7 @@ common = {
     composer = "P/S Sven Axelsson"
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
     {
@@ -21,7 +21,7 @@ common = {
       \cad b16 \grG b8. \grGcad b4 \hcad G8. \grd a16 \grip b4
       \grg e16 \gra e8. \gracad e4 \hcad d16 \grG d8. \pthrwd d4
       \cad b16 \grG b8. \grGcad b4 \grg e4 \dbirl a4
-      \bar "||" \break
+      \section \break
 
       % Line 2
 
@@ -29,7 +29,7 @@ common = {
       \cad b16 \grG b8. \grGcad b4 \hcad G8. \grd a16 \grip b4
       \grg e16 \gra e8. \gracad e4 \grg f16 \gre f8. \grecad f4
       \cad b16 \grG b8. \grGcad b4 \grg e4 \dbirl a4
-      \bar "||" \break
+      \section \break
 
       % Line 3
 
@@ -37,7 +37,7 @@ common = {
       \grA g16 \gre g8. \grecad g4 \grA f8.[ \fdari g16] \grg f4
       \grg e16 \gra e8. \gracad e4 \grg f16 \gre f8. \grecad f4
       \fdari g8. d16 \gre b4 \grg e4 \dbirl a4
-      \bar "|." \break
+      \fine \break
     }
     \header {
       piece = "I. Urlar"
@@ -45,8 +45,8 @@ common = {
   }
 
 
-  %%% START SKIP
-  % ---------------------------------------------------------------------------
+%%% START SKIP
+%%% ---------------------------------------------------------------------------
 
   \score {
     {
@@ -58,7 +58,7 @@ common = {
       \cad b16 \grG b8. \grGcad b4 \dblA A4 b4
       \grg e16 \gra e8. \gracad e4 \hcad d16 \grG d8. \pthrwd d4
       \cad b16 \grG b8. \grGcad b4 \dblA A8. d16 \gre a4
-      \bar "||" \break
+      \section \break
 
       % Line 2
 
@@ -66,7 +66,7 @@ common = {
       \cad b16 \grG b8. \grGcad b4 \dblA A4 b4
       \grg e16 \gra e8. \gracad e4 \grg f16 \gre f8. \grecad f4
       \cad b16 \grG b8. \grGcad b4 \dblA A8. d16 \gre a4
-      \bar "||" \break
+      \section \break
 
       % Line 3
 
@@ -74,7 +74,7 @@ common = {
       \grA g16 \gre g8. \grecad g4 \dblA A4 f4
       \grg e16 \gra e8. \gracad e4 \grg f16 \gre f8. \grecad f4
       \fdari g8. d16 \gre b4 \dblA A8. d16 \gre a4
-      \bar "|." \break
+      \fine \break
     }
     \header {
       piece = "II. Thumb Variation"
@@ -91,7 +91,7 @@ common = {
       \grg b4_\txtaorcrun \grg b4 \grg G4_\txtaorcrun \grg b4
       \grg e4_\txtaorcrun \grg e4 \grg d4_\txtaorcrun \grg d4
       \grg b4_\txtaorcrun \grg b4 \grg e4 \dbirl a4
-      \bar "||" \break
+      \section \break
 
       % Line 2
 
@@ -99,7 +99,7 @@ common = {
       \grg b4_\txtaorcrun \grg b4 \grg G4_\txtaorcrun \grg b4
       \grg e4_\txtaorcrun \grg e4 \grg f4_\txtaorcrun \grg f4
       \grg b4_\txtaorcrun \grg b4 \grg e4 \dbirl a4
-      \bar "||" \break
+      \section \break
 
       % Line 3
 
@@ -107,7 +107,7 @@ common = {
       \grA g4_\txtaorcrun \grA g4 \grg G8.[ \bari g16] \grg f4
       \grg e4_\txtaorcrun \grg e4 \grg f4_\txtaorcrun \grg f4
       \grg g4_\txtaorcrun \grg b4 \grg e4 \dbirl a4
-      \bar "|." \break
+      \fine \break
     }
     \header {
       piece = "III. Taorluath   V. Crunluath"
@@ -124,7 +124,7 @@ common = {
       \grg b4_\txtaorcrun \grg b4_\txtaorcrun \grg G4_\txtaorcrun \grg b4_\txtaorcrun
       \grg e4_\txtaorcrun \grg e4_\txtaorcrun \grg d4_\txtaorcrun \grg d4_\txtaorcrun
       \grg b4_\txtaorcrun \grg e4_\txtaorcrun \grg a4_\txtaorcrun \grg a4_\txtaorcrun
-      \bar "||" \break
+      \section \break
 
       % Line 2
 
@@ -132,7 +132,7 @@ common = {
       \grg b4_\txtaorcrun \grg b4_\txtaorcrun \grg G4_\txtaorcrun \grg b4_\txtaorcrun
       \grg e4_\txtaorcrun \grg e4_\txtaorcrun \grg f4_\txtaorcrun \grg f4_\txtaorcrun
       \grg b4_\txtaorcrun \grg e4_\txtaorcrun \grg a4_\txtaorcrun \grg a4_\txtaorcrun
-      \bar "||" \break
+      \section \break
 
       % Line 3
 
@@ -140,11 +140,11 @@ common = {
       \grA g4_\txtaorcrun \grA g4_\txtaorcrun \grg f4_\txtaorcrun \grg f4_\txtaorcrun
       \grg e4_\txtaorcrun \grg e4_\txtaorcrun \grg f4_\txtaorcrun \grg f4_\txtaorcrun
       \grA g4_\txtaorcrun \grg e4_\txtaorcrun \grg a4_\txtaorcrun \grg a4_\txtaorcrun
-      \bar "|." \break
+      \fine \break
     }
     \header {
       piece = "IV. Taorluath Doubling   VI. Crunluath Doubling"
     }
   }
-  %%% END SKIP
+%%% END SKIP
 }

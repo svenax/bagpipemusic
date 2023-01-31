@@ -23,7 +23,7 @@ btaorcrunG = {
     Piping Times and to composing competitions."
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -40,12 +40,12 @@ btaorcrunG = {
       \grg d16\fermata A8. e8. c16 \grg d4 b16[ \grip b8.]
       \cad c4 \grip c16 \grG a8. \grg G8. d16 \dbld d16 c8.
       \grg e4 \dbirl a4 \grg G8. b16 \grG a4
-      \bar "||" \break
+      \section \break
       \grA g4 e16[ \fgrip e8.] \hcad d4 c16[ \grip c8.]
       \grg d16\fermata A8. e8. c16 \grg d4 b16[ \grip b8.]
       \grg e8. c16 \pthrwd d4 \cad c4 b16[ \grip b8.]
       \grg e4 \dbirl a4 \grg G8. b16 \grG a4
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -54,8 +54,8 @@ btaorcrunG = {
 
   }
 
-  %%% START SKIP
-  % ---------------------------------------------------------------------------
+%%% START SKIP
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -72,12 +72,12 @@ btaorcrunG = {
       A8. a16 \grA e8. \grg a16 \grg d8. \gre a16 \grg b8. \gre a16
       \grg c8. \gre a16 \grg G8. \gre a16 \grg c8. \gre a16 \grg b8. \gre G16
       \grg a8. \gre a16 \grg a8. \gre a16 \grg G8. \gre a16 \grg a8. \gre a16
-      \bar "||" \break
+      \section \break
       \grA g8. \grg a16 \grg e8. \grg a16 \grg d8. \gre a16 \grg c8. \gre a16
       A8. a16 \grA e8. \grg a16 \grg d8. \gre a16 \grg b8. \gre a16
       \grg e8. \gre a16 \grg d8. \gre a16 \grg b8. \gre a16 \grg b8. \gre G16
       \grg a8. \gre a16 \grg a8. \gre a16 \grg G8. \gre a16 \grg a8. \gre a16
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -86,7 +86,7 @@ btaorcrunG = {
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -103,12 +103,12 @@ btaorcrunG = {
       \dblA A8. \grg A16 \grg e8. \grg e16 \grg d8. \gre d16 \grg b8. \gre b16
       \grg c8. \gre c16 \grg G8. \gre a16 \grg c8. \gre c16 \grg b8. \gre b16
       \grg a8. \gre a16 \grg a8. \gre a16 \grg G8. \gre a16 \grg a8. \gre a16
-      \bar "||" \break
+      \section \break
       \grA g8. \grA g16 \grg e8. \grg e16 \grg d8. \gre d16 \grg c8. \gre c16
       \dblA A8. \grg A16 \grg e8. \grg e16 \grg d8. \gre d16 \grg b8. \gre b16
       \grg e8. \grg e16 \grg d8. \gre d16 \grg c8. \gre c16 \grg b8. \gre b16
       \grg a8. \gre a16 \grg a8. \gre a16 \grg G8. \gre a16 \grg a8. \gre a16
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -117,7 +117,7 @@ btaorcrunG = {
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -134,12 +134,12 @@ btaorcrunG = {
       A_\txtaorcrun e_\txtaorcrun d_\txtaorcrun b_\txtaorcrun
       c_\txtaorcrun G_\txtaorcrun b_\txtaorcrun \btaorcrunG
       a4_\txtaorcrun a_\txtaorcrun G_\txtaorcrun a_\txtaorcrun
-      \bar "||" \break
+      \section \break
       g_\txtaorcrun e_\txtaorcrun d_\txtaorcrun c_\txtaorcrun
       A_\txtaorcrun e_\txtaorcrun d_\txtaorcrun b_\txtaorcrun
       e_\txtaorcrun d_\txtaorcrun c_\txtaorcrun \btaorcrunG
       a_\txtaorcrun a_\txtaorcrun G_\txtaorcrun a_\txtaorcrun
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -151,5 +151,5 @@ btaorcrunG = {
 
   \markup {\lower #5 "VI. Crunluath a mach as usual."}
 
-  %%% END SKIP
+%%% END SKIP
 }

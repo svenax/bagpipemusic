@@ -19,7 +19,7 @@ musicA = {
   \grg f8. g16 A8 \hdblc c8. b16 \grG a8
   \grg b8. \grd c16 f8 \dble e8. d16 c8
   \grg b4. \taor b4.
-  \bar "||" \break
+  \section \break
 
   % Part 2
 
@@ -32,14 +32,16 @@ musicA = {
   \grg e8. f16 A8 \hdblc c8. b16 \grG a8
   \grg b8. \grd c16 f8 \dble e8. d16 c8
   \grg b4. \taor b4.
+  \section \break
 
   % Part 3
 
-  R1*6/8*8 \bar "||" \break
+  \grs3 R1*6/8*8
+  \section \break
 
   % Part 4
 
-  R1*6/8*8 \bar "|."
+  R1*6/8*8 \fine
 
 }
 
@@ -48,13 +50,13 @@ musicB = {
 
   % Part 1
 
-  \grace { s32 } R1*6/8*8
-  \bar "||" \break
+  \grs1 R1*6/8*8
+  \section \break
 
   % Part 2
 
-  \grace { s32 } R1*6/8*7 r4. r4 \grg b8
-  \bar "||" \break
+  \grs1 R1*6/8*7 r4. r4 \grg b8
+  \section \break
 
   % Part 3
 
@@ -67,7 +69,7 @@ musicB = {
   \dble e4 c8 \grG a8. b16 c8
   \dbld d8. c16 b8 \grg a4 \wbirl a8
   \grg b4. \taor b4.
-  \bar "||" \break
+  \section \break
 
   % Part 4
 
@@ -80,12 +82,12 @@ musicB = {
   \dble e4 c8 \grG a8. b16 c8
   \dbld d8. c16 b8 \grg a4 \wbirl a8
   \grg b4. \taor b4.
-  \bar "|."
+  \fine
 }
 
 \score {
 
-  %\transpose a bflat
+  %\transpose a b-flat
   \new StaffGroup <<
     \new Staff \musicA
     \new Staff \musicB

@@ -28,12 +28,12 @@
       \grg c4 \grip c8 e
       \grg b4 \taor b8 d
       \dblc c4 \dblb b
+      \alternative {
+        { \grG a4. b8 }
+        { \grG a2 }
+      }
     }
-    \alternative {
-      { \grG a4. b8 }
-      { \grG a2 }
-    }
-    \bar "|."
+    \fine
   }
 
   \header {

@@ -6,8 +6,9 @@ laRejouissanceCommon = {
 laRejouissanceA = {
   \laRejouissanceCommon
 
+  \partial 8
   \repeat volta 2 {
-    \grg \partial 8 a8
+    \grg a8
 
     % 1
 
@@ -45,8 +46,9 @@ laRejouissanceA = {
 laRejouissanceB = {
   \laRejouissanceCommon
 
+  \partial 8
   \repeat volta 2 {
-    \grg \partial 8 a8
+    \grg a8
 
     % 1
 
@@ -83,8 +85,9 @@ laRejouissanceB = {
 laRejouissanceC = {
   \laRejouissanceCommon
 
+  \partial 8
   \repeat volta 2 {
-    \grg \partial 8 a8
+    \grg a8
 
     % 1
 

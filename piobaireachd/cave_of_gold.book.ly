@@ -9,7 +9,7 @@ common = {
     title = "The Cave of Gold"
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -32,7 +32,7 @@ common = {
       \hcad a8. b16 \grip b4 \cad b16 \grG b8. \grGcad b4
       \hcad a8. b16 \grip c4 \hcad G8. b16 \grip b4
       \hcad a4 \dre e4 b16[ \grip c8.] \darodo a4
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -41,8 +41,8 @@ common = {
 
   }
 
-  %%% START SKIP
-  % ---------------------------------------------------------------------------
+%%% START SKIP
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -65,7 +65,7 @@ common = {
       \grg a8. \gre a16 \grg b8. \gre a16 \grg b8. \gre a16 \grg b8. \gre a16
       \grg a8. \gre a16 \grg c8. \gre a16 \grg G8. \grg a16 \grg b8. \gre a16
       \grg a8. \gre a16 \grg e8. \grg a16 \grg c8. \gre a16 \grg a8. \gre a16
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -74,7 +74,7 @@ common = {
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -83,9 +83,9 @@ common = {
 
       \grg a8. \gre a16 \grg c8. \gre c16 \grg G8. \gre a16 \grg b8. \gre b16
       \grg a8. \gre a16 \grg c8. \gre c16 \grg f8. \grg f16 \grg e8. \grg e16
-      \once \override Score.RehearsalMark #'break-visibility = #all-visible
-      \once \override Score.RehearsalMark #'self-alignment-X = #left
-      \once \override Score.RehearsalMark #'extra-offset = #'(2 . -4)
+      \once \override Score.RehearsalMark.break-visibility = #all-visible
+      \once \override Score.RehearsalMark.self-alignment-X = #left
+      \once \override Score.RehearsalMark.extra-offset = #'(2 . -4)
       \mark "Etc."
 
     }
@@ -100,7 +100,7 @@ common = {
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -125,7 +125,7 @@ common = {
       a_\txtaorcrun b_\txtaorcrunam b_\txtaorcrunam b_\txtaorcrunam
       a_\txtaorcrun c_\txtaorcrunam G_\txtaorcrun b_\txtaorcrunam
       a_\txtaorcrun e_\txtaorcrun c_\txtaorcrunam a_\txtaorcrun
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -134,8 +134,10 @@ common = {
 
   }
 
-  \markup { The \txtaoram and \txcrunam should be
-  played as regular taorluaths and crunluaths in the plain variations }
+  \markup {
+    The \txtaoram and \txcrunam should be
+    played as regular taorluaths and crunluaths in the plain variations
+  }
 
-  %%% END SKIP
+%%% END SKIP
 }

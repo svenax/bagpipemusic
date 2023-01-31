@@ -14,7 +14,7 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
     arranger = "As played by Allan MacDonald"
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -39,9 +39,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       \grg e4 \dare f \grg e c16[ \grip c8.]
       \grg d4 \dare f \grg e c16[ \grip c8.]
       \grg c4 \gre a8 \grd c \grg b4 \gre G8 \grd b8
-      \bar "||"
+      \section
       \repeat percent 4 { \oldbirl }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -50,8 +50,8 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
 
   }
 
-  %%% START SKIP
-  % ---------------------------------------------------------------------------
+%%% START SKIP
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -76,9 +76,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       \grg e4 \dare f \grg e c16[ \grip c8.]
       \grg d4 \dare f \grg e c16[ \grip c8.]
       \grg c4 \gre a8 \grd c \grg b4 \gre G8 \grd b8
-      \bar "||"
+      \section
       \repeat percent 4 { \oldbirl }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -87,7 +87,7 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -112,9 +112,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       \grg e4 \dare f \grg e c16[ \grip c8.]
       \grg d4 \dare f \grg e c16[ \grip c8.]
       \grg c4 \gre a8 \grd c \grg b4 \gre G8 \grd b8
-      \bar "||"
+      \section
       \repeat percent 4 { \oldbirl }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -123,7 +123,7 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -148,9 +148,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       \grg e4 \dare f \grg e c16[ \grip c8.]
       \grg d4 \dare f \grg e c16[ \grip c8.]
       \grg c4 \gre a8 \grd c \grg b4 \gre G8 \grd b8
-      \bar "||"
+      \section
       \repeat percent 4 { \oldbirl }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -161,18 +161,22 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
 
   \pageBreak
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
-  \markup { \fill-line { \center-column {
-    \huge \larger \bold
+  \markup {
     \fill-line {
-      \larger "March of the Kings of Laois"
+      \center-column {
+        \huge \larger \bold
+        \fill-line {
+          \larger "March of the Kings of Laois"
+        }
+        \fill-line {
+          \large \smaller \bold
+          \larger "Máirseáil Rí Laoise"
+        }
+      }
     }
-    \fill-line {
-      \large \smaller \bold
-      \larger "Máirseáil Rí Laoise"
-    }
-  }}}
+  }
 
   \score {
 
@@ -191,9 +195,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
       \dble e2 \gra e4 d8 c
       \dblb b4 g16 d8. \grg b4 \gre G16 \grd b8.
       \thrwd d4 g16 d8. \grg b4 \gre G16 \grd b8.
-      \bar "||"
+      \section
       \repeat percent 4 { \grg a8.[ \taor a16] }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -202,7 +206,7 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -223,9 +227,9 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
 
       \dblb b4 g16 d8. \grg b4 \gre G16 \grd b8.
       \thrwd d4 g16 d8. \grg b4 \gre G16 \grd b8.
-      \bar "||"
+      \section
       \repeat percent 4 { \grg a8.[ \taor a16] }
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -239,7 +243,7 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
     \justify {
       This is a combination of two tunes, first the piobaireachd as written
       in manuscript
-      \with-url #"http://www.altpibroch.com/PrimarySources/271-K1_49-Lament_for_Duncan_MacRae_of_Kintail.pdf" "K1.49: 112"
+      \with-url "http://www.altpibroch.com/PrimarySources/271-K1_49-Lament_for_Duncan_MacRae_of_Kintail.pdf" "K1.49: 112"
       by Angus MacKay. In this manuscript, the tune ends just after the
       initial variations. It is then followed by an Irish tune “The March of
       the Kings of Laois” played in piobaireachd fashion. This tune is
@@ -248,5 +252,5 @@ oldbirl = { \grg a8 \grG a16 \grG a16 }
     }
   }
 
-  %%% END SKIP
+%%% END SKIP
 }

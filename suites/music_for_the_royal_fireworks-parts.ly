@@ -1,8 +1,9 @@
 \layout {
   \context {
     \Score
-    \revert NonMusicalPaperColumn #'line-break-permission
     \consists "Bar_number_engraver"
+    \override BarNumber.X-offset = 1
+    \override NonMusicalPaperColumn.line-break-permission = #'allow
   }
 }
 

@@ -10,8 +10,7 @@ common = {
     composer = "William Barrie"
     source = "A Lifetime of Compositions by William & James Barrie"
   }
-
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -53,7 +52,7 @@ common = {
       e4\prall d8 \grg e8 f4
       \dblA A4 a8 e4.\prall
       \grg e8 d4 ~ d4.
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -62,8 +61,8 @@ common = {
 
   }
 
-  %%% START SKIP
-  % ---------------------------------------------------------------------------
+%%% START SKIP
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -128,7 +127,7 @@ common = {
       \altBracketText "Doubling"
       a16 \grg d8. a16 \grg d8.
       \altBracketEnd
-      \bar "|." \break
+      \fine \break
     }
 
     \header {
@@ -137,7 +136,7 @@ common = {
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -205,7 +204,7 @@ common = {
       \altBracketText "Doubling"
       d_\txtaorcrun d_\txtaorcrun
       \altBracketEnd
-      \bar "|." \break
+      \fine \break
     }
 
     \header {
@@ -214,5 +213,5 @@ common = {
 
   }
 
-  %%% END SKIP
+%%% END SKIP
 }

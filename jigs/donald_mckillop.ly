@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg a8 \grd a \gre a \grg c \grd a \gre a
       \grg e8 a \grd c \grg f e \gra e
       \grg a8 \grd a \gre a \grg c \grd a \gre a
@@ -29,21 +30,21 @@
       \dblA A4. \hdblf f
       \grg e8 a \grd c \grg d b \grG b
       \break
-    }
-    \alternative {
-      {
-        \dblA A4. \hdblf f
-        \grg e8 a \grd c \grg f e \gra e
-        A8 c \grG c \grg b f e
-        \grg c8 \grd a \gre a \wbirl a4
-        \break
-      }
-      {
-        \grg a8 \grd a \gre a \grg c \grd a \gre a
-        \grg e8 a \grd c \grg f e \gra e
-        A8 c \grG c \grg b f e
-        \grg c8 \grd a \gre a \wbirl a4
-        \break
+      \alternative {
+        {
+          \dblA A4. \hdblf f
+          \grg e8 a \grd c \grg f e \gra e
+          A8 c \grG c \grg b f e
+          \grg c8 \grd a \gre a \wbirl a4
+          \break
+        }
+        {
+          \grg a8 \grd a \gre a \grg c \grd a \gre a
+          \grg e8 a \grd c \grg f e \gra e
+          A8 c \grG c \grg b f e
+          \grg c8 \grd a \gre a \wbirl a4
+          \break
+        }
       }
     }
 
@@ -72,23 +73,23 @@
       A8 e \gra e \grg f e \gra e
       \grg e8 a \grd c \grg d b \grG b
       \break
-    }
-    \alternative {
-      {
-        A8 e \gra e \grg f e \gra e
-        \grg e8 a \grd c \grg f e \gra e
-        A8 c \grG c \grg b f e
-        \grg c8 \grd a \gre a \wbirl a4
-        \break
+      \alternative {
+        {
+          A8 e \gra e \grg f e \gra e
+          \grg e8 a \grd c \grg f e \gra e
+          A8 c \grG c \grg b f e
+          \grg c8 \grd a \gre a \wbirl a4
+          \break
+        }
+        {
+          \grg a8 \grd a \gre a \grd c \gre b \grd c
+          \grg e8 a \grd c \grg f e \gra e
+          A8 c \grG c \grg b f e
+          \grg c8 \grd a \gre a \wbirl a4
+        }
       }
-      {
-        \grg a8 \grd a \gre a \grd c \gre b \grd c
-        \grg e8 a \grd c \grg f e \gra e
-        A8 c \grG c \grg b f e
-        \grg c8 \grd a \gre a \wbirl a4
-      }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \grg a8.[ b16 \grip c8] \grg c16 e8. c8
       \dblb b4. \grG a4 \dble e8
       \grg a8.[ b16 \grip c8] \grg c16 e8. A8
@@ -28,23 +29,23 @@
       \grg f16 A8. f8 \dble e4.
       \grg a8.[ b16 \grip c8] \grg c16 e8. A8
       \hdblf f4. \dble e4
-    }
-    \alternative {
-      {
-        \dblg g8
-        \break
-        \dblA A4. \hdble e4.
-        \grg f16 A8. f8 \dble e4.
-        \grg a8.[ b16 \grip c8] \grg e8. f16 \grg c8
-        \dblb b4. \grG a4
-        \break
-      }
-      {
-        \dblA A8
-        a8. \grd c16 e8 \grg e8. f16 g8
-        A8. g16 f8 \dble e4.
-        \grg a8.[ b16 \grip c8] \grg e8. f16 \grg c8
-        \dblb b4. \grG a4
+      \alternative {
+        {
+          \dblg g8
+          \break
+          \dblA A4. \hdble e4.
+          \grg f16 A8. f8 \dble e4.
+          \grg a8.[ b16 \grip c8] \grg e8. f16 \grg c8
+          \dblb b4. \grG a4
+          \break
+        }
+        {
+          \dblA A8
+          a8. \grd c16 e8 \grg e8. f16 g8
+          A8. g16 f8 \dble e4.
+          \grg a8.[ b16 \grip c8] \grg e8. f16 \grg c8
+          \dblb b4. \grG a4
+        }
       }
     }
     \break
@@ -74,26 +75,26 @@
       \hdblf f8. e16 c8 \dble e4 \dblg g8
       A4 \grip A8 e8. \grg f16 A8
       \hdblf f4. \dble e4
-    }
-    \alternative {
-      {
-        \dblg g8
-        \break
-        A4 \grip A8 \hdble e4 A8
-        \hdblf f8. e16 c8 \dble e4 \dblA A8
-        \grg a8.[ b16 \grip c8] \grg e8. f16 \grg c8
-        \dblb b4. \grG a4
-        \break
+      \alternative {
+        {
+          \dblg g8
+          \break
+          A4 \grip A8 \hdble e4 A8
+          \hdblf f8. e16 c8 \dble e4 \dblA A8
+          \grg a8.[ b16 \grip c8] \grg e8. f16 \grg c8
+          \dblb b4. \grG a4
+          \break
+        }
+        {
+          A8
+          a8. \grd c16 e8 \grg e8. f16 g8
+          A8. g16 f8 \dble e4.
+          \grg a8.[ b16 \grip c8] \grg e8. f16 \grg c8
+          \dblb b4. \grG a4
+        }
       }
-      {
-        A8
-        a8. \grd c16 e8 \grg e8. f16 g8
-        A8. g16 f8 \dble e4.
-        \grg a8.[ b16 \grip c8] \grg e8. f16 \grg c8
-        \dblb b4. \grG a4
-      }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

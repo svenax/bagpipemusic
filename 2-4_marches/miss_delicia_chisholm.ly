@@ -7,8 +7,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 f8
+      f8
       \grg a8. \grd b16 \dbla a8 \grd G
       \Gthrwd d8. e16 \grg f4
       \dblf f8[ \birl a] \thrwd d f
@@ -29,23 +30,23 @@
       \grg a[ \thrwd d] \grg f4
       \dblf f8[ \birl a] \thrwd d f
       A16. f32 \grg e16. d32
-    }
-    \alternative{
-      {
-        \dble e8 \grg f16. g32
-        \break
-        \dblA A8. g16 \grA f8[ \thrwd d]
-        \grg a[ \thrwd d] \grg f4
-        \dblf f8[ \birl a] \grg f32 A16. e f32
-        \thrwd d4 \slurd d8
-        \break
-      }
-      {
-        \dble \partial 4 e8 f
-        \grg a8. \grd b16 \dbla a8 \grd G
-        \Gthrwd d8. e16 \grg f4
-        \dblf f8[ \birl a] \grg f32 A16. e f32
-        \thrwd d4 \slurd d8
+      \alternative{
+        {
+          \dble e8 \grg f16. g32
+          \break
+          \dblA A8. g16 \grA f8[ \thrwd d]
+          \grg a[ \thrwd d] \grg f4
+          \dblf f8[ \birl a] \grg f32 A16. e f32
+          \thrwd d4 \slurd d8
+          \break
+        }
+        {
+          \dble e8 f
+          \grg a8. \grd b16 \dbla a8 \grd G
+          \Gthrwd d8. e16 \grg f4
+          \dblf f8[ \birl a] \grg f32 A16. e f32
+          \thrwd d4 \slurd d8
+        }
       }
     }
     \break
@@ -74,26 +75,26 @@
       \grA f8[ \thrwd d] \dblA A8. g16
       \hdblf f8[ \birl a] \thrwd d f
       A16. f32 \grg e16. d32
-    }
-    \alternative{
-      {
-        \dble e8 \grg f16. g32
-        \break
-        \dblA A4 \grip A8. g16
-        \grA f8[ \thrwd d8] \dblA A8. g16
-        \hdblf f8[ \birl a] \grg f32 A16. e f32
-        \thrwd d4 \slurd d8
-        \break
+      \alternative{
+        {
+          \dble e8 \grg f16. g32
+          \break
+          \dblA A4 \grip A8. g16
+          \grA f8[ \thrwd d8] \dblA A8. g16
+          \hdblf f8[ \birl a] \grg f32 A16. e f32
+          \thrwd d4 \slurd d8
+          \break
+        }
+        {
+          \dble e8 f
+          \grg a8. b16 \thrwd d8 \gre a
+          \dblb b \grG a \grg f4
+          \dblf f8[ \birl a] \grg f32 A16. e f32
+          \thrwd d4 \slurd d8
+        }
       }
-      {
-        \dble \partial 4 e8 f
-        \grg a8. b16 \thrwd d8 \gre a
-        \dblb b \grG a \grg f4
-        \dblf f8[ \birl a] \grg f32 A16. e f32
-        \thrwd d4 \slurd d8
-      }
     }
-    \bar "|."
+    \fine
 
   }
 

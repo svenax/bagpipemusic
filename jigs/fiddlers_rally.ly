@@ -8,7 +8,8 @@
 
     % Part 1
 
-    \dblA \partial 8 A8
+    \partial 8
+    \dblA A8
     a d \grG d \grg d f \gre f
     \grg f A \grg A \grg A f A
     f A \grg A f A f
@@ -27,7 +28,7 @@
     \grg e f \gre f \dblg g4 f8
     \grA g f g \grA e g c
     \dble e d c \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -50,7 +51,7 @@
     \grg e f \gre f \dblg g4 f8
     \grA g f g \grA e g c
     \dble e d c \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -73,7 +74,7 @@
     \grg e f \gre f \dblg g4 f8
     \grA g f g \grA e g c
     \dble e d c \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -96,7 +97,7 @@
     \grg e f \gre f \dblg g4 f8
     \grA g f g \grA e g c
     \dble e d c \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 5
 
@@ -119,7 +120,7 @@
     \grg e f \gre f \dblg g4 f8
     \grA g f g \grA e g c
     \dble e d c \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 6
 
@@ -144,7 +145,7 @@
     \grg e f \gre f \dblg g4 f8
     \grA g f g \grA e g c
     \dble e d c \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 7
 
@@ -167,7 +168,7 @@
     \grg e f \gre f \dblg g4 f8
     \grA g f g \grA e g c
     \dble e d c \thrwd d4
-    \bar "||" \break
+    \section \break
 
     % Part 8
 
@@ -191,10 +192,9 @@
     \grA g f g \grA e g c
     \grA g f g \grA e g c
     \grA g f g \grA e g c
-    \override Glissando #'style = #'zigzag
     \dble e d c \grg c4. \glissando
     d4. ~ d4
-    \bar "|."
+    \fine
   }
 
   \header {

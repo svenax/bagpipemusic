@@ -4,15 +4,14 @@ common = {
   \quarterBeaming
 }
 
-grR = \grace { R32 }
-
 musicA = {
   \common
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
-    \grg \partial 8 d16 e
+    \grg d16 e
     \grg f8 \grg f16 A g A f d
     \grg G16 \grd b \grG b G \grg b d \grg b G
     \grg a16 \grd a \gre a \grd b \grg b d \grG d e
@@ -33,23 +32,23 @@ musicA = {
     \grg a16 \grd c \grG c a \grg c e \grg c \grd a
     \grg b16 d \grG d e \grg f A \grg A g
     \grg f16[ A g A] \hdble e8[
-  }
-  \alternative {
-    {
-      \grg f16 d]
-      \break
-      \grg G16 \grd b \grG b G \grg b d \grG d b
-      \grg a16 \grd c \grG c a \grg c e \gra e g
-      A16 d \grg f d \grA g e \grg a \grd c
-      \grg e16 g \grA e c \thrwd d8
-      \break
-    }
-    {
-      \grg f16 g
-      A16 f \grg d A f d A f
-      \grA g16 e \grg c g \grA e c \grA g e
-      A16 d \grg f d \grA g e \grg a \grd c
-      \grg e16 g \grA e c \thrwd d8.
+    \alternative {
+      {
+        \grg f16 d]
+        \break
+        \grg G16 \grd b \grG b G \grg b d \grG d b
+        \grg a16 \grd c \grG c a \grg c e \gra e g
+        A16 d \grg f d \grA g e \grg a \grd c
+        \grg e16 g \grA e c \thrwd d8
+        \break
+      }
+      {
+        \grg f16 g
+        A16 f \grg d A f d A f
+        \grA g16 e \grg c g \grA e c \grA g e
+        A16 d \grg f d \grA g e \grg a \grd c
+        \grg e16 g \grA e c \thrwd d8.
+      }
     }
   }
   \break
@@ -92,7 +91,7 @@ musicA = {
   \grg d16 f \grg b d \grg e c \grA g e
   A16 d \grg f d \grA g e \grg a \grd c
   \grg e16 g \grA e c \thrwd d4
-  \bar "||"
+  \section
   \pageBreak
 
   % Part 5
@@ -116,7 +115,7 @@ musicA = {
   \grg e16 c \grA g e \grg c g \grA e c
   A16 d \grg f d \grA g e \grg a \grd c
   \time 5/4 \grg e16 g \grA e c \thrwd d2 ~ d2
-  \bar "||" \break
+  \section \break
 
   % Part 6
 
@@ -126,25 +125,25 @@ musicA = {
     \grg c16 A \grg A e A g A c
     \grg b16 g \grf g d \grA g f g b
     \grg c16 A \grg A g \tdble e8[
-  }
-  \alternative {
-    {
-      d16 e]
-      \break
-      \grg f16 A \grg A e A \grg A d A
-      c16 A \grg A b A \grg A a A
-      \grg A16 d \grg f d \grA g e a \grd c
-      \grg e16 g \grA e c \thrwd d8.[ e16]
-      \break
+    \alternative {
+      {
+        d16 e]
+        \break
+        \grg f16 A \grg A e A \grg A d A
+        c16 A \grg A b A \grg A a A
+        \grg A16 d \grg f d \grA g e a \grd c
+        \grg e16 g \grA e c \thrwd d8.[ e16]
+        \break
+      }
+      {
+        f16 d
+        \grg b16 \grd G \grg d b \grg c \grd a \grg e c
+        \grg d16 f \grg b d \grg e c \grA g e
+        A16 d \grg f d \grA g e \grg a \grd c \thrwd d8
+      }
     }
-    {
-      f16
-      \grg b16 \grd G \grg d b \grg c \grd a \grg e c
-      \grg d16 f \grg b d \grg e c \grA g e
-      A16 d \grg f d \grA g e \grg a \grd c \thrwd d8
-    }
   }
-  \bar "|."
+  \fine
 }
 
 musicB = {
@@ -152,8 +151,9 @@ musicB = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
-    \grR \partial 8 R8
+    \grs1 R8
     R1*2/4*7 R1*3/8
   }
   \break
@@ -161,22 +161,22 @@ musicB = {
   % Part 2
 
   \repeat volta 2 {
-    \grR R8
+    \grs1 R8
     R1*2/4*3 R1*3/8
-  }
-  \alternative {
-    {
-      \grR R8
-      \break
-      R1*2/4*3 R1*3/8
-      \break
+    \alternative {
+      {
+        \grs1 R8
+        \break
+        \grs1 R1*2/4*3 R1*3/8
+        \break
+      }
+      {
+        \grs1 R8
+        R1*2/4*3 R1*7/16
+      }
     }
-    {
-      \grR R8
-      R1*2/4*3 R1*7/16
-    }
   }
-  \bar "||" \break
+  \section \break
 
   % Part 3
 
@@ -188,17 +188,19 @@ musicB = {
 
   % Part 4
 
-  \grR R8
+  \grs1 R8
   R1*2/4*16
   \pageBreak
 
   % Part 5
 
+  \grs3
   <f d>2 ~
   <f d>2
   <e c>2 ~
   <e c>2
   \break
+  \grs5
   <d b>2 ~
   <d b>
   A16 d \grg f d \grA g e \grg a \grd c
@@ -213,7 +215,7 @@ musicB = {
   \grg e16 c \grA g e \grg c g \grA e c
   A16 d \grg f d \grA g e \grg a \grd c
   \time 5/4 \grg e16 g \grA e c g4 e4 f2
-  \bar "||" \break
+  \section \break
 
   % Part 6
 
@@ -223,25 +225,25 @@ musicB = {
     \grg c16 A \grg A e A g A c
     \grg b16 g \grf g d \grA g f g b
     \grg c16 A \grg A g \tdble e8[
-  }
-  \alternative {
-    {
-      d16 e]
-      \break
-      d16 A \grg A c A \grg A b A
-      a16 A \grg A G A \grg A c A
-      \grg A16 d \grg f d \grA g e \grg a \grd c
-      \grg e16 g \grA e c \thrwd d8.[ e16]
-      \break
+    \alternative {
+      {
+        d16 e]
+        \break
+        \grg d16 A \grg A c A \grg A b A
+        a16 A \grg A G A \grg A c A
+        \grg A16 d \grg f d \grA g e \grg a \grd c
+        \grg e16 g \grA e c \thrwd d8.[ e16]
+        \break
+      }
+      {
+        f16 d
+        \grg b16 \grd G \grg d b \grg c \grd a \grg e c
+        \grg d16 f \grg b d \grg e c \grA g e
+        A16 d \grg f d \grA g e \grg a \grd c \thrwd d8
+      }
     }
-    {
-      f16
-      \grg b16 \grd G \grg d b \grg c \grd a \grg e c
-      \grg d16 f \grg b d \grg e c \grA g e
-      A16 d \grg f d \grA g e \grg a \grd c \thrwd d8
-    }
   }
-  \bar "|."
+  \fine
 }
 
 \score {

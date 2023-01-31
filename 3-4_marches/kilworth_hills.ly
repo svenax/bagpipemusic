@@ -24,7 +24,7 @@ musicA = {
   % Part 2
 
   \repeat volta 2  {
-    \grace { s32 s g } f8. e16 \grg f4. \dblg g8
+    \grs2 \grg f8. e16 \grg f4. \dblg g8
     \dblA A8. f16 \dble e4 \grd c4
     \dbld d8. c16 \grG a4. \grd c8
     \dble e8. c16 \slurb b2
@@ -107,7 +107,7 @@ musicB = {
     \grg a8. b16 \grip c4. \gre a8
     \dblc c4 \slurb b2
     \break
-    \grg b8. c16 \thrwd d4 \grG d4
+    \grs2 \grg b8. c16 \thrwd d4 \grG d4
     \gre c4 \dblb b4 \grG a4
     \gbirl a4 \dblc c4. b8
     \dblb b16 \gre a8. \gbirl a2
@@ -117,12 +117,12 @@ musicB = {
   % Part 4
 
   \repeat volta 2 {
-    \grace { s32 g } f8. e16 \thrwd d4. e8
+    \grs1 \grg f8. e16 \thrwd d4. e8
     \grg f8. d16 \dblc c4 \gre a4
     \dbld d8. c16 \grG a4. d8
     \dblc c8. \gre a16 \slurb b2
     \break
-    \grg a8. b16 \grip c4. \gre a8
+    \grs2 \grg a8. b16 \grip c4. \gre a8
     \grg c8. d16 \dblc c4 \gre a4
     \gbirl a4 \dblc c4. b8
     \dblb b16 \gre a8. \gbirl a2

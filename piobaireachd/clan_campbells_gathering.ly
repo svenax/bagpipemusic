@@ -27,7 +27,7 @@
     \hcad a4 \dre e4. a8 \grd G4
     \cad b4 \grip e2 d4
     \cad b4 \dre e4. a8 \grd G4
-    \bar "|."
+    \fine
   }
 
   \header {

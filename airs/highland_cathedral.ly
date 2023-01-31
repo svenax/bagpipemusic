@@ -28,7 +28,7 @@
       \grg f4. c8 \dblc c4. \gre b8
       \grG a4. b16 c \dblb b4. \grG a8
       \grg a2 \wbirl a2
-      \bar "||"
+      \section
       \grg a4 \wbirl a \grg a \wbirl a
       \markDCalFine
     }

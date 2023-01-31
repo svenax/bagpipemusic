@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 a8
+    \partial 8
+    a8
     \thrwd d8. f16 \grg \times 2/3 {e8 d c} \thrwd d4 \gre a8. b16
     \thrwd d4 \dblA A8. g16 \hdblf f8. e16 \thrwd d8. f16
     \grg \times 2/3 {e8 f g} \grA \times 2/3 {f g A} a8. b16 \thrwd d8. e16
@@ -16,7 +17,7 @@
     \thrwd d4 \dblA A8. g16 \hdblf f8. e16 \thrwd d8. f16
     \grg \times 2/3 {e8 f g} \grA \times 2/3 {f g A} a8. b16 \thrwd d8. e16
     \grg \times 2/3 {f8 A g} \tdblf f8. e16 \grg f8. d16 \slurd d8
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +31,7 @@
     \grg a8. d16 \dblf f8. d16 \grg \times 2/3 {f8 A g} \tdblf f8. d16
     \grg \times 2/3 {e8 f g} \grA \times 2/3 {f8 g A} \times 2/3 {g8 f e} \dblA A8. e16
     \grg f16 A8. \times 2/3 {g8 f e} \grg f8. d16 \slurd d8
-    \bar "||" \break
+    \section \break
 
     % Part 3
     a8
@@ -43,7 +44,7 @@
     \dblf f8. A16 \times 2/3 {g8 f e} \dblf f8. d16 \dblf f4
     \grg \times 2/3 {e8 f g} \grA \times 2/3 {f8 g A} \times 2/3 {g8 f e} \dblA A8. e16
     \grg \times 2/3 {f8 A g} \tdblf f8. e16 \grg f8. d16 \slurd d8
-     \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -57,7 +58,7 @@
     \grg a8. d16 \dblf f8. d16 \grg \times 2/3 {f8 A g} \tdblf f8. d16
     \grg \times 2/3 {e8 f g} \grA \times 2/3 {f8 g A} \times 2/3 {g8 f e} \dblA A8. e16
     \grg \times 2/3 {f8 A g} \tdblf f8. e16 \grg f8. d16 \slurd d8
-    \bar "|."
+    \fine
   }
 
   \header {

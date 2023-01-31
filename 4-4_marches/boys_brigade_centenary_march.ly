@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 e8
+    \partial 8
+    e8
     \grg c8. d16 \gre b8 c \grG a4 \grd c8 e
     \dblA A8. f16 \grg e8 c \dble e4 \gra e
     \grg c8. d16 \gre b8 c \grG a4 \grd c8 e
@@ -16,7 +17,7 @@
     \dblA A8. f16 \grg e8 c \dble e4 \grg f8. g16
     \dblA A8. e16 \grg f8 A \hdble e c \dblb b e
     \dblc c4 \gre a \wbirl a4.
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +31,7 @@
     \grg c16 e8. \grg f8 A \hdble e4 \grg f8. g16
     \dblA A8. e16 \grg f8 A \hdble e c \dblb b e
     \dblc c4 \gre a \wbirl a2
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -43,7 +44,7 @@
     \grg f16 A8. \thrwd d8 f \dble e4 \grg f8. g16
     \dblA A8. e16 \grg f8 A \hdble e c \dblb b e
     \dblc c4 \gre a \wbirl a4.
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -57,7 +58,7 @@
     \grg a4 \taor a8 \grd c \dble e4 \grg f8. g16
     \dblA A8. e16 \grg f8 A \hdble e c \dblb b e
     \dblc c4 \gre a \wbirl a4.
-    \bar "|."
+    \fine
   }
 
   \header {

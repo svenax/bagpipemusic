@@ -7,8 +7,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \dble \partial 8 e8
+      \dble e8
       \grg a16. b32 \grg c32 \grd a16. \grg c32 e16. \grg a16. \grd b32
       \grg c8[ \taor c16. e32] \dblf f8 A16. f32
       \dble e8 A16. e32 \dblc c8 \gre a16. \grd c32

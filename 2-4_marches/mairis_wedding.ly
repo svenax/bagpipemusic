@@ -31,7 +31,7 @@
     \grip A8. g16 \tdblf f4
     \dble e8 d \grg b \gre G
     \grg a4 \wbirl a
-    \bar "||" \break
+    \section \break
     \grg f8 A \grg A4
     \grip A8. g16 \tdblf f4
     \dble e8 d \grg b d
@@ -41,7 +41,7 @@
     \thrwd d8 e \dblf f4
     \dble e8 d \grg b \gre G
     \grg a4 \wbirl a
-    \bar "|."
+    \fine
   }
 
   \header {

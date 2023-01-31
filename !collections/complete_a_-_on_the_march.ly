@@ -1,19 +1,11 @@
 \header {
-    title = "Repertoire A"
-    dedication = "On the march"
-}
-
-\layout {
-    \context {
-        \Score
-        \autoPageBreaksOff
-    }
+  title = "Repertoire A"
+  dedication = "On the march"
 }
 
 \markuplist \table-of-contents
 
 \pageBreak
-
 \tocSubhead "2/4 Marches 1"
 
 \tocItem \markup "Corriechoillie’s 43rd Welcome to the Northern Meeting"

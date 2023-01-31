@@ -5,7 +5,8 @@
     \time 2/4
     \quarterBeaming
 
-    \grg \partial 8 a8
+    \partial 8
+    \grg a8
     \wbirl a8 f \grg e d
     \grg a4. \grg a8
     \wbirl a8 f \grg e d
@@ -26,7 +27,7 @@
     A8. \grg A16 \grg A8 g
     A8 g \grA f e
     \thrwd d2
-    \bar "||" \break
+    \section \break
 
     \grg f8 \gre f \grg f4
     \grg f8 \gre f \grg f4
@@ -48,10 +49,10 @@
     g8 f \gre f8. \grg f16
     A8 \grg A g e
     \thrwd d2
-    \bar "||" \break
+    \section \break
 
 
-    \bar "|."
+    \fine
   }
 
   \header {

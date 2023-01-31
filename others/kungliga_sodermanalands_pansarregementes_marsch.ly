@@ -6,8 +6,8 @@
 
     % Part 1
 
-      \grg a4 \grd c8. e16 \dblA A8 g \grA f e
-      \dbld d8 c \grg b \grG a b \grg e16 \grf e \gra e8 \grg e
+    \grg a4 \grd c8. e16 \dblA A8 g \grA f e
+    \dbld d8 c \grg b \grG a b \grg e16 \grf e \gra e8 \grg e
 
     % Part 2
 
@@ -37,12 +37,11 @@
       b8 g \grA f e \grg e d \dblc c b
       \grg b16 a G a \grg f8. e16 \thrwd d8 \grg d16 \gre d \grG d4
     }
-    \break
+    \break \section \sectionLabel "Trio"
 
     % Part 4
 
     \repeat volta 2 {
-      \markText "Trio"
       \dblA A2 f4 d
       \grG a2 ~ a8 \grg a d8. f16
       \dblA A2 f4 A
@@ -61,7 +60,7 @@
       \grg a2 \wbirl a8 d \grg f A
       \grf g4 e \dblc c \grd a
       \thrwd d4 \grg a8. \grd a16 d2
-      \markTextEol "Da capo"
+      \textEndMark "Da capo"
     }
 
   }

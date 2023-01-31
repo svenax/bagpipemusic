@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 A8
+    \partial 8
+    A8
     e8. f16 \dble e8. d16 \dbld d16 c8. \grip c8. b16
     \grg a8. b16 \dblc c16 \gre a8. \grg c16 e8. \gra e4
     \grg f8. g16 \tdblf f8. e16 \grg f16 A8. \grg A8. f16
@@ -16,7 +17,7 @@
     \grg a8. b16 \dblc c16 \gre a8. \grg c16 e8. \gra e8. f16
     \dblA A8. e16 \grg \times 2/3 { f8 g A } \hdble e8. A16 \thrwd d16 A8.
     \hdblc c8. A16 \hdblb b16 A8. a4 \taor a8
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +31,7 @@
     \grg a8. b16 \dblc c16 \gre a8. \grg c16 e8. \dblc c16 \gre a8.
     \dblA A8. e16 \grg \times 2/3 { f8 g A } \hdble e8. A16 \thrwd d16 A8.
     \hdblc c8. A16 \hdblb b16 A8. a4 \taor a8
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -44,7 +45,7 @@
     \dblc c16 \gre a8. \gbirl a4 \grg c16 e8. \gra e8. f16
     \dblA A8. e16 \grg \times 2/3 { f8 g A } \hdble e8. A16 \thrwd d16 A8.
     \hdblc c8. A16 \hdblb b16 A8. a4 \taor a8
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -58,7 +59,7 @@
     \grg a8. b16 \dblc c16 \gre a8. \grg c16 e8. \gra e8. f16
     \dblA A8. e16 \grg \times 2/3 { f8 g A } \hdble e8. A16 \thrwd d16 A8.
     \hdblc c8. A16 \hdblb b16 A8. a4 \taor a8
-    \bar "|."
+    \fine
   }
 
   \header {

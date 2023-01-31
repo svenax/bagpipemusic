@@ -16,7 +16,7 @@
     \dblg g8. e16 \grg f16e d8 \grg c16 e8. \gra e8 A
     f8. d16 \shaked d4 \grg a8. d16 \grg f8. d16
     A f d8 g16 e c8 \thrwd d4 \slurd d8
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \dblg g8. e16 \grg f16e d8 \grg c16 e8. \gra e8 f
     \tdblb b16 \gre G8. \grg b16c d8 \dblc c16\gre a8. \grg e16 f g8
     A16 f d8 g16 e c8 \thrwd d4 \slurd d8
-    \bar "|."
+    \fine
   }
 
   \header {

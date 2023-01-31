@@ -48,7 +48,7 @@
     \hdble e8. f16 \gbirl a4 \dblc c16 \gre b8. \grg c16[ \grip e8.]
     \dblA A8. f16 \dble e8. f16 \catchc c4 \grg \tuplet 3/2 {e8 c \grG a}
     \grg \tuplet 3/2 {f8 e c} \tuplet 3/2 {A8 e c} \dble e8. a16 \dblc c16 \gre b8.
-    \bar "|."
+    \fine
   }
 
   \header {

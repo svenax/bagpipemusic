@@ -16,12 +16,8 @@
       \grg e b \grG b \grg d e f
       \grA g f e \grg f e d
       \grg e[ d b]
-    }
-    \alternative {
-      { \grg a b d }
-      {
-        \barLength 3 8
-        \grg a[ \grd b \gre a]
+      \alternative {
+        { \grg a b d } { \grg a[ \grd b \gre a] }
       }
     }
     \break
@@ -29,7 +25,6 @@
     % Part 2
 
     \repeat volta 2 {
-      \barLength 6 8
       A8 f d \grg e d b
       \grg a b d \grg c \grd c \gre c
       \grg b \grd c \gre c \grg b \grd c \gre c
@@ -57,11 +52,9 @@
       \time 7/8
       \grA g[ f \grg f e] \grg f[ e d]
       \grg e[ d \grg d b]
-    }
-    \alternative {
-      { \grg a[ b d] }
-      {
-        \grg a[ \grd b \gre a]
+      \alternative {
+        { \grg a[ b d] }
+        { \grg a[ \grd b \gre a] }
       }
     }
     \break
@@ -69,7 +62,6 @@
     % Part 4
 
     \repeat volta 2 {
-      \barLength 7 8
       A8[ f d] \grg e[ d \grg d b]
       \time 6/8
       \grg a b d \dblc c4.

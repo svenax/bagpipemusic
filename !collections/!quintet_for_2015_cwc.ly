@@ -1,5 +1,5 @@
 \header {
-    title = "2015 Quintet for Copenhagen Winter Competition"
+  title = "2015 Quintet for Copenhagen Winter Competition"
 }
 
 % \markup \fill-line {\center-column {
@@ -24,7 +24,7 @@
       \barLength 2 4
       A16. f32 \grg d16. b32 \grg e16. d32 \grg c16. b32
       \dblc c8 \gre a \wbirl a
-      \bar "|."
+      \fine
     }
     \new Staff {
       \bagpipeKey
@@ -36,7 +36,7 @@
       \barLength 2 4
       f16. d32 \grg b16. d32 \grg c16. b32 \grg a16. f32
       \dble e8 \grg c \grip c
-      \bar "|."
+      \fine
     }
   >>
   \header { title = "" }
@@ -61,9 +61,12 @@
 \pageBreak
 \include "airs/banks_of_lochiel.ly"
 
-\markuplist{\wordwrap{Start the tune in slow air tempo, and hold the last quaver
-  of the first two bars an extra beat. Got to strathspey tempo after finishing the first line,
-  and play the complete tune from here (so, the first line twice).}
+\markuplist{
+  \wordwrap{
+    Start the tune in slow air tempo, and hold the last quaver
+    of the first two bars an extra beat. Got to strathspey tempo after finishing the first line,
+    and play the complete tune from here (so, the first line twice).
+  }
   \vspace #1
 }
 
@@ -73,4 +76,3 @@
 \pageBreak
 \include "reels/macleods_reel.ly"
 \include "jigs/hammer_on_the_anvil.ly"
-

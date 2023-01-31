@@ -8,8 +8,9 @@ musicA = {
   \common
 
   % Part 1
+  \partial 4
   \repeat volta 2 {
-    \partial 4 A8. e16
+    A8. e16
     \grg f4. A16 f \grg e8 f
     e16 \grg d ~ d4. \slurd d8 a
     \dblb b4. G8 \grg a8. \grd b16
@@ -63,26 +64,27 @@ musicA = {
     \dble e4. b8 \grg e g
     f16 \grg e ~ e4. \thrwd d8 b
     \dblc c4. a8 \grg b8. c16
+    \alternative {
+      { \thrwd d4. a8 }
+      { \thrwd d2 }
+    }
   }
-  \alternative {
-    { \thrwd d4. a8 }
-    { \thrwd d2 }
-  }
-  \bar "|."
+  \fine
 }
 
 musicB = {
   \common
 
   % Part 1
+  \partial 4
   \repeat volta 2 {
-    \partial 4 a8. c16
+    a8. c16
     \grg d4 a8 f16 d \grg c8 d
     \grg c16 \grd a ~ a4 G8 \grg b c
     \grg G4 d8 b \grg c4|
     \thrwd d4 \gre c d
     \break
-    \grg c4 a8 G \grg c e
+    \grs2 \grg c4 a8 G \grg c e
     d16 \grg c ~ c4 a8 \grd c G
     \grg a4 e8 c \grg d8. e16
     \grg a4 \thrwd d
@@ -97,7 +99,7 @@ musicB = {
     \grg a4. b8 \grg d16 f8.
     \dble e4. c8 \grg d8. e16
     \break
-    \grg f4. c8 \grg a \grd c
+    \grs1 \grg f4. c8 \grg a \grd c
     \grg e4 c8 d \grg G16 \grd b8.
     \thrwd d4 a8 e b a
     \grg a4 \thrwd d
@@ -112,7 +114,7 @@ musicB = {
     \dblb b4. a8 \grg b16 d8.
     \dble e4. c8 \grg d8. e16
     \break
-    \grg f4. c8 \grg a \grd c
+    \grs1 \grg f4. c8 \grg a \grd c
     \grg e4 c8 d \grg G16 \grd b8.
     \thrwd d4 a8 e b a
     \grg a4 \thrwd d
@@ -127,15 +129,15 @@ musicB = {
     \grf g8 b \grG a d \grg e16 d c8
     \grg G4 b8 c \grg b16 d8.
     \break
-    \grg c4 a8 G \grg c e
+    \grs2 \grg c4 a8 G \grg c e
     d16 \grg c ~ c4 a8 \grd b G
     \grg a4 e8 c \grg d8. e16
+    \alternative {
+      { \grs2 \grg a4. e8 }
+      { \grs2 \grg a2 }
+    }
   }
-  \alternative {
-    { \pgrace{s16 g32} a4. e8 }
-    { \pgrace{s16 g32} a2 }
-  }
-  \bar "|."
+  \fine
 }
 
 \score {

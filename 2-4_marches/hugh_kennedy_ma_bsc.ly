@@ -7,8 +7,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \grg \partial 8 e16. c32
+      \grg e16. c32
       \grg a8[ \taor a16. b32] \dblc c8 \gre a16. \grd c32
       \dble e8 \grg c32 e16. A16.[ e32 \dblc c8]
       \thrwd d8 \gre G16. \grd b32 \dblg g8 \grA b32 d16.
@@ -30,22 +31,20 @@
       \thrwd d8 \gre G16. \grd b32 \grA g16. d32 \grg b32 d16.
       \grg e32 g16. \grA b32 d16. \dble e16. a32 \grg b32 \grd G16.
       \break
-    }
-    \alternative {
-      {
-        \dble e8 \grg a16. \grd c32 A16. e32 \grg c16. d32
-        \dble e8 \grg a16. \grd c32 \grg f16.[ e32 \dblc c8]
-        \grg e32 g16. \grA c32 d16. \grg G16. \grd b32 \grg f16. e32
-        \barLength 3 8
-        \dblc c8 \gre a \wbirl a8
-        \break
-      }
-      {
-        \barLength 2 4
-        \grg a8[ \taor a16. b32] \dblc c8 \gre a16. \grd c32
-        \dble e8 \grg c32 e16. A16.[ e32 \dblc c8]
-        \grg e32 g16. \grA c32 d16. \grg G16. \grd b32 \grg f16. e32
-        \dblc c8 \gre a \wbirl a
+      \alternative {
+        {
+          \dble e8 \grg a16. \grd c32 A16. e32 \grg c16. d32
+          \dble e8 \grg a16. \grd c32 \grg f16.[ e32 \dblc c8]
+          \grg e32 g16. \grA c32 d16. \grg G16. \grd b32 \grg f16. e32
+          \dblc c8 \gre a \wbirl a8
+          \break
+        }
+        {
+          \grg a8[ \taor a16. b32] \dblc c8 \gre a16. \grd c32
+          \dble e8 \grg c32 e16. A16.[ e32 \dblc c8]
+          \grg e32 g16. \grA c32 d16. \grg G16. \grd b32 \grg f16. e32
+          \dblc c8 \gre a \wbirl a
+        }
       }
     }
     \break
@@ -75,25 +74,23 @@
       \grA g16. d32 \grg b32 d16. \dble e16. d32 \grg b32 d16.
       \grg e32 g16. \grA b32 d16. \dble e16. a32 \grg b32 \grd G16.
       \break
-    }
-    \alternative {
-      {
-        A16. e32 \grg c32 e16. \dblf f16. e32 \grg c32 e16.
-        \grg a16. e32 \grg c32 e16. A16.[ e32 \dblc c8]
-        \grg e32 g16. \grA c32 d16. \grg G16. \grd b32 \grg f16. e32
-        \barLength 3 8
-        \dblc c8 \gre a \wbirl a8
-        \break
-      }
-      {
-        \barLength 2 4
-        \grg a16.[ b32 \dblc c8] \grg a16.[ c32 \dble e16. c32]
-        \dblA A8 e16. f32 \grA g16.[ e32 \dblc c8]
-        \grg e32 g16. \grA c32 d16. \grg G16. \grd b32 \grg f16. e32
-        \dblc c8 \gre a \wbirl a
+      \alternative {
+        {
+          A16. e32 \grg c32 e16. \dblf f16. e32 \grg c32 e16.
+          \grg a16. e32 \grg c32 e16. A16.[ e32 \dblc c8]
+          \grg e32 g16. \grA c32 d16. \grg G16. \grd b32 \grg f16. e32
+          \dblc c8 \gre a \wbirl a8
+          \break
+        }
+        {
+          \grg a16.[ b32 \dblc c8] \grg a16.[ c32 \dble e16. c32]
+          \dblA A8 e16. f32 \grA g16.[ e32 \dblc c8]
+          \grg e32 g16. \grA c32 d16. \grg G16. \grd b32 \grg f16. e32
+          \dblc c8 \gre a \wbirl a
+        }
       }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

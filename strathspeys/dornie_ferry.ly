@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 16
     \repeat volta 2 {
-      \partial 16 e16
+      e16
       \grg a4 \taor a8. b16 \dble e8. d16 \grg \times 2/3 {e8 f g}
       \grA b16 \grd G8. \Gthrwd d8. G16 \dblb b8. \grg a16 \grd G8. \grd b16
       \grg a4 \taor a8. b16 \dble e8. d16 \grg \times 2/3 {b8 c d}
@@ -52,7 +53,7 @@
     \thrwd d8. e16 \dblg g8. e16 \dblA A4 \times 2/3 {e8 f g}
     \dblA A8. f16 \grg \times 2/3 {e8 f g} \dble e8. d16 \grg \times 2/3 {b8 c d}
     \grg b16 \grd G8. \dblg g8. d16 \dble e4 \birl a8.
-    \bar "|."
+    \fine
   }
 
   \header {

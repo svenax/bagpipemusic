@@ -7,8 +7,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \dblA \partial 8 A8
+      \dblA A8
       \grg \times 4/6 { a16 \grd c e \grg f e c} \grG a4
       \grg c32 e16. \grg a16. f32 \dble e4
       \grg \times 4/6 { a16 \grd c e \grg f e c} \dble e8 A16. e32
@@ -44,7 +45,7 @@
     \grg c32 e16. \grg a16. f32 \dble e8 \grg f16. g32
     A16. a32 \grg \times 2/3 { c16 e A } \times 4/6 { a16 \grd c e \grg f e d}
     \grg c32 e16. \grg a8 \wbirl a
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -85,7 +86,7 @@
     \times 4/6 { a16 \grd c e \grg f e c} \dble e8 \grg f16. g32
     A16. a32 \grg \times 2/3 { c16 e A } \times 4/6 { a16 \grd c e \grg f e d}
     \grg c32 e16. \grg a8 \wbirl a
-    \bar "|."
+    \fine
   }
 
   \header {

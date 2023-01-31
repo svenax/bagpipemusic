@@ -8,8 +8,9 @@ partA = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
-    \partial 8 e8
+    e8
     \dblA A8 e A e A e
     \grg f8 e d e \grg a e
     \dblA A8 e A e A e
@@ -63,23 +64,23 @@ partA = {
     \dblA A8 a A g a g
     \grA f8 a c \dblb b4 e8
     \break
-  }
-  \alternative {
-    {
-      \grg A8 c A g a g
-      \grA f8 a f \grg e a e
-      \dblA A8 a A g a g
-      \grg f8 e c \grg a \grd c s8
-      \break
+    \alternative {
+      {
+        \grg A8 c A g a g
+        \grA f8 a f \grg e a e
+        \dblA A8 a A g a g
+        \grg f8 e c \grg a \grd c s8
+        \break
+      }
+      {
+        \grg A8 e A e A e
+        \grg f8 e d e \grg a e
+        \dblA A4 e8 \grg f8 e d
+        \grg c8 \grd a \gre a \wbirl a4
+      }
     }
-    {
-      \grg A8 e A e A e
-      \grg f8 e d e \grg a e
-      \dblA A4 e8 \grg f8 e d
-      \grg c8 \grd a \gre a \wbirl a4
-    }
   }
-  \bar "|."
+  \fine
 }
 
 partB = {
@@ -87,14 +88,15 @@ partB = {
 
   % Part 1
 
+  \partial 8
   \repeat volta 2 {
-    \partial 8 e8
+    e8
     \grg c4. e
     \grg d8 c b c \grg a4
     \grg c4. e
     \dblA A4 \grg A8 ~ A8 \grf g4
     \break
-    A8 c4 \dble e4.
+    \grace s16 A8 c4 \dble e4.
     \grg d8 c b c \grg a4
     \grg c8 e c \grg d c b
     \grg a4. \wbirl a4
@@ -110,7 +112,7 @@ partB = {
     \dblA A4 e8 \grg f8 e d
     \grg c8 \grd a \gre a \grg G4 b8
     \break
-    \grg c8 \grd a \gre a \grg c8 \grd a \gre a
+    \grs1 \grg c8 \grd a \gre a \grg c8 \grd a \gre a
     \grg d8 c b c \gre a4
     \grg c8 e c \grg d c b
     \grg a4. \wbirl a4
@@ -126,7 +128,7 @@ partB = {
     \dblA A8 g e \grg c e g
     \grf g4 f8 \dble e4 g8
     \break
-    A8 \grf g4 \grf g8 A g
+    \grace s32 A8 \grf g4 \grf g8 A g
     e8 g4 \grf g e8
     \grg c8 e c \grg d c b
     \grg a4. \wbirl a4
@@ -142,23 +144,23 @@ partB = {
     \grg c8 \grd a \grd c \grg b \grd a \grd c
     \grg d8 a4 \gre G b8
     \break
-  }
-  \alternative {
-    {
-      \grg c8 \grd a \grd c \grg b \grd a \grd c
-      \grg d8 \gre a d \grg c \grd a \gre b
-      \grg c8 \grd a \grd c \grg b \grd a \grd c
-      \grg d8 c \gre G \grg a4 s8
-      \break
+    \alternative {
+      {
+        \grg c8 \grd a \grd c \grg b \grd a \grd c
+        \grg d8 \gre a d \grg c \grd a \gre b
+        \grg c8 \grd a \grd c \grg b \grd a \grd c
+        \grg d8 c \gre G \grg a4 s8
+        \break
+      }
+      {
+        \grg c8 \grd c \gre c \grg c8 \grd c \gre c
+        \grg d8 c \gre b \grg c \grd c \gre c
+        \grg c \grd c \gre c \grg d c \gre b
+        \grg a8 \grd c e \dblA A4
+      }
     }
-    {
-      \grg c8 \grd c \gre c \grg c8 \grd c \gre c
-      \grg d8 c \gre b \grg c \grd c \gre c
-      \grg c \grd c \gre c \grg d c \gre b
-      \grg a8 \grd c e \dblA A4
-    }
   }
-  \bar "|."
+  \fine
 }
 
 \score {

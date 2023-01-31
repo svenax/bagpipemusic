@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \dblc c4 b8 \grg c \grd a \gre a
       \grg b8 \grd a \gre a \grg G \grd a \gre a
       \dblc c4 b8 \grg c \grd a \gre a
@@ -60,24 +61,24 @@
       f8 \grg a f \grg a e c
       \dblb b4 \gre a8 \grg b \grd b \gre b
       f8 \grg b f \grg b f e
-    }
-    \alternative{
-      {
-        \break
-        \grg c8 \grd a \gre a A a A
-        f8 \grg a f \grg a e b
-        \dblc c4 e8 f \grg b \grd b
-        \grg b8 \grd a \gre a \wbirl a4
+      \alternative{
+        {
+          \break
+          \grg c8 \grd a \gre a A a A
+          f8 \grg a f \grg a e b
+          \dblc c4 e8 f \grg b \grd b
+          \grg b8 \grd a \gre a \wbirl a4
+        }
+        {
+          \break
+          c8 \grd a \gre a \grg a \grd a \gre a
+          \grg b8 \grd a \gre a \grg G \grd a \gre a
+          \dblc c4 e8 f \grg b \grd c
+          \grg b8 \grd a \gre a \wbirl a4
+        }
       }
-      {
-        \break
-        c8 \grd a \gre a \grg a \grd a \gre a
-        \grg b8 \grd a \gre a \grg G \grd a \gre a
-        \dblc c4 e8 f \grg b \grd c
-        \grg b8 \grd a \gre a \wbirl a4
-      }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

@@ -11,7 +11,7 @@
     \grg c16 e8. f16 \grg c8. \grGcad a4
     b8.\trill f16 \grg e4 a
     \grg c8 e \cad b4 \grGcad a
-    \bar "||" \break
+    \section \break
 
     % Line 2
     \hcad a8. b16 c4\trill \grGcad a4
@@ -20,13 +20,13 @@
     \grg c8 e \cad c4 \grGcad a
     b8.\trill f16 \grg e4 a
     \grg c8 e \cad b4 \grGcad a
-    \bar "||" \break
+    \section \break
 
     \hcad a8. b16 c4\trill \grGcad a4
     \grg c16 e8. f16 \grg c8. \grGcad a4
     b8.\trill f16 \grg e4 a
     \grg c8 e \cad b4 \grGcad a
-    \bar "|."
+    \fine
   }
 
   \header {

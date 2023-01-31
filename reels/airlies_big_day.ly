@@ -15,7 +15,7 @@
     \grg b d \grG d a \grg b d \grg e g
     A f \grg a A g e \grg c d
     \grg e a \grd c e \thrwd d2
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -28,7 +28,7 @@
     g e \grg c d \grg e a \grd c e
     A f \grg a A g e \grg c d
     \grg e a \grd c e \thrwd d2
-    \bar "|."
+    \fine
   }
 
   \header {

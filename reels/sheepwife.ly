@@ -6,7 +6,8 @@
 
     % Part 1
 
-    \partial 8 A8
+    \partial 8
+    A8
     b16 d8. \gre G8. \grd b16 \dble e4 \dblg g4
     \tdbld d8. b16 \grG b8. g16 \tdblb b4 \grg b16[ \grd G8.]
     \grg b16 d8. \gre G8. \grd b16 \dble e4 \dblg g4
@@ -16,7 +17,7 @@
     \tdbld d8. b16 \grG b8. g16 \tdblb b4 \grg b16[ \grd G8.]
     \grg b16 d8. \gre G8. \grd b16 \dble e4 \dblg g4
     \grA b16 \grd G8. \grg d8. b16 \dbla a4 \dblA A4
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -29,7 +30,7 @@
     \grg c16[ \grd a8. \dble e8. c16] \dblb b4 \grg b16 \grd G8.
     \dblc c4 \gre a8. \grd c16 \grg f8. e16 \grg c16 \grd a8.
     \grA b16 \grd G8. \grg d8. b16 \dbla a4 \grg a16 \grd G8.
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -42,7 +43,7 @@
     \dbld d8. b16 \grG b8. g16 \tdblb b4 \grg b16 \grd G8.
     \grg b8. \grd G16 \gre G8. \grd b16 \dblg g4 \grA f8. e16
     \dbld d8. G16 \grg b16 \grd G8. \dbla a4 \dblA A4
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -55,7 +56,7 @@
     \grg a16 \grd a8. \grg c16 \grd a8. \dblb b4 \grg b16 \grd G8.
     c16 \grd a8. \grg a16 \grd a8. \dblc c4 \grg c16 \grd a8.
     \dblb b4 \grg b16 \grd G8. \dbla a4 \grg a16 \grd G8.
-    \bar "||" \break
+    \section \break
 
     % Part 5
 
@@ -68,7 +69,7 @@
     \dble e4 \dblg g4 \tdblb b4 \grg b16 \grd G8.
     \dblg g4 \grA f8. e16 \thrwd d4 \gre G8. \grd b16
     \grg e16 g8. \grA d8. b16 \dbla a4 \dblA A4
-    \bar "||" \break
+    \section \break
 
     % Part 6
 
@@ -81,7 +82,7 @@
     \grg c16 e8. \grg a8. \grd c16 \dblb b4 \grg b16 \grd G8.
     \dblc c4 \grg a8 \grd c8 \grg f8. e16 \grg c16 \grd a8.
     \grg b16 \grd G8. \grg d8. b16 \dbla a4 \grg a16 \grd G8.
-    \bar "|."
+    \fine
   }
 
   \header {

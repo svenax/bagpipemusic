@@ -3,12 +3,13 @@
   {
     \bagpipeKey
     \time 7/16
-    \set Score.beatStructure = #'(3 4)
+    \set Score.beatStructure = 3,4
 
     % Part 1
 
-    \partial 8 e8
+    \partial 8
     \repeat volta 2 {
+      e8
       \grg a16 \grd a \gre a \grg b \grd a \grg d a
       \grg d16 e \gra e \grg e d \grg b e
       \grg d16 G \grd G \grg b \grd G \grg d G
@@ -18,10 +19,9 @@
       \grg d16 e \gra e \grg e d \grg e f
       g16 e \gra e \grg e d \grg d b
       \grg a16 \grd a \gre a \gbirl a8[
-    }
-    \alternative {
-      { e8] }
-      { \grg a8}
+      \alternative {
+        { e8] } { \grg a8}
+      }
     }
     \break
 
@@ -52,10 +52,9 @@
       \grg e16 f \gre f \grg f e \grg f g
       A16 f \gre f \grg f e \grg d c
       \grg b16[ \grd b \gre b]
-    }
-    \alternative {
-      { \grg f8 g8 }
-      { \slurb b8[ \gre b] }
+      \alternative {
+        { \grg f8 g8 } { \slurb b8[ \gre b] }
+      }
     }
     \break
 

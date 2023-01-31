@@ -23,7 +23,7 @@
     % Part 2
 
     \repeat volta 2 {
-      \partial 16 b16
+      b16
       \birl a8 A16. f32 \thrwd d8. b16
       \birl a8 A16. f32 \thrwd d8. b16
       \birl a8 \grA g16. e32 \grg c16. \grd a32 \gre a16. \grd b32

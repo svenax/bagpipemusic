@@ -1,9 +1,9 @@
 \header {
-    title = "M/S/R Set 1"
+  title = "M/S/R Set 1"
 }
 
 \paper {
-    #(define page-breaking ly:minimal-breaking)
+  #(define page-breaking ly:minimal-breaking)
 }
 
 \include "2-4_marches/conundrum.ly"

@@ -30,16 +30,16 @@
       A32 f8.. d32 \grG a8..
       \grg d32 f8.. g32[ \tdble e8..]
       \grg a32 c8.. \grg e32 \gra e8..
-    }
-    \alternative {
-      {
-        \grg f32 a8.. e32[ \thrwd d8..]
+      \alternative {
+        {
+          \grg f32 a8.. e32[ \thrwd d8..]
+        }
+        {
+          \grg f32 e8.. d32 \grc d8..
+        }
       }
-      {
-        \grg f32 e8.. d32 \grc d8..
-      }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

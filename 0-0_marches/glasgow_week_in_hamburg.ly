@@ -1,6 +1,6 @@
 \score {
 
-{
+  {
     \bagpipeKey
     \time 12/8
 
@@ -16,7 +16,7 @@
     \dblb b4 e8 \dbld d8. b16 \grG b8 \grG a4. \thrwd d4 e8
     \grg f4 A8 \grg A8. f16 \grg d8 \dble e4 a8 \grg a8. \grd c16 e8
     \thrwd d4. ~ d4. \slurd d4. ~ d4
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -30,7 +30,7 @@
     \dblb b4 g8 \grA b16 g8. \grA b8 \grG a4. \thrwd d4 e8
     \grg f4 A8 \grg A8. f16 \grg d8 \dble e4 a8 \grg a8. \grd c16 e8
     \thrwd d4. ~ d4. \slurd d4. ~ d4
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -44,7 +44,7 @@
     g8. \grA b16 \grG b8 \grg b16 d8. \gre b8 \grG a4. \thrwd d4 e8
     \grg f4 A8 \grg A8. f16 \grg d8 \dble e4 a8 \grg a8. \grd c16 e8
     \thrwd d4. ~ d4. \slurd d4. ~ d4
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -58,15 +58,15 @@
     \grg b4 e8 \grg d8 b16 \grG b8. \grG a4. \thrwd d4 e8
     \grg f4 A8 \grg A8. f16 d8 \dble e4 a8 \grg a8. \grd c16 e8
     \thrwd d4. ~ d4. \slurd d4. ~ d4
-    \bar "|."
-}
+    \fine
+  }
 
-\header {
+  \header {
     meter = "March"
     title = "Glasgow Week in Hamburg"
     composer = "J. McAllister"
     loc = "53.5582447,9.647645"
     map = "https://goo.gl/maps/hkXdwRJHoRp"
-}
+  }
 
 }

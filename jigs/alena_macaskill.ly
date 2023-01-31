@@ -57,23 +57,23 @@
       \thrwd d4 e8 \grg d b d
       \grg G g d \dble e4.
       \break
-    }
-    \alternative {
-      {
-        A8 e g \grA f d \grG d
-        \grg e d e \grg d b \grG b
-        \grg G8 g \grf g \grA f e d
-        \grg b g d \dble e4.
-        \break
+      \alternative {
+        {
+          A8 e g \grA f d \grG d
+          \grg e d e \grg d b \grG b
+          \grg G8 g \grf g \grA f e d
+          \grg b g d \dble e4.
+          \break
+        }
+        {
+          \grg d8 \gre d \grG d e \grg d e
+          \grg d b d \grg G \grd b \grG b
+          \grg G8 g \grf g \grA f e d
+          \grg b g d \dble e4.
+        }
       }
-      {
-        \grg d8 \gre d \grG d e \grg d e
-        \grg d b d \grg G \grd b \grG b
-        \grg G8 g \grf g \grA f e d
-        \grg b g d \dble e4.
-      }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

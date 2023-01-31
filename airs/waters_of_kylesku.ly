@@ -11,7 +11,7 @@ partA = {
   A4 \grg A8 \grf g4 f8
   \dble e4. \gra <e A>4 c8
   \break
-  \grg e4 \gra e8 \grg f4 e8
+  \grs2 \grg e4 \gra e8 \grg f4 e8
   \dble e4 c8 \grG a4 \grd c8
   \grg e4 g8 \thrwd d4 c8
   \grg b4. \taor <b e>4 \thrwd d8
@@ -26,7 +26,7 @@ partA = {
   \dblA A4 f8 \dble <G b e>8 <G c e>\fermata d
   \grg c16 e8. \dblc c4. b8
   A8 <A e> <A e c> a4.
-  \bar "|."
+  \fine
 }
 
 partB = {
@@ -52,7 +52,7 @@ partB = {
   c4. \dble <G b e>8 <G c e>\fermata d
   \grg c16 e8. \dblc c4. b8
   A8 <A e> <A e c> a4.
-  \bar "|."
+  \fine
 }
 
 \score {

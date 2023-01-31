@@ -11,7 +11,7 @@ common = {
     subtitle = "Dastirum gu seinnim piobh"
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -37,7 +37,7 @@ common = {
       \hcad d4 \dre e4 \cad c4 \pthrwd d4
       \hcad G4 \grd a4 \cad c4 \darodo b4
       \grg e4 \dbirl a4 \grg e4 \dbirl a4
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -46,8 +46,8 @@ common = {
 
   }
 
-  %%% START SKIP
-  % ---------------------------------------------------------------------------
+%%% START SKIP
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -73,7 +73,7 @@ common = {
       \hcad d4 \dblA A4 \tcad c4 \pthrwd d4
       \hcad G4 \grd a4 \cad c4 \darodo b4
       \grg e4 \dbirl a4 \grg e4 \dbirl a4
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -82,7 +82,7 @@ common = {
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -152,7 +152,7 @@ common = {
       G4_\txtaor \grd c \grg b8.[ \taor G16] \grd b4
       a_\txtaor \grd a a_\txtaor \grd a
       \altBracketEnd
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -161,7 +161,7 @@ common = {
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -231,7 +231,7 @@ common = {
       G4_\txcrun a8 \grd c b4_\txcrun G8 \grd b
       a4_\txcrun a16 \grd a8. a4_\txcrun a16 \grd a8.
       \altBracketEnd
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -240,5 +240,5 @@ common = {
 
   }
 
-  %%% END SKIP
+%%% END SKIP
 }

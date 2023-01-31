@@ -7,7 +7,8 @@
 
     % Part 1
 
-    \grg \partial 8 f16. e32
+    \partial 8
+    \grg f16. e32
     \repeat volta 2 {
       \shaked d8 \grg d16. e32 \grg f16. d32 \grg a16. d32
       \grg b16.[ a32 \gbirl a8] \grg f8 \grg e16. f32
@@ -18,10 +19,10 @@
       \grg b16.[ a32 \gbirl a8] \grg f8 \grg e16. f32
       \grA g16.[ b32 \shakeb b8] \grg a16. \grd c32 \grg e32 g16.
       \grA f16. d32 \grg e16. c32
-    }
-    \alternative {
-      { \grg d8 \grg f16. e32 }
-      { \grg d8 \grg e16. d32 }
+      \alternative {
+        { \grg d8 \grg f16. e32 }
+        { \grg d8 \grg e16. d32 }
+      }
     }
     \break
 
@@ -37,10 +38,10 @@
       \grg a16.[ d32 \shaked d8] \grg f8 e16. f32
       \grA g16.[ b32 \shakeb b8] \grg a16. \grd c32 \grg e32 g16.
       \grA f16. d32 \grg e16. c32
-    }
-    \alternative {
-      { \grg d8 \grg e16. d32 }
-      { \grg d8 a16. d32 }
+      \alternative {
+        { \grg d8 \grg e16. d32 }
+        { \grg d8 a16. d32 }
+      }
     }
     \break
 
@@ -56,10 +57,10 @@
       \grg b16.[ a32 \gbirl a8] \grg f8 \grg e16. f32
       \grA g16.[ b32 \shakeb b8] \grg a16. \grd c32 \grg e32 g16.
       \grA f16. d32 \grg e16. c32
-    }
-    \alternative {
-      { \grg d8 a16. d32 }
-      { \grg d8 \grg d16. e32 }
+      \alternative {
+        { \grg d8 a16. d32 }
+        { \grg d8 \grg d16. e32 }
+      }
     }
     \break
 
@@ -70,26 +71,26 @@
       A16.[ a32 \gbirl a8] \grg f8 \grg e16. f32
       \grA g16.[ a32 \gbirl a8] \grg e16.[ a32 \gbirl a8]
       \grg f16. d32 \grg e16. c32
-    }
-    \alternative {
-      {
-        \grg d8 a16. d32
-        \break
-        \grg f16.[ a32 \gbirl a8] \grg d16.[ a32 \gbirl a8]
-        A16.[ a32 \gbirl a8] \grg f8 \grg e16. f32
-        \grA g16.[ b32 \shakeb b8] \grg a16. \grd c32 \grg e32 g16.
-        \grA f16. d32 \grg e16. c32 \grg d8 \grg d16. e32
-        \break
+      \alternative {
+        {
+          \grg d8 a16. d32
+          \break
+          \grg f16.[ a32 \gbirl a8] \grg d16.[ a32 \gbirl a8]
+          A16.[ a32 \gbirl a8] \grg f8 \grg e16. f32
+          \grA g16.[ b32 \shakeb b8] \grg a16. \grd c32 \grg e32 g16.
+          \grA f16. d32 \grg e16. c32 \grg d8 \grg d16. e32
+          \break
+        }
+        {
+          \grg d8 \grg d16. e32
+          A16.[ a32 \gbirl a8] \grg f16.[ a32 \gbirl a8]
+          \shaked d8 c16. b32 \grg a8 \grg e16. f32
+          \grA g16.[ b32 \shakeb b8] \grg a16. \grd c32 \grg e32 g16.
+          \grA f16. d32 \grg e16. c32 \grg d4
+        }
       }
-      {
-        \grg d8 \grg d16. e32
-        A16.[ a32 \gbirl a8] \grg f16.[ a32 \gbirl a8]
-        \shaked d8 c16. b32 \grg a8 \grg e16. f32
-        \grA g16.[ b32 \shakeb b8] \grg a16. \grd c32 \grg e32 g16.
-        \grA f16. d32 \grg e16. c32 \grg d4
-      }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

@@ -17,7 +17,7 @@
     \break
     \dblb b4 \gre G8 \grg G8. \grd b16 e8 \dblc c4 \gre a8 \grg a8. \grd c16 e8
     \thrwd d4 \gre a8 \grg d16 f8. \grg e8 \thrwd d4. ~ d4 f8
-    \bar "||"
+    \section
 
     % Part 2
 
@@ -32,7 +32,7 @@
     \dblb b4 \gre G8 \grg G8. \grd b16 e8 \dblc c4 \gre a8 \grg a8. \grd c16 e8
     \break
     \thrwd d4 \gre a8 \grg d16 f8. \grg e8 \thrwd d4. ~ d4 f8
-    \bar "||"
+    \section
 
     % Part 3
 
@@ -46,7 +46,7 @@
     \dblb b4 \gre a8 \grg b16 d8. e8 \dblf f4. ~ f4 \thrwd d8
     \dblb b4 \gre G8 \grg G8. \grd b16 e8 \dblc c4 \gre a8 \grg a8. \grd c16 e8
     \thrwd d4 \gre a8 \grg d16 f8. \grg e8 \thrwd d4. ~ d4 A8
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -60,7 +60,7 @@
     \break
     \dblb b4 \gre G8 \grg G8. \grd b16 e8 \dblc c4 \gre a8 \grg a8. \grd c16 e8
     \thrwd d4 \gre a8 \grg d16 f8. \grg e8 \thrwd d4. ~ d4.
-    \bar "|."
+    \fine
   }
 
   \header {

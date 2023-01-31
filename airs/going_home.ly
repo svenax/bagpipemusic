@@ -15,7 +15,7 @@
     \dblc c4 b8 \grG a4.
     \grg b4 \grd c8 \dblb b4 \grG a8
     \grg a4. \wbirl a4.
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -28,7 +28,7 @@
     \grf g4 e8 \dblf f4.
     \grg f4 A8 \grf g4 e8
     \grg f4. \dble e4.
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -41,7 +41,7 @@
     \grg f4 \dblg g8 \dblA A4.
     b4 \grd c8 \dblb b4 \grG a8
     \grg a4. \wbirl a4.
-    \bar "|."
+    \fine
   }
 
   \header{

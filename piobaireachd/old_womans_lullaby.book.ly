@@ -11,7 +11,7 @@ common = {
     subtitle = "Cronan na Caillich sa Bheinn Bhric"
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -34,7 +34,7 @@ common = {
       \grg e16 \gra e8. \gracad e4 \grg e8. f16 \dblA A4
       f8. e16 \grg f8 c \grg e8 \grip e4 b8
       \grg f8. e16 \grg c8 e \grg b16[ \grip c8.] \cad b8 \grGcad a
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -43,8 +43,8 @@ common = {
 
   }
 
-  %%% START SKIP
-  % ---------------------------------------------------------------------------
+%%% START SKIP
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -55,13 +55,9 @@ common = {
         \grg a8[ \grip c] \grg e8. b16 \grg c8 e \grg c16 \grGcad a8.
         \grg b8[ \grip c] \grg e8. c16 \grg b8[ \grip c] \cad b8 \grGcad a
         \grg a8[ \grip b] \dblA A8. e16 \grg f8 A f c
-        \grg e8. f16 \dblA A8. c16 \grg e8[ f]
+        \grg e8. f16 \dblA A8. c16 \grg e8[ f] \grg e8.[ c16]
       }
-      \alternative {
-        { \grg e8.[ b16] }
-        { \grg \partial 4 e8.[ c16] }
-      }
-      \bar "||" \break
+      \section \break
       \grg b8[ \grip c] \grg e8. c16 \grg b8[ \grip c] \cad b8 \grGcad a
       \grg a8[ \grip c] \grg e8. b16 \grg c8 e \grg c16 \grGcad a8.
       \grg b8[ \grip c] \grg f8. c16 \grg e8 \grip e4 b8
@@ -71,7 +67,7 @@ common = {
       \grg e8 \grip f4 c8 \grg e8 \grip e4 b8
       \grg f8. e16 \grg f8 c \grg e8 \grip e4 b8
       \grg f8. e16 \grg c8 e \grg b16[ \grip c8.] \cad b8 \grGcad a
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -80,7 +76,7 @@ common = {
 
   }
 
-  % ---------------------------------------------------------------------------
+%%% ---------------------------------------------------------------------------
 
   \score {
 
@@ -103,7 +99,7 @@ common = {
       \grg e4 \catchb b \grg f \catchc c
       \grg e4 \catchc c \grg b8 \grGcad a4.
       \grip b8 \grg c4. \catchb b4 \grg a
-      \bar "|."
+      \fine
     }
 
     \header {
@@ -112,5 +108,5 @@ common = {
 
   }
 
-  %%% END SKIP
+%%% END SKIP
 }

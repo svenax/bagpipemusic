@@ -1,11 +1,3 @@
-\layout {
-  \context {
-    \Score
-    \revert NonMusicalPaperColumn #'line-break-permission
-    \consists "Bar_number_engraver"
-  }
-}
-
 \include "suites/mftrf/music2.ly"
 
 \score {

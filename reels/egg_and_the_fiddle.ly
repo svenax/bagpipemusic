@@ -15,7 +15,7 @@
     \shakec c4 \grg e8 c \grg b c \grG a4
     \grg f8 d \grg d \grG d \grg f4 A8 \grg A ~
     A8 f \grg e c \grg b \grd c \grG a4
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -28,7 +28,7 @@
     \grg c8 e A c e A g A
     d8 f A d \grg c e A f
     \grg e c \grg b \grd c \grG a2
-    \bar "|."
+    \fine
   }
 
   \header {

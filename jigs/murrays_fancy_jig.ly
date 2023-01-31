@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 e8
+      e8
       \dblf f4 A8 g A d
       \grg G \grd b \grG b \grg b d b
       \grg a \grd a \gre a \grg b \grd a d
@@ -28,23 +29,23 @@
       \grg a \grd c \grG c \grg c e c
       \grg b d \grG d \grg e d e
       \grg f[ A g]
-    }
-    \alternative {
-      {
-        \tdble e4 d8
-        \break
-        \grg G \grd b \grG b \grg b d \grG d
-        \grg a \grd c \grG c \grg c e g
-        A d f \grA g e c
-        \grg e d \grG d \grg d4
-        \break
-      }
-      {
-        \grg \partial 4. e8 f g
-        A f A d A f
-        \grA g e g \grA c g \grA e
-        A d f \grA g e c
-        \grg e d \grG d \grg d4
+      \alternative {
+        {
+          \tdble e4 d8
+          \break
+          \grg G \grd b \grG b \grg b d \grG d
+          \grg a \grd c \grG c \grg c e g
+          A d f \grA g e c
+          \grg e d \grG d \grg d4
+          \break
+        }
+        {
+          \grg e8 f g
+          A f A d A f
+          \grA g e g \grA c g \grA e
+          A d f \grA g e c
+          \grg e d \grG d \grg d4
+        }
       }
     }
     \break

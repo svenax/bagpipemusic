@@ -6,8 +6,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \partial 8 A8
+      A8
       c16 \grd a8. \grd c8 \dblb b4 \grG a8
       \grg a8. \grd c16 e8 \dblf f4 e8
       \grg c16 \grd a8. \grd c8 \dblc c8. \grg b16 \grd a8
@@ -28,23 +29,23 @@
       \dblA A4 e8 \dblf f4 e8
       \grg c16 \grd a8. \grd c8 \dblc c8. \grg b16 \grd a8
       \grg b4. \taor b4
-    }
-    \alternative {
-      {
-        \dblg g8
-        \break
-        \dblA A4 e8 \dblf f4 e8
-        \dblA A4 e8 \dblf f4 e8
-        \grg c16 \grd a8. \grd c8 \dblb b4 \gre G8
-        \grg a4. \wbirl a4
-        \break
-      }
-      {
-        \grg c16 d
-        \grg c16 e8. c8 \dblb b4 \grG a8
-        \grg a8. \grd c16 e8 \dblf f4 e8
-        \grg c16 \grd a8. \grd c8 \dblb b4 \gre G8
-        \grg a4. \wbirl a4
+      \alternative {
+        {
+          \dblg g8
+          \break
+          \dblA A4 e8 \dblf f4 e8
+          \dblA A4 e8 \dblf f4 e8
+          \grg c16 \grd a8. \grd c8 \dblb b4 \gre G8
+          \grg a4. \wbirl a4
+          \break
+        }
+        {
+          \grg c16 d
+          \grg c16 e8. c8 \dblb b4 \grG a8
+          \grg a8. \grd c16 e8 \dblf f4 e8
+          \grg c16 \grd a8. \grd c8 \dblb b4 \gre G8
+          \grg a4. \wbirl a4
+        }
       }
     }
     \break
@@ -73,26 +74,26 @@
       \grg f16 A8. e8 \dblf f4 e8
       \grg c16 A8. c8 \dblc c8. \grg b16 \grd a8
       \grg b4. \taor b4
-    }
-    \alternative {
-      {
-        \dblg g8
-        \break
-        \dblA A4 e8 \dblf f4 e8
-        \grg f16 A8. e8 \dblf f4 e8
-        \grg c16 \grd a8. \grd c8 \dblb b4 \gre G8
-        \grg a4. \wbirl a4
-        \break
+      \alternative {
+        {
+          \dblg g8
+          \break
+          \dblA A4 e8 \dblf f4 e8
+          \grg f16 A8. e8 \dblf f4 e8
+          \grg c16 \grd a8. \grd c8 \dblb b4 \gre G8
+          \grg a4. \wbirl a4
+          \break
+        }
+        {
+          \grg c16 d
+          \grg c16 e8. c8 \dblb b4 \grG a8
+          \grg a8. \grd c16 e8 \dblf f4 e8
+          \grg c16 \grd a8. \grd c8 \dblb b4 \gre G8
+          \grg a4. \wbirl a4
+        }
       }
-      {
-        \grg c16 d
-        \grg c16 e8. c8 \dblb b4 \grG a8
-        \grg a8. \grd c16 e8 \dblf f4 e8
-        \grg c16 \grd a8. \grd c8 \dblb b4 \gre G8
-        \grg a4. \wbirl a4
-      }
     }
-    \bar "|."
+    \fine
   }
 
   \header {

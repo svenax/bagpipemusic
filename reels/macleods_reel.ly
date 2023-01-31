@@ -15,7 +15,7 @@
     \grg G b \grG b a b \grg b \grG b d
     e \grg e \gra e d \grg b d \grg e d
     \grA g e \grg d b \grg a \grd b \grG b G
-    \bar "||" \break
+    \section \break
 
     % Part 2
 
@@ -28,7 +28,7 @@
     \grg d b \grG b a b \grg b \grG b d
     e \grg e \gra e d \grg e f \grA g e
     A f \grg e c \grg b \grd c \grG c b
-    \bar "||" \break
+    \section \break
 
     % Part 3
 
@@ -41,7 +41,7 @@
     \grg a c \grG c b c \grg c \grG c e
     \grg e f \gre f e \grg c e \grg f e
     A f \grg e c \grg b \grd c \grG c a
-    \bar "||" \break
+    \section \break
 
     % Part 4
 
@@ -54,7 +54,7 @@
     \grg e c \grG c b c \grg c \grG c e
     \grg e f \gre f e \grg c e \grg f e
     A f \grg e c \grg b a \grg b c
-    \bar "|."
+    \fine
   }
 
   \header {

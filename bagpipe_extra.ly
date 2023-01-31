@@ -22,7 +22,7 @@
 }
 
 tocSubhead = #(define-music-function (text) (markup?)
-               (add-toc-item! 'tocSubheadMarkup text))
+                (add-toc-item! 'tocSubheadMarkup text))
 
 \layout {
   indent = 0.0
@@ -32,6 +32,10 @@ tocSubhead = #(define-music-function (text) (markup?)
 
     \remove "Bar_number_engraver"
 
+    \remove Mark_engraver
+    \remove Text_mark_engraver
+    \remove Staff_collecting_engraver
+
     \override Stem.direction = #down
     \override Slur.direction = #up
     \override Tie.direction = #up
@@ -39,10 +43,16 @@ tocSubhead = #(define-music-function (text) (markup?)
     \override VoltaBracketSpanner.Y-extent = #'(-1.5 . 0)
     \override VoltaBracket.height = #2.2
 
+    \override Glissando.style = #'zigzag
+    \override Glissando.minimum-length = #5
+    \override Glissando.springs-and-rods = #ly:spanner::set-spacing-rods
+
     \override Beam.beam-thickness = #0.52
     \override Stem.thickness = #1.6
 
     \override TextScript.staff-padding = #4
+
+    \override NonMusicalPaperColumn.line-break-permission = ##f
   }
 
   \context {
@@ -54,6 +64,10 @@ tocSubhead = #(define-music-function (text) (markup?)
 
   \context {
     \Staff
+
+    \consists Mark_engraver
+    \consists Text_mark_engraver
+    \consists Staff_collecting_engraver
 
     extraNatural = ##f
     midiInstrument = #"bagpipe"
@@ -70,6 +84,17 @@ tocSubhead = #(define-music-function (text) (markup?)
 }
 
 morespace = \once \override NoteColumn.X-offset = 0.5
+
+% Sets the autobeamer to span quarter notes only. Use for fast music.
+quarterBeaming = {
+  \set Timing.beamExceptions = #'()
+}
+% Sets the autobeamer to span half notes. Mostly used in reels.
+halfBeaming = {
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment = #(ly:make-moment 1/4)
+  \set Timing.beatStructure = 2,2
+}
 
 % Bagpipe music is written in something like D major. If we use
 % flattened notes, the flat should be shown on all instances.
@@ -100,14 +125,17 @@ showTrueKeySignature = {
 }
 
 \allowVoltaHook "|"
-% \allowVoltaHook "||"
+
+% Grace note skip for use in multi-part scores.
+grs = #(define-music-function (duration) (integer?)
+   #{ \pgrace { s32*#duration } #})
 
 % Extra movements
-fgrip = { \pgrace { G32[ f G] } }
-fdari = { \pgrace { e32[ g e f e] } }
-grecad = { \pgrace { e16 } }
-bubly = { \pgrace { G32[ d G c G] } }
-Gbubly = { \pgrace { d32[ G c G] } }
+fgrip = \pgrace { G32[ f G] }
+fdari = \pgrace { e32[ g e f e] }
+grecad = \pgrace { e16 }
+bubly = \pgrace { G32[ d G c G] }
+Gbubly = \pgrace { d32[ G c G] }
 txleumtaorcrun = \markup {
   \override #'(baseline-skip . 1.8)
   \column {
@@ -149,56 +177,20 @@ txtaorcrunam = \markup {
 
 % Used when substituting a single bar or just a few notes to show alternative.
 altBracket = #(define-music-function (parser location tag) (string?) #{
-    \once \override Score.VoltaBracket.shorten-pair = #'(0.3 . 0.3)
-    \set Score.repeatCommands = #(list (list 'volta (markup #:number tag)))
-#})
+  \once \override Score.VoltaBracket.shorten-pair = #'(0.3 . 0.3)
+  \set Score.repeatCommands = #(list (list 'volta (markup #:number tag)))
+                #})
 altBracketText = #(define-music-function (parser location tag) (string?) #{
-    \once \override Score.VoltaBracket.shorten-pair = #'(0.3 . 0.3)
-    \set Score.repeatCommands = #(list (list 'volta (markup #:text tag)))
-#})
+  \once \override Score.VoltaBracket.shorten-pair = #'(0.3 . 0.3)
+  \set Score.repeatCommands = #(list (list 'volta (markup #:text tag)))
+                    #})
 
 % End previous altBracket thingy.
 altBracketEnd = { \set Score.repeatCommands = #'((volta #f)) }
 
-markMark = #(define-music-function (parser location text) (markup?) #{
-    \once \override Score.RehearsalMark.self-alignment-X = #LEFT
-    \mark $text
-#})
-
-markText = #(define-music-function (parser location text) (string?) #{
-    \once \override Score.RehearsalMark.self-alignment-X = #LEFT
-    \mark \markup $text
-#})
-
-markMarkEol = #(define-music-function (parser location text) (markup?) #{
-    \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
-    \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-    \mark $text
-#})
-
-markTextEol = #(define-music-function (parser location text) (string?) #{
-    \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
-    \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-    \mark \markup $text
-#})
-
-markMarkEolDown = #(define-music-function (parser location text) (markup?) #{
-    \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
-    \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-    \once \override Score.RehearsalMark.direction = #DOWN
-    \mark $text
-#})
-
-markTextEolDown = #(define-music-function (parser location text) (string?) #{
-    \once \override Score.RehearsalMark.break-visibility = #end-of-line-visible
-    \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-    \once \override Score.RehearsalMark.direction = #DOWN
-    \mark \markup $text
-#})
-
-markDCalFine = \markMarkEolDown \markup { \italic "D.C. al Fine" }
-markFine = \markMarkEolDown \markup { \italic "Fine" }
+markDCalFine = \tweak direction #DOWN \tweak font-size #-1 \textEndMark \markup { \italic "D.C. al Fine" }
+markFine = \tweak direction #DOWN \tweak font-size #-1 \textEndMark  \markup { \italic "Fine" }
 
 barLength = #(define-music-function (parser location x y) (number? number?) #{
-    \set Score.measureLength = #(ly:make-moment x y)
-#})
+  \set Score.measureLength = #(ly:make-moment x y)
+               #})

@@ -7,8 +7,9 @@
 
     % Part 1
 
+    \partial 8
     \repeat volta 2 {
-      \grg \partial 8 a16. d32
+      \grg a16. d32
       \grg f4 \grg e16. g32 \grA f32 A16.
       \hdblf f8 d \slurd d[ \dblg g]
       \tslurb b4 \grA g16. f32 \grg e16. d32
