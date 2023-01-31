@@ -57,12 +57,12 @@ musicB = {
   % Part 2
 
   \repeat volta 2 {
-    \grace { s32 s g } a8 \grd c \grg f4 \gre f
+    \grs2 \grg a8 \grd c \grg f4 \gre f
     \dble e8 d \dbld d c \grip c4
     \grg c8. d16 \dblc c8 \gre b \grip b4
     \grg b8. d16 \dblb b8 \gre a \wbirl a4
     \break
-    \grg a8 \grd c \grg f4 \gre f
+    \grs2 \grg a8 \grd c \grg f4 \gre f
     \dble e8 d \dbld d c \grip c4
     \grg c8. d16 \dblc c4 \grip c8. b16
     \grg a8 \grd b \grg c4 \grip c

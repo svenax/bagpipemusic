@@ -3,13 +3,6 @@
   dedication = "On the march"
 }
 
-\layout {
-  \context {
-    \Score
-    \autoPageBreaksOff
-  }
-}
-
 \markuplist \table-of-contents
 
 \pageBreak

@@ -32,10 +32,12 @@ musicA = {
   \grg e8. f16 A8 \hdblc c8. b16 \grG a8
   \grg b8. \grd c16 f8 \dble e8. d16 c8
   \grg b4. \taor b4.
+  \section \break
 
   % Part 3
 
-  R1*6/8*8 \section \break
+  \grs3 R1*6/8*8
+  \section \break
 
   % Part 4
 
@@ -48,12 +50,12 @@ musicB = {
 
   % Part 1
 
-  \grace { s32 } R1*6/8*8
+  \grs1 R1*6/8*8
   \section \break
 
   % Part 2
 
-  \grace { s32 } R1*6/8*7 r4. r4 \grg b8
+  \grs1 R1*6/8*7 r4. r4 \grg b8
   \section \break
 
   % Part 3

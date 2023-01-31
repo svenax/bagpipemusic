@@ -84,7 +84,7 @@ musicB = {
     \grg G4 d8 b \grg c4|
     \thrwd d4 \gre c d
     \break
-    \grgIII c4 a8 G \grg c e
+    \grs2 \grg c4 a8 G \grg c e
     d16 \grg c ~ c4 a8 \grd c G
     \grg a4 e8 c \grg d8. e16
     \grg a4 \thrwd d
@@ -99,7 +99,7 @@ musicB = {
     \grg a4. b8 \grg d16 f8.
     \dble e4. c8 \grg d8. e16
     \break
-    \grgII f4. c8 \grg a \grd c
+    \grs1 \grg f4. c8 \grg a \grd c
     \grg e4 c8 d \grg G16 \grd b8.
     \thrwd d4 a8 e b a
     \grg a4 \thrwd d
@@ -114,7 +114,7 @@ musicB = {
     \dblb b4. a8 \grg b16 d8.
     \dble e4. c8 \grg d8. e16
     \break
-    \grgII f4. c8 \grg a \grd c
+    \grs1 \grg f4. c8 \grg a \grd c
     \grg e4 c8 d \grg G16 \grd b8.
     \thrwd d4 a8 e b a
     \grg a4 \thrwd d
@@ -129,12 +129,12 @@ musicB = {
     \grf g8 b \grG a d \grg e16 d c8
     \grg G4 b8 c \grg b16 d8.
     \break
-    \grgIII c4 a8 G \grg c e
+    \grs2 \grg c4 a8 G \grg c e
     d16 \grg c ~ c4 a8 \grd b G
     \grg a4 e8 c \grg d8. e16
     \alternative {
-      { \grgIII a4. e8 }
-      { \grgIII a2 }
+      { \grs2 \grg a4. e8 }
+      { \grs2 \grg a2 }
     }
   }
   \fine

@@ -112,7 +112,7 @@ partB = {
     \dblA A4 e8 \grg f8 e d
     \grg c8 \grd a \gre a \grg G4 b8
     \break
-    \grgII c8 \grd a \gre a \grg c8 \grd a \gre a
+    \grs1 \grg c8 \grd a \gre a \grg c8 \grd a \gre a
     \grg d8 c b c \gre a4
     \grg c8 e c \grg d c b
     \grg a4. \wbirl a4

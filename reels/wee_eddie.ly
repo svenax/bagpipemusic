@@ -15,7 +15,7 @@
     \grg f[ A \hdblf f e] \grg f b \grG b f
     \dblA A4 \hdblf f8 e \grg f b \grG b f
     \grg f[ A \hdblf f e] \grg c \grd a \gre a \grd c
-    \break
+    \section \break
 
     % Part 2
 

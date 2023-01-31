@@ -11,7 +11,7 @@ partA = {
   A4 \grg A8 \grf g4 f8
   \dble e4. \gra <e A>4 c8
   \break
-  \grg e4 \gra e8 \grg f4 e8
+  \grs2 \grg e4 \gra e8 \grg f4 e8
   \dble e4 c8 \grG a4 \grd c8
   \grg e4 g8 \thrwd d4 c8
   \grg b4. \taor <b e>4 \thrwd d8

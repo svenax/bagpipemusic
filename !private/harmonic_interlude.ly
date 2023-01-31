@@ -65,14 +65,14 @@ musicB = {
 
   % Part 2
   \repeat volta 2 {
-    \grgII f8 e \grg a4 f8 c \grd c d
+    \grs1 \grg f8 e \grg a4 f8 c \grd c d
     \dblA A4 \hdblf f \grg e8 f \dblA A4
     \hdblf f8 A \hdblf f d b a \grg d4
     \grg a4 \wbirl a \grg a8 G \grg a4
     \break
     \alternative{
       {
-        \grgII f8 e \grg a4 f8 c \grd c d
+        \grs1 \grg f8 e \grg a4 f8 c \grd c d
         \dblA A4 \hdblf f \grg e8 f \dblA A4
         \hdblf f8 A \hdblf f d b a \grg d4
         \grg a4 \wbirl a \grg a8 G \grg a4

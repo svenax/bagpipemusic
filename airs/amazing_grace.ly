@@ -45,7 +45,7 @@ musicB = {
   \dblA A2 f8. A16
   \break
 
-  a8. d16 \grg f8. A16 f8[ e32 d16.]
+  \grs1 a8. d16 \grg f8. A16 f8[ e32 d16.]
   \slurd d4. a8 \dbld d8. c16
   \grg b4. d8 \grA g-flat8. d16
   \grg f2 \grg a8. d16
@@ -71,7 +71,7 @@ musicC = {
   \dble e2 \grg a4
   \break
 
-  d2 A4
+  \grs1 d2 A4
   \hdblf f2 \grg b8. a16
   \gre G4. \grg b8 d4
   \grg b16 \grG a8. ~ a4 \grg a

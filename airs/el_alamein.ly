@@ -37,13 +37,14 @@ musicB = {
 
   \partial 8
   R8
-  R1*6/8*7 R1*5/8
+  R1*6/8*7
+  R1*5/8
   \section \break
 
   R8
   R1*6/8*4
   \break
-  \grg A8. g16 f8 \grg e8 f A
+  \grs1 \grg A8. g16 f8 \grg e8 f A
   c d e \grg f4 A8
   b16 f8. d8 \dblg g8. e16 g8
   \grg f4. \dblA A4

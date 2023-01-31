@@ -49,7 +49,7 @@ musicB = {
     \birl a8 f a \grg G d a
     A8 d b A a d
     \break
-    \grgIII d8 a d \grg a b c
+    \grs2 \grg d8 a d \grg a b c
     \grg e8 a G \grg c d A
     \birl a8 f a \grg G d a
     \wbirl a4 \grd b8 \grG a4
@@ -64,7 +64,7 @@ musicB = {
     \wbirl a8 f a \grg G d a
     A8 d b A a d
     \break
-    \grgII f8[ a \wbirl a] \grg a f a
+    \grs1 \grg f8[ a \wbirl a] \grg a f a
     \wbirl a8 b a \grg c d a
     \wbirl a8 f a \grg G d a
     \wbirl a4 \grd b8 \grG a4

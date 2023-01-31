@@ -32,6 +32,10 @@ tocSubhead = #(define-music-function (text) (markup?)
 
     \remove "Bar_number_engraver"
 
+    \remove Mark_engraver
+    \remove Text_mark_engraver
+    \remove Staff_collecting_engraver
+
     \override Stem.direction = #down
     \override Slur.direction = #up
     \override Tie.direction = #up
@@ -61,6 +65,10 @@ tocSubhead = #(define-music-function (text) (markup?)
   \context {
     \Staff
 
+    \consists Mark_engraver
+    \consists Text_mark_engraver
+    \consists Staff_collecting_engraver
+
     extraNatural = ##f
     midiInstrument = #"bagpipe"
     strictBeatBeaming = ##t
@@ -76,6 +84,17 @@ tocSubhead = #(define-music-function (text) (markup?)
 }
 
 morespace = \once \override NoteColumn.X-offset = 0.5
+
+% Sets the autobeamer to span quarter notes only. Use for fast music.
+quarterBeaming = {
+  \set Timing.beamExceptions = #'()
+}
+% Sets the autobeamer to span half notes. Mostly used in reels.
+halfBeaming = {
+  \set Timing.beamExceptions = #'()
+  \set Timing.baseMoment = #(ly:make-moment 1/4)
+  \set Timing.beatStructure = 2,2
+}
 
 % Bagpipe music is written in something like D major. If we use
 % flattened notes, the flat should be shown on all instances.
@@ -107,9 +126,9 @@ showTrueKeySignature = {
 
 \allowVoltaHook "|"
 
-% Common padded grace notes for use in multi-part scores
-grgII = \pgrace { s32 g32 }
-grgIII = \pgrace { s16 g32 }
+% Grace note skip for use in multi-part scores.
+grs = #(define-music-function (duration) (integer?)
+   #{ \pgrace { s32*#duration } #})
 
 % Extra movements
 fgrip = \pgrace { G32[ f G] }
