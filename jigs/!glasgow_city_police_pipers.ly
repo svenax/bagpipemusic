@@ -64,7 +64,7 @@
 
   \header {
     meter = "Jig"
-    title = "Glasgow Police Pipes"
+    title = "Glasgow City Police Pipers"
     composer = "P/M Donald MacLeod, MBE"
   }
 
