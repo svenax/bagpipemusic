@@ -73,6 +73,7 @@
         }
       }
     }
+    \fine
   }
 
   \header {
