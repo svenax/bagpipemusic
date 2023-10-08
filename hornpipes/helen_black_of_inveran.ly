@@ -26,13 +26,13 @@
 
     \repeat volta 2 {
       \grg e16. d32
-      \grg c16. e32 \gra e16. f32 \gre f16. e32 \gra e16. c32
-      \grG c16. e32 \gra e16. f32 \dble e8 \grg f16. g32
+      \grg c16. e32 \gra e16. f32 \grg f16. e32 \gra e16. c32
+      \grg c16. e32 \gra e16. f32 \dble e8 \grg f16. g32
       A16. g32 \grA g16. f32 \grg f16. e32 \gra e16. c32
       \grg c32 f16. \grg e16. c32 \slurb b8 \grg e16. d32
       \break
-      \grg c16. e32 \gra e16. f32 \gre f16. e32 \gra e16. c32
-      \grG c16. f32 \gre f16. e32 \dblf f8 \grg f16. g32
+      \grg c16. e32 \gra e16. f32 \grg f16. e32 \gra e16. c32
+      \grg c16. f32 \gre f16. e32 \dblf f8 \grg f16. g32
       A16. f32 \grg d16. b32 \grg e16. d32 \grg c16. b32
       \dblc c8 \gre a \wbirl a
     }
@@ -44,8 +44,8 @@
       \dblA A8
       e16. c32 \grG c16. b32 \grg a16. c32 \grG c16. e32
       \grg f16. c32 \grG c16. b32 \dblc c8 \grg f16. g32
-      A16. f32 \gre f16. d32 \grg a16. d32 \grG d16. f32
-      \gre f16. e32 \gra e16. c32 \slurb b8[ \dblA A]
+      A16. f32 \grg f16. d32 \grg a16. d32 \grG d16. f32
+      \grg f16. e32 \gra e16. c32 \slurb b8[ \dblA A]
       \break
       e16. c32 \grG c16. b32 \grg a16. c32 \grG c16. e32
       \grg f16. c32 \grG c16. b32 \dblc c8 \grg f16. g32
@@ -60,8 +60,8 @@
       \dblA A8
       a16. c32 \grG c16. a32 \grg a16. c32 \grG c16. a32
       \grg a16. f32 \grg e16. d32 \dblc c8 \grg f16. g32
-      A16. f32 \gre f16. d32 \grg a16. d32 \grG d16. f32
-      \gre f16. e32 \gra e16. c32 \slurb b8[ \dblA A]
+      A16. f32 \grg f16. d32 \grg a16. d32 \grG d16. f32
+      \grg f16. e32 \gra e16. c32 \slurb b8[ \dblA A]
       \break
       \alternative {
         {
