@@ -1,0 +1,47 @@
+{
+	"Add default include": {
+		"scope": "lilypond",
+		"prefix": "inc",
+		"body": [
+			"\\include \"../bagpipe_extra.ly\"",
+			""
+		],
+		"description": "Add default include for syntax checking"
+	},
+	"Volta": {
+		"scope": "lilypond",
+		"prefix": "volt",
+		"body": [
+			"\\repeat volta 2 {",
+			"\t\\break",
+			"}"
+		],
+		"description": "Standard volta 2"
+	},
+	"Alternative": {
+		"scope": "lilypond",
+		"prefix": "alt",
+		"body": [
+			"\\alternative {",
+			"\t{",
+			"\t}",
+			"\t{",
+			"\t}",
+			"}"
+		]
+	},
+	"Book score": {
+		"scope": "lilypond",
+		"prefix": "sco",
+		"body": [
+			"\t\\score {\n",
+			"\t\t{",
+			"\t\t\t\\common",
+			"\t\t}\n",
+			"\t\t\\header {",
+			"\t\t\tpiece = \"I. Urlar\"",
+			"\t\t}\n",
+			"\t}"
+		]
+	}
+}

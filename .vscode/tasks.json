@@ -1,0 +1,30 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Bagpipe Tune",
+            "type": "shell",
+            "command": "domusic make ${file} && domusic view ${file}",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Bagpipe Tune View Spacing",
+            "type": "shell",
+            "command": "domusic make ${file} --view-spacing && domusic view ${file}",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Bagpipe Tune cropped PNG",
+            "type": "shell",
+            "command": "domusic make ${file} --post",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

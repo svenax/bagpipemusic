@@ -1,0 +1,5 @@
+{
+    "vslilypond.compilation.additionalCommandLineArguments": "-I /Users/svenax/Documents/Sheetmusic/Bagpipe -dinclude-settings=./global.ly",
+    "vslilypond.compilation.compileMainFileOnSave": false,
+    "vslilypond.compilation.compileOnSave": false
+}
