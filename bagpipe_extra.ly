@@ -88,12 +88,17 @@ morespace = \once \override NoteColumn.X-offset = 0.5
 % Sets the autobeamer to span quarter notes only. Use for fast music.
 quarterBeaming = {
   \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 1,1,1,1
 }
 % Sets the autobeamer to span half notes. Mostly used in reels.
 halfBeaming = {
-  \set Timing.beamExceptions = #'()
-  \set Timing.baseMoment = #(ly:make-moment 1/4)
-  \set Timing.beatStructure = 2,2
+    \set Timing.beamExceptions = #'()
+    \set Timing.beatStructure = 1,1
+}
+
+reelTime = {
+  \time 2/2
+  \halfBeaming
 }
 
 % Bagpipe music is written in something like D major. If we use
