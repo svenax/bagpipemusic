@@ -17,14 +17,15 @@
             "type": "shell",
             "command": "domusic make ${file} --view-spacing && domusic view ${file}",
             "group": "build",
-            "problemMatcher": []
         },
         {
             "label": "Bagpipe Tune cropped PNG",
             "type": "shell",
             "command": "domusic make ${file} --post",
             "group": "build",
-            "problemMatcher": []
         }
-    ]
+    ],
+    "presentation": {
+        "close": true
+    }
 }
