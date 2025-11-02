@@ -1,4 +1,5 @@
 __*
+.DS_Store
 *.pdf
 *.scm
 bwwtolily.py
