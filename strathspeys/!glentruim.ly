@@ -10,9 +10,9 @@
     \dble e8. a16 \grg c16[ \grip e8.] \dblc c4 \gre a8. \grd c16
     \dble e8. a16 \dble e8. c16 \grg a8. \grd c16 \dble e8. c16
     \thrwd d8. c16 \grg b16 c d8 \dblb b4 \gre G8. \grd b16
-    \dbld d8. G16 \dbld d8. b16 \grg G8. \grd b16 \thrwd d8. f16
+    \dbld d8. G16 \dbld d8. b16 \grg G8. b16 \thrwd d8. f16
     \break
-    \dble e8. a16 \grg c16 e A8 \dble e4 \grg a8. \grd c16
+    \dble e8. a16 \grd c16 e A8 \dble e4 \grg a8. \grd c16
     \dble e8. a16 \dble e8. c16 \grg a8. \grd c16 \dble e8. c16
     \thrwd d8. c16 \grg b16 c d8 \grg c16[ \grip e8.] \dbld d8. b16
     \grg a4 \taor  a8. \grd b16 \grg a4 \taor a8.
@@ -21,12 +21,12 @@
     % Part 2
 
     e16
-    \dblA A8. e16 \grg f16 g A8 \hdblf f4 \grg e8. c16
+    \dblA A8. e16 \grg f16 g A8 \hdblf f4 \dble e8. c16
     \grg a8. \grd c16 \dble e8. c16 \grg d16 f8 a16 \dble e8. c16
-    \dblg g8. d16 \grg e16 f g8 \grg b16 c d8 \dblb b8. a16
-    \grg G8. \grd b16 \dbld d8. b16 \grg d16 f8 G16 \Gthrwd d8. b16
+    \dblg g8. d16 \grg e16 f g8 \grA b16 c d8 \dblb b8. a16
+    \grg G8. \grd b16 \dbld d8. b16 \grg e16 g8 G16 \Gthrwd d8. b16
     \break
-    \dblA A8. e16 \grg f16 g A8 \hdblf f4 \grg e8. c16
+    \dblA A8. e16 \grg f16 g A8 \hdblf f4 \dble e8. c16
     \grg a8. \grd c16 \dble e8. c16 \grg d16 f8 a16 \dble e8. c16
     \thrwd d8. c16 \grg b16 c d8 \grg c16[ \grip e8.] \dbld d8. b16
     \grg a4 \taor  a8. \grd b16 \grg a4 \taor a8.
@@ -52,9 +52,9 @@
     \dblA A8. f16 \dblg g8. e16 \dblf f8. d16 \dble e8. c16
     \grg a8. \grd c16 \dble e8. c16 \grg d16 f8 a16 \dble e8. c16
     \dblg g8. e16 \dblf f8. d16 \dble e8. c16 \dbld d8. b16
-    \grg G8. \grd b16 \thrwd d8. b16 \grg d16 f8 G16 \Gthrwd d8. b16
+    \grg G8. \grd b16 \dbld d8. b16 \grg d16 f8 G16 \Gthrwd d8. b16
     \break
-    \grg e16 A8 f16 \dblg g8. e16 \dblf f8. d16 \dble e8. c16
+    \grg f16 A8 f16 \dblg g8. e16 \dblf f8. d16 \dble e8. c16
     \grg a8. \grd c16 \dble e8. c16 \grg d16 f8 a16 \dble e8. c16
     \thrwd d8. c16 \grg b16 c d8 \grg c16[ \grip e8.] \dbld d8. b16
     \grg a4 \taor  a8. \grd b16 \grg a4 \taor a8.
