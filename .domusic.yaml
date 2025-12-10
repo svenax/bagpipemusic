@@ -1,0 +1,71 @@
+root: /Users/svenax/Documents/Sheetmusic/Bagpipe
+ly-editor: code -r
+ly-viewer: com.microsoft.VSCode
+
+# Sync configuration -----------------------------------------------------------
+
+sync:
+  server: "svenax.net"
+  user: "svenaxne"
+  path: "~/public_html/files/sheetmusic"
+  ssh-key: "~/.ssh/id_ed25519_svenax"
+  exclude:
+  - "!collections/**"
+  - "!private/**"
+
+# Templates --------------------------------------------------------------------
+
+template:
+  common: |
+    %% Common settings for all generated Lilypond files.
+
+    \version "{{.version}}"
+
+    \pointAndClick{{if .pointAndClick}}On{{else}}Off{{end}}
+
+    #(set-global-staff-size {{.staffSize}})
+    #(set-default-paper-size "{{.paperSize}}" '{{if .landscape}}landscape{{else}}portrait{{end}})
+
+    {{if .fontInclude}}\include "{{.fontInclude}}.ily"{{end}}
+    \include "bagpipe.ly"
+    \include "./bagpipe_extra.ly"
+    \include "./header_{{.headerFormat}}.ly"
+
+    \paper {
+      annotate-spacing = {{if .viewSpacing}}##t{{else}}##f{{end}}
+      ragged-bottom = ##t
+    }
+    \layout {
+      \context {
+        \Score
+        \autoPageBreaksOff
+      }
+    }
+
+  collection: |
+    %% Generated from {{.sourceFile}} by domusic
+
+    {{.common}}
+
+    \header {
+      title = "{{.title}}"
+    }
+    \paper {
+      tocItemMarkup = \tocItemWithDotsMarkup
+    }
+
+    \markuplist \table-of-contents
+    \pageBreak
+
+    %% The tunes to generate.
+
+  make: |
+    %% Generated from {{.sourceFile}} by domusic
+
+    {{.common}}
+
+    \paper {
+      {{if .removeTagline}}tagline = ""{{end}}
+    }
+
+    %% The tune to generate.
