@@ -26,7 +26,7 @@
 \include "strathspeys/!bridge_of_perth_strathspey.ly"
 
 \tocItem \markup "Cabar Feidh"
-\include "strathspeys/cabar_feidh.ly"
+\include "strathspeys/cabar_feidh_strathspey.ly"
 
 \tocItem \markup "Cameronian Rant"
 \include "strathspeys/!cameronian_rant.ly"
