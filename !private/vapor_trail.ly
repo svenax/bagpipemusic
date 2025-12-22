@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slow Air"
+    title = "Vapor Trail"
+    composer = "Dan Chaffee"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -40,12 +46,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Slow Air"
-    title = "Vapor Trail"
-    composer = "Dan Chaffee"
   }
 
 }

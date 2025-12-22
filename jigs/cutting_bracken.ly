@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Cutting Bracken"
+    arranger = "Arr. D. Johnstone"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -64,12 +70,6 @@
       \dble e4 d8 \grg b e \gra e
       \grg a4. \wbirl a4.
     }
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Cutting Bracken"
-    arranger = "Arr. D. Johnstone"
   }
 
 }

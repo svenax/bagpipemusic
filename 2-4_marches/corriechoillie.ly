@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Corriechoillie’s 43rd Welcome to the Northern Meeting"
+    composer = "P/M W. Ross"
+  }
   {
     \bagpipeKey
     \time 2/4
@@ -49,11 +54,4 @@
     \fine
   }
 
-  \header {
-    meter = "March"
-    title = "Corriechoillie’s 43rd Welcome to the Northern Meeting"
-    composer = "P/M W. Ross"
-  }
-
 }
-

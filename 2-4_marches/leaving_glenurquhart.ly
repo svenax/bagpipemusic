@@ -1,5 +1,14 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Leaving Glenurquhart"
+    subtitle = "Tulloch McCarrick"
+    composer = "W. MacDonald"
+    loc = "57.3333316,-4.6008429"
+    map = "https://goo.gl/maps/aFm48h5AvBp"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -87,15 +96,6 @@
     \grg b16.[ c32 \thrwd d16. e32] \grg f32[ A16. \hdble e16. b32]
     \dblc c8 \gre a \wbirl a
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Leaving Glenurquhart"
-    subtitle = "Tulloch McCarrick"
-    composer = "W. MacDonald"
-    loc = "57.3333316,-4.6008429"
-    map = "https://goo.gl/maps/aFm48h5AvBp"
   }
 
 }

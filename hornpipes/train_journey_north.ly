@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "The Train Journey North"
+    composer = "T. Anderson"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -94,12 +100,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "The Train Journey North"
-    composer = "T. Anderson"
   }
 
 }

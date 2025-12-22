@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slow Air"
+    title = "Flower of Scotland"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -25,12 +31,6 @@
     d4 \grG d8 \grg c4 e8
     \thrwd d4. ~ d4
     \fine
-  }
-
-  \header {
-    meter = "Slow Air"
-    title = "Flower of Scotland"
-    arranger = "Trad. arr. MPD"
   }
 
 }

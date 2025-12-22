@@ -114,12 +114,6 @@ pipesB = {
 
 \score {
 
-  \new StaffGroup <<
-    \new Staff \bombarde
-    \new Staff \pipesA
-    \new Staff \pipesB
-  >>
-
   \header {
     meter = "Breton Air"
     title = "Pennherez Keroulaz"
@@ -127,5 +121,11 @@ pipesB = {
     comment = "Top voice is for Breton bombarde, second and third voice
     are for the Highland bagpipe."
   }
+
+  \new StaffGroup <<
+    \new Staff \bombarde
+    \new Staff \pipesA
+    \new Staff \pipesB
+  >>
 
 }

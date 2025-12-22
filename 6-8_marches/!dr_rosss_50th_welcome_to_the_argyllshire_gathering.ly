@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Dr. Ross’s 50th Welcome to the Argyllshire Gathering"
+    composer = "P/M Donald MacLeod, MBE"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -97,12 +103,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Dr. Ross’s 50th Welcome to the Argyllshire Gathering"
-    composer = "P/M Donald MacLeod, MBE"
   }
 
 }

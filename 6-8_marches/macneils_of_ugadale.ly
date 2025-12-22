@@ -1,5 +1,14 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The MacNeils of Ugadale"
+    composer = "P/M J. M. MacKenzie"
+    arranger = "Arr. MPD"
+    loc = "55.4232349,-5.7345576"
+    map = "https://goo.gl/maps/tYRATGa6nHJ2"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -94,15 +103,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "The MacNeils of Ugadale"
-    composer = "P/M J. M. MacKenzie"
-    arranger = "Arr. MPD"
-    loc = "55.4232349,-5.7345576"
-    map = "https://goo.gl/maps/tYRATGa6nHJ2"
   }
 
 }

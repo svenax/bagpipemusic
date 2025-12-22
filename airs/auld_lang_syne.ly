@@ -1,5 +1,10 @@
 \score {
 
+  \header{
+    title = "Auld Lang Syne"
+    composer = "Traditional"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -34,11 +39,6 @@
       \grg a4. f8 \grg f4 e
       \grg a2. ~ a8
     }
-  }
-
-  \header{
-    title = "Auld Lang Syne"
-    composer = "Traditional"
   }
 
 }

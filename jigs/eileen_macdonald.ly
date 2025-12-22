@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Eileen MacDonald"
+    composer = "C. M. Williamson"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -66,12 +72,6 @@
       \grA g f \grg e \grg e f \grg d
       \grg e f \grg d \dble e4
     }
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Eileen MacDonald"
-    composer = "C. M. Williamson"
   }
 
 }

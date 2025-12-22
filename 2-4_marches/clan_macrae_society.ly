@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Clan MacRae Society"
+    composer = "W. Fergusson"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -140,12 +146,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "The Clan MacRae Society"
-    composer = "W. Fergusson"
   }
 
 }

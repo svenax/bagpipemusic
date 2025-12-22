@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Christmas carol"
+    title = "Jingle Bells"
+    composer = "James Pierpoint"
+    arranger = "Arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -53,13 +60,6 @@
 
 
     \fine
-  }
-
-  \header {
-    meter = "Christmas carol"
-    title = "Jingle Bells"
-    composer = "James Pierpoint"
-    arranger = "Arr. MPD"
   }
 
 }

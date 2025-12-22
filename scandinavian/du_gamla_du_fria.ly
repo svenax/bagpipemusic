@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    title = "Du gamla, du fria"
+    subtitle = "Swedish national anthem"
+    composer = "Richard Dybeck, 1844"
+    arranger = "Arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -18,13 +25,6 @@
       \thrwd d8. c16 \grg d8 e \grg f d \dblg g f
       \dble e2 \hslurd d4 ~ d8
     }
-  }
-
-  \header {
-    title = "Du gamla, du fria"
-    subtitle = "Swedish national anthem"
-    composer = "Richard Dybeck, 1844"
-    arranger = "Arr. MPD"
   }
 
 }

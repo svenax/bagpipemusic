@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Three-Two"
+    title = "Go to Berwick, Johnny"
+    arranger = "Trad."
+  }
+
   {
     \bagpipeKey
     \time 3/2
@@ -55,12 +61,6 @@
       e8 c e c \grg f d f d \grg e c a c
       \grg d4 b \grip b c \thrwd d f
     }
-  }
-
-  \header {
-    meter = "Three-Two"
-    title = "Go to Berwick, Johnny"
-    arranger = "Trad."
   }
 
 }

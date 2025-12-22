@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "The Carnival Reel"
+    composer = "P/M Robert Mathieson"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -79,12 +85,6 @@
     \grg d8 e f d g e \grg d c
     \grg d8 e c \grg d~ d2
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "The Carnival Reel"
-    composer = "P/M Robert Mathieson"
   }
 
 }

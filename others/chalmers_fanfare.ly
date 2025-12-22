@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Fanfare"
+    title = "Chalmers – Fanfare and Hymn"
+    composer = "Jerker Johansson"
+    arranger = "Arr. for bagpipes P/M M. d Hermansson"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -50,13 +57,6 @@
     A16 e \grg d b d e A e \grg d b d g
     \grA e4\fermata \thrwd d4\fermata
     \fine
-  }
-
-  \header {
-    meter = "Fanfare"
-    title = "Chalmers – Fanfare and Hymn"
-    composer = "Jerker Johansson"
-    arranger = "Arr. for bagpipes P/M M. d Hermansson"
   }
 
 }

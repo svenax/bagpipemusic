@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Don Manson's Reel"
+    composer = "Ian C. Cameron"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -57,16 +63,4 @@
     \fine
   }
 
-  \header {
-    meter = "Reel"
-    title = "Don Manson's Reel"
-    composer = "Ian C. Cameron"
-  }
-
 }
-
-
-
-
-
-

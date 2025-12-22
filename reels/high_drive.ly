@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "The High Drive"
+    composer = "Gordon Duncan"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -78,12 +84,6 @@
     \grg G8 a \gbirl a4 \grg f8 e \grg d f
     \grg e8 d \grg c e \grg d4
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "The High Drive"
-    composer = "Gordon Duncan"
   }
 
 }

@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Wretched Man"
+    subtitle = "Och is duine truag mi"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -28,13 +35,6 @@
     \dble e4 \grg f8. e16 \grg a16 \grd a8. \grg e8. c16
     \dblf f4 \grg e8. c16 \grg b8.[ \grd b16 \gre b8.]
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Wretched Man"
-    subtitle = "Och is duine truag mi"
-    arranger = "Trad. arr. MPD"
   }
 
 }

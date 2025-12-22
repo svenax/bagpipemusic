@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Traditional"
+    arranger = "Trad. arr. Donald MacLeod"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -57,12 +63,6 @@
     \dblA A4 e8 A g[ e \dbld d b]
     \gbirl a4 \gre a \grg G8[ \grd a \gre a]
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Traditional"
-    arranger = "Trad. arr. Donald MacLeod"
   }
 
 }

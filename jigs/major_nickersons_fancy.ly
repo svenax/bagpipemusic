@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Major Nickerson’s Fancy"
+    composer = "P/M J. Cobb"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -67,12 +73,6 @@
       \grg a \grd c e g \grA e g
       \grA f d \grG d \slurd d4
     }
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Major Nickerson’s Fancy"
-    composer = "P/M J. Cobb"
   }
 
 }

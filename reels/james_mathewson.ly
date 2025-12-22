@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "James Mathewson"
+    composer = "P/M Brian Donaldson"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -60,12 +66,6 @@
     \dblg g4 \grA e8 g \grA f4 \hslurd d8 f
     \grg e4 \hslurd d8 c \thrwd d4
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "James Mathewson"
-    composer = "P/M Brian Donaldson"
   }
 
 }

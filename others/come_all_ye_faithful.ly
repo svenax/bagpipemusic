@@ -2,6 +2,14 @@
 
 \score {
 
+  \header {
+    meter = "Christmas carol"
+    title = "O Come, All Ye Faithful"
+    subtitle = "Adeste Fidelis"
+    composer = "John Francis Wade"
+    arranger = "Arr. MPD"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -22,14 +30,6 @@
       \dblg g8 f \grg e d \dblc c4 \thrwd d8 g
       \tdblf f4 \grg e8. d16 \grG d4 ~ d4
     }
-  }
-
-  \header {
-    meter = "Christmas carol"
-    title = "O Come, All Ye Faithful"
-    subtitle = "Adeste Fidelis"
-    composer = "John Francis Wade"
-    arranger = "Arr. MPD"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    title = "The Highlanders’ Institute"
+    composer = "Peter R. MacLeod"
+    meter = "Reel"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -56,12 +62,6 @@
     \dblc c4 \bubly b4 \gre a8. \grd c16 \grg e8. \grg f16
     A8. a16 \grg b16 \grd c8. \grg a8.[ \grd a16 \gre a8.]
     \fine
-  }
-
-  \header {
-    title = "The Highlanders’ Institute"
-    composer = "Peter R. MacLeod"
-    meter = "Reel"
   }
 
 }

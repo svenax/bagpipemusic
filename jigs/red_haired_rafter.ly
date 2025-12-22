@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "The Red Haired Rafter"
+    composer = "Jimmy Young"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -72,12 +78,6 @@
     \grg b8 a b \grg d e f
     \grg e8 d c \thrwd d4.
     \fine
-  }
-
-  \header {
-    meter = "Jig"
-    title = "The Red Haired Rafter"
-    composer = "Jimmy Young"
   }
 
 }

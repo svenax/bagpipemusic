@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "Calum Campbell’s Caprice"
+    composer = "P/M J. Wilson"
+    arranger = "Arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -50,13 +57,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "Calum Campbell’s Caprice"
-    composer = "P/M J. Wilson"
-    arranger = "Arr. MPD"
   }
 
 }

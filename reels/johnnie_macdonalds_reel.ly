@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Johnnie MacDonald’s Reel"
+    composer = "J. A. Center"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -60,12 +66,6 @@
     \hdblf f8. d16 \grg c8. d16 \dble e8. d16 \grg G8. \grd b16
     \grg a8. \grd c16 \grg e16 A8. \hdblf f8.[ d16 \grG d8.]
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Johnnie MacDonald’s Reel"
-    composer = "J. A. Center"
   }
 
 }

@@ -1,5 +1,13 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Raasay House"
+    composer = "A. M. Lee"
+    loc = "57.353605,-6.0813417"
+    map = "https://goo.gl/maps/LWx2kiLz8G72"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -82,14 +90,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Raasay House"
-    composer = "A. M. Lee"
-    loc = "57.353605,-6.0813417"
-    map = "https://goo.gl/maps/LWx2kiLz8G72"
   }
 
 }

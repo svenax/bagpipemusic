@@ -1,5 +1,14 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Atholl Highlanders"
+    arranger = "Trad. arr. MPD"
+    comment = "The march past of the Murray Pipes & Drums.
+
+    The Atholl Highlanders is the name of the Duke of Atholl’s private army."
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -78,15 +87,6 @@
       \grg c16 A8. e8 \dblf f8. e16 d8
       \grg c16 d8. \gre b8 \grG a4
     }
-  }
-
-  \header {
-    meter = "March"
-    title = "The Atholl Highlanders"
-    arranger = "Trad. arr. MPD"
-    comment = "The march past of the Murray Pipes & Drums.
-
-    The Atholl Highlanders is the name of the Duke of Atholl’s private army."
   }
 
 }

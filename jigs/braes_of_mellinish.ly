@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Braes of Mellinish"
+    composer = "Trad. arr MPD"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -67,12 +73,6 @@
       \gbirl a4 A8 e8 \grg a e
       d8 \gre G \grd b \gbirl a4
     }
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Braes of Mellinish"
-    composer = "Trad. arr MPD"
   }
 
 }

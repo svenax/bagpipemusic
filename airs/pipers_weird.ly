@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Slow Air"
+    title = "The Piper’s Weird"
+    composer = "J. S. Skinner"
+    arranger = "Arr. James McGillivray"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -45,13 +52,6 @@
     \grg f4 \grip f8 \dble e4 \dblc c8
     e8. \grg b16 e8 \grG a4
     \fine
-  }
-
-  \header {
-    meter = "Slow Air"
-    title = "The Piper’s Weird"
-    composer = "J. S. Skinner"
-    arranger = "Arr. James McGillivray"
   }
 
 }

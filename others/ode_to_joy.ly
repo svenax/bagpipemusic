@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    title = "Ode to Joy"
+    subtitle = "Anthem of the European Union"
+    composer = "Ludwig van Beethoven"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -58,12 +64,6 @@
         \grg d4 \grG d e f
         \dble e4. d8 \grG d2
     }
-  }
-
-  \header {
-    title = "Ode to Joy"
-    subtitle = "Anthem of the European Union"
-    composer = "Ludwig van Beethoven"
   }
 
 }

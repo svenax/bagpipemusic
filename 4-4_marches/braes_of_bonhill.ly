@@ -1,5 +1,22 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Braes of Bonhill"
+    composer = "P/M James Kirkpatrick"
+    comment = "It was James Kirkpatrick (or Jimmy as he was called)
+        who taught the first members of The Murray Pipes & Drums,
+        such as Mats, Martin, Frank, Ulf, and Sven in the 1970’s.
+        Jimmy used to live at Bonhill, but he later moved his home
+        and pipe making shop to a place one mile south of Luss.
+
+        Jimmy died in August 1999. Mats and Sven were in Scotland
+        at the time with the intention to visit Jimmy, but instead
+        got to attend his funeral in Bonhill."
+    loc = "55.9789172,-4.5809298"
+    map = "https://goo.gl/maps/1A4f4wbB1WE2"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -34,23 +51,6 @@
     \grg a4 \wbirl a8 b \grG a4 s8
     \markDCalFine
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "The Braes of Bonhill"
-    composer = "P/M James Kirkpatrick"
-    comment = "It was James Kirkpatrick (or Jimmy as he was called)
-        who taught the first members of The Murray Pipes & Drums,
-        such as Mats, Martin, Frank, Ulf, and Sven in the 1970’s.
-        Jimmy used to live at Bonhill, but he later moved his home
-        and pipe making shop to a place one mile south of Luss.
-
-        Jimmy died in August 1999. Mats and Sven were in Scotland
-        at the time with the intention to visit Jimmy, but instead
-        got to attend his funeral in Bonhill."
-    loc = "55.9789172,-4.5809298"
-    map = "https://goo.gl/maps/1A4f4wbB1WE2"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "Duncan Johnstone"
+    composer = "P/M Donald MacLeod, MBE"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -92,12 +98,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "Duncan Johnstone"
-    composer = "P/M Donald MacLeod, MBE"
   }
 
 }

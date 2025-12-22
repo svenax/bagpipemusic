@@ -87,16 +87,16 @@ musicB = {
 
 \score {
 
-  %\transpose a b-flat
-  \new StaffGroup <<
-    \new Staff \musicA
-    \new Staff \musicB
-  >>
-
   \header {
     meter = "Slow March"
     title = "The Mist Covered Mountains and Greensleeves"
     composer = "Trad. arr. MPD"
   }
+
+  %\transpose a b-flat
+  \new StaffGroup <<
+    \new Staff \musicA
+    \new Staff \musicB
+  >>
 
 }

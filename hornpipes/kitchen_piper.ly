@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "Kitchen Piper"
+    composer = "Neil Dickie"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -102,12 +108,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "Kitchen Piper"
-    composer = "Neil Dickie"
   }
 
 }

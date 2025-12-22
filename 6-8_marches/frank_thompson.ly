@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Frank Thompson"
+    composer = "Peter R. MacLeod"
+    arranger = "arr. SFU"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -94,13 +101,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Frank Thompson"
-    composer = "Peter R. MacLeod"
-    arranger = "arr. SFU"
   }
 
 }

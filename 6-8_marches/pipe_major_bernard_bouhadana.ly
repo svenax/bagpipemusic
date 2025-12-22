@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Pipe-Major Bernard Bouhadana"
+    composer = "D. Siegel"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -90,12 +96,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Pipe-Major Bernard Bouhadana"
-    composer = "D. Siegel"
   }
 
 }

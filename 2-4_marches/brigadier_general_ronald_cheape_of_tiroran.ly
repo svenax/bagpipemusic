@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Brigadier General Ronald Cheape of Tiroran"
+    composer = "W. Ross"
+    loc = "56.3773273,-6.1060626"
+    map = "https://goo.gl/maps/c7ov3TVLx352"
+  }
   {
     \bagpipeKey
     \time 2/4
@@ -82,14 +89,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Brigadier General Ronald Cheape of Tiroran"
-    composer = "W. Ross"
-    loc = "56.3773273,-6.1060626"
-    map = "https://goo.gl/maps/c7ov3TVLx352"
   }
 
 }

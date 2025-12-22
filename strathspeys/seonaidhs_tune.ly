@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Seonaidh’s Tune"
+    arranger = "Arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -30,12 +36,6 @@
     \grg a8. \grd c16 \grg e16 g8. \grA f16 d8. \slurd d4
     \fine
 
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Seonaidh’s Tune"
-    arranger = "Arr. MPD"
   }
 
 }

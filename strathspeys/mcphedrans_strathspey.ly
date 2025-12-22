@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "McPhedran’s Strathspey"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -31,12 +37,6 @@
     \tdblb b16 \gre G8. \grg b16c d8 \dblc c16\gre a8. \grg e16 f g8
     A16 f d8 g16 e c8 \thrwd d4 \slurd d8
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "McPhedran’s Strathspey"
-    arranger = "Trad. arr. MPD"
   }
 
 }

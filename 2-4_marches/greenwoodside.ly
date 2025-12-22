@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Greenwood Side"
+    arranger = "Trad arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -47,11 +53,4 @@
     \fine
   }
 
-  \header {
-    meter = "March"
-    title = "Greenwood Side"
-    arranger = "Trad arr. MPD"
-  }
-
 }
-

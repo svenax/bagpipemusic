@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Auchmountain’s Bonnie Glen"
+    composer = "John Balloch"
+  }
   {
     \bagpipeKey
     \time 2/4
@@ -53,11 +58,4 @@
     \fine
   }
 
-  \header {
-    meter = "March"
-    title = "Auchmountain’s Bonnie Glen"
-    composer = "John Balloch"
-  }
-
 }
-

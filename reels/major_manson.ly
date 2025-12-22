@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Major Manson"
+    composer = "Peter MacLeod"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -60,12 +66,6 @@
     \thrwd d4 \grg f8. d16 \grg c16 e8. \grg c16 \grd a8.
     d16 \gre G8. \grd b16 e8. \grg a8.[ \grd a16 \gre a8]
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Major Manson"
-    composer = "Peter MacLeod"
   }
 
 }

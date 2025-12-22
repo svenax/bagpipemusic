@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "The Mad Hornpipe"
+    composer = "P/M Bert Barron B.E.M."
+    source = "Scots Guards III, p 276"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -76,13 +83,6 @@
     \dblg g16. A32 g16. e32 \grg b16. A32 g16. A32
     f16. A32 e16. A32 d8
     \fine
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "The Mad Hornpipe"
-    composer = "P/M Bert Barron B.E.M."
-    source = "Scots Guards III, p 276"
   }
 
 }

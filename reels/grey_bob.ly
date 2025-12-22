@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "The Grey Bob"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -57,11 +62,6 @@
     \catchc c4 \grg c16 \grd a8. \grg b8. \grd G16 \gre G8. \grd b16
     \wbirl a4 A8. g16 \dblA A4 e16 A8.
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "The Grey Bob"
   }
 
 }

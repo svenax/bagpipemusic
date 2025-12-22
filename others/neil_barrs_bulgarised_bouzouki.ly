@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Dance"
+    title = "Neil Barr's Bulgarised Bouzouki"
+    composer = "Mark Saul"
+  }
+
   {
     \bagpipeKey
     \time 7/16
@@ -74,10 +80,5 @@
 
   }
 
-  \header {
-    meter = "Dance"
-    title = "Neil Barr’s Bulgarised Bouzouki"
-    composer = "Mark Saul"
-  }
 
 }

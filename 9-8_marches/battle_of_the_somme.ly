@@ -1,5 +1,13 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Battle of the Somme"
+    arranger = "Trad. arr. MPD"
+    loc = "50.016667,2.683333"
+    map = "https://goo.gl/maps/UMfBHfv1oGk"
+  }
+
   {
     \bagpipeKey
     \time 9/8
@@ -34,14 +42,6 @@
       \grg b16 \grd G8. \grd b8 \grG a4. \grip f4.
       \grg f16 A8. f8 \thrwd d4. \slurd d4.
     }
-  }
-
-  \header {
-    meter = "March"
-    title = "The Battle of the Somme"
-    arranger = "Trad. arr. MPD"
-    loc = "50.016667,2.683333"
-    map = "https://goo.gl/maps/UMfBHfv1oGk"
   }
 
 }

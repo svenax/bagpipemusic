@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Allan Gilmore, Tom of Canna"
+    composer = "John MacColl"
+    loc = "57.056633,-6.6187386"
+    map = "https://goo.gl/maps/6ujXm1xjUtu"
+  }
   {
     \bagpipeKey
     \time 2/4
@@ -79,14 +86,6 @@
       \dblA A8. f16 \grA g16.[ e32 \thrwd d16. e32]
       \dblc c8 \gre a \wbirl a
     }
-  }
-
-  \header {
-    meter = "March"
-    title = "Allan Gilmore, Tom of Canna"
-    composer = "John MacColl"
-    loc = "57.056633,-6.6187386"
-    map = "https://goo.gl/maps/6ujXm1xjUtu"
   }
 
 }

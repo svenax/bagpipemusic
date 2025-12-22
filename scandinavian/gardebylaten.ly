@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    title = "Gärdebylåten"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -32,11 +37,6 @@
     \dblc c8. d16 \dblc c8 b \grg a g \tdblf f e
     \thrwd d8 \grg f16. d32 \dblc c16.[ d32 \dble e16. c32] \thrwd d4 \slurd d8
     \fine
-  }
-
-  \header {
-    title = "Gärdebylåten"
-    arranger = "Trad. arr. MPD"
   }
 
 }

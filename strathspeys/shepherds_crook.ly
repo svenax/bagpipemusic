@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "The Shepherd’s Crook"
+    composer = "Trad. Arr."
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -55,12 +61,6 @@
     \thrwd d16 A8. \hdblc c16 A8. \hslurb b8. c16 \thrwd d8. e16
     \dblA A8. g16 \tdblf f8. e16 \grg c16[ \grip e8.] \dblA A4
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "The Shepherd’s Crook"
-    composer = "Trad. Arr."
   }
 
 }

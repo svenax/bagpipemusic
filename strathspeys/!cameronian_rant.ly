@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Cameronian Rant"
+    arranger = "Trad Arr. Donald MacLeod"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -109,12 +115,6 @@
     \grA \times 2/3 { f8 g A } \hdble e8. g16 \grA \times 2/3 { f8 g A } \hdble e8. f16
     \dblg g8. e16 \dblA A8. e16 \dblg g16 A8. \times 2/3 { g8 f e }
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Cameronian Rant"
-    arranger = "Trad Arr. Donald MacLeod"
   }
 
 }

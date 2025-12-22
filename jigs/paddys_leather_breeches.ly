@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Paddy’s Leather Breeches"
+    composer = "Trad."
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -74,12 +80,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Paddy’s Leather Breeches"
-    composer = "Trad."
   }
 
 }

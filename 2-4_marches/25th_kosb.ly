@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The 25th K.O.S.B."
+    composer = "P/M J. Balloch"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -69,12 +75,6 @@
       \thrwd d4 \slurd d8
     }
 
-  }
-
-  \header {
-    meter = "March"
-    title = "The 25th K.O.S.B."
-    composer = "P/M J. Balloch"
   }
 
 }

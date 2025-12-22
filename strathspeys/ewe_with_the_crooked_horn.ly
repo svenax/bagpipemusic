@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "The Ewe With the Crooked Horn"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -53,12 +59,6 @@
       \dblA A8. d16 \dblf f8. d16 \dblg g8. c16 \dble e8. c16
       \dblA A8. g16 \grA f16 A8. \grf g8. e16 \thrwd d4
     }
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "The Ewe With the Crooked Horn"
-    arranger = "Trad. arr. MPD"
   }
 
 }

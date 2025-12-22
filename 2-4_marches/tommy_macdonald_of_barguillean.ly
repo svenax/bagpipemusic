@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Tommy Macdonald of Barguillean"
+    composer = "Dr. B. E. Thomson"
+    arranger = "arr. Gillies/Walker"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -95,13 +102,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Tommy Macdonald of Barguillean"
-    composer = "Dr. B. E. Thomson"
-    arranger = "arr. Gillies/Walker"
   }
 
 }

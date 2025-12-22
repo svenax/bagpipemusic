@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Good Drying"
+    composer = "R. S. MacDonald"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -62,12 +68,6 @@
       \grg e a \gbirl a4 \gbirl a4 \grg e8 a
       \grg c8 d \grG d G \grg a2
     }
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Good Drying"
-    composer = "R. S. MacDonald"
   }
 
 }

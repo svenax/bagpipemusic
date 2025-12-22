@@ -1,5 +1,13 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Pipe Major Donald MacLean of Lewis"
+    composer = "Donald MacLeod"
+    loc = "58.2119017,-7.1958063"
+    map = "https://goo.gl/maps/4M6z848o8Bz"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -90,14 +98,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Pipe Major Donald MacLean of Lewis"
-    composer = "Donald MacLeod"
-    loc = "58.2119017,-7.1958063"
-    map = "https://goo.gl/maps/4M6z848o8Bz"
   }
 
 }

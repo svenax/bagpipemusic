@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Flett from Flotta"
+    composer = "P/M Donald MacLeod, MBE"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -32,12 +38,6 @@
     \grip c4 A8. e16 \grg e16 c8. \grg b8. c16
     \grG a2 \wbirl a4
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Flett from Flotta"
-    composer = "P/M Donald MacLeod, MBE"
   }
 
 }

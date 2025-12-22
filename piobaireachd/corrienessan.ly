@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    title = "Corrienessan’s Salute – Ground"
+    source = "Kilberry Book p. 4"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -27,11 +32,6 @@
     f8.\prall e16 \grg c8. f16 \grg e8. c16 \grg b16 c8.
     \cad c8[ \bgrip a] c4\trill \cad b \grGcad a
     \fine
-  }
-
-  \header {
-    title = "Corrienessan’s Salute – Ground"
-    source = "Kilberry Book p. 4"
   }
 
 }

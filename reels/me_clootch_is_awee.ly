@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Me Clootch is Awee!"
+    composer = "Mark Saul"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -55,12 +61,6 @@
     \grg e c \grg d b \grg c \grd a \gre a \grd c
     \grg b d \grg c \grd a \grip b2
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Me Clootch is Awee!"
-    composer = "Mark Saul"
   }
 
 }

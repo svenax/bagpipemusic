@@ -1,5 +1,13 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Badge of Scotland"
+    arranger = "Trad. arr. MPD"
+    comment = "This tune is also called The Thistle of Scotland, the thistle
+    being one of the national emblems of Scotland."
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -32,14 +40,6 @@
     \grg f16 A8. \hdblf f8 A \birl a4 \grg f8. e16
     \thrwd d4 \slurd d8. e16 \thrwd d4
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Badge of Scotland"
-    arranger = "Trad. arr. MPD"
-    comment = "This tune is also called The Thistle of Scotland, the thistle
-    being one of the national emblems of Scotland."
   }
 
 }

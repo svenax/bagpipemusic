@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Mrs. Lily Christie"
+    composer = "P/M Donald Shaw Ramsay"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -90,12 +96,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Mrs. Lily Christie"
-    composer = "P/M Donald Shaw Ramsay"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Mairi’s Wedding"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -42,12 +48,6 @@
     \dble e8 d \grg b \gre G
     \grg a4 \wbirl a
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Mairi’s Wedding"
-    arranger = "Trad. arr. MPD"
   }
 
 }

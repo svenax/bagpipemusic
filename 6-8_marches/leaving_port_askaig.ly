@@ -1,5 +1,13 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Leaving Port Askaig"
+    composer = "P/M W. Ross"
+    loc = "55.8477722,-6.1150708"
+    map = "https://goo.gl/maps/uVzJxm9u1ED2"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -95,14 +103,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Leaving Port Askaig"
-    composer = "P/M W. Ross"
-    loc = "55.8477722,-6.1150708"
-    map = "https://goo.gl/maps/uVzJxm9u1ED2"
   }
 
 }

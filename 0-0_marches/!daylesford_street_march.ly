@@ -1,5 +1,14 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Daylesford Street March"
+    composer = "Mark Saul"
+    arranger = "Arr. MPD"
+    loc = "-37.3485988,144.1086471"
+    map = "https://goo.gl/maps/pVcSmXGaYqB2"
+  }
+
   {
     \bagpipeKey
     \time 12/8
@@ -65,15 +74,6 @@
     \grg f4 \grip f8 \dblA A4 f8 \dble e8. c16 \grd a8 \grg e16 A8. d8
     \dblc c8. \gre b16 \grd c8 \grg b16 e8. b8 \grg a4. \wbirl a4
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "The Daylesford Street March"
-    composer = "Mark Saul"
-    arranger = "Arr. MPD"
-    loc = "-37.3485988,144.1086471"
-    map = "https://goo.gl/maps/pVcSmXGaYqB2"
   }
 
 }

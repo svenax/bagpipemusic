@@ -1,5 +1,11 @@
 \score {
 
+  \header{
+    meter = "Jig"
+    title = "James MacLellan's Favourite"
+    composer = "D. Johnstone"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -64,12 +70,6 @@
       \grg c \grd a \gre a \grg e c \grd a
       \grg b \grd b \gre b \grg b \grd c e
     }
-  }
-
-  \header{
-    meter = "Jig"
-    title = "James MacLellan's Favourite"
-    composer = "D. Johnstone"
   }
 
 }

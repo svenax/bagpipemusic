@@ -1,5 +1,15 @@
 \score {
 
+  \header {
+    meter = "Piobaireachd"
+    title = "Nae Door Pibroch"
+    composer = "Gordon Duncan"
+    comment = "Balnaud Cottage was rented from Atholl Estates. They promised
+    Gordon a new front door. Being a time served joiner, Gordon took the
+    old door off to save time. The new door did not appear, and did not
+    for several days!"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -69,16 +79,6 @@
       \grg d4 \dcrun e8 \grA g8 ~ g8[ \crun e8] \grg e8 b
       \grg d4 \dcrun e8 \grA g8 ~ g8[ \crun e8] \grA g8 A
     }
-  }
-
-  \header {
-    meter = "Piobaireachd"
-    title = "Nae Door Pibroch"
-    composer = "Gordon Duncan"
-    comment = "Balnaud Cottage was rented from Atholl Estates. They promised
-    Gordon a new front door. Being a time served joiner, Gordon took the
-    old door off to save time. The new door did not appear, and did not
-    for several days!"
   }
 
 }

@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "Bouncing off the Walls"
+    composer = "Dan Chaffee"
+    arranger = "arr. P/S Sven Axelsson"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -91,13 +98,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "Bouncing off the Walls"
-    composer = "Dan Chaffee"
-    arranger = "arr. P/S Sven Axelsson"
   }
 
 }

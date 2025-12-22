@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slow Air"
+    title = "Towerhill View"
+    composer = "Mark Saul"
+  }
+
   {
     \bagpipeKey
     \time 6/4
@@ -30,12 +36,6 @@
     \grg b16 \grd G8. ~ G8 \grd b \grg a8. b16 \grip c16 e8. ~ e8 A g8. e16
     \thrwd d2 ~ d4 \slurd d2
     \fine
-  }
-
-  \header {
-    meter = "Slow Air"
-    title = "Towerhill View"
-    composer = "Mark Saul"
   }
 
 }

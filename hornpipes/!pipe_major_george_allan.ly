@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "Pipe Major George S. Allan"
+    composer = "P/M Donald MacLeod, MBE"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -68,12 +74,6 @@
       \hdble e16. c32 \grg a16. \grd c32 A16.[ f32 \dble e16. c32]
       \grg \times 2/3 { b16[ c d] } \gre G16. \grd b32 \grg a16.[ \grd a32 \gre a16.]
     }
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "Pipe Major George S. Allan"
-    composer = "P/M Donald MacLeod, MBE"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Archie Beag"
+    composer = "P/M D. Morrison"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -60,12 +66,6 @@
       \grg e8[ a \wbirl a] \grg d c \grG c
       \dblb b4. \grG a4.
     }
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Archie Beag"
-    composer = "P/M D. Morrison"
   }
 
 }

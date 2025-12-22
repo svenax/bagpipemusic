@@ -1,5 +1,14 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Lord Lovat’s Lament"
+    arranger = "Trad. arr. MPD"
+    comment = "This tune has also been named Lord Lovat’s March.
+        It should not be confused with the piobaireachd named
+        Lord Lovat’s Lament."
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -32,15 +41,6 @@
     \thrwd d8. e16 \grg f8 e32 d16. \grg c16 e8. \thrwd d8. b16
     \grg a4 \wbirl a8. b16 \grG a4
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Lord Lovat’s Lament"
-    arranger = "Trad. arr. MPD"
-    comment = "This tune has also been named Lord Lovat’s March.
-        It should not be confused with the piobaireachd named
-        Lord Lovat’s Lament."
   }
 
 }

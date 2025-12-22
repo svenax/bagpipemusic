@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Cabar Feidh"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -60,12 +66,6 @@
     \grg a8. b16 \grg c4 \grip e8. f16 \dblg g8 e
     \dblA A4 \hdble e8. d16 \dblc c8. b16 \grG a8
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Cabar Feidh"
-    arranger = "Trad. arr. MPD"
   }
 
 }

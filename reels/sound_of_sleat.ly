@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Sound of Sleat"
+    composer = "D. Mackinnon"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -49,12 +55,6 @@
     \thrwd d4 \grg d8. f16 \dble e8. d16 \grg e16 f8.
     f8.[ d16 \dble e8. d16] \dblb b4 \grG a
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Sound of Sleat"
-    composer = "D. Mackinnon"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slow Air"
+    title = "The Dark Isle"
+    composer = "I. McLaughlan"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -35,12 +41,6 @@
       \dblf f8 \times 2/3 { a A f } \dble e \times 2/3 { a \grg f e }
       \thrwd d4. \slurd d4
     }
-  }
-
-  \header {
-    meter = "Slow Air"
-    title = "The Dark Isle"
-    composer = "I. McLaughlan"
   }
 
 }

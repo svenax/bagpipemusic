@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "Sandy’s New Chanter"
+    composer = "Tom MacAllister Jr"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -69,12 +75,6 @@
       \thrwd d4 \slurd d8
       \break
     }
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "Sandy’s New Chanter"
-    composer = "Tom MacAllister Jr"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Polka"
+    title = "Faded Cabbage"
+    arranger = "Arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -34,12 +40,6 @@
       \grA f16.[ a32 \gbirl a8] g16. e32 \grg c32 e16.
       \thrwd d4  \slurd d8
     }
-  }
-
-  \header {
-    meter = "Polka"
-    title = "Faded Cabbage"
-    arranger = "Arr. MPD"
   }
 
 }

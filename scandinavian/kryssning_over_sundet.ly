@@ -1,5 +1,19 @@
 \score {
 
+  \header {
+    meter = "Scandinavian Polska"
+    title = "Kryssning över sundet"
+    composer = "I. MacPherson, M.M."
+    comment = "This tune was composed at the Scandinavian Pipe Band Championships
+        1983 at Helsingborg, by Iain MacPherson together with another polska
+        ‘Helsingborg’. Iain was inspired by the polska rythm after having judged
+        the Scandinavian tune contest. He named the tune after having taken the
+        short trip on the ferry across the Öresund from Sweden to Denmark and
+        back again. In Iain’s original manuscript the tunes are in 9/8 rythm,
+        but here the tune has been written in 3/4 time to give a better
+        representation of the polska timing."
+  }
+
   {
     \bagpipeKey
     \time 3/4
@@ -47,20 +61,6 @@
       \dble e8. c16 \grg a8. e16 \grg c16 \grd a8.
       \thrwd d4 \slurd d2
     }
-  }
-
-  \header {
-    meter = "Scandinavian Polska"
-    title = "Kryssning över sundet"
-    composer = "I. MacPherson, M.M."
-    comment = "This tune was composed at the Scandinavian Pipe Band Championships
-        1983 at Helsingborg, by Iain MacPherson together with another polska
-        ‘Helsingborg’. Iain was inspired by the polska rythm after having judged
-        the Scandinavian tune contest. He named the tune after having taken the
-        short trip on the ferry across the Öresund from Sweden to Denmark and
-        back again. In Iain’s original manuscript the tunes are in 9/8 rythm,
-        but here the tune has been written in 3/4 time to give a better
-        representation of the polska timing."
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Rowan Tree"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -32,12 +38,6 @@
     \gra e8 c ~ c4 \dblb b4 ~ b8 a
     \grg a2 \wbirl a4
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "The Rowan Tree"
-    arranger = "Trad. arr. MPD"
   }
 
 }

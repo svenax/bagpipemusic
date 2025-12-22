@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Waltz"
+    title = "The Ass in the Graveyard"
+    composer = "Terry Tully"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -47,12 +53,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Waltz"
-    title = "The Ass in the Graveyard"
-    composer = "Terry Tully"
   }
 
 }

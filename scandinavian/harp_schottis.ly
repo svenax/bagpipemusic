@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Swedish Schottis"
+    title = "The Harp Schottis"
+    subtitle = "Harpschottis"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -34,13 +41,6 @@
       \dble e4 \gra e
     }
     \break
-  }
-
-  \header {
-    meter = "Swedish Schottis"
-    title = "The Harp Schottis"
-    subtitle = "Harpschottis"
-    arranger = "Trad. arr. MPD"
   }
 
 }

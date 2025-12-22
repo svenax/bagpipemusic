@@ -2,6 +2,12 @@
 
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "The Fiddler’s Rally"
+    composer = "Gordon Walker"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -195,12 +201,6 @@
     \dble e d c \grg c4. \glissando
     d4. ~ d4
     \fine
-  }
-
-  \header {
-    meter = "Jig"
-    title = "The Fiddler’s Rally"
-    composer = "Gordon Walker"
   }
 
 }

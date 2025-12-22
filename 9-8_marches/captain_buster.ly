@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Captain Buster"
+    composer = "Carsten Bruun Rosbæk"
+  }
+
   {
     \bagpipeKey
     \time 9/8
@@ -52,12 +58,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Captain Buster"
-    composer = "Carsten Bruun Rosbæk"
   }
 
 }

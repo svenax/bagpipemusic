@@ -1,5 +1,15 @@
 \score {
 
+  \header {
+    meter = "Piobaireachd"
+    title = "The Lament for the Harp Tree"
+    comment = "Ground as played in the 2008 Strasbourg medley."
+  }
+
+  \layout {
+    ragged-last = ##t
+  }
+
   {
     \bagpipeKey
     \quarterBeaming
@@ -23,16 +33,6 @@
     \once \override Score.RehearsalMark.self-alignment-X = #left
     \once \override Score.RehearsalMark.extra-offset = #'(2 . -4)
     \mark "Break into cluster."
-  }
-
-  \header {
-    meter = "Piobaireachd"
-    title = "The Lament for the Harp Tree"
-    comment = "Ground as played in the 2008 Strasbourg medley."
-  }
-
-  \layout {
-    ragged-last = ##t
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Dora Macleod"
+    composer = "Peter MacLeod Junior"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -49,12 +55,6 @@
     \dblA A8. f16 \dble e8. f16 \catchc c4 \grg \tuplet 3/2 {e8 c \grG a}
     \grg \tuplet 3/2 {f8 e c} \tuplet 3/2 {A8 e c} \dble e8. a16 \dblc c16 \gre b8.
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Dora Macleod"
-    composer = "Peter MacLeod Junior"
   }
 
 }

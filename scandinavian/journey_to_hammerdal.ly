@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Polska"
+    title = "Journey to Hammerdal"
+    arranger = "Trad. arr. Björn Olsson"
+  }
+
   {
     \bagpipeKey
     \time 3/4
@@ -36,12 +42,6 @@
         }
       }
     }
-  }
-
-  \header {
-    meter = "Polska"
-    title = "Journey to Hammerdal"
-    arranger = "Trad. arr. Björn Olsson"
   }
 
 }

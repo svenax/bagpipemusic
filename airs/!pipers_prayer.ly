@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slow March"
+    title = "The Piper’s Prayer"
+    composer = "P/M D. MacLeod"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -32,12 +38,6 @@
       \grg a d e \grg f4 g8
       \grA b4 \grg c8 \thrwd d4.
     }
-  }
-
-  \header {
-    meter = "Slow March"
-    title = "The Piper’s Prayer"
-    composer = "P/M D. MacLeod"
   }
 
 }

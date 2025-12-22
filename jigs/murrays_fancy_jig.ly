@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Murray’s Fancy Jig"
+    composer = "Mark Saul"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -64,12 +70,6 @@
       A d f \grA g e c
       \grg e d \grG d \grg d4
     }
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Murray’s Fancy Jig"
-    composer = "Mark Saul"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Retreat"
+    title = "Castle Dangerous"
+    composer = "J. Haugh"
+  }
+
   {
     \bagpipeKey
     \time 3/4
@@ -32,12 +38,6 @@
       \dbld d \bgrip a \dblf f
       \dblg g8 \grA c \thrwd d4 \slurd d
     }
-  }
-
-  \header {
-    meter = "Retreat"
-    title = "Castle Dangerous"
-    composer = "J. Haugh"
   }
 
 }

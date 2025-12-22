@@ -1,5 +1,11 @@
 \score {
 
+  \header{
+    meter = "Slow Air"
+    title = "Going Home"
+    arranger = "MPD"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -42,12 +48,6 @@
     b4 \grd c8 \dblb b4 \grG a8
     \grg a4. \wbirl a4.
     \fine
-  }
-
-  \header{
-    meter = "Slow Air"
-    title = "Going Home"
-    arranger = "MPD"
   }
 
 }

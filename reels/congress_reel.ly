@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "The Congress Reel"
+    arranger = "Trad. arr. Terry Tully"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -29,12 +35,6 @@
     \grg G \grd G \grg b d \grg e g \grA \times 2/3 { e f g }
     A e g b \gbirl a2
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "The Congress Reel"
-    arranger = "Trad. arr. Terry Tully"
   }
 
 }

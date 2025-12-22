@@ -1,5 +1,13 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Banks of Allan Water"
+    arranger = "P/M A. MacDonald"
+    loc = "56.2659952,-3.7652625"
+    map = "https://goo.gl/maps/2tLxHDdtniS2"
+  }
+
   {
     \bagpipeKey
     \time 3/4
@@ -33,14 +41,6 @@
       \wbirl a8 \grd c \slurb b4 \dble e4
       \dblc c8 \gre a \thrwd d4 \slurd d4
     }
-  }
-
-  \header {
-    meter = "March"
-    title = "The Banks of Allan Water"
-    arranger = "P/M A. MacDonald"
-    loc = "56.2659952,-3.7652625"
-    map = "https://goo.gl/maps/2tLxHDdtniS2"
   }
 
 }

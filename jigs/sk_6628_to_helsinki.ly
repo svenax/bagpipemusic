@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "SK 6628 to Helsinki"
+    composer = "P/S Sven Axelsson"
+    comment = "Written at Landvetter airport while waiting for a flight to Helsinki."
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -79,13 +86,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Jig"
-    title = "SK 6628 to Helsinki"
-    composer = "P/S Sven Axelsson"
-    comment = "Written at Landvetter airport while waiting for a flight to Helsinki."
   }
 
 }

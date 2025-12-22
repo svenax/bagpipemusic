@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "The Hammer on the Anvil"
+    composer = "P/M Donald MacLeod, MBE"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -62,11 +68,4 @@
     }
   }
 
-  \header {
-    meter = "Jig"
-    title = "The Hammer on the Anvil"
-    composer = "P/M Donald MacLeod, MBE"
-  }
-
 }
-

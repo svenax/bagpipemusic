@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slow Air"
+    title = "The Skye Boat Song"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -39,12 +45,6 @@
     \dblf f8. \grg e16 f8 \grg b4 \grd c8
     \thrwd d4. \slurd d4.
     \fine
-  }
-
-  \header {
-    meter = "Slow Air"
-    title = "The Skye Boat Song"
-    arranger = "Trad. arr. MPD"
   }
 
 }

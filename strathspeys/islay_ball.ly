@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "The Islay Ball"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -57,11 +62,6 @@
     \grg a16 b c8 \grg b16 c d8 \grg c16 d e8 \grg d16 e f8
     \grg e16 d c8 \bubly b4 \gbirl a4 \dblA A4
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "The Islay Ball"
   }
 
 }

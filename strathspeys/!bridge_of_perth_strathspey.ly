@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "The Bridge of Perth"
+    composer = "3rd & 4th parts Donald MacLeod"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -55,12 +61,6 @@
     \times 2/3 { A8 g f } \dblg g8. e16 \dblf f8. d16 \dble e8. c16
     \grg \times 2/3 { b8 c d } \grg G8. \grd b16 \dblg g8. G16 \grd b16 A8.
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "The Bridge of Perth"
-    composer = "3rd & 4th parts Donald MacLeod"
   }
 
 }

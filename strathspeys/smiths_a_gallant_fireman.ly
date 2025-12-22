@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "The Smith’s a Gallant Fireman"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -31,10 +36,4 @@
     \fine
   }
 
-  \header {
-    meter = "Strathspey"
-    title = "The Smith’s a Gallant Fireman"
-  }
-
 }
-

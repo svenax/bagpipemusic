@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    title = "Mar a tha (The way it is)"
+    meter = "Air"
+    arranger = "Mary MacPherson (Màiri Mhòr nan Òran)"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -15,12 +21,6 @@
     \grG a4 \grg f8. e16
     \thrwd d4
     \fine
-  }
-
-  \header {
-    title = "Mar a tha (The way it is)"
-    meter = "Air"
-    arranger = "Mary MacPherson (Màiri Mhòr nan Òran)"
   }
 
 }

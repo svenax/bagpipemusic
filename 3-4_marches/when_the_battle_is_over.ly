@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "When the Battle’s O’er"
+    composer = "P/M W. Robb"
+  }
+
   {
     \bagpipeKey
     \time 3/4
@@ -32,12 +38,6 @@
       \grg a8. b16 \grip c4 \dble e8. c16
       \dblb b8 \grd c \grG a4 \wbirl a
     }
-  }
-
-  \header {
-    meter = "March"
-    title = "When the Battle’s O’er"
-    composer = "P/M W. Robb"
   }
 
 }

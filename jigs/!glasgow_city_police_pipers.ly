@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Glasgow City Police Pipers"
+    composer = "P/M Donald MacLeod, MBE"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -60,12 +66,6 @@
       \grg A4 e8 \grg f e c
       \grg b \grd b \gre b \grg c A \grg A
     }
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Glasgow City Police Pipers"
-    composer = "P/M Donald MacLeod, MBE"
   }
 
 }

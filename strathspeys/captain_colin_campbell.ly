@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Captain Colin Campbell"
+    composer = "P/M Donald MacLeod, MBE"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -45,12 +51,6 @@
     \dblf f8. e16 \grg \times 2/3 { f8 g A } \times 2/3 { g f e } \dblA A8. c16
     \grg a8. \grd c16 \dble e8. c16 \dblA A8. f16 \grg \times 2/3 { f8 e c }
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Captain Colin Campbell"
-    composer = "P/M Donald MacLeod, MBE"
   }
 
 }

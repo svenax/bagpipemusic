@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Cork Hill"
+    composer = "Trad."
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -62,12 +68,6 @@
       \grg a8 \grd a \gre a \thrwd d4 f8
       \grg e c \grG c \dblc c4 b8
     }
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Cork Hill"
-    composer = "Trad."
   }
 
 }

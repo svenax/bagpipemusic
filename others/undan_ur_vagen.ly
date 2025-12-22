@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Undan ur vägen (Get out of the way)"
+    composer = "Carl-Michael Bellman"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -34,12 +40,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Undan ur vägen (Get out of the way)"
-    composer = "Carl-Michael Bellman"
   }
 
 }

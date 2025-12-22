@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slip Jig"
+    title = "Angus John MacNeil of Barra"
+    composer = "A. J. MacNeil"
+  }
+
   {
     \bagpipeKey
     \time 9/8
@@ -66,12 +72,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Slip Jig"
-    title = "Angus John MacNeil of Barra"
-    composer = "A. J. MacNeil"
   }
 
 }

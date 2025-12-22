@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Just for Seamus"
+    composer = "Gordon Duncan"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -41,12 +47,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Just for Seamus"
-    composer = "Gordon Duncan"
   }
 
 }

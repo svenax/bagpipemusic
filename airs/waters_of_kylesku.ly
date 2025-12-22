@@ -57,16 +57,16 @@ partB = {
 
 \score {
 
-  \new StaffGroup <<
-    \new Staff \partA
-    \new Staff \partB
-  >>
-
   \header {
     meter = "Slow Air"
     title = "The Waters of Kylesku"
     arranger = "Arr. Björn Olsson"
     comment = "Setting for the 1988 Murray-Holbæk interscandinavian pipe band."
   }
+
+  \new StaffGroup <<
+    \new Staff \partA
+    \new Staff \partB
+  >>
 
 }

@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Tango"
+    title = "Some Tango"
+    subtitle = "A variation on The Battle of the Somme"
+    arranger = "Arr. P/M Mats d Hermansson, MPD"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -32,13 +39,6 @@
     \grg e16 f8 e16 \thrwd d4 e16[ d e d e d]
     \cadenzaOn a8_\markup{O - lé!} d \cadenzaOff
     \fine
-  }
-
-  \header {
-    meter = "Tango"
-    title = "Some Tango"
-    subtitle = "A variation on The Battle of the Somme"
-    arranger = "Arr. P/M Mats d Hermansson, MPD"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Gaelic Air"
+    title = "The Cairn on the Hill"
+    arranger = "Trad. arr. P/M John M. MacKenzie"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -34,12 +40,6 @@
       \grg f8. g16 A8 \hdble e8. d16 c8
       \grg d8. c16 b8 \grg a4
     }
-  }
-
-  \header {
-    meter = "Gaelic Air"
-    title = "The Cairn on the Hill"
-    arranger = "Trad. arr. P/M John M. MacKenzie"
   }
 
 }

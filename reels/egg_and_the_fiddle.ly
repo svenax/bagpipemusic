@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "The Egg and the Fiddle"
+    composer = "P/M Robert Mathieson"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -29,12 +35,6 @@
     d8 f A d \grg c e A f
     \grg e c \grg b \grd c \grG a2
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "The Egg and the Fiddle"
-    composer = "P/M Robert Mathieson"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "The Little Cascade"
+    composer = "P/M G. S. MacLennan"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -91,12 +97,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "The Little Cascade"
-    composer = "P/M G. S. MacLennan"
   }
 
 }

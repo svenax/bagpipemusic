@@ -165,16 +165,16 @@ partB = {
 
 \score {
 
-  \new StaffGroup <<
-    \new Staff \partA
-    \new Staff \partB
-  >>
-
   \header {
     meter = "Jig"
     title = "P/M Mats d Hermansson of Gothenburg"
     composer = "J. Montague"
     comment = "Presented to Mats on his 50th birthday."
   }
+
+  \new StaffGroup <<
+    \new Staff \partA
+    \new Staff \partB
+  >>
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slow March"
+    title = "The Mist Covered Mountains"
+    composer = "Trad."
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -30,12 +36,6 @@
       \grg b8. \grd c16 f8 \dble e8. d16 c8
       \grg b4. \taor b4.
     }
-  }
-
-  \header {
-    meter = "Slow March"
-    title = "The Mist Covered Mountains"
-    composer = "Trad."
   }
 
 }

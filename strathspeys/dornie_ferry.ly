@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Dornie Ferry"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -54,12 +60,6 @@
     \dblA A8. f16 \grg \times 2/3 {e8 f g} \dble e8. d16 \grg \times 2/3 {b8 c d}
     \grg b16 \grd G8. \dblg g8. d16 \dble e4 \birl a8.
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Dornie Ferry"
-    arranger = "Trad. arr. MPD"
   }
 
 }

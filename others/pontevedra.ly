@@ -104,15 +104,15 @@ pipes = {
 
 \score {
 
-  \new StaffGroup <<
-    \new Staff \bombarde
-    \new Staff \pipes
-  >>
-
   \header {
     title = "Pontevedra"
     composer = "Trad. Galician"
     arranger = "Carlos Nuñes"
   }
+
+  \new StaffGroup <<
+    \new Staff \bombarde
+    \new Staff \pipes
+  >>
 
 }

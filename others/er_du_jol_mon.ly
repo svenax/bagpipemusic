@@ -86,17 +86,17 @@ musicC = {
 
 \score {
 
-  \new StaffGroup <<
-    \new Staff \musicA
-    \new Staff \musicB
-    \new Staff \musicC
-  >>
-
   \header {
     meter = "Song"
     title = "Er du jol mon?"
     composer = "Kim Larsen"
     arranger = "Arr. MPD"
   }
+
+  \new StaffGroup <<
+    \new Staff \musicA
+    \new Staff \musicB
+    \new Staff \musicC
+  >>
 
 }

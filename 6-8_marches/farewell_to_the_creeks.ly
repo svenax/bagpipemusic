@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Farewell To The Creeks"
+    composer = "P/M J. Robertson"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -69,11 +75,5 @@
     }
   }
 
-
-  \header {
-    meter = "March"
-    title = "Farewell To The Creeks"
-    composer = "P/M J. Robertson"
-  }
 
 }

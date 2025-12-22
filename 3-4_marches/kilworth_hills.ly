@@ -131,11 +131,6 @@ musicB = {
 
 \score {
 
-  \new StaffGroup <<
-    \new Staff \musicA
-    \new Staff \musicB
-  >>
-
   \header {
     meter = "March"
     title = "Kilworth Hills"
@@ -143,5 +138,10 @@ musicB = {
     loc = "52.1760515,-8.2648219"
     map = "https://goo.gl/maps/7HHRixY9z2K2"
   }
+
+  \new StaffGroup <<
+    \new Staff \musicA
+    \new Staff \musicB
+  >>
 
 }

@@ -72,15 +72,15 @@ musicB = {
 
 \score {
 
-  \new StaffGroup <<
-    \new Staff \musicA
-    \new Staff \musicB
-  >>
-
   \header {
     title = "The Heartbeat"
     subtitle = "Helhjärtat"
     arranger = "Arr. MPD"
   }
+
+  \new StaffGroup <<
+    \new Staff \musicA
+    \new Staff \musicB
+  >>
 
 }

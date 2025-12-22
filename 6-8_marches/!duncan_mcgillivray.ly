@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Duncan McGillivray, Chief Steward"
+    composer = "Jim McGillivray"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -79,12 +85,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Duncan McGillivray, Chief Steward"
-    composer = "Jim McGillivray"
   }
 
 }

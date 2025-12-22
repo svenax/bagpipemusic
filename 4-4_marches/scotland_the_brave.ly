@@ -1,5 +1,14 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Scotland the Brave"
+    arranger = "Trad. arr. MPD"
+    comment = "Note that this setting is not the same as the one commonly
+    played in mass bands etc. The massed bands setting can be found
+    in the PBAS standard settings."
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -32,15 +41,6 @@
     \thrwd d4 \grg f8. d16 \dblc c8 e \dblc c \gre a
     \grip b4 \grg a \taor a
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Scotland the Brave"
-    arranger = "Trad. arr. MPD"
-    comment = "Note that this setting is not the same as the one commonly
-    played in mass bands etc. The massed bands setting can be found
-    in the PBAS standard settings."
   }
 
 }

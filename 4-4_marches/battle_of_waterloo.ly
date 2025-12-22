@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Battle of Waterloo"
+    loc = "50.7033998,4.3630007"
+    map = "https://goo.gl/maps/zozrHm1oTP12"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -32,13 +39,6 @@
     \dblA A8. g16 \hdble e8 d \dble e d \dblb b \gre G
     \grg a2 \wbirl a4
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "The Battle of Waterloo"
-    loc = "50.7033998,4.3630007"
-    map = "https://goo.gl/maps/zozrHm1oTP12"
   }
 
 }

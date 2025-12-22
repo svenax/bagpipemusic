@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "Calum Beag"
+    composer = "P/M Donald MacLeod, MBE"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -68,12 +74,6 @@
       \grg a16. \grd a32 \gre a16. \grd c32 \dblb b8 \gre a16. b32
       \dblc c8 \gre a \wbirl a
     }
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "Calum Beag"
-    composer = "P/M Donald MacLeod, MBE"
   }
 
 }

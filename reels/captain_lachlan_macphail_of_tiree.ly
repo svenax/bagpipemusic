@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Captain Lachlan MacPhail of Tiree"
+    composer = "Peter Farquhar"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -55,12 +61,6 @@
     \grg a8. \grd a16 \gre a8. b16 \grg c16 e8. \grg f8. c16
     \grg b8. \grd a16 \gre a8. \grd b16 \birl a2
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Captain Lachlan MacPhail of Tiree"
-    composer = "Peter Farquhar"
   }
 
 }

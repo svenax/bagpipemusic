@@ -84,16 +84,16 @@ musicC = {
 
 \score {
 
-  \new StaffGroup <<
-    \new Staff \musicA
-    \new Staff \musicB
-    \new Staff \musicC
-  >>
-
   \header {
     meter = "Hymn"
     title = "Amazing Grace"
     arranger = "Trad. arr. MPD"
   }
+
+  \new StaffGroup <<
+    \new Staff \musicA
+    \new Staff \musicB
+    \new Staff \musicC
+  >>
 
 }

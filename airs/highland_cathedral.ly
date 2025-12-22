@@ -1,5 +1,16 @@
 \score {
 
+  \header{
+    meter = "Air"
+    title = "Highland Cathedral"
+    composer = "U. Roever / M. Korb"
+    comment = "When playing together with an orchestra, the two extra
+               bars at the end of each repeat are played for a unison
+               crescendo. Usually the tune is repeated once, so, played
+               ABABA, but it is up to the conductor to decide on the
+               number of repeats."
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -34,16 +45,4 @@
     }
   }
 
-  \header{
-    meter = "Air"
-    title = "Highland Cathedral"
-    composer = "U. Roever / M. Korb"
-    comment = "When playing together with an orchestra, the two extra
-               bars at the end of each repeat are played for a unison
-               crescendo. Usually the tune is repeated once, so, played
-               ABABA, but it is up to the conductor to decide on the
-               number of repeats."
-  }
-
 }
-

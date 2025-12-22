@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Slow Air"
+    title = "Leaving Lismore"
+    arranger = "Trad. arr. MPD"
+    comment = "As taught to P/M Mats d Hermansson by P/M Jimmy Kirkpatrick in 1975."
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -44,13 +51,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Slow Air"
-    title = "Leaving Lismore"
-    arranger = "Trad. arr. MPD"
-    comment = "As taught to P/M Mats d Hermansson by P/M Jimmy Kirkpatrick in 1975."
   }
 
 }

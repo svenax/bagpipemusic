@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Mrs. MacPherson of Inveran"
+    composer = "P/M G. S. McLennan"
+    arranger = "MPD"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -88,13 +95,6 @@
     \grg c16[ \grd a8. \dbld d8. b16] \dble e8. c16 \grg f8. d16
     \grA g8.[ e16 \dbld d8. c16] \dble e4 \hslurd d8.
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Mrs. MacPherson of Inveran"
-    composer = "P/M G. S. McLennan"
-    arranger = "MPD"
   }
 
 }

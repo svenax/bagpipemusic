@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Waltz"
+    title = "Sonny's Mazurka"
+    arranger = "Trad. arr. Terry Tully"
+  }
+
   {
     \bagpipeKey
     \time 3/8
@@ -37,10 +43,5 @@
     }
   }
 
-  \header {
-    meter = "Waltz"
-    title = "Sonny’s Mazurka"
-    arranger = "Trad. arr. Terry Tully"
-  }
 
 }

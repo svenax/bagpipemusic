@@ -102,15 +102,16 @@ musicB = {
 }
 
 \score {
-  \new StaffGroup <<
-    \new Staff \musicA
-    \new Staff \musicB
-  >>
 
   \header {
     meter = "Slow Air"
     title = "Ochil Hills"
     composer = "D. Siegel"
   }
+
+  \new StaffGroup <<
+    \new Staff \musicA
+    \new Staff \musicB
+  >>
 
 }

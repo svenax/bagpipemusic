@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    title = "An Exercise"
+    composer = "Duncan Johnstone"
+  }
+
   {
     \bagpipeKey
     \time 3/4
@@ -33,11 +38,6 @@
       \grg b16 f \gre f e \grg f \gre f \grg b f \gre f e \grg c \grG c
       \grg a16 e \gra e c \grg e \gra e \grg e f \gre f c \grg b \grG b
     }
-  }
-
-  \header {
-    title = "An Exercise"
-    composer = "Duncan Johnstone"
   }
 
 }

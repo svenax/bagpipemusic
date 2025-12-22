@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Colonel MacLeod"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -54,12 +60,6 @@
     \grg e16 A8. g16 A8. f16 A8. e8. d16
     \grg c16 A8. b16 A8. c8.[ \grd a16 \gre a8]
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Colonel MacLeod"
-    arranger = "Trad. arr. MPD"
   }
 
 }

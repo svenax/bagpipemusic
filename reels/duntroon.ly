@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Duntroon"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -58,11 +63,6 @@
     \grg b8.[ c16 \dbld d8. b16] \grg G16 \grd G8. \dblb b4
     \fine
 
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Duntroon"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header{
+    meter = "Jig"
+    title = "Hector's Jig"
+    composer = "H. MacFadyen"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -69,12 +75,6 @@
       \grg f A \grg A \hdblf f4
     }
 
-  }
-
-  \header{
-    meter = "Jig"
-    title = "Hector's Jig"
-    composer = "H. MacFadyen"
   }
 
 }

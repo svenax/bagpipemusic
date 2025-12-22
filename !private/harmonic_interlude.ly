@@ -90,14 +90,15 @@ musicB = {
 }
 
 \score {
-  \new StaffGroup <<
-    \new Staff \musicA
-    \new Staff \musicB
-  >>
 
   \header {
     title = "Harmonic Interlude"
     composer = "D. Siegel"
   }
+
+  \new StaffGroup <<
+    \new Staff \musicA
+    \new Staff \musicB
+  >>
 
 }

@@ -1,5 +1,12 @@
 \score {
 
+  \header{
+    meter = "Jig"
+    title = "Nora Crionna"
+    composer = "Trad."
+    arranger = "Gordon Duncan"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -45,13 +52,6 @@
     }
     \fine
 
-  }
-
-  \header{
-    meter = "Jig"
-    title = "Nora Crionna"
-    composer = "Trad."
-    arranger = "Gordon Duncan"
   }
 
 }

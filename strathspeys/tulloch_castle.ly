@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Tulloch Castle"
+    arranger = "P/M Donald S. Ramsay"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -52,12 +58,6 @@
     \dblA A8. e16 \grg \times 2/3 {f8 g A} \hdble e8. A16 \hdblc c16 A8.
     \grf g8. c16 \bubly b4 \thrwd d8. e16 \grg \times 2/3 {f8 d b}
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Tulloch Castle"
-    arranger = "P/M Donald S. Ramsay"
   }
 
 }

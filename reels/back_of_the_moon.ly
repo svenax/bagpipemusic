@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "The Back of the Moon"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -47,11 +52,6 @@
       \grg e f \grA g e \grg c d \grg e f
       \grA g b \grg c \grd a \grg e[ d \grG d]
     }
-  }
-
-  \header {
-    meter = "Reel"
-    title = "The Back of the Moon"
   }
 
 }

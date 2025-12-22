@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "March Down the Aisle"
+    composer = "Terry Tully"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -32,12 +38,6 @@
     \dblg g8. f16 \grg e8 d \dblc c e  \grg a8. \grd a16
     \gre G8 \grd a d \gre c \thrwd d4.
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "March Down the Aisle"
-    composer = "Terry Tully"
   }
 
 }

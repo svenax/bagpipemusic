@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Joe’s Rant"
+    composer = "Brian Lamond"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -51,12 +57,6 @@
 
     \thrwd d2 ~ d
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Joe’s Rant"
-    composer = "Brian Lamond"
   }
 
 }

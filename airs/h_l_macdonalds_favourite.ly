@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slow March"
+    title = "H. L. MacDonald’s Favourite"
+    composer = "John MacColl"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -50,12 +56,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Slow March"
-    title = "H. L. MacDonald’s Favourite"
-    composer = "John MacColl"
   }
 
 }

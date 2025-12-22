@@ -1,5 +1,13 @@
 \score {
 
+  \header {
+    meter = "Retreat"
+    title = "My Dream Valley on the Road to Glendaruel"
+    composer = "John MacLellan"
+    loc = "56.0089003,-5.2325687"
+    map = "https://goo.gl/maps/hxCaMVWrtcC2"
+  }
+
   {
     \bagpipeKey
     \time 3/4
@@ -32,14 +40,6 @@
       \grg d8. c16 \grg b4 \gre G8[ \dblg g]
       \grA e8. c16 \thrwd d4~d
     }
-  }
-
-  \header {
-    meter = "Retreat"
-    title = "My Dream Valley on the Road to Glendaruel"
-    composer = "John MacLellan"
-    loc = "56.0089003,-5.2325687"
-    map = "https://goo.gl/maps/hxCaMVWrtcC2"
   }
 
 }

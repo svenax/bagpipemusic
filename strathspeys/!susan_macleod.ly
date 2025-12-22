@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Susan Macleod"
+    composer = "Donald MacLeod"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -60,12 +66,6 @@
     \dblA A8. e16 \grg \times 2/3 { f8 g A } \hdble e8. A16 \thrwd d16 A8.
     \hdblc c8. A16 \hdblb b16 A8. a4 \taor a8
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Susan Macleod"
-    composer = "Donald MacLeod"
   }
 
 }

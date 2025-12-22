@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Foot it Neatly"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -29,12 +35,6 @@
     \grg a8. \grd c16 \grg b16 d8. \grg c16 e8. \grg d8. f16
     \grg e8.[ d16 \dblc c8. b16] \grg c8.[ \grd a16 \gre a8]
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Foot it Neatly"
-    arranger = "Trad. arr. MPD"
   }
 
 }

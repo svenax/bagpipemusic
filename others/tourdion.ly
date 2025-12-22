@@ -105,17 +105,17 @@ partC = {
 
 \score {
 
-  \new StaffGroup <<
-    \new Staff \partA
-    \new Staff \partB
-    \new Staff \partC
-  >>
-
   \header {
     meter = "Song"
     title = "Tourdion"
     composer = "Pierre Attaignant (ca. 1530)"
     arranger = "Arr. MPD"
   }
+
+  \new StaffGroup <<
+    \new Staff \partA
+    \new Staff \partB
+    \new Staff \partC
+  >>
 
 }

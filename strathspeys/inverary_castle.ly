@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Inverary Castle"
+    composer = "P/M W. Lawrie"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -59,12 +65,6 @@
     \grg \times 2/3 {e8 f g} \grA \times 2/3 {f8 g A} \times 2/3 {g8 f e} \dblA A8. e16
     \grg \times 2/3 {f8 A g} \tdblf f8. e16 \grg f8. d16 \slurd d8
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Inverary Castle"
-    composer = "P/M W. Lawrie"
   }
 
 }

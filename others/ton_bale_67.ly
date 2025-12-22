@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    title = "Ton Bale 67"
+    composer = "Florian Nicolas"
+    arranger = "arr. Pascal Souchois"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -55,12 +61,6 @@
       \dblc c8. b16 ~ b2 \gre b16 d c b
       \grG a4 ~ a8 b \grg a2
     }
-  }
-
-  \header {
-    title = "Ton Bale 67"
-    composer = "Florian Nicolas"
-    arranger = "arr. Pascal Souchois"
   }
 
 }

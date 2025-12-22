@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Rab’s Dilemma"
+    composer = "R. Abbott"
+  }
+
   {
     \bagpipeKey
     \time 15/8
@@ -65,12 +71,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Rab’s Dilemma"
-    composer = "R. Abbott"
   }
 
 }

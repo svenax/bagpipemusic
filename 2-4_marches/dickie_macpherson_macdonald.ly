@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Dickie MacPherson MacDonald"
+    composer = "Iain MacPherson"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -87,12 +93,6 @@
     A16. a32 \grg \times 2/3 { c16 e A } \times 4/6 { a16 \grd c e \grg f e d}
     \grg c32 e16. \grg a8 \wbirl a
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Dickie MacPherson MacDonald"
-    composer = "Iain MacPherson"
   }
 
 }

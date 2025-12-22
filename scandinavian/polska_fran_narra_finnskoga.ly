@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Polska"
+    title = "Polska från Norra Finnskoga"
+    arranger = "Trad arr. Maria Svedberg-Ringsén and Sven Axelsson"
+  }
+
   {
     \bagpipeKey
     \time 3/4
@@ -21,12 +27,6 @@
       A8. g16 A16 g8. \grA f8. e16 | \dbld \times 2/3 {d8 c d} \grg e c \grG a8. f16 |
       \dblg g16 e8. \grg f16 d8. \grg e8. d16 | \dblc \times 2/3 {c8 b c} \grg d2
     }
-  }
-
-  \header {
-    meter = "Polska"
-    title = "Polska från Norra Finnskoga"
-    arranger = "Trad arr. Maria Svedberg-Ringsén and Sven Axelsson"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "The Blair Highlanders"
+    composer = "Mark Saul"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -88,12 +94,6 @@
     \grg c e A e \grg f A c e
     \grg f d \grG d c \thrwd d8
     \fine
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "The Blair Highlanders"
-    composer = "Mark Saul"
   }
 
 }

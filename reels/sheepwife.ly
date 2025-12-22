@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "The Sheepwife"
+    arranger = "Arr. MPD"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -83,12 +89,6 @@
     \dblc c4 \grg a8 \grd c8 \grg f8. e16 \grg c16 \grd a8.
     \grg b16 \grd G8. \grg d8. b16 \dbla a4 \grg a16 \grd G8.
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "The Sheepwife"
-    arranger = "Arr. MPD"
   }
 
 }

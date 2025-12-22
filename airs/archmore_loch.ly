@@ -1,5 +1,10 @@
 \score {
 
+  \header{
+    title = "Archmore Loch"
+    composer = "Traditional"
+  }
+
   {
     \bagpipeKey
     \time 3/4
@@ -68,11 +73,6 @@
     \thrwd d4. c8 \grg b4
     \grG a2
     \fine
-  }
-
-  \header{
-    title = "Archmore Loch"
-    composer = "Traditional"
   }
 
 }

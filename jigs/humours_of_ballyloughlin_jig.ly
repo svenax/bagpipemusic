@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "The Humours of Ballyloughlin"
+    arranger = "Trad. arr. Mark Saul"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -63,12 +69,6 @@
       a4 \gbirl a8 \grg a4.
     }
 
-  }
-
-  \header {
-    meter = "Jig"
-    title = "The Humours of Ballyloughlin"
-    arranger = "Trad. arr. Mark Saul"
   }
 
 }

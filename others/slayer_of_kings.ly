@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    title = "Slayer of Kings"
+    composer = "Bloodbound"
+    arranger = "MPD"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -16,12 +22,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    title = "Slayer of Kings"
-    composer = "Bloodbound"
-    arranger = "MPD"
   }
 
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "Donald MacLeod"
+    composer = "J. A. Barrie"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -68,12 +74,6 @@
       \grg a4 \wbirl a8
     }
 
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "Donald MacLeod"
-    composer = "J. A. Barrie"
   }
 
 }

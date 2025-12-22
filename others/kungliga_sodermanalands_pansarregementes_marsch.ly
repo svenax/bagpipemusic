@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    title = "Kungliga Södermanlands pansarregenementes marsch"
+    composer = "Carl Axel Lundvall"
+    arranger = " arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -63,12 +69,6 @@
       \textEndMark "Da capo"
     }
 
-  }
-
-  \header {
-    title = "Kungliga Södermanlands pansarregenementes marsch"
-    composer = "Carl Axel Lundvall"
-    arranger = " arr. MPD"
   }
 
 }

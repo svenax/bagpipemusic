@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Alan MacPherson, Mosspark"
+    composer = "Angus MacDonald"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -94,12 +100,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Jig"
-    title = "Alan MacPherson, Mosspark"
-    composer = "Angus MacDonald"
   }
 
 }

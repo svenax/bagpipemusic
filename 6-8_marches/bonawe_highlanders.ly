@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Bonawe Highlanders"
+    composer = "D. Bowman"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -74,12 +80,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "The Bonawe Highlanders"
-    composer = "D. Bowman"
   }
 
 }

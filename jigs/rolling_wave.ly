@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "The Rolling Wave"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -43,12 +49,6 @@
       \grg \times 2/3 { d[ e f } d] \dble e4 c8
       \dbld d c b \grG a4
     }
-  }
-
-  \header {
-    meter = "Jig"
-    title = "The Rolling Wave"
-    arranger = "Trad. arr. MPD"
   }
 
 }

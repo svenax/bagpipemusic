@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "The Gravel Walk"
+    arranger = "Trad. arr. Terry Tully"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -25,12 +31,6 @@
       \gbirl a4 A8 a \grA g a \grg f a
       \grg e f \grA g e \grg d[ b \grg G]
     }
-  }
-
-  \header {
-    meter = "Reel"
-    title = "The Gravel Walk"
-    arranger = "Trad. arr. Terry Tully"
   }
 
 }

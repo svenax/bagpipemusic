@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Glentruim"
+    composer = "Donald MacLeod"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -59,12 +65,6 @@
     \thrwd d8. c16 \grg b16 c d8 \grg c16[ \grip e8.] \dbld d8. b16
     \grg a4 \taor  a8. \grd b16 \grg a4 \taor a8.
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Glentruim"
-    composer = "Donald MacLeod"
   }
 
 }

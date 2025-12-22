@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Grinder"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 9/8
@@ -22,12 +28,6 @@
       \dblg g8. f16 e8 \dble e8. d16 b8 \dblb b8. \grg a16 \grd G8
       \grg a4 \taor a8 \grg a4 \grd b8 \thrwd d4 e8
     }
-  }
-
-  \header {
-    meter = "March"
-    title = "The Grinder"
-    arranger = "Trad. arr. MPD"
   }
 
 }

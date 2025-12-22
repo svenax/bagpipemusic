@@ -1,5 +1,13 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Hills of Perth"
+    arranger = "Trad. arr. MPD"
+    loc = "56.5120059,-4.0197808"
+    map = "https://goo.gl/maps/VaBKyoBExLn"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -81,14 +89,6 @@
       \dblg g8 \grA e \dble e8 \grg d
       \bgrip a4 \wbirl a8
     }
-  }
-
-  \header {
-    meter = "March"
-    title = "The Hills of Perth"
-    arranger = "Trad. arr. MPD"
-    loc = "56.5120059,-4.0197808"
-    map = "https://goo.gl/maps/VaBKyoBExLn"
   }
 
 }

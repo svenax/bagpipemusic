@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "British Caledonian Airways Pipe Band"
+    composer = "Angus Lawrie"
+  }
+
   {
     \bagpipeKey
     \time 12/8
@@ -61,12 +67,6 @@
     \dblb b4 \gre G8 \grg G8. \grd b16 e8 \dblc c4 \gre a8 \grg a8. \grd c16 e8
     \thrwd d4 \gre a8 \grg d16 f8. \grg e8 \thrwd d4. ~ d4.
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "British Caledonian Airways Pipe Band"
-    composer = "Angus Lawrie"
   }
 
 }

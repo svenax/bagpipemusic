@@ -1,5 +1,11 @@
 \score {
 
+  \header{
+    meter = "Strathspey"
+    title = "Because He Was a Bonny Lad"
+    composer = "Traditional"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -25,12 +31,6 @@
     \grg c16 \grd a8. \dble e8. c16 \grg b4 \taor b8. g16
     \times 2/3 { A8 g f } \dblg g8. e16 \dblf f8. d16 \dble e8. c16
     \thrwd d8. f16 \dble e8. c16 \grg a4 \taor a8 \fine
-  }
-
-  \header{
-    meter = "Strathspey"
-    title = "Because He Was a Bonny Lad"
-    composer = "Traditional"
   }
 
 }

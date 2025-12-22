@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "The High Level"
+    composer = "P/M A. MacDonald"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -68,12 +74,6 @@
       \grg c32 \grd a16. \grg c32 e16. \grg a16. e32 \grg c32 \grd a16.
       A16.[ g32 \hdblf f16. e32] \thrwd d8
     }
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "The High Level"
-    composer = "P/M A. MacDonald"
   }
 
 }

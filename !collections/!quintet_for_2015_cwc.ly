@@ -26,6 +26,7 @@
       \dblc c8 \gre a \wbirl a
       \fine
     }
+
     \new Staff {
       \bagpipeKey
       \time 2/4

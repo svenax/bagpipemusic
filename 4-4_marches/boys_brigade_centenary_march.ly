@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Boys’ Brigade Centenary March"
+    composer = "A. Duncan"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -59,12 +65,6 @@
     \dblA A8. e16 \grg f8 A \hdble e c \dblb b e
     \dblc c4 \gre a \wbirl a4.
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "The Boys’ Brigade Centenary March"
-    composer = "A. Duncan"
   }
 
 }

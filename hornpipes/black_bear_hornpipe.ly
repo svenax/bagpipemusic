@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Hornpipe"
+    title = "The Black Bear Hornpipe"
+    arranger = "Trad. arr."
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -36,12 +42,6 @@
       \grg d16. f32 \grg d16. f32 \grg e16. g32 \grA f16. g32
       A8[ \grip A] \grg A16. g32 \grA f16. e32
     }
-  }
-
-  \header {
-    meter = "Hornpipe"
-    title = "The Black Bear Hornpipe"
-    arranger = "Trad. arr."
   }
 
 }

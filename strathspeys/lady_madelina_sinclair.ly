@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Lady Madelina Sinclair"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -29,11 +34,6 @@
     \grg c16[ \grip e8.] \dblf f8. e16 \grg c16[ \grip e8.] \dblA A4
     \birl a4 \dblc c16 \gre b8. \dblb b16 \gre a8. \wbirl a8
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Lady Madelina Sinclair"
   }
 
 }

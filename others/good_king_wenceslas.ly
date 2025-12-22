@@ -2,6 +2,12 @@
 
 \score {
 
+  \header {
+    meter = "Christmas carol"
+    title = "Good King Wenceslas"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -28,12 +34,6 @@
     \thrwd d2 g
     \thrwd d1
     \fine
-  }
-
-  \header {
-    meter = "Christmas carol"
-    title = "Good King Wenceslas"
-    arranger = "Trad. arr. MPD"
   }
 
 }

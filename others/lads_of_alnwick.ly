@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Three-Two"
+    title = "The Lads of Alnwick"
+    arranger = "Trad."
+  }
+
   {
     \bagpipeKey
     \time 3/2
@@ -52,12 +58,6 @@
       c8 e A e \grg c e A e \grg c e A e
       \grg b8 c d e \grg f4 b \grg d f
     }
-  }
-
-  \header {
-    meter = "Three-Two"
-    title = "The Lads of Alnwick"
-    arranger = "Trad."
   }
 
 }

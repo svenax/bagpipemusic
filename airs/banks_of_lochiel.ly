@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slow Air"
+    title = "The Banks of Lochiel"
+    arranger = "Trad. arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -37,11 +43,4 @@
     }
   }
 
-  \header {
-    meter = "Slow Air"
-    title = "The Banks of Lochiel"
-    arranger = "Trad. arr. MPD"
-  }
-
 }
-

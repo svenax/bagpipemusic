@@ -1,5 +1,12 @@
 \score {
 
+  \header {
+    meter = "Slow Air"
+    title = "Mac Neil’s Farewell to Barra"
+    composer = "T. Muirhead"
+    arranger = "Arr. MPD"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -68,13 +75,6 @@
       \dble e4. \gra e4
     }
     \break
-  }
-
-  \header {
-    meter = "Slow Air"
-    title = "Mac Neil’s Farewell to Barra"
-    composer = "T. Muirhead"
-    arranger = "Arr. MPD"
   }
 
 }

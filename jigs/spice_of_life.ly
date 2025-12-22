@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "The Spice of Life"
+    composer = "Don Bradford"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -80,12 +86,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "Jig"
-    title = "The Spice of Life"
-    composer = "Don Bradford"
   }
 
 }

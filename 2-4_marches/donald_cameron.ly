@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Donald Cameron"
+    composer = "P/M H. MacKay"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -110,12 +116,6 @@
       A16. f32 \grA g16. e32 \thrwd d16.[ f32 \dble e16. d32]
       \dblc c8 \gre a \wbirl a
     }
-  }
-
-  \header {
-    meter = "March"
-    title = "Donald Cameron"
-    composer = "P/M H. MacKay"
   }
 
 }

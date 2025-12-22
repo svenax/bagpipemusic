@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Tulloch Gorm"
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -57,11 +62,6 @@
     \dblg g8. A16 \times 2/3 { g8 f e } \thrwd d16 \gre G8. \dblb b16 A8.
     \times 2/3 { g8 f e } \grg \times 2/3 { f g A } \grf g4 \grA e16 A8.
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Tulloch Gorm"
   }
 
 }

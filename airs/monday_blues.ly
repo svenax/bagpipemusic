@@ -1,5 +1,12 @@
 \score {
 
+  \header{
+    meter = "Slow Air"
+    title = "Monday Blues"
+    composer = "P/S Sven Axelsson"
+    date = "2017-05-29"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -35,13 +42,6 @@
       \grg b8. c16 d8 \grg d8. e16 c8
       \thrwd d8. a16 f8 \thrwd d4
     }
-  }
-
-  \header{
-    meter = "Slow Air"
-    title = "Monday Blues"
-    composer = "P/S Sven Axelsson"
-    date = "2017-05-29"
   }
 
 }

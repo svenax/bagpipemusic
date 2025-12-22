@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Murdo’s Wedding"
+    composer = "Major Gavin Stoddart"
+  }
+
   {
     \bagpipeKey
     \marchTime
@@ -35,11 +41,5 @@
     }
   }
 
-
-  \header {
-    meter = "March"
-    title = "Murdo’s Wedding"
-    composer = "Major Gavin Stoddart"
-  }
 
 }

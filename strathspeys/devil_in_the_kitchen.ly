@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "The Devil in the Kitchen"
+    arranger = "Trad. arr."
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -31,12 +37,6 @@
     \tuplet 3/2 {A8 g f} \dblg g8. e16 \grg f16 A8 f16 \dble e8. c16
     \grg b8. c16 \thrwd d8. e16 \dblg g4 \grA f16 A8.
     \fine
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "The Devil in the Kitchen"
-    arranger = "Trad. arr."
   }
 
 }

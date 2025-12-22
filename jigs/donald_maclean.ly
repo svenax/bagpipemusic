@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Jig"
+    title = "Donald MacLean"
+    composer = "Peter R. MacLeod"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -85,9 +91,4 @@
     }
   }
 
-  \header {
-    meter = "Jig"
-    title = "Donald MacLean"
-    composer = "Peter R. MacLeod"
-  }
 }

@@ -1,5 +1,13 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Leaving Lunga"
+    composer = "John Gordon"
+    loc = "56.1997685,-5.572358"
+    map = "https://goo.gl/maps/E5QbmRKVFqj"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -82,14 +90,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "Leaving Lunga"
-    composer = "John Gordon"
-    loc = "56.1997685,-5.572358"
-    map = "https://goo.gl/maps/E5QbmRKVFqj"
   }
 
 }

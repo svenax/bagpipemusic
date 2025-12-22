@@ -141,14 +141,16 @@ musicB = {
 }
 
 \score {
-  \new StaffGroup <<
-    \new Staff \musicA
-    \new Staff \musicB
-  >>
 
   \header {
     meter = "Trio for Highland Bagpipe"
     title = "The White Sands of Gaza"
     composer = "D. Siegel 2009, Haifa, Israel"
   }
+
+  \new StaffGroup <<
+    \new Staff \musicA
+    \new Staff \musicB
+  >>
+
 }

@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "Jenny’s Chickens"
+    arranger = "Trad. arr. Mark Saul"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -44,12 +50,6 @@
     \slurb b4 A8 b \grA g b \grg f b
     \grg f g A f \grg e a \grd c e
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "Jenny’s Chickens"
-    arranger = "Trad. arr. Mark Saul"
   }
 
 }

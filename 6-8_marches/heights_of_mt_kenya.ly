@@ -1,5 +1,13 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "The Heights of Mt. Kenya"
+    composer = "P/M R. L. Kilgour"
+    loc = "-0.1521383,37.2996531"
+    map = "https://goo.gl/maps/qh9dnsFYTy52"
+  }
+
   {
     \bagpipeKey
     \time 6/8
@@ -76,14 +84,6 @@
       }
     }
     \fine
-  }
-
-  \header {
-    meter = "March"
-    title = "The Heights of Mt. Kenya"
-    composer = "P/M R. L. Kilgour"
-    loc = "-0.1521383,37.2996531"
-    map = "https://goo.gl/maps/qh9dnsFYTy52"
   }
 
 }

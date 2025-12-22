@@ -1,5 +1,10 @@
 \score {
 
+  \header {
+    meter = "Reel"
+    title = "The Bridge of Perth"
+  }
+
   {
     \bagpipeKey
     \reelTime
@@ -57,11 +62,6 @@
     \grg a8. \grd c16 \grg e8. g16 \grA f16 A8. e8. c16
     \slurb b8. g16 \grA f16 g8. d16 \gre G8. \grd b16 A8.
     \fine
-  }
-
-  \header {
-    meter = "Reel"
-    title = "The Bridge of Perth"
   }
 
 }

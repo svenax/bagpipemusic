@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "March"
+    title = "Kantara to El Arish"
+    composer = "P/M W. Ferguson"
+  }
+
   {
     \bagpipeKey
     \time 2/4
@@ -68,12 +74,6 @@
       \dblc c8 \gre a16. e32 \dbld d16. c32 \grg b32 e16.
       \dblc c8 \gre a \wbirl a
     }
-  }
-
-  \header {
-    meter = "March"
-    title = "Kantara to El Arish"
-    composer = "P/M W. Ferguson"
   }
 
 }

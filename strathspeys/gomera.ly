@@ -1,5 +1,14 @@
 \score {
 
+  \header {
+    meter = "Strathspey"
+    title = "Gomera"
+    composer = "P/S Sven Axelsson"
+    date = "2018-11-01"
+    comment = "On vacation in Tenerife, looking out over the island of Gomera
+    from my terrace."
+  }
+
   {
     \bagpipeKey
     \time 4/4
@@ -42,15 +51,6 @@
       \dblA A4 \dblc c16 A8. \dble e16 A8.  \tuplet 3/2 {e8 f g}
       \tuplet 3/2 {A8 g f} \dble e8. d16 \dblc c16 \gre a8. \dblb b16 \gre G8.
     }
-  }
-
-  \header {
-    meter = "Strathspey"
-    title = "Gomera"
-    composer = "P/S Sven Axelsson"
-    date = "2018-11-01"
-    comment = "On vacation in Tenerife, looking out over the island of Gomera
-    from my terrace."
   }
 
 }

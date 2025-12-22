@@ -1,5 +1,11 @@
 \score {
 
+  \header {
+    meter = "Slip Jig"
+    title = "Donald, Willie and His Dog"
+    composer = "D. Morrison"
+  }
+
   {
     \bagpipeKey
     \time 9/8
@@ -42,12 +48,6 @@
       \dble e4 c8 \grg c f d \dble e4 d8
       \dblc c4 \gre a8 \grg a \grd b \gre G \grd a4.
     }
-  }
-
-  \header {
-    meter = "Slip Jig"
-    title = "Donald, Willie and His Dog"
-    composer = "D. Morrison"
   }
 
 }
