@@ -33,7 +33,7 @@ comment = #(if (ly:get-option 'without-comment)
   scoreTitleMarkup = \markup {
     \override #'(baseline-skip . 3)
     \column {
-      \fill-line {
+      \justify-line {
         \column {
           \large \bold \fromproperty #'header:title
           \bold \fromproperty #'header:subtitle
