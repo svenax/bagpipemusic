@@ -13,16 +13,22 @@
             }
         },
         {
+            "label": "Bagpipe View",
+            "type": "shell",
+            "command": "domusic view ${file}",
+            "group": "build"
+        },
+        {
             "label": "Bagpipe Tune View Spacing",
             "type": "shell",
             "command": "domusic make ${file} --view-spacing && domusic view ${file}",
-            "group": "build",
+            "group": "build"
         },
         {
             "label": "Bagpipe Tune cropped PNG",
             "type": "shell",
             "command": "domusic make ${file} --post",
-            "group": "build",
+            "group": "build"
         }
     ],
     "presentation": {
