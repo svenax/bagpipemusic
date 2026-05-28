@@ -1,8 +1,6 @@
 \version "2.24.0"
 
-%{
-    Locally customized stuff and helper macros.
-%}
+%% Locally customized stuff and helper macros.
 
 % Various tweaks to get good defaults for bagpipe music.
 \paper {
@@ -22,7 +20,7 @@
 }
 
 tocSubhead = #(define-music-function (text) (markup?)
-                (add-toc-item! 'tocSubheadMarkup text))
+  (add-toc-item! 'tocSubheadMarkup text))
 
 \layout {
   indent = 0.0
@@ -92,8 +90,8 @@ quarterBeaming = {
 }
 % Sets the autobeamer to span half notes. Mostly used in reels.
 halfBeaming = {
-    \set Timing.beamExceptions = #'()
-    \set Timing.beatStructure = 1,1
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatStructure = 1,1
 }
 
 reelTime = {
@@ -133,7 +131,7 @@ showTrueKeySignature = {
 
 % Grace note skip for use in multi-part scores.
 grs = #(define-music-function (duration) (integer?)
-   #{ \pgrace { s32*#duration } #})
+  #{ \pgrace { s32*#duration } #})
 
 % Extra movements
 fgrip = \pgrace { G32[ f G] }
@@ -179,23 +177,23 @@ txtaorcrunam = \markup {
   }
 }
 
-
 % Used when substituting a single bar or just a few notes to show alternative.
 altBracket = #(define-music-function (parser location tag) (string?) #{
   \once \override Score.VoltaBracket.shorten-pair = #'(0.3 . 0.3)
   \set Score.repeatCommands = #(list (list 'volta (markup #:number tag)))
-                #})
+#})
 altBracketText = #(define-music-function (parser location tag) (string?) #{
   \once \override Score.VoltaBracket.shorten-pair = #'(0.3 . 0.3)
-  \set Score.repeatCommands = #(list (list 'volta (markup #:text tag)))
-                    #})
+  \set Score.repeatCommands = #(list (list 'volta (markup tag)))
+#})
 
 % End previous altBracket thingy.
 altBracketEnd = { \set Score.repeatCommands = #'((volta #f)) }
 
+% Deprecated. Use \repeat segno instead.
 markDCalFine = \tweak direction #DOWN \tweak font-size #-1 \textEndMark \markup { \italic "D.C. al Fine" }
 markFine = \tweak direction #DOWN \tweak font-size #-1 \textEndMark  \markup { \italic "Fine" }
 
 barLength = #(define-music-function (parser location x y) (number? number?) #{
-  \set Score.measureLength = #(ly:make-moment x y)
-               #})
+  \set Score.measureLengthAsMoment = #(ly:make-moment x y)
+#})
