@@ -3,7 +3,7 @@
   \header {
     meter = "Reel"
     title = "Wee Eddie"
-    composer = "Rab Wallace"
+    composer = "Robert Wallace"
   }
 
   {
