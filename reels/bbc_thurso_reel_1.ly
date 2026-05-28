@@ -23,9 +23,9 @@
     % Part 2
 
     \repeat volta 2 {
-      \dbla a4 A8 g \grA f e \grg d4
+      \dbla a4 \dblA A \grf g8 f \dble e4
       \dbla a4 \grg c8 e \grg d b \grg G \grd b
-      \dbla a4 A8 g \grA f e \grg d4
+      \dbla a4 \dblA A \grf g8 f \dble e4
       \dblG G4 \grg c8 e \grg d b \grg G \grd b
     }
 
