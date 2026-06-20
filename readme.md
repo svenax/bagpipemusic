@@ -1,8 +1,8 @@
 WRITING BAGPIPE MUSIC WITH LILYPOND
 ===================================
 
-Installing Lilypond 2.24.0
---------------------------
+Installing Lilypond 2.24.0 or newer
+-----------------------------------
 
 * Grab the installer for your computer platform here:
   <http://lilypond.org/download.html>
@@ -35,8 +35,7 @@ piobaireachd. Change this if you want anything apart from my standard format.
 
 **cheatsheet.ly** and **bagpipe.ly** should be sufficient to let you
 understand how the bagpipe notation works. You will also need the full
-Lilypond documentation, available
-[here](http://lilypond.org/doc/v2.22/Documentation/).
+Lilypond documentation, available [here](http://lilypond.org/manuals/).
 
 To generate music like that on <http://svenax.net/site/sheetmusic/>, you can use [this tool](https://github.com/svenax/domusic).
 
