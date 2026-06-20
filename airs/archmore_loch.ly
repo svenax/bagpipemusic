@@ -1,6 +1,7 @@
 \score {
 
-  \header{
+  \header {
+    meter = "Slow Air"
     title = "Archmore Loch"
     composer = "Traditional"
   }
