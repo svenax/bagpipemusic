@@ -3,6 +3,7 @@
   \header {
     meter = "March"
     title = "The 91st at Modder River"
+    composer = "William Robb"
     comment = "Named after the battle of Modder River at 28 November 1899
     during the second Boer war."
     loc = "-29.0740618,24.6120954"

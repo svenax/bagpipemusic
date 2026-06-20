@@ -2,7 +2,7 @@
 
   \header {
     meter = "Strathspey"
-    title = "Inverary Castle"
+    title = "Inveraray Castle"
     composer = "P/M W. Lawrie"
   }
 
