@@ -10,6 +10,8 @@
     \bagpipeKey
     \time 3/4
 
+    \repeat segno 2 {
+
     % Part 1
 
     \repeat volta 2 {
@@ -17,7 +19,7 @@
       \grg \times 2/3 { A4 \grf g e } \grg d8. e16
       \grg \times 2/3 { f8 e d } \dble e8. c16 \grG
       \times 2/3 { a4 \grg a8 ~ a8 \grd c4 } \grG a2
-      \markFine
+      \fine
     }
     \break
 
@@ -38,9 +40,10 @@
         }
         {
           \grg a8. b16 \grG b4 \dble e4
-          \markDCalFine
         }
       }
+    }
+
     }
   }
 

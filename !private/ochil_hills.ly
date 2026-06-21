@@ -6,6 +6,8 @@ common = {
 musicA = {
   \common
 
+  \repeat segno 2 {
+
   % Part 1
   \partial 8
   \repeat volta 2 {
@@ -18,9 +20,9 @@ musicA = {
     \grd c8 A8. c16 \grip c8 d e
     \thrwf f4 \grg e8 a4 e8
     \dblf f8. e16 A8 \hdblc c8. d32 c b8
-    \grd c16 b \grG a4 ~ a \markFine
+    \grd c16 b \grG a4 ~ a
   }
-  \break
+  \fine \break
 
   % Part 2
   \repeat volta 2 {
@@ -48,12 +50,16 @@ musicA = {
     \grd c16 e A8 a16 b \grd c16 A e8 a16 b
     \grg c16[ A \hdblc c d32 c b8] \grg e8 a\fermata e
     \dblf f8. e16 A8 \hdblc c8. d32 c b8
-    \grd c16 b \grG a4 ~ a \markDCalFine
+    \grd c16 b \grG a4 ~ a
+  }
+
   }
 }
 
 musicB = {
   \common
+
+  \repeat segno 2 {
 
   % Part 1
   \partial 8
@@ -69,7 +75,7 @@ musicB = {
     \grg d16 b \grG a8 e16 f \grg a4 G8
     \grg e4 \thrwd d8 \gre c4
   }
-  \break
+  \fine \break
 
   % Part 2
   \repeat volta 2 {
@@ -98,6 +104,8 @@ musicB = {
     \grg c16[ A \hdblc c d32 c b8] \grg e8 a\fermata e
     \grg d16 b \grG a8 e16 f \grg a4 G8
     \grg e4 \thrwd d8 \gre c4
+  }
+
   }
 }
 

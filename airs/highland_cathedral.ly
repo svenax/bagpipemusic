@@ -16,9 +16,8 @@
     \time 4/4
     \quarterBeaming
 
-    % Part 1
-
     \repeat volta 2 {
+
       \thrwd d4. e16 f \dble e8 d \grg a[ \thrwd d]
       \dble e4. f8 \dblf f2
       \gre f4. g16 A \grf g8[ f] \grg e d
@@ -28,7 +27,7 @@
       \dblA A4. \grf g8 \grg f2
       \grg e4. f16 g \tdblf f8 d \grg a[ \thrwd d]
       \dble e4. d8 \slurd d2
-      \markFine
+      \fine
       \break
       \dblc c4. \gre a8 \dble e4. \grg c16 e
       \grg f4. c8 \dblc c4. \gre b8
@@ -41,7 +40,7 @@
       \grg a2 \wbirl a2
       \section
       \grg a4 \wbirl a \grg a \wbirl a
-      \markDCalFine
+
     }
   }
 
