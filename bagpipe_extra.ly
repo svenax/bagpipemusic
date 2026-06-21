@@ -19,6 +19,17 @@
   }
 }
 
+% Restore margin settings to pre 2.26 values
+\paper {
+  top-system-spacing.basic-distance = 1
+  top-markup-spacing.basic-distance = 0
+  left-margin = 10\mm
+  right-margin = 10\mm
+  inner-margin = 10\mm
+  outer-margin = 20\mm
+  binding-offset = 0\mm
+}
+
 tocSubhead = #(define-music-function (text) (markup?)
   (add-toc-item! 'tocSubheadMarkup text))
 
