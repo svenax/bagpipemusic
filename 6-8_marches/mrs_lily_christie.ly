@@ -14,7 +14,7 @@
 
     \partial 8
     \repeat volta 2 {
-      \grg a8
+      a8
       \thrwd d4 f8 \gbirl a4 d8
       \grg a8. d16 A8 \hdblf f8. e16 d8
       \grg G8. \grd G16 \gre G8 \dblg g4 f8

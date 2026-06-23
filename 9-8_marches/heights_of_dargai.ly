@@ -20,7 +20,7 @@
       \grg a8.[ b16 \grip c8] \dble e4. \dblc c4 e8
       \dblf f8. d16 f8 \dble e4. \grd c4.
       \dblA A8. g16 f8 \dble e4. \grg a8. \grd c16 e8
-      \dblf f8. e16 c8 \grg b4. \taor b4 e8
+      \dblf f8. e16 c8 \grg b4. \taor b4.
       \break
       \grg a8.[ b16 \grip c8] \dble e4. \dblc c4 e8
       \dblf f8. d16 f8 \dble e4. \grd c4.
