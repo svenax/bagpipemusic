@@ -82,7 +82,7 @@ musicC = {
   \fine
 }
 
-\score {
+amazing_grace-bookpart = \score {
 
   \header {
     meter = "Hymn"
@@ -97,3 +97,5 @@ musicC = {
   >>
 
 }
+% Workaround to use this score in a bookpart where variables are disallowed.
+\amazing_grace-bookpart

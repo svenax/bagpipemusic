@@ -69,7 +69,8 @@ musicB = {
   }
 }
 
-\score {
+green_hills_of_tyrol-bookpart =
+  \score {
 
   \header {
     meter = "March"
@@ -89,3 +90,5 @@ musicB = {
   >>
 
 }
+% Workaround to use this score in a bookpart where variables are disallowed.
+\green_hills_of_tyrol-bookpart
