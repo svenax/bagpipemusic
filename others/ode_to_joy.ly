@@ -12,41 +12,41 @@
 
     % In C
 
-    \grg c4 \grG c d e
+    \grg c4 \grG c \grg d e
     \dble e4 d \grg c b
-    \grg a4 \gre a \grg b c
+    \grg a4 \wbirl a b c
     \dblc c4. b8 \grG b2
     \break
 
-    \grg c4 \grG c d e
+    \grg c4 \grG c \grg d e
     \dble e4 d \grg c b
-    \grg a4 \gre a \grg b c
-    \dblb b4. a8 \gre a2
+    \grg a4 \wbirl a b c
+    \dblb b4. a8 \grG a2
     \break
 
     \repeat volta 2 {
-        \grg b4 \grG b \grg c \gre a
-        \grg b4 c8 d \grg c4 \gre a
+        \grg b4 \grG b \grg c \grG a
+        \grg b4 c8 d \grg c4 \grG a
         \grg b4 c8 d \grg c4 b
-        \grg a4 b \grg e2
+        \grg a4 \grd b \dble e \grg c4 ~
         \break
 
-        \grg c4 \grG c d e
+        c4 \grG c \grg d e
         \dble e4 d \grg c b
-        \grg a4 \gre a \grg b c
-        \dblb b4. a8 \gre a2
+        \grg a4 \wbirl a b c
+        \dblb b4. a8 \grG a2
     }
     \section \break
 
     % In F
 
-    \grg f4 \gre f g A
+    \grg f4 \gre f \dblg g A
     \grg A4 g \grA f e
     \grg d4 \grG d e f
     \dblf f4. e8 \gra e2
     \break
 
-    \grg f4 \gre f g A
+    \grg f4 \gre f \dblg g A
     \grg A4 g \grA f e
     \grg d4 \grG d e f
     \dble e4. d8 \grG d2
@@ -56,10 +56,10 @@
         \grg e4 \gra e \grg f d
         \grg e4 f8 g \grA f4 d
         \grg e4 f8 g \grA f4 e
-        \grg d4 e \grg a2
+        \grg d4 e \grg a \grg f4 ~
         \break
 
-        \grg f4 \gre f g A
+        f4 \gre f g A
         \grg A4 g \grA f e
         \grg d4 \grG d e f
         \dble e4. d8 \grG d2
