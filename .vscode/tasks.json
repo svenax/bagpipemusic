@@ -6,11 +6,17 @@
         {
             "label": "Bagpipe Tune",
             "type": "shell",
-            "command": "domusic make ${file} && domusic view ${file}",
+            "command": "domusic make ${file} --comment && domusic view ${file}",
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Bagpipe Tune no Comments",
+            "type": "shell",
+            "command": "domusic make ${file} && domusic view ${file}",
+            "group": "build"
         },
         {
             "label": "Bagpipe View",
