@@ -25,7 +25,7 @@
       \grg f16 A8. f8 \thrwd d4. \dbld d8. c16 d8
       \grg e8. d16 G8 \dblb b4. \grG a4.
       \grg b16 \grd G8. \grd b8 \grG a4. \grip f4.
-      \grg f16 A8. f8 \thrwd d4. \slurd d4.
+      \grg e16 f8. \grg e8 \thrwd d4. \slurd d4.
     }
     \break
 
@@ -40,7 +40,7 @@
       \grg f16 A8. f8 \thrwd d4. \dbld d8. c16 d8
       \grg e8. d16 G8 \dblb b4. \grG a4.
       \grg b16 \grd G8. \grd b8 \grG a4. \grip f4.
-      \grg f16 A8. f8 \thrwd d4. \slurd d4.
+      \grg e16 f8. \grg e8 \thrwd d4. \slurd d4.
     }
   }
 

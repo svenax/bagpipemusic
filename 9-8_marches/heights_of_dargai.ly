@@ -14,8 +14,6 @@
 
     % Part 1
 
-    \partial 8
-    e8
     \repeat volta 2 {
       \grg a8.[ b16 \grip c8] \dble e4. \dblc c4 e8
       \dblf f8. d16 f8 \dble e4. \grd c4.
