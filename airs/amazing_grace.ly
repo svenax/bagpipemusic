@@ -4,6 +4,8 @@ common = {
   \quarterBeaming
 }
 
+musicIsThreeParts = ##t
+
 musicA = {
   \common
 
@@ -66,7 +68,7 @@ musicC = {
   \gre G4. \grg b8 d4
   \grg b16 \grG a8. ~ a4 \grg a
   d2 A4
-  f4 d \grg c8. d16
+  \hdblf f4 d \grg c8. d16
   \grg b2 f4
   \dble e2 \grg a4
   \break
@@ -82,6 +84,32 @@ musicC = {
   \fine
 }
 
+musicBandC = {
+  \common
+
+  \partial 4
+  \grg a4
+  d2 A4
+  \hdblf f2 \grg b8. a16
+  \gre G4. \grg b8 d4
+  \grg b16 \grG a8. ~ a4 \grg a
+  d2 A4
+  f4 d \grg c8. d16
+  \grg b2 f4
+  \dble e2 \grg f8. A16
+  \break
+
+  \grs1 a8. d16 \grg f8. A16 \hdblf f8[ e32 d16.]
+  \slurd d2 \dbld d8. c16
+  \grg b2 \gre G4
+  \grd a2 \grg a4
+  d2 A4
+  f4 d \grg c8. d16
+  \hdblg g4 f e
+  f8 e f4\fermata
+  \fine
+}
+
 amazing_grace-bookpart = \score {
 
   \header {
@@ -92,8 +120,9 @@ amazing_grace-bookpart = \score {
 
   \new StaffGroup <<
     \new Staff \musicA
-    \new Staff \musicB
-    \new Staff \musicC
+    % \new Staff \musicB
+    % \new Staff \musicC
+    \new Staff \musicBandC
   >>
 
 }
