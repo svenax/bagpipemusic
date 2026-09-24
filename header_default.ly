@@ -5,9 +5,9 @@
 \version "2.24.0"
 
 today = #(strftime "%B %e, %Y" (localtime (current-time)))
-comment = #(if (ly:get-option 'without-comment)
-               ""
-               (markup #:vspace 1.2 #:justify-field 'header:comment))
+comment = #(if (ly:get-option 'comment)
+               (markup #:vspace 1.2 #:justify-field 'header:comment)
+               "")
 
 \paper {
   score-markup-spacing = #'((basic-distance . 12)
