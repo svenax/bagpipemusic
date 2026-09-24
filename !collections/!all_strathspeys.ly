@@ -50,7 +50,7 @@
 \include "strathspeys/gomera.ly"
 
 \tocItem \markup "Inverary Castle"
-\include "strathspeys/inverary_castle.ly"
+\include "strathspeys/inveraray_castle.ly"
 
 \tocItem \markup "The Islay Ball"
 \include "strathspeys/islay_ball.ly"
