@@ -1,6 +1,7 @@
 # Remove temp files created by VsLilyPond
 clean:
-    find . -name '-.pdf' -delete
+    find . -name '__*' -delete
+    find . -name '-.pdf' -or -name '--[0-9]*.pdf' -delete
     find . -name 'lilypond-tmp-*.pdf' -delete
 
 # Rebuild all music files
