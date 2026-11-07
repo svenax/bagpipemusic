@@ -1,7 +1,8 @@
 # Remove temp files created by VsLilyPond
 clean:
     find . -name '__*' -delete
-    find . -name '-.pdf' -or -name '--[0-9]*.pdf' -delete
+    find . -name '-.pdf' -delete
+    find . -name '--[0-9]*.pdf' -delete
     find . -name 'lilypond-tmp-*.pdf' -delete
 
 # Rebuild all music files
@@ -23,4 +24,9 @@ rebuild-all:
     domusic make suites/*.ly
     domusic make '!collections'/*.ly
     domusic make '!private'/*.ly
+
+# Build the Bagpipe Tutor
+tutor:
+    cd '!tutor' && lualatex --shell-escape tutor.tex > /dev/null
+    open -b com.microsoft.VSCode '!tutor/tutor.pdf'
 

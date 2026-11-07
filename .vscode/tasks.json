@@ -35,6 +35,12 @@
             "type": "shell",
             "command": "domusic make ${file} --post",
             "group": "build"
+        },
+        {
+            "label": "Bagpipe Tutor",
+            "type": "shell",
+            "command": "just tutor",
+            "group": "build"
         }
     ],
     "presentation": {

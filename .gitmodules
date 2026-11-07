@@ -1,0 +1,3 @@
+[submodule "!tutor"]
+	path = !tutor
+	url = https://github.com/svenax/bagpipe-tutor.git

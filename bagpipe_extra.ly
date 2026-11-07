@@ -145,6 +145,7 @@ grs = #(define-music-function (duration) (integer?)
   #{ \pgrace { s32*#duration } #})
 
 % Extra movements
+Ggripthrwd = \pgrace { d32[ G c] }
 fgrip = \pgrace { G32[ f G] }
 fdari = \pgrace { e32[ g e f e] }
 grecad = \pgrace { e16 }
